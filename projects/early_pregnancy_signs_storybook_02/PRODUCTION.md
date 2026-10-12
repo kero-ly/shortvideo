@@ -35,3 +35,11 @@ SSH复用连接一度中断，已及时告知并重建220连接；原后台批�
 声音任务：runs/storybook-audio-20261013-065657-a25b；合成任务：runs/storybook-compose-20261013-065713-485f。原交付保留，修订单独归档。
 
 修订v2交付：deliveries/storybook-compose-20261013-065713-485f/early_pregnancy_storybook.mp4；所有14项自动QA通过，响度-16.19LUFS、真峰值-2.67dBTP。全交付已下载本地并逐文件核对manifest SHA256；视频SHA256：3e5a5390c028bf84ff0db6bb82f1fea5fb9375152d33c7cb11ac56af5d9f2f05。最终13镜合成抽帧审核；人工完整观看/实际听审仍待用户审阅。
+
+## 字幕外观修订 v3
+
+用户试看了底部字幕无白底带投影、无白底无投影两个方案后，要求回到更早的样式。最终恢复v2底部深棕文字＋白色底，不加投影；左上角“个人观点仅限参考，无不良引导”按独立要求去掉背景底。旁白、音乐、字幕字号与时间线沿用已质检v2。两次尚未交付的投影成片任务只终止了本次独有进程组，保留未完成任务日志；无投影方案仅静帧预览，未交付成片。
+
+当前任务：runs/storybook-caption-restored-20261013-072152-12b7。
+
+交付：deliveries/storybook-caption-restored-20261013-072152-12b7/early_pregnancy_storybook.mp4；自动QA全部通过，SHA256：c5ab2fbbe68ed9cfcc68746443843fe9ba551fb3d28322ef48b79f80e98ad290。已下载本地，全部交付文件hash验证通过。
