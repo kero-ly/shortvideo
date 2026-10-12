@@ -1,0 +1,16 @@
+{
+  "provider": "OpenLux",
+  "model": "gpt-image-2",
+  "mode": "generate",
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "requested_size": [
+    1024,
+    1536
+  ],
+  "sha256": "32e19c3a68a9403f6c9242ea1dc4879b391eb13f69f17bed0c73fa349109f29c",
+  "review": "Adult woman, bob hair, sage-teal cardigan, ivory shirt, charcoal trousers; full body and hands visible. Accepted for consistent edits.",
+  "note": "Hand-drawn anime/editorial rendering, more detailed than original SVG draft."
+}

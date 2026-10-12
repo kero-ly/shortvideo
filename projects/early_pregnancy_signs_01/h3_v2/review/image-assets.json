@@ -1,0 +1,142 @@
+{
+  "provider": "OpenLux",
+  "model": "gpt-image-2",
+  "count": 15,
+  "assets": [
+    {
+      "path": "projects/early_pregnancy_signs_01/h3_v2/references/character/openlux_character_master_v1.png",
+      "bytes": 1697751,
+      "sha256": "32e19c3a68a9403f6c9242ea1dc4879b391eb13f69f17bed0c73fa349109f29c",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/h3_v2/references/character/openlux_character_sheet_v1.png",
+      "bytes": 1798335,
+      "sha256": "84e17a14a6e127b673a599f09a67a015e380ad04de4a34f5da110ad5021bd4b5",
+      "dimensions": [
+        1536,
+        1024
+      ]
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_01_v1.png",
+      "bytes": 2065767,
+      "sha256": "fe2ddd0d92f65d41ac69132e561919901961b418c5c39dcbfd834f2cc7493b69",
+      "dimensions": [
+        941,
+        1672
+      ]
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_02_v1.png",
+      "bytes": 2523118,
+      "sha256": "11246bd69913d34a10c07ba1250323c12e7555361a8485f564b5bcb3970ddcd0",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_03_v1.png",
+      "bytes": 2706300,
+      "sha256": "ec914bada4b98e5b9ce5c90b0728f3b06b75e5bd85aca239a858f812770bff57",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_04_v1.png",
+      "bytes": 2306577,
+      "sha256": "461a1f748700ebde036ef7841f86dc60eb91750349b46f14320a564fc77301f4",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_05_v1.png",
+      "bytes": 2415950,
+      "sha256": "b728e11e5d48bcf31ca82edd626447bf57bd83c6601240fde09ba4411c1c39de",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_06_v1.png",
+      "bytes": 2395386,
+      "sha256": "67e45abc8b15605c8f639c423e4e7411c2089e9e24379f8f773a551119faf58f",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_07_v1.png",
+      "bytes": 2298439,
+      "sha256": "851573affac9fa4844bcb050a665a264cf336f28a028c9951647a918be9fb0de",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_08_v1.png",
+      "bytes": 2276981,
+      "sha256": "37f65c4affa9430b9bd3b8550efe10dc4d60b65b239d28777d342664418b290e",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_09_v1.png",
+      "bytes": 2558401,
+      "sha256": "4070badd0a5af6b66805a06f22103f6521c534260d95d8312771282b62519870",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_10_v1.png",
+      "bytes": 1984860,
+      "sha256": "1c56e22759cf9109d53f350ab1faf98979b69e3b540a7c16addf8f6f59bd40c9",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_11_v1.png",
+      "bytes": 2074179,
+      "sha256": "66b133009dccde496d0eb929327536845539b714bc1015789cd1883764e4a5b0",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_12_v1.png",
+      "bytes": 1920483,
+      "sha256": "cf035dd5a14c75149ce3725e1b2fc36e2354a1cca034044a0e5e0f37a4582fd9",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_13_v1.png",
+      "bytes": 2283500,
+      "sha256": "5d98d93d6fffc7546bae0e498f6b3b4542a684a7d924bb815f1cc38083f4d3be",
+      "dimensions": [
+        1024,
+        1536
+      ]
+    }
+  ]
+}

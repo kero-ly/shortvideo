@@ -1,0 +1,18 @@
+{
+  "method": "Five evenly spaced frames per clip; confirms sampled visual consistency, not exhaustive frame-by-frame inspection",
+  "shots": {
+    "shot_01": "Accepted: calendar and adult identity stable across five sampled frames; glance, head lift and relaxed breathing visible.",
+    "shot_02": "Accepted: finger moves away from calendar into thoughtful pose. More pondering than the requested single point; calendar context remains clear.",
+    "shot_03": "Accepted: leans back onto sofa and closes eyes; seat contact stable.",
+    "shot_04": "Accepted: hand adjusts cardigan and lowers; fully clothed, no anatomy distortion in samples. Mouth briefly opens; no dialogue audio is retained.",
+    "shot_05": "Accepted: hand near mouth, head bows and eyes close, then recovers; no vomiting or alarming collapse.",
+    "shot_06": "Accepted for draft: cup and character stable; notices aroma and raises hand near nose. Expression is milder and leans forward before recoiling; not exact prompt compliance.",
+    "shot_07": "Accepted: two steps toward bathroom doorway, stable body and foot contact across samples.",
+    "shot_08": "Accepted with motion deviation: plate is pushed aside then chopsticks are picked up despite prompt discouraging utensil motion. No obvious malformed hand in samples; reinforces preference change.",
+    "shot_09": "Accepted: phone lowers and expression changes; shot pushes in more strongly than requested, remains within usable framing.",
+    "shot_10": "Accepted v3 baseline20: 19 frames sampled at 0.5-second intervals; stable adult identity, hands and table, natural glance toward window and back down, no added speech bubbles or unrelated props in sampled frames. Full decode passed.",
+    "shot_11": "Accepted with motion deviation: leaflet is picked up despite request to keep flat; hands/paper remain coherent in samples and no pregnancy result is shown.",
+    "shot_12": "Accepted: looks at phone and lowers gaze; no visible screen/result text.",
+    "shot_13": "Accepted: stable seated adult, phone and legs; gentle facial changes. Mouth moves despite no talking request, treated as illustrative animation with separate narrator, not lip-sync."
+  }
+}

@@ -1,7 +1,7 @@
 {
   "version": "h3-v2",
-  "status": "awaiting_reference_images",
-  "character_master": "references/character/character_master.png",
+  "status": "internal_review_delivery_complete",
+  "character_master": "references/character/openlux_character_master_v1.png",
   "shots": [
     {
       "id": "shot_01",
@@ -9,14 +9,19 @@
       "title": "月经没来，先别急着猜",
       "narration_scene_id": "intro",
       "target_generated_seconds": 8,
-      "input_image": "references/shots/shot_01.png",
+      "input_image": "references/shots/openlux_shot_01_v1.png",
       "image_prompt": "输出单张竖屏镜头首帧，不是设定表、九宫格、海报或连续分镜。严格参考我上传的人物母版，保持面部骨架、发型、衣着和成年比例一致。画面中只能有一个主角。主体和道具位于中央安全区；顶部约15%、底部约22%避免放脸、手和关键道具，预留后期标题与字幕空间；左右保留约8%安全余量。画面可以有完整环境，但不要嵌入任何文字、字幕、标题、数字、标识、水印、对话框。手部自然，指头不必张开，优先简单动作起始姿势。\n\n【固定美术】\n原创二维手绘卡通动画电影关键帧，面向成年女性的温柔健康科普。清晰柔和的深灰青色轮廓线，平涂色块配少量柔和赛璐璐阴影、轻微纸张质感。奶油白、鼠尾草绿、浅木色为环境主色，青绿色与低饱和珊瑚色作人物配色。温暖自然日光，生活感，克制的表情，成人身体比例约六头身，不画成幼童、大头萌娃、3D玩偶或写实照片。不要模仿任何现有作者的具体角色、品牌或标识。\n\n【固定角色】\n同一个约30岁的普通成年女性：椭圆脸、深棕色齐下巴短发、左侧偏分、细长自然眉、深棕色眼睛、小巧自然鼻子、正常成人五官比例；身形匀称、腹部平坦、不暗示已怀孕。青绿色无图案开衫、米白色圆领内搭、深灰蓝宽松长裤、浅米色平底居家鞋。无耳环、无项链、无帽子、无复杂花纹。\n\n【本镜画面与动作起点】\n卧室床边，中景偏全身。主角坐在床边，右手拿着一本无文字无数字的小日历，左手放在膝上，低头看日历，眉头轻皱。床、浅色窗帘和小床头柜构成安静生活空间。日历只画空白网格，不出现任何日期、阳性标记或婴儿图案。\n\n请只生成这一张独立画面。优先9:16竖构图；不要提前把动作终点画进同一张图。",
       "h3_prompt": "She glances down at the blank calendar in her hand, gently furrows her eyebrows, then relaxes her shoulders and breathes out. Keep the calendar rigid and stable. Slow subtle push-in, one continuous shot, no cuts.\n\nPreserve the exact original 2D cartoon design, face, adult proportions, hairstyle, clothing colors, background layout and object count from the input image. Smooth restrained character animation, stable outlines, no style change, no extra limbs or people, no scene transition. No text, captions, logos or watermarks. No dialogue or lip-sync; narration and music will be added in post-production.",
       "image_prompt_file": "prompts/shot_01_image.txt",
       "h3_prompt_file": "prompts/shot_01_h3.txt",
       "task": "fl2va",
-      "status": "awaiting_user_image",
-      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio"
+      "status": "h3_reviewed",
+      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio",
+      "image_sha256": "fe2ddd0d92f65d41ac69132e561919901961b418c5c39dcbfd834f2cc7493b69",
+      "actual_dimensions": [
+        941,
+        1672
+      ]
     },
     {
       "id": "shot_02",
@@ -24,14 +29,19 @@
       "title": "月经推迟",
       "narration_scene_id": "s01",
       "target_generated_seconds": 5,
-      "input_image": "references/shots/shot_02.png",
+      "input_image": "references/shots/openlux_shot_02_v1.png",
       "image_prompt": "输出单张竖屏镜头首帧，不是设定表、九宫格、海报或连续分镜。严格参考我上传的人物母版，保持面部骨架、发型、衣着和成年比例一致。画面中只能有一个主角。主体和道具位于中央安全区；顶部约15%、底部约22%避免放脸、手和关键道具，预留后期标题与字幕空间；左右保留约8%安全余量。画面可以有完整环境，但不要嵌入任何文字、字幕、标题、数字、标识、水印、对话框。手部自然，指头不必张开，优先简单动作起始姿势。\n\n【固定美术】\n原创二维手绘卡通动画电影关键帧，面向成年女性的温柔健康科普。清晰柔和的深灰青色轮廓线，平涂色块配少量柔和赛璐璐阴影、轻微纸张质感。奶油白、鼠尾草绿、浅木色为环境主色，青绿色与低饱和珊瑚色作人物配色。温暖自然日光，生活感，克制的表情，成人身体比例约六头身，不画成幼童、大头萌娃、3D玩偶或写实照片。不要模仿任何现有作者的具体角色、品牌或标识。\n\n【固定角色】\n同一个约30岁的普通成年女性：椭圆脸、深棕色齐下巴短发、左侧偏分、细长自然眉、深棕色眼睛、小巧自然鼻子、正常成人五官比例；身形匀称、腹部平坦、不暗示已怀孕。青绿色无图案开衫、米白色圆领内搭、深灰蓝宽松长裤、浅米色平底居家鞋。无耳环、无项链、无帽子、无复杂花纹。\n\n【本镜画面与动作起点】\n同一卧室，桌边中景。主角在画面右侧看着桌面上的小台历，右手食指停在台历某个空白格旁，左手自然搭桌沿。台历朝向主角且能被镜头看见，仅空白网格，没有文字数字。动作起点是手指尚未触到格子。\n\n请只生成这一张独立画面。优先9:16竖构图；不要提前把动作终点画进同一张图。",
       "h3_prompt": "She gently points once to a blank calendar cell, pauses thoughtfully, then looks back at the calendar. Locked medium shot, very slight push-in. The grid stays unchanged; no dates or text appear.\n\nPreserve the exact original 2D cartoon design, face, adult proportions, hairstyle, clothing colors, background layout and object count from the input image. Smooth restrained character animation, stable outlines, no style change, no extra limbs or people, no scene transition. No text, captions, logos or watermarks. No dialogue or lip-sync; narration and music will be added in post-production.",
       "image_prompt_file": "prompts/shot_02_image.txt",
       "h3_prompt_file": "prompts/shot_02_h3.txt",
       "task": "fl2va",
-      "status": "awaiting_user_image",
-      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio"
+      "status": "h3_reviewed",
+      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio",
+      "image_sha256": "11246bd69913d34a10c07ba1250323c12e7555361a8485f564b5bcb3970ddcd0",
+      "actual_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "id": "shot_03",
@@ -39,14 +49,19 @@
       "title": "比平时更容易累",
       "narration_scene_id": "s02",
       "target_generated_seconds": 5,
-      "input_image": "references/shots/shot_03.png",
+      "input_image": "references/shots/openlux_shot_03_v1.png",
       "image_prompt": "输出单张竖屏镜头首帧，不是设定表、九宫格、海报或连续分镜。严格参考我上传的人物母版，保持面部骨架、发型、衣着和成年比例一致。画面中只能有一个主角。主体和道具位于中央安全区；顶部约15%、底部约22%避免放脸、手和关键道具，预留后期标题与字幕空间；左右保留约8%安全余量。画面可以有完整环境，但不要嵌入任何文字、字幕、标题、数字、标识、水印、对话框。手部自然，指头不必张开，优先简单动作起始姿势。\n\n【固定美术】\n原创二维手绘卡通动画电影关键帧，面向成年女性的温柔健康科普。清晰柔和的深灰青色轮廓线，平涂色块配少量柔和赛璐璐阴影、轻微纸张质感。奶油白、鼠尾草绿、浅木色为环境主色，青绿色与低饱和珊瑚色作人物配色。温暖自然日光，生活感，克制的表情，成人身体比例约六头身，不画成幼童、大头萌娃、3D玩偶或写实照片。不要模仿任何现有作者的具体角色、品牌或标识。\n\n【固定角色】\n同一个约30岁的普通成年女性：椭圆脸、深棕色齐下巴短发、左侧偏分、细长自然眉、深棕色眼睛、小巧自然鼻子、正常成人五官比例；身形匀称、腹部平坦、不暗示已怀孕。青绿色无图案开衫、米白色圆领内搭、深灰蓝宽松长裤、浅米色平底居家鞋。无耳环、无项链、无帽子、无复杂花纹。\n\n【本镜画面与动作起点】\n同一住宅客厅，中景偏全身。主角刚在浅米色沙发上坐稳，双脚自然落地，双手搭膝，肩膀有点低，表情疲倦但不痛苦。旁边是一小筐叠好的衣物，说明刚做了轻家务。沙发座面与臀部接触可信，双腿完整，不是悬空蹲姿。\n\n请只生成这一张独立画面。优先9:16竖构图；不要提前把动作终点画进同一张图。",
       "h3_prompt": "Already seated on the sofa, she eases back against the cushion, lowers her shoulders, briefly closes her eyes and exhales. Feet remain planted and hands rest on her knees. Camera locked, no standing up or falling.\n\nPreserve the exact original 2D cartoon design, face, adult proportions, hairstyle, clothing colors, background layout and object count from the input image. Smooth restrained character animation, stable outlines, no style change, no extra limbs or people, no scene transition. No text, captions, logos or watermarks. No dialogue or lip-sync; narration and music will be added in post-production.",
       "image_prompt_file": "prompts/shot_03_image.txt",
       "h3_prompt_file": "prompts/shot_03_h3.txt",
       "task": "fl2va",
-      "status": "awaiting_user_image",
-      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio"
+      "status": "h3_reviewed",
+      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio",
+      "image_sha256": "ec914bada4b98e5b9ce5c90b0728f3b06b75e5bd85aca239a858f812770bff57",
+      "actual_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "id": "shot_04",
@@ -54,14 +69,19 @@
       "title": "乳房胀痛或敏感",
       "narration_scene_id": "s03",
       "target_generated_seconds": 5,
-      "input_image": "references/shots/shot_04.png",
+      "input_image": "references/shots/openlux_shot_04_v1.png",
       "image_prompt": "输出单张竖屏镜头首帧，不是设定表、九宫格、海报或连续分镜。严格参考我上传的人物母版，保持面部骨架、发型、衣着和成年比例一致。画面中只能有一个主角。主体和道具位于中央安全区；顶部约15%、底部约22%避免放脸、手和关键道具，预留后期标题与字幕空间；左右保留约8%安全余量。画面可以有完整环境，但不要嵌入任何文字、字幕、标题、数字、标识、水印、对话框。手部自然，指头不必张开，优先简单动作起始姿势。\n\n【固定美术】\n原创二维手绘卡通动画电影关键帧，面向成年女性的温柔健康科普。清晰柔和的深灰青色轮廓线，平涂色块配少量柔和赛璐璐阴影、轻微纸张质感。奶油白、鼠尾草绿、浅木色为环境主色，青绿色与低饱和珊瑚色作人物配色。温暖自然日光，生活感，克制的表情，成人身体比例约六头身，不画成幼童、大头萌娃、3D玩偶或写实照片。不要模仿任何现有作者的具体角色、品牌或标识。\n\n【固定角色】\n同一个约30岁的普通成年女性：椭圆脸、深棕色齐下巴短发、左侧偏分、细长自然眉、深棕色眼睛、小巧自然鼻子、正常成人五官比例；身形匀称、腹部平坦、不暗示已怀孕。青绿色无图案开衫、米白色圆领内搭、深灰蓝宽松长裤、浅米色平底居家鞋。无耳环、无项链、无帽子、无复杂花纹。\n\n【本镜画面与动作起点】\n卧室穿衣镜旁中景，上身正常穿好米白内搭和青绿开衫。主角右手轻搭左侧上胸位置的衣料，动作克制，神情是轻微不适。镜子只表现模糊环境反光，不绘制第二个人物。无裸露，不做胸部特写。\n\n请只生成这一张独立画面。优先9:16竖构图；不要提前把动作终点画进同一张图。",
       "h3_prompt": "She makes a small adjustment to the cardigan near her upper chest, pauses with a mildly uncomfortable expression, then lets her hand settle. Modest fully clothed medium shot, locked camera. No dramatic pain, body close-up or garment removal.\n\nPreserve the exact original 2D cartoon design, face, adult proportions, hairstyle, clothing colors, background layout and object count from the input image. Smooth restrained character animation, stable outlines, no style change, no extra limbs or people, no scene transition. No text, captions, logos or watermarks. No dialogue or lip-sync; narration and music will be added in post-production.",
       "image_prompt_file": "prompts/shot_04_image.txt",
       "h3_prompt_file": "prompts/shot_04_h3.txt",
       "task": "fl2va",
-      "status": "awaiting_user_image",
-      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio"
+      "status": "h3_reviewed",
+      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio",
+      "image_sha256": "461a1f748700ebde036ef7841f86dc60eb91750349b46f14320a564fc77301f4",
+      "actual_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "id": "shot_05",
@@ -69,14 +89,19 @@
       "title": "恶心不只在早晨",
       "narration_scene_id": "s04",
       "target_generated_seconds": 5,
-      "input_image": "references/shots/shot_05.png",
+      "input_image": "references/shots/openlux_shot_05_v1.png",
       "image_prompt": "输出单张竖屏镜头首帧，不是设定表、九宫格、海报或连续分镜。严格参考我上传的人物母版，保持面部骨架、发型、衣着和成年比例一致。画面中只能有一个主角。主体和道具位于中央安全区；顶部约15%、底部约22%避免放脸、手和关键道具，预留后期标题与字幕空间；左右保留约8%安全余量。画面可以有完整环境，但不要嵌入任何文字、字幕、标题、数字、标识、水印、对话框。手部自然，指头不必张开，优先简单动作起始姿势。\n\n【固定美术】\n原创二维手绘卡通动画电影关键帧，面向成年女性的温柔健康科普。清晰柔和的深灰青色轮廓线，平涂色块配少量柔和赛璐璐阴影、轻微纸张质感。奶油白、鼠尾草绿、浅木色为环境主色，青绿色与低饱和珊瑚色作人物配色。温暖自然日光，生活感，克制的表情，成人身体比例约六头身，不画成幼童、大头萌娃、3D玩偶或写实照片。不要模仿任何现有作者的具体角色、品牌或标识。\n\n【固定角色】\n同一个约30岁的普通成年女性：椭圆脸、深棕色齐下巴短发、左侧偏分、细长自然眉、深棕色眼睛、小巧自然鼻子、正常成人五官比例；身形匀称、腹部平坦、不暗示已怀孕。青绿色无图案开衫、米白色圆领内搭、深灰蓝宽松长裤、浅米色平底居家鞋。无耳环、无项链、无帽子、无复杂花纹。\n\n【本镜画面与动作起点】\n厨房台面旁中景，主角脸微微侧向空白台面，右手停在嘴边但不遮住整张脸，左手放在台面边缘。台面有一杯清水。眉眼略显不适，无呕吐物、厕所、夸张痛苦或崩溃。\n\n请只生成这一张独立画面。优先9:16竖构图；不要提前把动作终点画进同一张图。",
       "h3_prompt": "She brings her right hand gently closer to her mouth, turns her head slightly away, pauses, then takes a slow calming breath. The glass of water remains on the counter. Static medium shot. No vomiting, no sudden camera move.\n\nPreserve the exact original 2D cartoon design, face, adult proportions, hairstyle, clothing colors, background layout and object count from the input image. Smooth restrained character animation, stable outlines, no style change, no extra limbs or people, no scene transition. No text, captions, logos or watermarks. No dialogue or lip-sync; narration and music will be added in post-production.",
       "image_prompt_file": "prompts/shot_05_image.txt",
       "h3_prompt_file": "prompts/shot_05_h3.txt",
       "task": "fl2va",
-      "status": "awaiting_user_image",
-      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio"
+      "status": "h3_reviewed",
+      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio",
+      "image_sha256": "b728e11e5d48bcf31ca82edd626447bf57bd83c6601240fde09ba4411c1c39de",
+      "actual_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "id": "shot_06",
@@ -84,14 +109,19 @@
       "title": "对气味更敏感",
       "narration_scene_id": "s05",
       "target_generated_seconds": 5,
-      "input_image": "references/shots/shot_06.png",
+      "input_image": "references/shots/openlux_shot_06_v1.png",
       "image_prompt": "输出单张竖屏镜头首帧，不是设定表、九宫格、海报或连续分镜。严格参考我上传的人物母版，保持面部骨架、发型、衣着和成年比例一致。画面中只能有一个主角。主体和道具位于中央安全区；顶部约15%、底部约22%避免放脸、手和关键道具，预留后期标题与字幕空间；左右保留约8%安全余量。画面可以有完整环境，但不要嵌入任何文字、字幕、标题、数字、标识、水印、对话框。手部自然，指头不必张开，优先简单动作起始姿势。\n\n【固定美术】\n原创二维手绘卡通动画电影关键帧，面向成年女性的温柔健康科普。清晰柔和的深灰青色轮廓线，平涂色块配少量柔和赛璐璐阴影、轻微纸张质感。奶油白、鼠尾草绿、浅木色为环境主色，青绿色与低饱和珊瑚色作人物配色。温暖自然日光，生活感，克制的表情，成人身体比例约六头身，不画成幼童、大头萌娃、3D玩偶或写实照片。不要模仿任何现有作者的具体角色、品牌或标识。\n\n【固定角色】\n同一个约30岁的普通成年女性：椭圆脸、深棕色齐下巴短发、左侧偏分、细长自然眉、深棕色眼睛、小巧自然鼻子、正常成人五官比例；身形匀称、腹部平坦、不暗示已怀孕。青绿色无图案开衫、米白色圆领内搭、深灰蓝宽松长裤、浅米色平底居家鞋。无耳环、无项链、无帽子、无复杂花纹。\n\n【本镜画面与动作起点】\n厨房餐桌旁中景。画面左下方一杯热饮有少量简洁蒸汽，主角在右侧，脸朝热饮，右手尚未抬起，表情只是察觉气味。与恶心镜头换角度，给主角向后稍微避开的空间。杯子无品牌。\n\n请只生成这一张独立画面。优先9:16竖构图；不要提前把动作终点画进同一张图。",
       "h3_prompt": "A thin curl of steam rises from the cup. She notices the smell, gently wrinkles her nose, leans back a little and raises one hand near her nose. Tiny lateral camera drift only. Cup and table stay fixed; steam remains subtle.\n\nPreserve the exact original 2D cartoon design, face, adult proportions, hairstyle, clothing colors, background layout and object count from the input image. Smooth restrained character animation, stable outlines, no style change, no extra limbs or people, no scene transition. No text, captions, logos or watermarks. No dialogue or lip-sync; narration and music will be added in post-production.",
       "image_prompt_file": "prompts/shot_06_image.txt",
       "h3_prompt_file": "prompts/shot_06_h3.txt",
       "task": "fl2va",
-      "status": "awaiting_user_image",
-      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio"
+      "status": "h3_reviewed",
+      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio",
+      "image_sha256": "67e45abc8b15605c8f639c423e4e7411c2089e9e24379f8f773a551119faf58f",
+      "actual_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "id": "shot_07",
@@ -99,14 +129,19 @@
       "title": "小便次数增多",
       "narration_scene_id": "s06",
       "target_generated_seconds": 5,
-      "input_image": "references/shots/shot_07.png",
+      "input_image": "references/shots/openlux_shot_07_v1.png",
       "image_prompt": "输出单张竖屏镜头首帧，不是设定表、九宫格、海报或连续分镜。严格参考我上传的人物母版，保持面部骨架、发型、衣着和成年比例一致。画面中只能有一个主角。主体和道具位于中央安全区；顶部约15%、底部约22%避免放脸、手和关键道具，预留后期标题与字幕空间；左右保留约8%安全余量。画面可以有完整环境，但不要嵌入任何文字、字幕、标题、数字、标识、水印、对话框。手部自然，指头不必张开，优先简单动作起始姿势。\n\n【固定美术】\n原创二维手绘卡通动画电影关键帧，面向成年女性的温柔健康科普。清晰柔和的深灰青色轮廓线，平涂色块配少量柔和赛璐璐阴影、轻微纸张质感。奶油白、鼠尾草绿、浅木色为环境主色，青绿色与低饱和珊瑚色作人物配色。温暖自然日光，生活感，克制的表情，成人身体比例约六头身，不画成幼童、大头萌娃、3D玩偶或写实照片。不要模仿任何现有作者的具体角色、品牌或标识。\n\n【固定角色】\n同一个约30岁的普通成年女性：椭圆脸、深棕色齐下巴短发、左侧偏分、细长自然眉、深棕色眼睛、小巧自然鼻子、正常成人五官比例；身形匀称、腹部平坦、不暗示已怀孕。青绿色无图案开衫、米白色圆领内搭、深灰蓝宽松长裤、浅米色平底居家鞋。无耳环、无项链、无帽子、无复杂花纹。\n\n【本镜画面与动作起点】\n住宅走廊中景偏全身。主角站在画面左侧，身体朝右侧半开的洗手间门，双手自然放松。门内只看到干净洗手台的一角，不画坐便或身体隐私。墙上无数字简约时钟。主角与门之间留两步距离。\n\n请只生成这一张独立画面。优先9:16竖构图；不要提前把动作终点画进同一张图。",
       "h3_prompt": "She takes two small natural steps toward the half-open bathroom door and pauses at the doorway. Gentle short tracking move to the right. Maintain foot contact with the floor and stable leg anatomy. No urgency, pain, undressing or bathroom interior cut.\n\nPreserve the exact original 2D cartoon design, face, adult proportions, hairstyle, clothing colors, background layout and object count from the input image. Smooth restrained character animation, stable outlines, no style change, no extra limbs or people, no scene transition. No text, captions, logos or watermarks. No dialogue or lip-sync; narration and music will be added in post-production.",
       "image_prompt_file": "prompts/shot_07_image.txt",
       "h3_prompt_file": "prompts/shot_07_h3.txt",
       "task": "fl2va",
-      "status": "awaiting_user_image",
-      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio"
+      "status": "h3_reviewed",
+      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio",
+      "image_sha256": "851573affac9fa4844bcb050a665a264cf336f28a028c9951647a918be9fb0de",
+      "actual_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "id": "shot_08",
@@ -114,14 +149,19 @@
       "title": "口味变化",
       "narration_scene_id": "s07",
       "target_generated_seconds": 5,
-      "input_image": "references/shots/shot_08.png",
+      "input_image": "references/shots/openlux_shot_08_v1.png",
       "image_prompt": "输出单张竖屏镜头首帧，不是设定表、九宫格、海报或连续分镜。严格参考我上传的人物母版，保持面部骨架、发型、衣着和成年比例一致。画面中只能有一个主角。主体和道具位于中央安全区；顶部约15%、底部约22%避免放脸、手和关键道具，预留后期标题与字幕空间；左右保留约8%安全余量。画面可以有完整环境，但不要嵌入任何文字、字幕、标题、数字、标识、水印、对话框。手部自然，指头不必张开，优先简单动作起始姿势。\n\n【固定美术】\n原创二维手绘卡通动画电影关键帧，面向成年女性的温柔健康科普。清晰柔和的深灰青色轮廓线，平涂色块配少量柔和赛璐璐阴影、轻微纸张质感。奶油白、鼠尾草绿、浅木色为环境主色，青绿色与低饱和珊瑚色作人物配色。温暖自然日光，生活感，克制的表情，成人身体比例约六头身，不画成幼童、大头萌娃、3D玩偶或写实照片。不要模仿任何现有作者的具体角色、品牌或标识。\n\n【固定角色】\n同一个约30岁的普通成年女性：椭圆脸、深棕色齐下巴短发、左侧偏分、细长自然眉、深棕色眼睛、小巧自然鼻子、正常成人五官比例；身形匀称、腹部平坦、不暗示已怀孕。青绿色无图案开衫、米白色圆领内搭、深灰蓝宽松长裤、浅米色平底居家鞋。无耳环、无项链、无帽子、无复杂花纹。\n\n【本镜画面与动作起点】\n同一餐桌，主角坐在右侧。左前方一盘普通蔬菜和米饭，中间一小碗清淡面食，均不夸张。她右手放在靠近第一只盘子的桌面，尚未推盘，左手放在膝上，表情轻微犹豫。餐具简单且数量少。\n\n请只生成这一张独立画面。优先9:16竖构图；不要提前把动作终点画进同一张图。",
       "h3_prompt": "She looks at the nearer plate, slowly slides it a few centimeters away with one hand, then turns her gaze toward the plain bowl. Locked medium shot. No eating or utensil manipulation, no food morphing, keep all dishes rigid.\n\nPreserve the exact original 2D cartoon design, face, adult proportions, hairstyle, clothing colors, background layout and object count from the input image. Smooth restrained character animation, stable outlines, no style change, no extra limbs or people, no scene transition. No text, captions, logos or watermarks. No dialogue or lip-sync; narration and music will be added in post-production.",
       "image_prompt_file": "prompts/shot_08_image.txt",
       "h3_prompt_file": "prompts/shot_08_h3.txt",
       "task": "fl2va",
-      "status": "awaiting_user_image",
-      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio"
+      "status": "h3_reviewed",
+      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio",
+      "image_sha256": "37f65c4affa9430b9bd3b8550efe10dc4d60b65b239d28777d342664418b290e",
+      "actual_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "id": "shot_09",
@@ -129,14 +169,19 @@
       "title": "情绪起伏",
       "narration_scene_id": "s08",
       "target_generated_seconds": 6,
-      "input_image": "references/shots/shot_09.png",
+      "input_image": "references/shots/openlux_shot_09_v1.png",
       "image_prompt": "输出单张竖屏镜头首帧，不是设定表、九宫格、海报或连续分镜。严格参考我上传的人物母版，保持面部骨架、发型、衣着和成年比例一致。画面中只能有一个主角。主体和道具位于中央安全区；顶部约15%、底部约22%避免放脸、手和关键道具，预留后期标题与字幕空间；左右保留约8%安全余量。画面可以有完整环境，但不要嵌入任何文字、字幕、标题、数字、标识、水印、对话框。手部自然，指头不必张开，优先简单动作起始姿势。\n\n【固定美术】\n原创二维手绘卡通动画电影关键帧，面向成年女性的温柔健康科普。清晰柔和的深灰青色轮廓线，平涂色块配少量柔和赛璐璐阴影、轻微纸张质感。奶油白、鼠尾草绿、浅木色为环境主色，青绿色与低饱和珊瑚色作人物配色。温暖自然日光，生活感，克制的表情，成人身体比例约六头身，不画成幼童、大头萌娃、3D玩偶或写实照片。不要模仿任何现有作者的具体角色、品牌或标识。\n\n【固定角色】\n同一个约30岁的普通成年女性：椭圆脸、深棕色齐下巴短发、左侧偏分、细长自然眉、深棕色眼睛、小巧自然鼻子、正常成人五官比例；身形匀称、腹部平坦、不暗示已怀孕。青绿色无图案开衫、米白色圆领内搭、深灰蓝宽松长裤、浅米色平底居家鞋。无耳环、无项链、无帽子、无复杂花纹。\n\n【本镜画面与动作起点】\n客厅沙发中景，主角坐好，单手持一部屏幕背向镜头的手机，另一只手搭在沙发坐垫上。表情略烦闷或委屈但不流泪。旁边留一小块空坐垫，背景柔和。不要手机聊天文字或第二个人。\n\n请只生成这一张独立画面。优先9:16竖构图；不要提前把动作终点画进同一张图。",
       "h3_prompt": "She looks at her phone with a mildly troubled expression, lowers it onto her lap, takes a slow breath and gradually relaxes her brow. Gentle slow push-in. No tears, exaggerated mood swings or talking mouth movement.\n\nPreserve the exact original 2D cartoon design, face, adult proportions, hairstyle, clothing colors, background layout and object count from the input image. Smooth restrained character animation, stable outlines, no style change, no extra limbs or people, no scene transition. No text, captions, logos or watermarks. No dialogue or lip-sync; narration and music will be added in post-production.",
       "image_prompt_file": "prompts/shot_09_image.txt",
       "h3_prompt_file": "prompts/shot_09_h3.txt",
       "task": "fl2va",
-      "status": "awaiting_user_image",
-      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio"
+      "status": "h3_reviewed",
+      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio",
+      "image_sha256": "4070badd0a5af6b66805a06f22103f6521c534260d95d8312771282b62519870",
+      "actual_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "id": "shot_10",
@@ -144,14 +189,20 @@
       "title": "症状不能确认或排除怀孕",
       "narration_scene_id": "truth",
       "target_generated_seconds": 8,
-      "input_image": "references/shots/shot_10.png",
+      "input_image": "references/shots/openlux_shot_10_v1.png",
       "image_prompt": "输出单张竖屏镜头首帧，不是设定表、九宫格、海报或连续分镜。严格参考我上传的人物母版，保持面部骨架、发型、衣着和成年比例一致。画面中只能有一个主角。主体和道具位于中央安全区；顶部约15%、底部约22%避免放脸、手和关键道具，预留后期标题与字幕空间；左右保留约8%安全余量。画面可以有完整环境，但不要嵌入任何文字、字幕、标题、数字、标识、水印、对话框。手部自然，指头不必张开，优先简单动作起始姿势。\n\n【固定美术】\n原创二维手绘卡通动画电影关键帧，面向成年女性的温柔健康科普。清晰柔和的深灰青色轮廓线，平涂色块配少量柔和赛璐璐阴影、轻微纸张质感。奶油白、鼠尾草绿、浅木色为环境主色，青绿色与低饱和珊瑚色作人物配色。温暖自然日光，生活感，克制的表情，成人身体比例约六头身，不画成幼童、大头萌娃、3D玩偶或写实照片。不要模仿任何现有作者的具体角色、品牌或标识。\n\n【固定角色】\n同一个约30岁的普通成年女性：椭圆脸、深棕色齐下巴短发、左侧偏分、细长自然眉、深棕色眼睛、小巧自然鼻子、正常成人五官比例；身形匀称、腹部平坦、不暗示已怀孕。青绿色无图案开衫、米白色圆领内搭、深灰蓝宽松长裤、浅米色平底居家鞋。无耳环、无项链、无帽子、无复杂花纹。\n\n【本镜画面与动作起点】\n温暖客厅，中景。主角位于右下三分之一，坐在桌边，双手自然交叠，表情沉静。画面左侧与中上部约一半面积是干净奶油色墙面，专供后期叠加两张信息卡，当前不要画卡片文字、问号或标志。\n\n请只生成这一张独立画面。优先9:16竖构图；不要提前把动作终点画进同一张图。",
-      "h3_prompt": "She gently unfolds her hands, rests them on the table, and gives a small reassuring nod. Almost locked camera. Preserve the empty wall on the left for later graphics; do not introduce symbols, diagrams, text or new objects.\n\nPreserve the exact original 2D cartoon design, face, adult proportions, hairstyle, clothing colors, background layout and object count from the input image. Smooth restrained character animation, stable outlines, no style change, no extra limbs or people, no scene transition. No text, captions, logos or watermarks. No dialogue or lip-sync; narration and music will be added in post-production.",
+      "h3_prompt": "A continuous warm hand-drawn 2D animation of the woman from the input picture sitting at the wooden table in her quiet living room. Her hands rest together on the table beside the plain mug. She slowly turns her eyes toward the window, pauses to take a relaxed breath, then lowers her gaze toward her resting hands. Her short brown bob and sage green cardigan gently follow her tiny body movement. Her expression is calm and thoughtful, her lips gently closed. The camera stays fixed at the original medium-shot framing. The cream wall, sofa, table and mug retain the simple original arrangement throughout the shot. Natural understated adult body language and subtle breathing.\n",
       "image_prompt_file": "prompts/shot_10_image.txt",
-      "h3_prompt_file": "prompts/shot_10_h3.txt",
+      "h3_prompt_file": "prompts/shot_10_h3_v3.txt",
       "task": "fl2va",
-      "status": "awaiting_user_image",
-      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio"
+      "status": "h3_reviewed",
+      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio",
+      "image_sha256": "1c56e22759cf9109d53f350ab1faf98979b69e3b540a7c16addf8f6f59bd40c9",
+      "actual_dimensions": [
+        1024,
+        1536
+      ],
+      "h3_graph": "h3_baseline20.json"
     },
     {
       "id": "shot_11",
@@ -159,14 +210,19 @@
       "title": "验孕时间规则",
       "narration_scene_id": "test1",
       "target_generated_seconds": 8,
-      "input_image": "references/shots/shot_11.png",
+      "input_image": "references/shots/openlux_shot_11_v1.png",
       "image_prompt": "输出单张竖屏镜头首帧，不是设定表、九宫格、海报或连续分镜。严格参考我上传的人物母版，保持面部骨架、发型、衣着和成年比例一致。画面中只能有一个主角。主体和道具位于中央安全区；顶部约15%、底部约22%避免放脸、手和关键道具，预留后期标题与字幕空间；左右保留约8%安全余量。画面可以有完整环境，但不要嵌入任何文字、字幕、标题、数字、标识、水印、对话框。手部自然，指头不必张开，优先简单动作起始姿势。\n\n【固定美术】\n原创二维手绘卡通动画电影关键帧，面向成年女性的温柔健康科普。清晰柔和的深灰青色轮廓线，平涂色块配少量柔和赛璐璐阴影、轻微纸张质感。奶油白、鼠尾草绿、浅木色为环境主色，青绿色与低饱和珊瑚色作人物配色。温暖自然日光，生活感，克制的表情，成人身体比例约六头身，不画成幼童、大头萌娃、3D玩偶或写实照片。不要模仿任何现有作者的具体角色、品牌或标识。\n\n【固定角色】\n同一个约30岁的普通成年女性：椭圆脸、深棕色齐下巴短发、左侧偏分、细长自然眉、深棕色眼睛、小巧自然鼻子、正常成人五官比例；身形匀称、腹部平坦、不暗示已怀孕。青绿色无图案开衫、米白色圆领内搭、深灰蓝宽松长裤、浅米色平底居家鞋。无耳环、无项链、无帽子、无复杂花纹。\n\n【本镜画面与动作起点】\n明亮干净的桌边场景。主角在画面右下方坐好，桌角放一个无品牌、无文字、无结果窗特写的封闭验孕工具纸盒和折叠说明书。左侧及中央上方留大面积干净墙面给后期日历与21天图解。不得画阳性、阴性、两条杠、婴儿或胎儿。\n\n请只生成这一张独立画面。优先9:16竖构图；不要提前把动作终点画进同一张图。",
-      "h3_prompt": "She picks up the folded instruction leaflet, opens it once and looks down to read. Slow minimal push-in without reducing the blank left area. Keep the test kit box closed and unbranded. No pregnancy result is shown, no generated writing.\n\nPreserve the exact original 2D cartoon design, face, adult proportions, hairstyle, clothing colors, background layout and object count from the input image. Smooth restrained character animation, stable outlines, no style change, no extra limbs or people, no scene transition. No text, captions, logos or watermarks. No dialogue or lip-sync; narration and music will be added in post-production.",
+      "h3_prompt": "The instruction leaflet is already open on the table. She lowers her gaze to read it, gently lowers the hand near her cheek onto the table and pauses thoughtfully. Keep the paper flat on the table; do not pick it up or turn pages. Slow minimal push-in without reducing the blank left area. Keep the test kit box closed and unbranded. No pregnancy result is shown, no generated writing.\n\nPreserve the exact original 2D cartoon design, face, adult proportions, hairstyle, clothing colors, background layout and object count from the input image. Smooth restrained character animation, stable outlines, no style change, no extra limbs or people, no scene transition. No text, captions, logos or watermarks. No dialogue or lip-sync; narration and music will be added in post-production.\n",
       "image_prompt_file": "prompts/shot_11_image.txt",
       "h3_prompt_file": "prompts/shot_11_h3.txt",
       "task": "fl2va",
-      "status": "awaiting_user_image",
-      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio"
+      "status": "h3_reviewed",
+      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio",
+      "image_sha256": "66b133009dccde496d0eb929327536845539b714bc1015789cd1883764e4a5b0",
+      "actual_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "id": "shot_12",
@@ -174,14 +230,19 @@
       "title": "阴性后复测与咨询",
       "narration_scene_id": "test2",
       "target_generated_seconds": 8,
-      "input_image": "references/shots/shot_12.png",
+      "input_image": "references/shots/openlux_shot_12_v1.png",
       "image_prompt": "输出单张竖屏镜头首帧，不是设定表、九宫格、海报或连续分镜。严格参考我上传的人物母版，保持面部骨架、发型、衣着和成年比例一致。画面中只能有一个主角。主体和道具位于中央安全区；顶部约15%、底部约22%避免放脸、手和关键道具，预留后期标题与字幕空间；左右保留约8%安全余量。画面可以有完整环境，但不要嵌入任何文字、字幕、标题、数字、标识、水印、对话框。手部自然，指头不必张开，优先简单动作起始姿势。\n\n【固定美术】\n原创二维手绘卡通动画电影关键帧，面向成年女性的温柔健康科普。清晰柔和的深灰青色轮廓线，平涂色块配少量柔和赛璐璐阴影、轻微纸张质感。奶油白、鼠尾草绿、浅木色为环境主色，青绿色与低饱和珊瑚色作人物配色。温暖自然日光，生活感，克制的表情，成人身体比例约六头身，不画成幼童、大头萌娃、3D玩偶或写实照片。不要模仿任何现有作者的具体角色、品牌或标识。\n\n【固定角色】\n同一个约30岁的普通成年女性：椭圆脸、深棕色齐下巴短发、左侧偏分、细长自然眉、深棕色眼睛、小巧自然鼻子、正常成人五官比例；身形匀称、腹部平坦、不暗示已怀孕。青绿色无图案开衫、米白色圆领内搭、深灰蓝宽松长裤、浅米色平底居家鞋。无耳环、无项链、无帽子、无复杂花纹。\n\n【本镜画面与动作起点】\n同一桌边，主角位于右下方，一只手放在桌上无数字的小日历旁，另一只手自然拿着手机、屏幕背向镜头。左侧及中上方留干净留白，用于后期“过几天复测”“咨询医生”。没有验孕结果的画面，没有忧虑崩溃表情。\n\n请只生成这一张独立画面。优先9:16竖构图；不要提前把动作终点画进同一张图。",
       "h3_prompt": "She briefly looks from the small calendar to her phone and brings the phone a little closer as if preparing to seek advice. Calm measured movement, static shot. Keep the screen hidden and the calendar blank. No generated result or text.\n\nPreserve the exact original 2D cartoon design, face, adult proportions, hairstyle, clothing colors, background layout and object count from the input image. Smooth restrained character animation, stable outlines, no style change, no extra limbs or people, no scene transition. No text, captions, logos or watermarks. No dialogue or lip-sync; narration and music will be added in post-production.",
       "image_prompt_file": "prompts/shot_12_image.txt",
       "h3_prompt_file": "prompts/shot_12_h3.txt",
       "task": "fl2va",
-      "status": "awaiting_user_image",
-      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio"
+      "status": "h3_reviewed",
+      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio",
+      "image_sha256": "cf035dd5a14c75149ce3725e1b2fc36e2354a1cca034044a0e5e0f37a4582fd9",
+      "actual_dimensions": [
+        1024,
+        1536
+      ]
     },
     {
       "id": "shot_13",
@@ -189,14 +250,20 @@
       "title": "及时就医，先确认再决定",
       "narration_scene_id": "care",
       "target_generated_seconds": 8,
-      "input_image": "references/shots/shot_13.png",
+      "input_image": "references/shots/openlux_shot_13_v1.png",
       "image_prompt": "输出单张竖屏镜头首帧，不是设定表、九宫格、海报或连续分镜。严格参考我上传的人物母版，保持面部骨架、发型、衣着和成年比例一致。画面中只能有一个主角。主体和道具位于中央安全区；顶部约15%、底部约22%避免放脸、手和关键道具，预留后期标题与字幕空间；左右保留约8%安全余量。画面可以有完整环境，但不要嵌入任何文字、字幕、标题、数字、标识、水印、对话框。手部自然，指头不必张开，优先简单动作起始姿势。\n\n【固定美术】\n原创二维手绘卡通动画电影关键帧，面向成年女性的温柔健康科普。清晰柔和的深灰青色轮廓线，平涂色块配少量柔和赛璐璐阴影、轻微纸张质感。奶油白、鼠尾草绿、浅木色为环境主色，青绿色与低饱和珊瑚色作人物配色。温暖自然日光，生活感，克制的表情，成人身体比例约六头身，不画成幼童、大头萌娃、3D玩偶或写实照片。不要模仿任何现有作者的具体角色、品牌或标识。\n\n【固定角色】\n同一个约30岁的普通成年女性：椭圆脸、深棕色齐下巴短发、左侧偏分、细长自然眉、深棕色眼睛、小巧自然鼻子、正常成人五官比例；身形匀称、腹部平坦、不暗示已怀孕。青绿色无图案开衫、米白色圆领内搭、深灰蓝宽松长裤、浅米色平底居家鞋。无耳环、无项链、无帽子、无复杂花纹。\n\n【本镜画面与动作起点】\n温暖安静客厅，中景。主角在右下侧坐在沙发边，手机自然握在一只手中，表情平静有支持感，不笑着庆祝。左侧与上方留大块干净墙面给后期就医提示。画面无血液、疼痛表演、胎儿、婴儿或阳性验孕棒。\n\n请只生成这一张独立画面。优先9:16竖构图；不要提前把动作终点画进同一张图。",
       "h3_prompt": "She straightens slightly, holds her phone comfortably and takes a calm breath, then looks forward with a gentle composed expression. Very slow push-in and settle into a steady final pose. No celebratory gestures, no talking, no medical emergency dramatization.\n\nPreserve the exact original 2D cartoon design, face, adult proportions, hairstyle, clothing colors, background layout and object count from the input image. Smooth restrained character animation, stable outlines, no style change, no extra limbs or people, no scene transition. No text, captions, logos or watermarks. No dialogue or lip-sync; narration and music will be added in post-production.",
       "image_prompt_file": "prompts/shot_13_image.txt",
       "h3_prompt_file": "prompts/shot_13_h3.txt",
       "task": "fl2va",
-      "status": "awaiting_user_image",
-      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio"
+      "status": "h3_reviewed",
+      "postproduction": "Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio",
+      "image_sha256": "5d98d93d6fffc7546bae0e498f6b3b4542a684a7d924bb815f1cc38083f4d3be",
+      "actual_dimensions": [
+        1024,
+        1536
+      ]
     }
-  ]
+  ],
+  "delivery": "deliveries/h3-compose-20261013-030001-0fb4"
 }

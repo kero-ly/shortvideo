@@ -1,0 +1,14 @@
+{
+  "shot_10": [
+    {
+      "version": "v1",
+      "clip": "runs/h3-pregnancy-10-20261013-023229-1d2c/clip.mp4",
+      "reason": "Generated ?! speech bubble"
+    },
+    {
+      "version": "v2",
+      "clip": "runs/h3-pregnancy-10-v2-20261013-024144-c25d/clip.mp4",
+      "reason": "Generated unrelated text bubbles and a bottle"
+    }
+  ]
+}

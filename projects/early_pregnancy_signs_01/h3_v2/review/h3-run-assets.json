@@ -1,0 +1,146 @@
+{
+  "shot_01": {
+    "run": "runs/h3-pregnancy-01-20261013-021929-74fb",
+    "files": {
+      "clip.mp4": "d483460027566b5c257bb5935603dbc11b0f674bcea2d054ab2db469de644663",
+      "history.json": "8fe816a973e97d91e5b82404564e94ea23801e64b58852497a5fe38ca1f2eba3",
+      "input.json": "79a75f40a1d55c469d9d72bb97ad7b74456d0f98875927b460e84cad0cc70de8",
+      "review.jpg": "4845ca715ef6d8dc64d6fcd67a15e3bddad1b4984eceb34cee197998d24c8425",
+      "status.json": "5d25996bd01e219aee6d1b4acaf222f38415ad710d587d15a46282fef52281ad",
+      "submission.json": "c5124697132a73a358f62ad32018f4af8e4e27809e70b1a6a983aad4be455eb5",
+      "workflow.json": "6da1c85a1723ab4213f25aa86734c5b254d9067aa96e1de63ca99823e4e6b40c"
+    }
+  },
+  "shot_02": {
+    "run": "runs/h3-pregnancy-02-20261013-022753-fccb",
+    "files": {
+      "clip.mp4": "fc2ebc5d6518d4ce5af91edfc8cd2792faeaa689f79328df3d3ca17a0a60acce",
+      "history.json": "73eeceb828a5e1f78216727b10e87556d4989e919a1ed97c36701e0232a01a26",
+      "input.json": "cc6fa67b9954ac015763ef191983dae58e70eceb40573ce6a9bac1c0d6fa1868",
+      "status.json": "5a570a0bee32853008db98823c23ed8d28517bca1af664c5f3bcb7d0a5e3db37",
+      "submission.json": "8354fbfceee1a855e0bd2fc0f1300dc6f4c2c77523845e89036eb061eca3d0f1",
+      "workflow.json": "ca04eb9fee28464c036adf42573a232bc7168ed31bfa044be77bd732710e0c21"
+    }
+  },
+  "shot_03": {
+    "run": "runs/h3-pregnancy-03-20261013-022258-773f",
+    "files": {
+      "clip.mp4": "46e1e137e5051b6f7fee45065aaeb518a29779e91bb48309c2e73aacda7a3a04",
+      "history.json": "45f1c58dddc4b33a6f4479b38833ff338525d9c39a6b17b499f8f62a49e1780e",
+      "input.json": "37ec95b17233ac961a86a7745a53c45aa13021019e71e2d379c71231c099c5b3",
+      "status.json": "71fabd77097454db32aff5891c86f79bce4746f66f2e6164c7bf3020669b759c",
+      "submission.json": "67f154508593c9b00e1ae8a6c34168ac8928de1ba716d072883bc688496e1576",
+      "workflow.json": "26fa47f986200724305363eddc87c98d8e2dadccc83a301be8a5d1179cc62723"
+    }
+  },
+  "shot_04": {
+    "run": "runs/h3-pregnancy-04-20261013-022403-a668",
+    "files": {
+      "clip.mp4": "da676d2005a00cb9a854544b8b2a7afacc9b1591f269fe8e2652390f4504b52d",
+      "history.json": "983ecb550e5e4ba9e6bd2e0dc33b2ef9770af860edd7c0f2e94f2eaec1a2b58f",
+      "input.json": "cc5d12da4b4760fae68fcaea4997a8d13448e2add34caf70c746a4f18322856c",
+      "status.json": "e978c54020396e229357ed3a51998c166d68a27b3c3a91b292c6859ff6b87e27",
+      "submission.json": "20f262fe3a2a08fca80ec4ed27a6541e33833454d9e6b65ee65d450c9b3ca520",
+      "workflow.json": "97e576887055d83d9fc050afb1caa70f8fccebe52355089ac94965138ae6cc16"
+    }
+  },
+  "shot_05": {
+    "run": "runs/h3-pregnancy-05-20261013-022508-e3ce",
+    "files": {
+      "clip.mp4": "0792b083f82783762ba1c9df332fa8dad2c0e9080f596e8c80ee32b731e06563",
+      "history.json": "79037fe3eee1db054001c8bb3e7f3b6551d452b45a4be50ba0f252d2b7dacf58",
+      "input.json": "d7244b047f546e3601f5a9a526f1a521e641dd98ad6926e6be17c5c3f6574429",
+      "status.json": "8b23b32b424d5d77d315283444b75147bbc9ddfe021a9a29ee4e9720b2e582ef",
+      "submission.json": "b8de66d93bb932fd9a98adbb01fe46d507acee659f7eda4efa71b8759d6902e5",
+      "workflow.json": "edfdfd7f63657b291856383799d7baa328204c88d3ec1ce9319139062157593f"
+    }
+  },
+  "shot_06": {
+    "run": "runs/h3-pregnancy-06-20261013-022614-6948",
+    "files": {
+      "clip.mp4": "ad83a8ca8a4db274d83432ddb2672d64e9dab75b1e830fec97b1d195846e9075",
+      "history.json": "56c62a2bbd3ac616e64bc0eb986e6b1254fdc794e1a1f25b5b2bbd3ec717d217",
+      "input.json": "7dc48473e28d29cc010c5c15441c13f51823c54077e4e136dcd9b975f61740ca",
+      "status.json": "176339b81d8cd4ff350921e7187f28123531dfe3420bf35c4b646a70659cffb6",
+      "submission.json": "ac6e14db3f37b23a8ea2b591dae669a2ce1430d6661e36addb86f782a84e396b",
+      "workflow.json": "7906da037b63fcba76a244f066f83d2a0e52499e707f43625c44ab72e57eece4"
+    }
+  },
+  "shot_07": {
+    "run": "runs/h3-pregnancy-07-20261013-022858-24eb",
+    "files": {
+      "clip.mp4": "9ec5a2a92d373a4408428572cbdbadb528db8d8c18fe4614eeb87b313cbf3efb",
+      "history.json": "5af0cbe21c1d11f46cba95778c53e7818cdd7d35b2bedfa19a41f10b18ea472f",
+      "input.json": "75f7506c4116f73c95da4ab289ae96d65aaab9ffad75088df0170deff90eed76",
+      "status.json": "5643a8eb15810ea0746d7aad51f36e42d3fdf5e27b119f6944d0a7ac53b2c9e7",
+      "submission.json": "2f6f439e1b0c0115ac2ae9e5215cc6fb128b0d4062fbc1608ae2b759707146cd",
+      "workflow.json": "91c0e0c9530d8548c6d186820a16e1107cb6491dc88b79a496a09daf0a1ee799"
+    }
+  },
+  "shot_08": {
+    "run": "runs/h3-pregnancy-08-20261013-023003-dabe",
+    "files": {
+      "clip.mp4": "2a2abd6ddfe475ea8d444b9307e9470771b03e2cf3304d4aa8a4bd104b6427f3",
+      "history.json": "b49c12d5df8f1a959b2e203a989926b5053d04fe91af2015677563f825922870",
+      "input.json": "2dd3ac749529135bd8270c8c12f1ae352df3d136fe48cee6230fa0f32054a45c",
+      "status.json": "3205a6f000a23d29edbae1dee2133664aedcebece6e091f34bfcc162f3182033",
+      "submission.json": "94202668c514b618ab4f6349547ccde8d6dfdc90900bb159fe7d917a1872e6ef",
+      "workflow.json": "9a365d30cc65a7458ebf15190555e4ed13c5a1fe5ddf7d5aa633bf693496584a"
+    }
+  },
+  "shot_09": {
+    "run": "runs/h3-pregnancy-09-20261013-023109-d3d2",
+    "files": {
+      "clip.mp4": "330b29c76d0220d97424c8e97b6b2727cbd348d8fd29ce55b28fdb5ad8326086",
+      "history.json": "ee01e02362ba114c7974df708d02255d58d03d5693281d68eaddb3f8702cb535",
+      "input.json": "44d03e7e447d2eff08a3a34231c9141fff151c8719cc31af6d7fada98afea014",
+      "status.json": "ebcc27d8d13a744dde58c6b92b6bef8565b8b8e107a568a79d295f717b4717be",
+      "submission.json": "8b39ad1dfe11081f4906539296b3672b1fea85544b4fb9f90c59f9a1aebdbfc2",
+      "workflow.json": "87accac89fcde418dc9b635660a8cf35152efbff1a7b1ae27bab0c92a5267566"
+    }
+  },
+  "shot_10": {
+    "run": "runs/h3-pregnancy-10-v3-20261013-024641-fd37",
+    "files": {
+      "clip.mp4": "e7c5211f7cded6fe73928647739c4bc5a1b98342c5c914dfb44ae39860921fd7",
+      "history.json": "6b4a41dd618b8a2dd135eb2b8735a243b18fef8a4703e26d641e03fd7572d670",
+      "input.json": "6760f47d033acd869ada85a838d4642ad7b253f4570174bac85628db47bca9e9",
+      "status.json": "3c21c341ada787553936520a6f1b87e6d06a2ed7e24bbc8589c10298ca5873ef",
+      "submission.json": "95bfb97145e565b5a583ac01076e4c936f81eb1632dc7d74f64fd41f7c0cc7b2",
+      "workflow.json": "a646a396f8c0549e5b8cae88c492d20b16b060dfc5039159ca7546f29eeef706"
+    }
+  },
+  "shot_11": {
+    "run": "runs/h3-pregnancy-11-20261013-023449-f29b",
+    "files": {
+      "clip.mp4": "06f3d2d09e7ad2dbddd1af0f3864d4f1374acb75cc73a5ee8cdff6bb07c820e1",
+      "history.json": "18ec41c311321f21361f70fda4fe5c8310d22fb6652983a9f26db012cafdd431",
+      "input.json": "0280eef652b586a95f425525da3c967603f8cf19ea5934579d5d56a4999e4ec9",
+      "status.json": "bbe6b8d32936c5eec5f3cdac16431ea150110e45b03a5c40a5a0b5a1c2e6b765",
+      "submission.json": "6ae62d9f5c96029828bb667bc60c82317bccc9b724eb383bbdfafc2a116ae16c",
+      "workflow.json": "1b5fcd49ca69483aad1a6e047ccc6ad099c76d3451819491af1a10e8a6d54b32"
+    }
+  },
+  "shot_12": {
+    "run": "runs/h3-pregnancy-12-20261013-023715-9f3f",
+    "files": {
+      "clip.mp4": "9ee19a7895f591dcf951a7f28402e06d77c7354da851469c4a7d8dd9a6a06ead",
+      "history.json": "e5c475ec7797798250f866a7f988dfdd87b85b758d79b1549baa5ee0f0d8fd7d",
+      "input.json": "867d37ee72fb2cf4cf07a3f8b38f4e4bc25c85732e1657f1f763cf20db95ee08",
+      "status.json": "4f67206aaf898609fc7ca41740f4fbc09a276908e5507982d1e0669e87a529f3",
+      "submission.json": "283b05e06f10ce68982734e9aef2e3898e6a0b8fb62382dda70e02a835de5cc8",
+      "workflow.json": "ec098e41db0f9b59f46f1a25dbb4975a18c11fdbe5c5d0c8b339e1c5bae7c4d1"
+    }
+  },
+  "shot_13": {
+    "run": "runs/h3-pregnancy-13-20261013-023906-2e26",
+    "files": {
+      "clip.mp4": "0c178f454f3706955eb06ebd32e5a8574b2dca0eedc23655b07f91c29f720fa5",
+      "history.json": "01d7b9d7fe6ac691916d3973b019df4c8a4be660cb0f092b9098f334642a6d5c",
+      "input.json": "84be2f58d28b03ed00e4eb1da92bad602512027f7a0ea886b5cb8fe87772eae4",
+      "status.json": "5decbc69abd28f8b02140205b7ab70aa98f38d31c5a51c6f832bf5f18afe4662",
+      "submission.json": "b2b69d8b2d80849a87d4138bb48e7c0c8f963ccff5254463eec0e0277d42dbc1",
+      "workflow.json": "b91a49585ca7e2ab87c2ca9ca0b5f36d24afb1570889ecd83b38a5d9a4e4e88a"
+    }
+  }
+}

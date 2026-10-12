@@ -25,7 +25,7 @@
 
 ## Git 与大文件
 
-追踪：脚本、lockfile、文案、分镜、图片提示词、H3 提示词、结构化案例、媒体 SHA256 清单、轻量 QA 记录。生成图片/视频/音频、模型、缓存、node_modules 和机器虚拟环境不入普通 Git。当前未部署 Git LFS；本地和 220 保留媒体副本。媒体清单未登记前，不应声称素材已完整归档。
+追踪：脚本、lockfile、文案、分镜、图片提示词、H3 提示词、结构化案例、媒体 SHA256 清单、QA 文本记录。生成图片/视频/音频、模型、缓存、node_modules 和机器虚拟环境不入普通 Git。案例缩略图、封面、审核截图同样不入 Git。当前未部署 Git LFS；本地和 220 保留媒体副本。媒体清单未登记前，不应声称素材已完整归档。
 
 本地 origin 指向 `ly@8.92.9.220:/home/ly/shortvideo`（SSH 工作仓库，不是 GitHub）。不要直接推送服务器当前检出的分支。同步步骤：检查两端状态 → 本地提交 → push 到唯一 `sync/<commit>` 分支 → 服务器干净时 `git merge --ff-only sync/<commit>` → 比较 HEAD。服务器若有未提交工作，先备份并审核合并，不用 reset --hard 或 rsync --delete 覆盖。
 
@@ -33,4 +33,4 @@
 
 ## 当前案例
 
-`projects/early_pregnancy_signs_01/`：第一条早孕主题。`h3_v2/` 是当前制作版本，等待人工生成参考图。角色素材放 `h3_v2/references/character/`，分镜首帧放 `h3_v2/references/shots/`。旧 Remotion 矢量版作为 v1 记录保留，成片在 `deliveries/early-pregnancy-20261013-010143-e9a8/`。
+`projects/early_pregnancy_signs_01/`：第一条早孕主题。`h3_v2/` 是当前制作版本，OpenLux 参考图和 13 镜 H3 已生成，合成交付进度见该目录 PRODUCTION.md。角色素材放 `h3_v2/references/character/`，分镜首帧放 `h3_v2/references/shots/`。旧 Remotion 矢量版作为 v1 记录保留，成片在 `deliveries/early-pregnancy-20261013-010143-e9a8/`。

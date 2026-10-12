@@ -20,3 +20,17 @@ projects/**/references/**/*.mp4
 projects/**/references/**/*.wav
 projects/**/references/**/*.mp3
 projects/**/asr-model-cache/
+renderers/remotion/public/
+projects/**/review/latest-compose.txt
+
+# Episode media stays on disk; track manifests instead.
+projects/**/*.png
+projects/**/*.jpg
+projects/**/*.jpeg
+projects/**/*.webp
+projects/**/*.mp4
+projects/**/*.mov
+projects/**/*.wav
+projects/**/*.mp3
+projects/**/*.m4a
+projects/**/*.flac

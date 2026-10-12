@@ -1,0 +1,16 @@
+{
+  "run": "runs/h3-compose-20261013-030001-0fb4",
+  "method": "Viewed 13 mid-scene frames in composed contact sheet, plus five sampled source frames per clip and 19 source frames for repaired shot10. Not exhaustive frame-by-frame human playback.",
+  "passed": true,
+  "observations": [
+    "Titles above character, captions in lower reserved area.",
+    "Medical cards in scenes10-13 remain readable and clear of faces in reviewed midframes.",
+    "Caption timing reuses 42 ASR-aligned entries and 1910-frame locked narration timeline.",
+    "Shot10 baseline20 v3 replaces rejected turbo outputs."
+  ],
+  "limitations": [
+    "Native H3 576x1024 upscaled within 1080x1920 layout.",
+    "Some generated gestures deviate from prompts; accepted deviations recorded per shot.",
+    "Existing review voice reused; no new human listening review in this run."
+  ]
+}

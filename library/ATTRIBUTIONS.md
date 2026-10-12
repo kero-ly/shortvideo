@@ -1,2 +1,4 @@
 # Reused resources
+capabilities/video-generation/h3_turbo8.json selectively copied from deviceagent/shortvideo graphs/fl2va/turbo_8step.json at 020a2f4f (Apache-2.0; see LICENSE.reference). The factory h3_comfy.py adapter is new and uses the observed 220 ComfyUI API. Model licenses remain at the shared runtime location.
+capabilities/video-generation/h3_baseline20.json copied from the same upstream commit's graphs/fl2va/baseline_20step.json, under the same Apache-2.0 license, for individual-shot quality retries.
 capabilities/narration/indextts2.py copied from the supplied H3 Video Production repository scripts/generate_indextts2_remote.py (Apache-2.0; see LICENSE.reference). Shared IndexTTS2 runtime and model licenses remain at their original locations. teacher_reference_24k.wav is used for internal infrastructure testing only; production voice selection and usage rights must be confirmed for the chosen style.

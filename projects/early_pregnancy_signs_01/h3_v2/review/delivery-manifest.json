@@ -1,0 +1,14 @@
+{
+  "version": "h3-v2",
+  "run": "/home/ly/shortvideo/runs/h3-compose-20261013-030001-0fb4",
+  "duration_seconds": 79.58333333333333,
+  "files": {
+    "contact-sheet.png": "d762dbcd24c2143f45ae327519e1b96d371c675a6c283426c125951bdff504e8",
+    "cover.png": "7b4c182cfb698299819fe3e7f05189e508787f5a7f6314166b9af03909351771",
+    "early_pregnancy_h3_v2.mp4": "44fe89b7263312819d687e838ea637dea9770f666442044f9fee0b620917c85f",
+    "h3-clips.json": "201e16869a5375716affc50f0f23fd53b1bea6151733e2a9d475683722b6c544",
+    "props.json": "9142c472e41b557c803a30daa133710ab4bcbb9ed66d9b532159febc37349062",
+    "qa.json": "aa77fe65dcfb76d40296c96b11e2cd21d60a20e5b985b3b0f36d6a235fb037f5",
+    "subtitles.srt": "c50894223db4a6aa5c386e32c942a9459f2cff9aa6b016f8e4cfea8bcaa69080"
+  }
+}

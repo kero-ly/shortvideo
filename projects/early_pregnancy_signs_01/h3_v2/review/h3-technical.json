@@ -1,0 +1,134 @@
+{
+  "shot_01": {
+    "frames": 192,
+    "seconds": 8.0,
+    "resolution": [
+      576,
+      1024
+    ],
+    "full_decode": true,
+    "contact": "review/shot_01_h3.jpg"
+  },
+  "shot_02": {
+    "frames": 124,
+    "seconds": 5.166667,
+    "resolution": [
+      576,
+      1024
+    ],
+    "full_decode": true,
+    "contact": "review/shot_02_h3.jpg"
+  },
+  "shot_03": {
+    "frames": 124,
+    "seconds": 5.166667,
+    "resolution": [
+      576,
+      1024
+    ],
+    "full_decode": true,
+    "contact": "review/shot_03_h3.jpg"
+  },
+  "shot_04": {
+    "frames": 124,
+    "seconds": 5.166667,
+    "resolution": [
+      576,
+      1024
+    ],
+    "full_decode": true,
+    "contact": "review/shot_04_h3.jpg"
+  },
+  "shot_05": {
+    "frames": 124,
+    "seconds": 5.166667,
+    "resolution": [
+      576,
+      1024
+    ],
+    "full_decode": true,
+    "contact": "review/shot_05_h3.jpg"
+  },
+  "shot_06": {
+    "frames": 124,
+    "seconds": 5.166667,
+    "resolution": [
+      576,
+      1024
+    ],
+    "full_decode": true,
+    "contact": "review/shot_06_h3.jpg"
+  },
+  "shot_07": {
+    "frames": 124,
+    "seconds": 5.166667,
+    "resolution": [
+      576,
+      1024
+    ],
+    "full_decode": true,
+    "contact": "review/shot_07_h3.jpg"
+  },
+  "shot_08": {
+    "frames": 124,
+    "seconds": 5.166667,
+    "resolution": [
+      576,
+      1024
+    ],
+    "full_decode": true,
+    "contact": "review/shot_08_h3.jpg"
+  },
+  "shot_09": {
+    "frames": 141,
+    "seconds": 5.875,
+    "resolution": [
+      576,
+      1024
+    ],
+    "full_decode": true,
+    "contact": "review/shot_09_h3.jpg"
+  },
+  "shot_10": {
+    "frames": 226,
+    "seconds": 9.416666666666666,
+    "resolution": [
+      576,
+      1024
+    ],
+    "full_decode": true,
+    "contact": "review/shot_10_v3_dense.jpg",
+    "version": "baseline20-v3",
+    "samples": 19
+  },
+  "shot_11": {
+    "frames": 226,
+    "seconds": 9.416667,
+    "resolution": [
+      576,
+      1024
+    ],
+    "full_decode": true,
+    "contact": "review/shot_11_h3.jpg"
+  },
+  "shot_12": {
+    "frames": 192,
+    "seconds": 8.0,
+    "resolution": [
+      576,
+      1024
+    ],
+    "full_decode": true,
+    "contact": "review/shot_12_h3.jpg"
+  },
+  "shot_13": {
+    "frames": 209,
+    "seconds": 8.708333,
+    "resolution": [
+      576,
+      1024
+    ],
+    "full_decode": true,
+    "contact": "review/shot_13_h3.jpg"
+  }
+}

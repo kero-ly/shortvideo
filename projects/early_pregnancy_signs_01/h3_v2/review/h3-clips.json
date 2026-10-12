@@ -1,0 +1,130 @@
+{
+  "shot_01": {
+    "clip": "runs/h3-pregnancy-01-20261013-021929-74fb/clip.mp4",
+    "sha256": "d483460027566b5c257bb5935603dbc11b0f674bcea2d054ab2db469de644663",
+    "image": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_01_v1.png",
+    "reference_sha256": "fe2ddd0d92f65d41ac69132e561919901961b418c5c39dcbfd834f2cc7493b69",
+    "target_frames": 187,
+    "review": "Accepted: calendar and adult identity stable across five sampled frames; glance, head lift and relaxed breathing visible.",
+    "accepted": true
+  },
+  "shot_03": {
+    "clip": "runs/h3-pregnancy-03-20261013-022258-773f/clip.mp4",
+    "sha256": "46e1e137e5051b6f7fee45065aaeb518a29779e91bb48309c2e73aacda7a3a04",
+    "image": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_03_v1.png",
+    "reference_sha256": "ec914bada4b98e5b9ce5c90b0728f3b06b75e5bd85aca239a858f812770bff57",
+    "target_frames": 115,
+    "review": "Accepted: leans back onto sofa and closes eyes; seat contact stable.",
+    "accepted": true
+  },
+  "shot_04": {
+    "clip": "runs/h3-pregnancy-04-20261013-022403-a668/clip.mp4",
+    "sha256": "da676d2005a00cb9a854544b8b2a7afacc9b1591f269fe8e2652390f4504b52d",
+    "image": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_04_v1.png",
+    "reference_sha256": "461a1f748700ebde036ef7841f86dc60eb91750349b46f14320a564fc77301f4",
+    "target_frames": 108,
+    "review": "Accepted: hand adjusts cardigan and lowers; fully clothed, no anatomy distortion in samples. Mouth briefly opens; no dialogue audio is retained.",
+    "accepted": true
+  },
+  "shot_05": {
+    "clip": "runs/h3-pregnancy-05-20261013-022508-e3ce/clip.mp4",
+    "sha256": "0792b083f82783762ba1c9df332fa8dad2c0e9080f596e8c80ee32b731e06563",
+    "image": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_05_v1.png",
+    "reference_sha256": "b728e11e5d48bcf31ca82edd626447bf57bd83c6601240fde09ba4411c1c39de",
+    "target_frames": 98,
+    "review": "Accepted: hand near mouth, head bows and eyes close, then recovers; no vomiting or alarming collapse.",
+    "accepted": true
+  },
+  "shot_06": {
+    "clip": "runs/h3-pregnancy-06-20261013-022614-6948/clip.mp4",
+    "sha256": "ad83a8ca8a4db274d83432ddb2672d64e9dab75b1e830fec97b1d195846e9075",
+    "image": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_06_v1.png",
+    "reference_sha256": "67e45abc8b15605c8f639c423e4e7411c2089e9e24379f8f773a551119faf58f",
+    "target_frames": 107,
+    "review": "Accepted for draft: cup and character stable; notices aroma and raises hand near nose. Expression is milder and leans forward before recoiling; not exact prompt compliance.",
+    "accepted": true
+  },
+  "shot_02": {
+    "clip": "runs/h3-pregnancy-02-20261013-022753-fccb/clip.mp4",
+    "sha256": "fc2ebc5d6518d4ce5af91edfc8cd2792faeaa689f79328df3d3ca17a0a60acce",
+    "image": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_02_v1.png",
+    "reference_sha256": "11246bd69913d34a10c07ba1250323c12e7555361a8485f564b5bcb3970ddcd0",
+    "target_frames": 122,
+    "review": "Accepted: finger moves away from calendar into thoughtful pose. More pondering than the requested single point; calendar context remains clear.",
+    "accepted": true
+  },
+  "shot_07": {
+    "clip": "runs/h3-pregnancy-07-20261013-022858-24eb/clip.mp4",
+    "sha256": "9ec5a2a92d373a4408428572cbdbadb528db8d8c18fe4614eeb87b313cbf3efb",
+    "image": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_07_v1.png",
+    "reference_sha256": "851573affac9fa4844bcb050a665a264cf336f28a028c9951647a918be9fb0de",
+    "target_frames": 112,
+    "review": "Accepted: two steps toward bathroom doorway, stable body and foot contact across samples.",
+    "accepted": true
+  },
+  "shot_08": {
+    "clip": "runs/h3-pregnancy-08-20261013-023003-dabe/clip.mp4",
+    "sha256": "2a2abd6ddfe475ea8d444b9307e9470771b03e2cf3304d4aa8a4bd104b6427f3",
+    "image": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_08_v1.png",
+    "reference_sha256": "37f65c4affa9430b9bd3b8550efe10dc4d60b65b239d28777d342664418b290e",
+    "target_frames": 105,
+    "review": "Accepted with motion deviation: plate is pushed aside then chopsticks are picked up despite prompt discouraging utensil motion. No obvious malformed hand in samples; reinforces preference change.",
+    "accepted": true
+  },
+  "shot_09": {
+    "clip": "runs/h3-pregnancy-09-20261013-023109-d3d2/clip.mp4",
+    "sha256": "330b29c76d0220d97424c8e97b6b2727cbd348d8fd29ce55b28fdb5ad8326086",
+    "image": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_09_v1.png",
+    "reference_sha256": "4070badd0a5af6b66805a06f22103f6521c534260d95d8312771282b62519870",
+    "target_frames": 125,
+    "review": "Accepted: phone lowers and expression changes; shot pushes in more strongly than requested, remains within usable framing.",
+    "accepted": true
+  },
+  "shot_10": {
+    "clip": "runs/h3-pregnancy-10-v3-20261013-024641-fd37/clip.mp4",
+    "sha256": "e7c5211f7cded6fe73928647739c4bc5a1b98342c5c914dfb44ae39860921fd7",
+    "image": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_10_v1.png",
+    "reference_sha256": "1c56e22759cf9109d53f350ab1faf98979b69e3b540a7c16addf8f6f59bd40c9",
+    "target_frames": 225,
+    "review": "Accepted v3 baseline20: 19 frames sampled at 0.5-second intervals; stable adult identity, hands and table, natural glance toward window and back down, no added speech bubbles or unrelated props in sampled frames. Full decode passed.",
+    "superseded": {
+      "clip": "runs/h3-pregnancy-10-20261013-023229-1d2c/clip.mp4",
+      "sha256": "36033b06c7c9c111f014950a50d08db595e48f6969d026a7be6cffb81987c675",
+      "image": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_10_v1.png",
+      "reference_sha256": "1c56e22759cf9109d53f350ab1faf98979b69e3b540a7c16addf8f6f59bd40c9",
+      "target_frames": 225,
+      "review": "pending video review"
+    },
+    "prompt_file": "prompts/shot_10_h3_v3.txt",
+    "prompt_id": "3669542d-ada3-43d1-85f1-549eb11f9ded",
+    "graph": "h3_baseline20.json",
+    "accepted": true
+  },
+  "shot_11": {
+    "clip": "runs/h3-pregnancy-11-20261013-023449-f29b/clip.mp4",
+    "sha256": "06f3d2d09e7ad2dbddd1af0f3864d4f1374acb75cc73a5ee8cdff6bb07c820e1",
+    "image": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_11_v1.png",
+    "reference_sha256": "66b133009dccde496d0eb929327536845539b714bc1015789cd1883764e4a5b0",
+    "target_frames": 218,
+    "review": "Accepted with motion deviation: leaflet is picked up despite request to keep flat; hands/paper remain coherent in samples and no pregnancy result is shown.",
+    "accepted": true
+  },
+  "shot_12": {
+    "clip": "runs/h3-pregnancy-12-20261013-023715-9f3f/clip.mp4",
+    "sha256": "9ee19a7895f591dcf951a7f28402e06d77c7354da851469c4a7d8dd9a6a06ead",
+    "image": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_12_v1.png",
+    "reference_sha256": "cf035dd5a14c75149ce3725e1b2fc36e2354a1cca034044a0e5e0f37a4582fd9",
+    "target_frames": 187,
+    "review": "Accepted: looks at phone and lowers gaze; no visible screen/result text.",
+    "accepted": true
+  },
+  "shot_13": {
+    "clip": "runs/h3-pregnancy-13-20261013-023906-2e26/clip.mp4",
+    "sha256": "0c178f454f3706955eb06ebd32e5a8574b2dca0eedc23655b07f91c29f720fa5",
+    "image": "projects/early_pregnancy_signs_01/h3_v2/references/shots/openlux_shot_13_v1.png",
+    "reference_sha256": "5d98d93d6fffc7546bae0e498f6b3b4542a684a7d924bb815f1cc38083f4d3be",
+    "target_frames": 201,
+    "review": "Accepted: stable seated adult, phone and legs; gentle facial changes. Mouth moves despite no talking request, treated as illustrative animation with separate narrator, not lip-sync.",
+    "accepted": true
+  }
+}

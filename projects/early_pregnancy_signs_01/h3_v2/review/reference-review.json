@@ -1,0 +1,21 @@
+{
+  "accepted_shots": [
+    "shot_01",
+    "shot_02",
+    "shot_03",
+    "shot_04",
+    "shot_05",
+    "shot_06",
+    "shot_07",
+    "shot_08",
+    "shot_09",
+    "shot_10",
+    "shot_11",
+    "shot_12",
+    "shot_13"
+  ],
+  "identity": "All shots edited from the same master. Short bob, sage cardigan, ivory shirt, charcoal trousers and beige shoes consistent across reviewed images. Some facial pose differences remain.",
+  "dimensions": "shot_01 941x1672; shots02–13 1024x1536. H3 generates at 576x1024; model input resizing may crop horizontal margins.",
+  "ruling_shot_11": "Leaflet already open in returned reference. H3 motion changed to lowering gaze and hand instead of opening it again.",
+  "review_scope": "All 13 references visually reviewed via full image/contact sheets before batch video generation."
+}
