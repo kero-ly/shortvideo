@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "status": "awaiting_confirmation",
+  "version": 2,
+  "status": "storyboard_review_pending",
   "style_preset": "2d-storybook-cream-warm-daily-list-explainer",
   "style_version": 1,
   "shots": [
@@ -10,13 +10,25 @@
       "target_seconds": 8,
       "narration": "月经还没来，身体又有点不一样？先别急着猜答案。早孕可能有这些变化，但每个人都不一样。",
       "screen_text": "身体有点不一样？",
-      "reference_image": null,
+      "reference_image": "references/shots/shot_01_v1.png",
       "planned_reference": "references/shots/shot_01_v1.png",
-      "image_prompt": "原创2D绘本插画，竖屏9:16，奶油白浅粉杏色配浅蓝，柔和棕色描边，平涂和少量柔和阴影。沿用已批准母版的同一位28岁成年女性：圆脸、自然成人五官、深棕锁骨长发、左侧小米白发夹、奶油开衫、浅陶粉长裤、米色拖鞋；站立约五头身、未显怀。保持成人身份和自然体型。关键主体避开顶部12%、底部18%、左右8%，不带文字水印，不出现胎儿、婴儿、明显孕肚或验孕阳性暗示。 场景：客厅中景，主角坐在沙发上看无字日历，右侧预留标题区。",
+      "image_prompt": "Create ONE complete portrait 9:16 storyboard reference frame, not a collage or character sheet. Preserve the exact adult woman identity and simple cartoon picture-book style from the supplied image: round face, tiny simple dark oval eyes, peach cheeks, brown shoulder-length hair with one ivory clip on HER LEFT side, cream cardigan over cream shirt, peach long trousers, beige slippers. Not visibly pregnant. Keep visible warm BROWN outlines, simplified shapes, soft cream peach and powder-blue flat colors with sparse gentle shading. No photorealism, 3D or detailed portrait rendering. Design the entire background and all props in the same illustration style; no isolated figure on blank background. Keep character face, hands and important props in middle 65 percent vertically and central 80 percent horizontally, leave quiet upper space for a title and lower space for subtitles. No words, numbers, text, logos, watermark, speech bubbles or UI. No extra people, baby or fetus. '' '\nThe same cozy living room: pale powder-blue wall, rounded cream two-seat sofa against the wall, ONE blush-pink cushion at sofa right, light oak oval coffee table, slender warm-brown floor lamp at far right with cream conical shade. Pale honey wood floor, small cream rug. Simple uncluttered geometry. Shot content: Seated on the sofa slightly left of center, she holds a small blank tabletop calendar resting on her lap, looking down with mild curiosity. The calendar contains only faint empty grid cells, absolutely no numbers or letters. Medium-wide view, hands and calendar visible. Keep upper 20 percent mostly uncluttered wall.",
       "motion_prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 从日历抬眼，轻轻放松肩膀。Camera: 缓慢推近。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
       "video_model": "MiniMax H3 on 220",
       "camera": "缓慢推近",
-      "action": "从日历抬眼，轻轻放松肩膀"
+      "action": "从日历抬眼，轻轻放松肩膀",
+      "scene_id": "living",
+      "scene_description": "The same cozy living room: pale powder-blue wall, rounded cream two-seat sofa against the wall, ONE blush-pink cushion at sofa right, light oak oval coffee table, slender warm-brown floor lamp at far right with cream conical shade. Pale honey wood floor, small cream rug. Simple uncluttered geometry.",
+      "frame_description": "Seated on the sofa slightly left of center, she holds a small blank tabletop calendar resting on her lap, looking down with mild curiosity. The calendar contains only faint empty grid cells, absolutely no numbers or letters. Medium-wide view, hands and calendar visible. Keep upper 20 percent mostly uncluttered wall.",
+      "source_reference": "references/character/master_v2.png",
+      "image_prompt_file": "prompts/shots/shot_01_image_v1.txt",
+      "text_layout": "标题置于顶部安全区下方；字幕位于底部安全区上方，避免挡脸与手",
+      "reference_sha256": "db9157244333c3b93c5189bfddc8e750cf598fd16c4240afc907547444acf896",
+      "actual_size": [
+        940,
+        1672
+      ],
+      "review_status": "awaiting_user_review"
     },
     {
       "id": "02",
@@ -24,13 +36,25 @@
       "target_seconds": 5,
       "narration": "第一，月经推迟。尤其平时周期比较规律时，值得留意。",
       "screen_text": "01 月经推迟",
-      "reference_image": null,
+      "reference_image": "references/shots/shot_02_v1.png",
       "planned_reference": "references/shots/shot_02_v1.png",
-      "image_prompt": "原创2D绘本插画，竖屏9:16，奶油白浅粉杏色配浅蓝，柔和棕色描边，平涂和少量柔和阴影。沿用已批准母版的同一位28岁成年女性：圆脸、自然成人五官、深棕锁骨长发、左侧小米白发夹、奶油开衫、浅陶粉长裤、米色拖鞋；站立约五头身、未显怀。保持成人身份和自然体型。关键主体避开顶部12%、底部18%、左右8%，不带文字水印，不出现胎儿、婴儿、明显孕肚或验孕阳性暗示。 场景：餐桌中景，主角看桌上无字日历；后期叠加预计经期标记。",
+      "image_prompt": "Create ONE complete portrait 9:16 storyboard reference frame, not a collage or character sheet. Preserve the exact adult woman identity and simple cartoon picture-book style from the supplied image: round face, tiny simple dark oval eyes, peach cheeks, brown shoulder-length hair with one ivory clip on HER LEFT side, cream cardigan over cream shirt, peach long trousers, beige slippers. Not visibly pregnant. Keep visible warm BROWN outlines, simplified shapes, soft cream peach and powder-blue flat colors with sparse gentle shading. No photorealism, 3D or detailed portrait rendering. Design the entire background and all props in the same illustration style; no isolated figure on blank background. Keep character face, hands and important props in middle 65 percent vertically and central 80 percent horizontally, leave quiet upper space for a title and lower space for subtitles. No words, numbers, text, logos, watermark, speech bubbles or UI. No extra people, baby or fetus. '' '\nThe same compact dining-kitchen: cream flat cabinet doors along back wall with pale oak countertop, pale blue backsplash, small rectangular window at back LEFT with ivory curtain, round light oak dining table in foreground, matching wooden chair. One small sage plant on back countertop RIGHT. Simple uncluttered geometry. Shot content: She sits at the dining table, looking thoughtfully down at a small freestanding calendar with empty grid cells and no numbers. One hand rests next to it, other hand relaxed. Medium view. Calendar plane faces camera enough for future date overlay. Only calendar on table. Upper wall remains uncluttered.",
       "motion_prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 用一根手指指向日历，稍作停顿。Camera: 固定。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
       "video_model": "MiniMax H3 on 220",
       "camera": "固定",
-      "action": "用一根手指指向日历，稍作停顿"
+      "action": "用一根手指指向日历，稍作停顿",
+      "scene_id": "dining",
+      "scene_description": "The same compact dining-kitchen: cream flat cabinet doors along back wall with pale oak countertop, pale blue backsplash, small rectangular window at back LEFT with ivory curtain, round light oak dining table in foreground, matching wooden chair. One small sage plant on back countertop RIGHT. Simple uncluttered geometry.",
+      "frame_description": "She sits at the dining table, looking thoughtfully down at a small freestanding calendar with empty grid cells and no numbers. One hand rests next to it, other hand relaxed. Medium view. Calendar plane faces camera enough for future date overlay. Only calendar on table. Upper wall remains uncluttered.",
+      "source_reference": "references/character/master_v2.png",
+      "image_prompt_file": "prompts/shots/shot_02_image_v1.txt",
+      "text_layout": "标题置于顶部安全区下方；字幕位于底部安全区上方，避免挡脸与手",
+      "reference_sha256": "e7c7208b76cc394033f904c960b305211280ca2f7ebf9bfa8a87599d77e81b9c",
+      "actual_size": [
+        940,
+        1672
+      ],
+      "review_status": "awaiting_user_review"
     },
     {
       "id": "03",
@@ -38,13 +62,25 @@
       "target_seconds": 5,
       "narration": "第二，容易累。平常做完不费力的事，也想坐下来歇一歇。",
       "screen_text": "02 比平时更容易累",
-      "reference_image": null,
+      "reference_image": "references/shots/shot_03_v1.png",
       "planned_reference": "references/shots/shot_03_v1.png",
-      "image_prompt": "原创2D绘本插画，竖屏9:16，奶油白浅粉杏色配浅蓝，柔和棕色描边，平涂和少量柔和阴影。沿用已批准母版的同一位28岁成年女性：圆脸、自然成人五官、深棕锁骨长发、左侧小米白发夹、奶油开衫、浅陶粉长裤、米色拖鞋；站立约五头身、未显怀。保持成人身份和自然体型。关键主体避开顶部12%、底部18%、左右8%，不带文字水印，不出现胎儿、婴儿、明显孕肚或验孕阳性暗示。 场景：沙发中景，主角已经坐稳，身旁放叠好的毛巾。",
-      "motion_prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 抱住靠垫，轻轻打一个哈欠。Camera: 固定。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
+      "image_prompt": "Create ONE complete portrait 9:16 storyboard reference frame, not a collage or character sheet. Preserve the exact adult woman identity and simple cartoon picture-book style from the supplied image: round face, tiny simple dark oval eyes, peach cheeks, brown shoulder-length hair with one ivory clip on HER LEFT side, cream cardigan over cream shirt, peach long trousers, beige slippers. Not visibly pregnant. Keep visible warm BROWN outlines, simplified shapes, soft cream peach and powder-blue flat colors with sparse gentle shading. No photorealism, 3D or detailed portrait rendering. Design the entire background and all props in the same illustration style; no isolated figure on blank background. Keep character face, hands and important props in middle 65 percent vertically and central 80 percent horizontally, leave quiet upper space for a title and lower space for subtitles. No words, numbers, text, logos, watermark, speech bubbles or UI. No extra people, baby or fetus. '' '\nThe same cozy living room: pale powder-blue wall, rounded cream two-seat sofa against the wall, ONE blush-pink cushion at sofa right, light oak oval coffee table, slender warm-brown floor lamp at far right with cream conical shade. Pale honey wood floor, small cream rug. Simple uncluttered geometry. Shot content: Same living room and same woman. Remove calendar entirely. Seated comfortably on cream sofa, holding the blush-pink cushion against lap with both hands, eyelids gently lowered, mouth only slightly open at the START of a yawn. Two neatly folded cream towels on coffee table. Medium view. No extra cushions needed. Preserve the same room geometry, furniture design, character face and clothing of the reference; change only composition, pose and listed foreground props as specified.",
+      "motion_prompt": "Preserve the same adult woman, room and storybook illustration. One continuous static-camera shot. 保持一手抱靠垫，另一手轻掩嘴完成哈欠后放松。Small gentle motion, stable hands, stable face, no cuts, no new props or text, no lip-sync.",
       "video_model": "MiniMax H3 on 220",
       "camera": "固定",
-      "action": "抱住靠垫，轻轻打一个哈欠"
+      "action": "保持一手抱靠垫，另一手轻掩嘴完成哈欠后放松",
+      "scene_id": "living",
+      "scene_description": "The same cozy living room: pale powder-blue wall, rounded cream two-seat sofa against the wall, ONE blush-pink cushion at sofa right, light oak oval coffee table, slender warm-brown floor lamp at far right with cream conical shade. Pale honey wood floor, small cream rug. Simple uncluttered geometry.",
+      "frame_description": "Same living room and same woman. Remove calendar entirely. Seated comfortably on cream sofa, holding the blush-pink cushion against lap with both hands, eyelids gently lowered, mouth only slightly open at the START of a yawn. Two neatly folded cream towels on coffee table. Medium view. No extra cushions needed.",
+      "source_reference": "references/shots/shot_01_v1.png",
+      "image_prompt_file": "prompts/shots/shot_03_image_v1.txt",
+      "text_layout": "标题置于顶部安全区下方；字幕位于底部安全区上方，避免挡脸与手",
+      "reference_sha256": "714f7e575a043cdb88164dbcdfcff2e11ece7928435d5622e6c81a6f0255a39e",
+      "actual_size": [
+        940,
+        1672
+      ],
+      "review_status": "awaiting_user_review"
     },
     {
       "id": "04",
@@ -52,13 +88,25 @@
       "target_seconds": 4.5,
       "narration": "第三，乳房胀痛或变得敏感。不过，经前也可能这样。",
       "screen_text": "03 乳房胀痛或敏感｜经前也可能出现",
-      "reference_image": null,
+      "reference_image": "references/shots/shot_04_v1.png",
       "planned_reference": "references/shots/shot_04_v1.png",
-      "image_prompt": "原创2D绘本插画，竖屏9:16，奶油白浅粉杏色配浅蓝，柔和棕色描边，平涂和少量柔和阴影。沿用已批准母版的同一位28岁成年女性：圆脸、自然成人五官、深棕锁骨长发、左侧小米白发夹、奶油开衫、浅陶粉长裤、米色拖鞋；站立约五头身、未显怀。保持成人身份和自然体型。关键主体避开顶部12%、底部18%、左右8%，不带文字水印，不出现胎儿、婴儿、明显孕肚或验孕阳性暗示。 场景：卧室上半身中景，衣着完整，主角手已搭在开衫前襟，镜头不聚焦胸部。",
+      "image_prompt": "Create ONE complete portrait 9:16 storyboard reference frame, not a collage or character sheet. Preserve the exact adult woman identity and simple cartoon picture-book style from the supplied image: round face, tiny simple dark oval eyes, peach cheeks, brown shoulder-length hair with one ivory clip on HER LEFT side, cream cardigan over cream shirt, peach long trousers, beige slippers. Not visibly pregnant. Keep visible warm BROWN outlines, simplified shapes, soft cream peach and powder-blue flat colors with sparse gentle shading. No photorealism, 3D or detailed portrait rendering. Design the entire background and all props in the same illustration style; no isolated figure on blank background. Keep character face, hands and important props in middle 65 percent vertically and central 80 percent horizontally, leave quiet upper space for a title and lower space for subtitles. No words, numbers, text, logos, watermark, speech bubbles or UI. No extra people, baby or fetus. '' '\nA cozy bedroom matching the apartment: pale blue wall, bed at back LEFT with ivory duvet and one peach pillow, pale oak nightstand, simple wood clothes stand at back RIGHT. No mirrors. Shot content: She stands in bedroom in an ordinary waist-up medium view. Fully clothed in the same cardigan and undershirt, one hand lightly touching the cardigan edge at upper chest while other arm hangs relaxed. Mildly uncomfortable expression, no exposed skin or breast emphasis. Upper 20 percent uncluttered wall.",
       "motion_prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 轻调开衫前襟，微皱眉后停住。Camera: 固定。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
       "video_model": "MiniMax H3 on 220",
       "camera": "固定",
-      "action": "轻调开衫前襟，微皱眉后停住"
+      "action": "轻调开衫前襟，微皱眉后停住",
+      "scene_id": "bedroom",
+      "scene_description": "A cozy bedroom matching the apartment: pale blue wall, bed at back LEFT with ivory duvet and one peach pillow, pale oak nightstand, simple wood clothes stand at back RIGHT. No mirrors.",
+      "frame_description": "She stands in bedroom in an ordinary waist-up medium view. Fully clothed in the same cardigan and undershirt, one hand lightly touching the cardigan edge at upper chest while other arm hangs relaxed. Mildly uncomfortable expression, no exposed skin or breast emphasis. Upper 20 percent uncluttered wall.",
+      "source_reference": "references/character/master_v2.png",
+      "image_prompt_file": "prompts/shots/shot_04_image_v1.txt",
+      "text_layout": "标题置于顶部安全区下方；字幕位于底部安全区上方，避免挡脸与手",
+      "reference_sha256": "2da78ce6be6543cb5f4c92c13881c7e1efb4fe2e6bde73c2d190b8f81f074d3b",
+      "actual_size": [
+        940,
+        1672
+      ],
+      "review_status": "awaiting_user_review"
     },
     {
       "id": "05",
@@ -66,13 +114,25 @@
       "target_seconds": 4,
       "narration": "第四，恶心。它不一定只在早晨出现。",
       "screen_text": "04 恶心｜不只在早晨",
-      "reference_image": null,
+      "reference_image": "references/shots/shot_05_v1.png",
       "planned_reference": "references/shots/shot_05_v1.png",
-      "image_prompt": "原创2D绘本插画，竖屏9:16，奶油白浅粉杏色配浅蓝，柔和棕色描边，平涂和少量柔和阴影。沿用已批准母版的同一位28岁成年女性：圆脸、自然成人五官、深棕锁骨长发、左侧小米白发夹、奶油开衫、浅陶粉长裤、米色拖鞋；站立约五头身、未显怀。保持成人身份和自然体型。关键主体避开顶部12%、底部18%、左右8%，不带文字水印，不出现胎儿、婴儿、明显孕肚或验孕阳性暗示。 场景：厨房中景，人物身前留空，桌上只有水杯。",
+      "image_prompt": "Create ONE complete portrait 9:16 storyboard reference frame, not a collage or character sheet. Preserve the exact adult woman identity and simple cartoon picture-book style from the supplied image: round face, tiny simple dark oval eyes, peach cheeks, brown shoulder-length hair with one ivory clip on HER LEFT side, cream cardigan over cream shirt, peach long trousers, beige slippers. Not visibly pregnant. Keep visible warm BROWN outlines, simplified shapes, soft cream peach and powder-blue flat colors with sparse gentle shading. No photorealism, 3D or detailed portrait rendering. Design the entire background and all props in the same illustration style; no isolated figure on blank background. Keep character face, hands and important props in middle 65 percent vertically and central 80 percent horizontally, leave quiet upper space for a title and lower space for subtitles. No words, numbers, text, logos, watermark, speech bubbles or UI. No extra people, baby or fetus. '' '\nThe same compact dining-kitchen: cream flat cabinet doors along back wall with pale oak countertop, pale blue backsplash, small rectangular window at back LEFT with ivory curtain, round light oak dining table in foreground, matching wooden chair. One small sage plant on back countertop RIGHT. Simple uncluttered geometry. Shot content: Same kitchen and woman. Remove calendar and other tabletop objects. She sits at table, one hand near her mouth, slightly uneasy expression at the beginning of mild nausea. A single plain ivory water cup on table. Other hand resting visibly on tabletop. No vomit. Preserve the same room geometry, furniture design, character face and clothing of the reference; change only composition, pose and listed foreground props as specified.",
       "motion_prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 轻掩嘴并停顿，不呕吐、不弯腰剧烈晃动。Camera: 固定。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
       "video_model": "MiniMax H3 on 220",
       "camera": "固定",
-      "action": "轻掩嘴并停顿，不呕吐、不弯腰剧烈晃动"
+      "action": "轻掩嘴并停顿，不呕吐、不弯腰剧烈晃动",
+      "scene_id": "dining",
+      "scene_description": "The same compact dining-kitchen: cream flat cabinet doors along back wall with pale oak countertop, pale blue backsplash, small rectangular window at back LEFT with ivory curtain, round light oak dining table in foreground, matching wooden chair. One small sage plant on back countertop RIGHT. Simple uncluttered geometry.",
+      "frame_description": "Same kitchen and woman. Remove calendar and other tabletop objects. She sits at table, one hand near her mouth, slightly uneasy expression at the beginning of mild nausea. A single plain ivory water cup on table. Other hand resting visibly on tabletop. No vomit.",
+      "source_reference": "references/shots/shot_02_v1.png",
+      "image_prompt_file": "prompts/shots/shot_05_image_v1.txt",
+      "text_layout": "标题置于顶部安全区下方；字幕位于底部安全区上方，避免挡脸与手",
+      "reference_sha256": "fa23df050aaa2da200bedea5dd60f3e1f555392ce6c69eb5259751fdb5821360",
+      "actual_size": [
+        940,
+        1672
+      ],
+      "review_status": "awaiting_user_review"
     },
     {
       "id": "06",
@@ -80,13 +140,25 @@
       "target_seconds": 4.5,
       "narration": "第五，对气味更敏感。熟悉的味道，突然觉得受不了。",
       "screen_text": "05 对气味更敏感",
-      "reference_image": null,
+      "reference_image": "references/shots/shot_06_v1.png",
       "planned_reference": "references/shots/shot_06_v1.png",
-      "image_prompt": "原创2D绘本插画，竖屏9:16，奶油白浅粉杏色配浅蓝，柔和棕色描边，平涂和少量柔和阴影。沿用已批准母版的同一位28岁成年女性：圆脸、自然成人五官、深棕锁骨长发、左侧小米白发夹、奶油开衫、浅陶粉长裤、米色拖鞋；站立约五头身、未显怀。保持成人身份和自然体型。关键主体避开顶部12%、底部18%、左右8%，不带文字水印，不出现胎儿、婴儿、明显孕肚或验孕阳性暗示。 场景：餐桌中景，一碗热汤在左前景，人物居中；不画鼻子比喻或文字气泡。",
+      "image_prompt": "Create ONE complete portrait 9:16 storyboard reference frame, not a collage or character sheet. Preserve the exact adult woman identity and simple cartoon picture-book style from the supplied image: round face, tiny simple dark oval eyes, peach cheeks, brown shoulder-length hair with one ivory clip on HER LEFT side, cream cardigan over cream shirt, peach long trousers, beige slippers. Not visibly pregnant. Keep visible warm BROWN outlines, simplified shapes, soft cream peach and powder-blue flat colors with sparse gentle shading. No photorealism, 3D or detailed portrait rendering. Design the entire background and all props in the same illustration style; no isolated figure on blank background. Keep character face, hands and important props in middle 65 percent vertically and central 80 percent horizontally, leave quiet upper space for a title and lower space for subtitles. No words, numbers, text, logos, watermark, speech bubbles or UI. No extra people, baby or fetus. '' '\nThe same compact dining-kitchen: cream flat cabinet doors along back wall with pale oak countertop, pale blue backsplash, small rectangular window at back LEFT with ivory curtain, round light oak dining table in foreground, matching wooden chair. One small sage plant on back countertop RIGHT. Simple uncluttered geometry. Shot content: Same kitchen and woman. Remove calendar, cup and any other table objects. ONE pale blue bowl of soup sits in foreground LEFT, a few subtle drawn steam curls. Woman center, beginning to turn face slightly away from bowl, eyebrows showing discomfort; both hands resting naturally on table. Do not pinch nose, no bubbles or symbols. Preserve the same room geometry, furniture design, character face and clothing of the reference; change only composition, pose and listed foreground props as specified.",
       "motion_prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 微转头避开热汤，另一只手保持静止。Camera: 固定。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
       "video_model": "MiniMax H3 on 220",
       "camera": "固定",
-      "action": "微转头避开热汤，另一只手保持静止"
+      "action": "微转头避开热汤，另一只手保持静止",
+      "scene_id": "dining",
+      "scene_description": "The same compact dining-kitchen: cream flat cabinet doors along back wall with pale oak countertop, pale blue backsplash, small rectangular window at back LEFT with ivory curtain, round light oak dining table in foreground, matching wooden chair. One small sage plant on back countertop RIGHT. Simple uncluttered geometry.",
+      "frame_description": "Same kitchen and woman. Remove calendar, cup and any other table objects. ONE pale blue bowl of soup sits in foreground LEFT, a few subtle drawn steam curls. Woman center, beginning to turn face slightly away from bowl, eyebrows showing discomfort; both hands resting naturally on table. Do not pinch nose, no bubbles or symbols.",
+      "source_reference": "references/shots/shot_02_v1.png",
+      "image_prompt_file": "prompts/shots/shot_06_image_v1.txt",
+      "text_layout": "标题置于顶部安全区下方；字幕位于底部安全区上方，避免挡脸与手",
+      "reference_sha256": "8bb59284a71a0de60ee5a7be22cbd16dc869691b0f2a836d70e45656c471a3b2",
+      "actual_size": [
+        940,
+        1672
+      ],
+      "review_status": "awaiting_user_review"
     },
     {
       "id": "07",
@@ -94,13 +166,27 @@
       "target_seconds": 4.5,
       "narration": "第六，上厕所比平时频繁，尤其是小便次数增多。",
       "screen_text": "06 小便次数增多",
-      "reference_image": null,
-      "planned_reference": "references/shots/shot_07_v1.png",
-      "image_prompt": "原创2D绘本插画，竖屏9:16，奶油白浅粉杏色配浅蓝，柔和棕色描边，平涂和少量柔和阴影。沿用已批准母版的同一位28岁成年女性：圆脸、自然成人五官、深棕锁骨长发、左侧小米白发夹、奶油开衫、浅陶粉长裤、米色拖鞋；站立约五头身、未显怀。保持成人身份和自然体型。关键主体避开顶部12%、底部18%、左右8%，不带文字水印，不出现胎儿、婴儿、明显孕肚或验孕阳性暗示。 场景：走廊中景，人物在洗手间门外侧身站立，门关闭。",
+      "reference_image": "references/shots/shot_07_v2.png",
+      "planned_reference": "references/shots/shot_07_v2.png",
+      "image_prompt": "Make one small continuity correction to this exact storyboard illustration: remove the small ivory hair clip currently visible on the LEFT side of the image from her hair. Her head is turned so the original clip on her anatomical left would be hidden from this view. Fill that tiny region with continuous brown hair. Preserve EVERYTHING else: exact adult character face, expression, hairstyle silhouette, clothes, hands, feet, pose, hallway perspective, closed door, wall art, lighting, full-frame composition and illustration style. No new objects, no text. Do not mirror the image.",
       "motion_prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 朝门方向走一小步后停下；不打开门。Camera: 固定。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
       "video_model": "MiniMax H3 on 220",
       "camera": "固定",
-      "action": "朝门方向走一小步后停下；不打开门"
+      "action": "朝门方向走一小步后停下；不打开门",
+      "scene_id": "hall",
+      "scene_description": "A short hallway matching the apartment: pale blue walls, pale oak floor, CLOSED pale oak bathroom door on frame RIGHT with simple bronze lever, cream skirting board, small pale peach framed abstract print on LEFT wall. No signs or text.",
+      "frame_description": "She stands just LEFT of the closed bathroom door, body turned a little toward door, feet visible and positioned at the start of one small step. No painful grimace, no hand on abdomen. Relaxed adult posture with a mildly purposeful expression. Medium-wide view. Room and door completely visible, upper 20 percent quiet wall.",
+      "source_reference": "references/shots/shot_07_v1.png",
+      "initial_source_reference": "references/character/master_v2.png",
+      "initial_image_prompt": "Create ONE complete portrait 9:16 storyboard reference frame, not a collage or character sheet. Preserve the exact adult woman identity and simple cartoon picture-book style from the supplied image: round face, tiny simple dark oval eyes, peach cheeks, brown shoulder-length hair with one ivory clip on HER LEFT side, cream cardigan over cream shirt, peach long trousers, beige slippers. Not visibly pregnant. Keep visible warm BROWN outlines, simplified shapes, soft cream peach and powder-blue flat colors with sparse gentle shading. No photorealism, 3D or detailed portrait rendering. Design the entire background and all props in the same illustration style; no isolated figure on blank background. Keep character face, hands and important props in middle 65 percent vertically and central 80 percent horizontally, leave quiet upper space for a title and lower space for subtitles. No words, numbers, text, logos, watermark, speech bubbles or UI. No extra people, baby or fetus. '' '\nA short hallway matching the apartment: pale blue walls, pale oak floor, CLOSED pale oak bathroom door on frame RIGHT with simple bronze lever, cream skirting board, small pale peach framed abstract print on LEFT wall. No signs or text. Shot content: She stands just LEFT of the closed bathroom door, body turned a little toward door, feet visible and positioned at the start of one small step. No painful grimace, no hand on abdomen. Relaxed adult posture with a mildly purposeful expression. Medium-wide view. Room and door completely visible, upper 20 percent quiet wall.",
+      "image_prompt_file": "prompts/shots/shot_07_image_v2.txt",
+      "text_layout": "标题置于顶部安全区下方；字幕位于底部安全区上方，避免挡脸与手",
+      "reference_sha256": "88868389d922d22c67d51b6ace8da3601b2972d25d41390899d2138a19829282",
+      "actual_size": [
+        940,
+        1672
+      ],
+      "review_status": "awaiting_user_review"
     },
     {
       "id": "08",
@@ -108,13 +194,25 @@
       "target_seconds": 4.5,
       "narration": "第七，口味变了。以前爱吃的食物，现在可能不想碰。",
       "screen_text": "07 口味变化",
-      "reference_image": null,
+      "reference_image": "references/shots/shot_08_v1.png",
       "planned_reference": "references/shots/shot_08_v1.png",
-      "image_prompt": "原创2D绘本插画，竖屏9:16，奶油白浅粉杏色配浅蓝，柔和棕色描边，平涂和少量柔和阴影。沿用已批准母版的同一位28岁成年女性：圆脸、自然成人五官、深棕锁骨长发、左侧小米白发夹、奶油开衫、浅陶粉长裤、米色拖鞋；站立约五头身、未显怀。保持成人身份和自然体型。关键主体避开顶部12%、底部18%、左右8%，不带文字水印，不出现胎儿、婴儿、明显孕肚或验孕阳性暗示。 场景：餐桌中景，人物面前一盘简单食物，双手清楚可见。",
+      "image_prompt": "Create ONE complete portrait 9:16 storyboard reference frame, not a collage or character sheet. Preserve the exact adult woman identity and simple cartoon picture-book style from the supplied image: round face, tiny simple dark oval eyes, peach cheeks, brown shoulder-length hair with one ivory clip on HER LEFT side, cream cardigan over cream shirt, peach long trousers, beige slippers. Not visibly pregnant. Keep visible warm BROWN outlines, simplified shapes, soft cream peach and powder-blue flat colors with sparse gentle shading. No photorealism, 3D or detailed portrait rendering. Design the entire background and all props in the same illustration style; no isolated figure on blank background. Keep character face, hands and important props in middle 65 percent vertically and central 80 percent horizontally, leave quiet upper space for a title and lower space for subtitles. No words, numbers, text, logos, watermark, speech bubbles or UI. No extra people, baby or fetus. '' '\nThe same compact dining-kitchen: cream flat cabinet doors along back wall with pale oak countertop, pale blue backsplash, small rectangular window at back LEFT with ivory curtain, round light oak dining table in foreground, matching wooden chair. One small sage plant on back countertop RIGHT. Simple uncluttered geometry. Shot content: Same kitchen and woman. Remove calendar, cup, bowl. ONE cream plate with a simple serving of toast and vegetables in front of her. Hands placed naturally beside the plate, about to slide it away, mild lack-of-appetite expression, eyes open. No utensils to complicate hands. Preserve the same room geometry, furniture design, character face and clothing of the reference; change only composition, pose and listed foreground props as specified.",
       "motion_prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 将餐盘轻推远一点，轻摇头。Camera: 固定。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
       "video_model": "MiniMax H3 on 220",
       "camera": "固定",
-      "action": "将餐盘轻推远一点，轻摇头"
+      "action": "将餐盘轻推远一点，轻摇头",
+      "scene_id": "dining",
+      "scene_description": "The same compact dining-kitchen: cream flat cabinet doors along back wall with pale oak countertop, pale blue backsplash, small rectangular window at back LEFT with ivory curtain, round light oak dining table in foreground, matching wooden chair. One small sage plant on back countertop RIGHT. Simple uncluttered geometry.",
+      "frame_description": "Same kitchen and woman. Remove calendar, cup, bowl. ONE cream plate with a simple serving of toast and vegetables in front of her. Hands placed naturally beside the plate, about to slide it away, mild lack-of-appetite expression, eyes open. No utensils to complicate hands.",
+      "source_reference": "references/shots/shot_02_v1.png",
+      "image_prompt_file": "prompts/shots/shot_08_image_v1.txt",
+      "text_layout": "标题置于顶部安全区下方；字幕位于底部安全区上方，避免挡脸与手",
+      "reference_sha256": "fe3a6975a81cccd7f1a041107161abdfc314267a36905efff183ac4bb5f964d4",
+      "actual_size": [
+        940,
+        1672
+      ],
+      "review_status": "awaiting_user_review"
     },
     {
       "id": "09",
@@ -122,13 +220,25 @@
       "target_seconds": 5,
       "narration": "第八，情绪起伏比平时明显，也可能只是众多变化之一。",
       "screen_text": "08 情绪起伏",
-      "reference_image": null,
+      "reference_image": "references/shots/shot_09_v1.png",
       "planned_reference": "references/shots/shot_09_v1.png",
-      "image_prompt": "原创2D绘本插画，竖屏9:16，奶油白浅粉杏色配浅蓝，柔和棕色描边，平涂和少量柔和阴影。沿用已批准母版的同一位28岁成年女性：圆脸、自然成人五官、深棕锁骨长发、左侧小米白发夹、奶油开衫、浅陶粉长裤、米色拖鞋；站立约五头身、未显怀。保持成人身份和自然体型。关键主体避开顶部12%、底部18%、左右8%，不带文字水印，不出现胎儿、婴儿、明显孕肚或验孕阳性暗示。 场景：客厅中景，手机屏幕朝下放在旁边，人物轻皱眉。",
+      "image_prompt": "Create ONE complete portrait 9:16 storyboard reference frame, not a collage or character sheet. Preserve the exact adult woman identity and simple cartoon picture-book style from the supplied image: round face, tiny simple dark oval eyes, peach cheeks, brown shoulder-length hair with one ivory clip on HER LEFT side, cream cardigan over cream shirt, peach long trousers, beige slippers. Not visibly pregnant. Keep visible warm BROWN outlines, simplified shapes, soft cream peach and powder-blue flat colors with sparse gentle shading. No photorealism, 3D or detailed portrait rendering. Design the entire background and all props in the same illustration style; no isolated figure on blank background. Keep character face, hands and important props in middle 65 percent vertically and central 80 percent horizontally, leave quiet upper space for a title and lower space for subtitles. No words, numbers, text, logos, watermark, speech bubbles or UI. No extra people, baby or fetus. '' '\nThe same cozy living room: pale powder-blue wall, rounded cream two-seat sofa against the wall, ONE blush-pink cushion at sofa right, light oak oval coffee table, slender warm-brown floor lamp at far right with cream conical shade. Pale honey wood floor, small cream rug. Simple uncluttered geometry. Shot content: Same living room and woman. Remove calendar and towels. Woman sits on cream sofa with slightly furrowed eyebrows and closed mouth, hands resting on lap. One peach phone lies face-down on coffee table. Cushion on her right. Medium view, not crying, no emoji or thought bubbles. Preserve the same room geometry, furniture design, character face and clothing of the reference; change only composition, pose and listed foreground props as specified.",
       "motion_prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 呼出一口气，眉头逐渐放松。Camera: 轻推近。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
       "video_model": "MiniMax H3 on 220",
       "camera": "轻推近",
-      "action": "呼出一口气，眉头逐渐放松"
+      "action": "呼出一口气，眉头逐渐放松",
+      "scene_id": "living",
+      "scene_description": "The same cozy living room: pale powder-blue wall, rounded cream two-seat sofa against the wall, ONE blush-pink cushion at sofa right, light oak oval coffee table, slender warm-brown floor lamp at far right with cream conical shade. Pale honey wood floor, small cream rug. Simple uncluttered geometry.",
+      "frame_description": "Same living room and woman. Remove calendar and towels. Woman sits on cream sofa with slightly furrowed eyebrows and closed mouth, hands resting on lap. One peach phone lies face-down on coffee table. Cushion on her right. Medium view, not crying, no emoji or thought bubbles.",
+      "source_reference": "references/shots/shot_01_v1.png",
+      "image_prompt_file": "prompts/shots/shot_09_image_v1.txt",
+      "text_layout": "标题置于顶部安全区下方；字幕位于底部安全区上方，避免挡脸与手",
+      "reference_sha256": "4eac6e87dc11e3e8e6a7589b0b19ba8c433227445523fa4deeb8eebb840f56ea",
+      "actual_size": [
+        940,
+        1672
+      ],
+      "review_status": "awaiting_user_review"
     },
     {
       "id": "10",
@@ -136,13 +246,25 @@
       "target_seconds": 9.5,
       "narration": "但请记住，有几条都不能直接说明怀孕，没有这些反应也不能排除。最可靠的下一步，是按说明做一次验孕。",
       "screen_text": "有症状≠确定怀孕｜没症状≠排除怀孕",
-      "reference_image": null,
+      "reference_image": "references/shots/shot_10_v1.png",
       "planned_reference": "references/shots/shot_10_v1.png",
-      "image_prompt": "原创2D绘本插画，竖屏9:16，奶油白浅粉杏色配浅蓝，柔和棕色描边，平涂和少量柔和阴影。沿用已批准母版的同一位28岁成年女性：圆脸、自然成人五官、深棕锁骨长发、左侧小米白发夹、奶油开衫、浅陶粉长裤、米色拖鞋；站立约五头身、未显怀。保持成人身份和自然体型。关键主体避开顶部12%、底部18%、左右8%，不带文字水印，不出现胎儿、婴儿、明显孕肚或验孕阳性暗示。 场景：人物安静坐在画面左下，右上留出信息卡区域；不出现宝宝或验孕结果。",
+      "image_prompt": "Create ONE complete portrait 9:16 storyboard reference frame, not a collage or character sheet. Preserve the exact adult woman identity and simple cartoon picture-book style from the supplied image: round face, tiny simple dark oval eyes, peach cheeks, brown shoulder-length hair with one ivory clip on HER LEFT side, cream cardigan over cream shirt, peach long trousers, beige slippers. Not visibly pregnant. Keep visible warm BROWN outlines, simplified shapes, soft cream peach and powder-blue flat colors with sparse gentle shading. No photorealism, 3D or detailed portrait rendering. Design the entire background and all props in the same illustration style; no isolated figure on blank background. Keep character face, hands and important props in middle 65 percent vertically and central 80 percent horizontally, leave quiet upper space for a title and lower space for subtitles. No words, numbers, text, logos, watermark, speech bubbles or UI. No extra people, baby or fetus. '' '\nThe same cozy living room: pale powder-blue wall, rounded cream two-seat sofa against the wall, ONE blush-pink cushion at sofa right, light oak oval coffee table, slender warm-brown floor lamp at far right with cream conical shade. Pale honey wood floor, small cream rug. Simple uncluttered geometry. Shot content: Same living room, wider composition. Woman seated on sofa in LOWER LEFT portion, calmly looking forward. Keep large clean pale blue wall area across upper-middle and upper-right for later information overlay; environment still fills entire image. Remove calendar, towels, phone; table empty. Floor lamp stays far right, no text cards generated. Preserve the same room geometry, furniture design, character face and clothing of the reference; change only composition, pose and listed foreground props as specified.",
       "motion_prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 看向前方，轻点头一次。Camera: 固定。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
       "video_model": "MiniMax H3 on 220",
       "camera": "固定",
-      "action": "看向前方，轻点头一次"
+      "action": "看向前方，轻点头一次",
+      "scene_id": "living",
+      "scene_description": "The same cozy living room: pale powder-blue wall, rounded cream two-seat sofa against the wall, ONE blush-pink cushion at sofa right, light oak oval coffee table, slender warm-brown floor lamp at far right with cream conical shade. Pale honey wood floor, small cream rug. Simple uncluttered geometry.",
+      "frame_description": "Same living room, wider composition. Woman seated on sofa in LOWER LEFT portion, calmly looking forward. Keep large clean pale blue wall area across upper-middle and upper-right for later information overlay; environment still fills entire image. Remove calendar, towels, phone; table empty. Floor lamp stays far right, no text cards generated.",
+      "source_reference": "references/shots/shot_01_v1.png",
+      "image_prompt_file": "prompts/shots/shot_10_image_v1.txt",
+      "text_layout": "信息在上方墙面留白区逐条出现，不同时堆叠全部长句；字幕下方安全区内排版，避免遮挡人物",
+      "reference_sha256": "de09607c948af58e095de6ad051b5f177bf0b840384a943e10211b840e229452",
+      "actual_size": [
+        940,
+        1672
+      ],
+      "review_status": "awaiting_user_review"
     },
     {
       "id": "11",
@@ -150,13 +272,25 @@
       "target_seconds": 9,
       "narration": "通常从月经推迟的第一天开始测。如果不知道月经什么时候来，就在上次无保护性行为至少二十一天后测。",
       "screen_text": "月经推迟第一天起｜日期不清：上次无保护性行为至少21天后",
-      "reference_image": null,
+      "reference_image": "references/shots/shot_11_v1.png",
       "planned_reference": "references/shots/shot_11_v1.png",
-      "image_prompt": "原创2D绘本插画，竖屏9:16，奶油白浅粉杏色配浅蓝，柔和棕色描边，平涂和少量柔和阴影。沿用已批准母版的同一位28岁成年女性：圆脸、自然成人五官、深棕锁骨长发、左侧小米白发夹、奶油开衫、浅陶粉长裤、米色拖鞋；站立约五头身、未显怀。保持成人身份和自然体型。关键主体避开顶部12%、底部18%、左右8%，不带文字水印，不出现胎儿、婴儿、明显孕肚或验孕阳性暗示。 场景：桌旁人物放在左下，桌上无品牌的封闭验孕包装及说明书，右侧大面积留空。",
+      "image_prompt": "Create ONE complete portrait 9:16 storyboard reference frame, not a collage or character sheet. Preserve the exact adult woman identity and simple cartoon picture-book style from the supplied image: round face, tiny simple dark oval eyes, peach cheeks, brown shoulder-length hair with one ivory clip on HER LEFT side, cream cardigan over cream shirt, peach long trousers, beige slippers. Not visibly pregnant. Keep visible warm BROWN outlines, simplified shapes, soft cream peach and powder-blue flat colors with sparse gentle shading. No photorealism, 3D or detailed portrait rendering. Design the entire background and all props in the same illustration style; no isolated figure on blank background. Keep character face, hands and important props in middle 65 percent vertically and central 80 percent horizontally, leave quiet upper space for a title and lower space for subtitles. No words, numbers, text, logos, watermark, speech bubbles or UI. No extra people, baby or fetus. '' '\nThe same compact dining-kitchen: cream flat cabinet doors along back wall with pale oak countertop, pale blue backsplash, small rectangular window at back LEFT with ivory curtain, round light oak dining table in foreground, matching wooden chair. One small sage plant on back countertop RIGHT. Simple uncluttered geometry. Shot content: Same kitchen in wide composition. Woman seated lower LEFT of image, looking at a folded blank ivory instruction leaflet on table and a small plain SEALED peach-and-white rectangular test-kit box beside it. No visible test stick, no results, no printed words. Her hand rests near leaflet, about to point. Large uncluttered wall area upper RIGHT for later precise information cards. Preserve the same room geometry, furniture design, character face and clothing of the reference; change only composition, pose and listed foreground props as specified.",
       "motion_prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 轻指向桌上说明书后保持。Camera: 固定。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
       "video_model": "MiniMax H3 on 220",
       "camera": "固定",
-      "action": "轻指向桌上说明书后保持"
+      "action": "轻指向桌上说明书后保持",
+      "scene_id": "dining",
+      "scene_description": "The same compact dining-kitchen: cream flat cabinet doors along back wall with pale oak countertop, pale blue backsplash, small rectangular window at back LEFT with ivory curtain, round light oak dining table in foreground, matching wooden chair. One small sage plant on back countertop RIGHT. Simple uncluttered geometry.",
+      "frame_description": "Same kitchen in wide composition. Woman seated lower LEFT of image, looking at a folded blank ivory instruction leaflet on table and a small plain SEALED peach-and-white rectangular test-kit box beside it. No visible test stick, no results, no printed words. Her hand rests near leaflet, about to point. Large uncluttered wall area upper RIGHT for later precise information cards.",
+      "source_reference": "references/shots/shot_02_v1.png",
+      "image_prompt_file": "prompts/shots/shot_11_image_v1.txt",
+      "text_layout": "信息在上方墙面留白区逐条出现，不同时堆叠全部长句；字幕下方安全区内排版，避免遮挡人物",
+      "reference_sha256": "563f8413466851262ea166cc3fadab041696c994a785675421b2f661a7c32166",
+      "actual_size": [
+        940,
+        1672
+      ],
+      "review_status": "awaiting_user_review"
     },
     {
       "id": "12",
@@ -164,13 +298,27 @@
       "target_seconds": 8,
       "narration": "测得太早是阴性，月经又没来？过几天再测一次。第二次仍是阴性、月经还没来，可以咨询医生。",
       "screen_text": "过几天复测 → 仍阴性且月经没来：咨询医生",
-      "reference_image": null,
-      "planned_reference": "references/shots/shot_12_v1.png",
-      "image_prompt": "原创2D绘本插画，竖屏9:16，奶油白浅粉杏色配浅蓝，柔和棕色描边，平涂和少量柔和阴影。沿用已批准母版的同一位28岁成年女性：圆脸、自然成人五官、深棕锁骨长发、左侧小米白发夹、奶油开衫、浅陶粉长裤、米色拖鞋；站立约五头身、未显怀。保持成人身份和自然体型。关键主体避开顶部12%、底部18%、左右8%，不带文字水印，不出现胎儿、婴儿、明显孕肚或验孕阳性暗示。 场景：人物在餐桌前看手机背面，左侧留白用于后期步骤卡。",
-      "motion_prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 拿起手机到舒适阅读位置后停住。Camera: 固定。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
+      "reference_image": "references/shots/shot_12_v2.png",
+      "planned_reference": "references/shots/shot_12_v2.png",
+      "image_prompt": "Make ONLY this room continuity correction: change the large plain powder-blue wall area ABOVE the tiled kitchen backsplash to warm pale cream ivory (#FFF4DE), matching the cream cabinetry. Keep the tiled backsplash pale blue. Preserve every other pixel-level feature as closely as possible: same woman, face, phone in hand, pose, clothing, hair clip, table, window and curtain, plant, cabinets and the entire composition. No words, text or new objects. Keep the same soft brown outlined simple storybook style.",
+      "motion_prompt": "Preserve the same adult woman, room and storybook illustration. One continuous static-camera shot. 保持手机在手中，轻看屏幕后自然点头。Small gentle motion, stable hands, stable face, no cuts, no new props or text, no lip-sync.",
       "video_model": "MiniMax H3 on 220",
       "camera": "固定",
-      "action": "拿起手机到舒适阅读位置后停住"
+      "action": "保持手机在手中，轻看屏幕后自然点头",
+      "scene_id": "dining",
+      "scene_description": "The same compact dining-kitchen: cream flat cabinet doors along back wall with pale oak countertop, pale blue backsplash, small rectangular window at back LEFT with ivory curtain, round light oak dining table in foreground, matching wooden chair. One small sage plant on back countertop RIGHT. Simple uncluttered geometry.",
+      "frame_description": "Same kitchen in wide composition. Woman seated lower RIGHT of image, beginning to lift a plain peach smartphone with one hand, back of phone visible to viewer, other hand resting on table. Remove packaging and leaflet, table otherwise empty. Large uncluttered pale blue wall area upper LEFT for later steps text.",
+      "source_reference": "references/shots/shot_12_v1.png",
+      "initial_source_reference": "references/shots/shot_02_v1.png",
+      "initial_image_prompt": "Create ONE complete portrait 9:16 storyboard reference frame, not a collage or character sheet. Preserve the exact adult woman identity and simple cartoon picture-book style from the supplied image: round face, tiny simple dark oval eyes, peach cheeks, brown shoulder-length hair with one ivory clip on HER LEFT side, cream cardigan over cream shirt, peach long trousers, beige slippers. Not visibly pregnant. Keep visible warm BROWN outlines, simplified shapes, soft cream peach and powder-blue flat colors with sparse gentle shading. No photorealism, 3D or detailed portrait rendering. Design the entire background and all props in the same illustration style; no isolated figure on blank background. Keep character face, hands and important props in middle 65 percent vertically and central 80 percent horizontally, leave quiet upper space for a title and lower space for subtitles. No words, numbers, text, logos, watermark, speech bubbles or UI. No extra people, baby or fetus. '' '\nThe same compact dining-kitchen: cream flat cabinet doors along back wall with pale oak countertop, pale blue backsplash, small rectangular window at back LEFT with ivory curtain, round light oak dining table in foreground, matching wooden chair. One small sage plant on back countertop RIGHT. Simple uncluttered geometry. Shot content: Same kitchen in wide composition. Woman seated lower RIGHT of image, beginning to lift a plain peach smartphone with one hand, back of phone visible to viewer, other hand resting on table. Remove packaging and leaflet, table otherwise empty. Large uncluttered pale blue wall area upper LEFT for later steps text. Preserve the same room geometry, furniture design, character face and clothing of the reference; change only composition, pose and listed foreground props as specified.",
+      "image_prompt_file": "prompts/shots/shot_12_image_v2.txt",
+      "text_layout": "信息在上方墙面留白区逐条出现，不同时堆叠全部长句；字幕下方安全区内排版，避免遮挡人物",
+      "reference_sha256": "3c7c9f56602ba4344243488bd34567f94ef4b8603d8710a2df3fd54cac6fc6d0",
+      "actual_size": [
+        941,
+        1672
+      ],
+      "review_status": "awaiting_user_review"
     },
     {
       "id": "13",
@@ -178,13 +326,26 @@
       "target_seconds": 8.5,
       "narration": "要是出现明显腹痛或阴道出血，请及时就医。先确认，再决定下一步，不用一个人靠猜。",
       "screen_text": "明显腹痛或阴道出血：及时就医｜先确认，再决定下一步",
-      "reference_image": null,
+      "reference_image": "references/shots/shot_13_v1.png",
       "planned_reference": "references/shots/shot_13_v1.png",
-      "image_prompt": "原创2D绘本插画，竖屏9:16，奶油白浅粉杏色配浅蓝，柔和棕色描边，平涂和少量柔和阴影。沿用已批准母版的同一位28岁成年女性：圆脸、自然成人五官、深棕锁骨长发、左侧小米白发夹、奶油开衫、浅陶粉长裤、米色拖鞋；站立约五头身、未显怀。保持成人身份和自然体型。关键主体避开顶部12%、底部18%、左右8%，不带文字水印，不出现胎儿、婴儿、明显孕肚或验孕阳性暗示。 场景：客厅人物坐稳，旁边放水杯；无腹痛表演、无流血画面；上方预留提醒卡。",
+      "image_prompt": "Create ONE complete portrait 9:16 storyboard reference frame, not a collage or character sheet. Preserve the exact adult woman identity and simple cartoon picture-book style from the supplied image: round face, tiny simple dark oval eyes, peach cheeks, brown shoulder-length hair with one ivory clip on HER LEFT side, cream cardigan over cream shirt, peach long trousers, beige slippers. Not visibly pregnant. Keep visible warm BROWN outlines, simplified shapes, soft cream peach and powder-blue flat colors with sparse gentle shading. No photorealism, 3D or detailed portrait rendering. Design the entire background and all props in the same illustration style; no isolated figure on blank background. Keep character face, hands and important props in middle 65 percent vertically and central 80 percent horizontally, leave quiet upper space for a title and lower space for subtitles. No words, numbers, text, logos, watermark, speech bubbles or UI. No extra people, baby or fetus. '' '\nThe same cozy living room: pale powder-blue wall, rounded cream two-seat sofa against the wall, ONE blush-pink cushion at sofa right, light oak oval coffee table, slender warm-brown floor lamp at far right with cream conical shade. Pale honey wood floor, small cream rug. Simple uncluttered geometry. Shot content: Same living room in wide composition. Woman sits comfortably in lower center-left of cream sofa, calm supportive expression and relaxed shoulders, hands on lap. ONE ivory water cup on coffee table, cushion at her right. Keep generous upper wall space for later safety reminder and closing text. No pain, blood, icons or medical emergency imagery. Preserve the same room geometry, furniture design, character face and clothing of the reference; change only composition, pose and listed foreground props as specified.",
       "motion_prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 肩膀自然放松，平静看向前方。Camera: 轻微拉远。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
       "video_model": "MiniMax H3 on 220",
       "camera": "轻微拉远",
-      "action": "肩膀自然放松，平静看向前方"
+      "action": "肩膀自然放松，平静看向前方",
+      "scene_id": "living",
+      "scene_description": "The same cozy living room: pale powder-blue wall, rounded cream two-seat sofa against the wall, ONE blush-pink cushion at sofa right, light oak oval coffee table, slender warm-brown floor lamp at far right with cream conical shade. Pale honey wood floor, small cream rug. Simple uncluttered geometry.",
+      "frame_description": "Same living room in wide composition. Woman sits comfortably in lower center-left of cream sofa, calm supportive expression and relaxed shoulders, hands on lap. ONE ivory water cup on coffee table, cushion at her right. Keep generous upper wall space for later safety reminder and closing text. No pain, blood, icons or medical emergency imagery.",
+      "source_reference": "references/shots/shot_01_v1.png",
+      "image_prompt_file": "prompts/shots/shot_13_image_v1.txt",
+      "text_layout": "信息在上方墙面留白区逐条出现，不同时堆叠全部长句；字幕下方安全区内排版，避免遮挡人物",
+      "reference_sha256": "08571023d2915086b35cb7f6601366a45c3f64d4a3638f43c4798b1775952a12",
+      "actual_size": [
+        941,
+        1672
+      ],
+      "review_status": "awaiting_user_review"
     }
-  ]
+  ],
+  "character_reference": "references/character/master_v2.png"
 }

@@ -1,0 +1,115 @@
+{
+  "assets": [
+    {
+      "path": "references/character/master_v1.png",
+      "sha256": "fac759a27bd05fc8fef65e5ee64c1a38d9d520006409c6d98f19c44252c6d7f7",
+      "bytes": 1781081
+    },
+    {
+      "path": "references/character/master_v2.png",
+      "sha256": "cdedd6cceb43e2ebd66d20f09a5de62bdb8a84178fc4b7da43cee3c094b2a83e",
+      "bytes": 1229111
+    },
+    {
+      "path": "references/character/sheet_v1.png",
+      "sha256": "0ca9453be1af65ab89aaf34c5441558ce9227ff92dd643ba26c6f64bdddee583",
+      "bytes": 1617738
+    },
+    {
+      "path": "references/character/sheet_v2.png",
+      "sha256": "1690018a06f4890451f640386353b309289f0fd86583e03804bea6aa9d1498e3",
+      "bytes": 1413743
+    },
+    {
+      "path": "references/shots/shot_01_v1.png",
+      "sha256": "db9157244333c3b93c5189bfddc8e750cf598fd16c4240afc907547444acf896",
+      "bytes": 1820195
+    },
+    {
+      "path": "references/shots/shot_02_v1.png",
+      "sha256": "e7c7208b76cc394033f904c960b305211280ca2f7ebf9bfa8a87599d77e81b9c",
+      "bytes": 1714596
+    },
+    {
+      "path": "references/shots/shot_03_v1.png",
+      "sha256": "714f7e575a043cdb88164dbcdfcff2e11ece7928435d5622e6c81a6f0255a39e",
+      "bytes": 1703408
+    },
+    {
+      "path": "references/shots/shot_04_v1.png",
+      "sha256": "2da78ce6be6543cb5f4c92c13881c7e1efb4fe2e6bde73c2d190b8f81f074d3b",
+      "bytes": 1681438
+    },
+    {
+      "path": "references/shots/shot_05_v1.png",
+      "sha256": "fa23df050aaa2da200bedea5dd60f3e1f555392ce6c69eb5259751fdb5821360",
+      "bytes": 1640024
+    },
+    {
+      "path": "references/shots/shot_06_v1.png",
+      "sha256": "8bb59284a71a0de60ee5a7be22cbd16dc869691b0f2a836d70e45656c471a3b2",
+      "bytes": 1696253
+    },
+    {
+      "path": "references/shots/shot_07_v1.png",
+      "sha256": "71f472977f7b2d9902b14d7a05756e9fef6d7c915b6634168d824e4977e439a4",
+      "bytes": 1725231
+    },
+    {
+      "path": "references/shots/shot_07_v2.png",
+      "sha256": "88868389d922d22c67d51b6ace8da3601b2972d25d41390899d2138a19829282",
+      "bytes": 1731371
+    },
+    {
+      "path": "references/shots/shot_08_v1.png",
+      "sha256": "fe3a6975a81cccd7f1a041107161abdfc314267a36905efff183ac4bb5f964d4",
+      "bytes": 1784806
+    },
+    {
+      "path": "references/shots/shot_09_v1.png",
+      "sha256": "4eac6e87dc11e3e8e6a7589b0b19ba8c433227445523fa4deeb8eebb840f56ea",
+      "bytes": 1786571
+    },
+    {
+      "path": "references/shots/shot_10_v1.png",
+      "sha256": "de09607c948af58e095de6ad051b5f177bf0b840384a943e10211b840e229452",
+      "bytes": 1658313
+    },
+    {
+      "path": "references/shots/shot_11_v1.png",
+      "sha256": "563f8413466851262ea166cc3fadab041696c994a785675421b2f661a7c32166",
+      "bytes": 1731064
+    },
+    {
+      "path": "references/shots/shot_12_v1.png",
+      "sha256": "2b96727ebfb0f741395adc914791a2d5a142e19e1467db4e77e288b212aabf51",
+      "bytes": 1748186
+    },
+    {
+      "path": "references/shots/shot_12_v2.png",
+      "sha256": "3c7c9f56602ba4344243488bd34567f94ef4b8603d8710a2df3fd54cac6fc6d0",
+      "bytes": 1694979
+    },
+    {
+      "path": "references/shots/shot_13_v1.png",
+      "sha256": "08571023d2915086b35cb7f6601366a45c3f64d4a3638f43c4798b1775952a12",
+      "bytes": 1675589
+    },
+    {
+      "path": "review/qa-group-01.jpg",
+      "sha256": "3af8b0b8299fda3bc56716bbbc84a2a4c0c5d589cb39ffae276c458438d5fd2d",
+      "bytes": 166500
+    },
+    {
+      "path": "review/qa-group-02.jpg",
+      "sha256": "0c0564bec2588c0f14c7e7876a0e50363d08afbe687f68c814ba70c4c6fc3d6c",
+      "bytes": 107510
+    },
+    {
+      "path": "review/storyboard-overview.jpg",
+      "sha256": "cfb191dd5bc27c64e2f169c3b5c4154e063a6ca03f46ab2dcc1a756db3fea9ef",
+      "bytes": 427383
+    }
+  ],
+  "note": "媒体不入Git；选定13镜及输入图版本见frames-manifest.json"
+}

@@ -1,5 +1,5 @@
 {
-  "status": "character_review_pending",
+  "status": "character_direction_approved",
   "requests": 4,
   "assets": [
     {
@@ -40,5 +40,6 @@
     "sheet_v1": "edit master_v1; prompts/character/sheet_v1.txt; submitted before style correction",
     "master_v2": "edit master_v1; prompts/character/master_v2.txt",
     "sheet_v2": "edit master_v2; prompts/character/sheet_v1.txt"
-  }
+  },
+  "approval_basis": "用户：人物形象不错；随后明确授权完成全部分镜参考帧及中文文案供审核。仅角色方向及参考帧阶段获准，视频制作未批准。"
 }

@@ -1,0 +1,278 @@
+{
+  "status": "storyboard_review_pending",
+  "assets": [
+    {
+      "shot_id": "01",
+      "path": "references/shots/shot_01_v1.png",
+      "sha256": "db9157244333c3b93c5189bfddc8e750cf598fd16c4240afc907547444acf896",
+      "bytes": 1820195,
+      "actual_size": [
+        940,
+        1672
+      ],
+      "requested_size": [
+        1152,
+        2048
+      ],
+      "size_mismatch": true,
+      "input": "references/character/master_v2.png",
+      "input_sha256": "cdedd6cceb43e2ebd66d20f09a5de62bdb8a84178fc4b7da43cee3c094b2a83e",
+      "provider": "OpenLux",
+      "model": "gpt-image-2",
+      "image_prompt": "prompts/shots/shot_01_image_v1.txt",
+      "motion_prompt": "prompts/shots/shot_01_motion_v1.txt"
+    },
+    {
+      "shot_id": "02",
+      "path": "references/shots/shot_02_v1.png",
+      "sha256": "e7c7208b76cc394033f904c960b305211280ca2f7ebf9bfa8a87599d77e81b9c",
+      "bytes": 1714596,
+      "actual_size": [
+        940,
+        1672
+      ],
+      "requested_size": [
+        1152,
+        2048
+      ],
+      "size_mismatch": true,
+      "input": "references/character/master_v2.png",
+      "input_sha256": "cdedd6cceb43e2ebd66d20f09a5de62bdb8a84178fc4b7da43cee3c094b2a83e",
+      "provider": "OpenLux",
+      "model": "gpt-image-2",
+      "image_prompt": "prompts/shots/shot_02_image_v1.txt",
+      "motion_prompt": "prompts/shots/shot_02_motion_v1.txt"
+    },
+    {
+      "shot_id": "03",
+      "path": "references/shots/shot_03_v1.png",
+      "sha256": "714f7e575a043cdb88164dbcdfcff2e11ece7928435d5622e6c81a6f0255a39e",
+      "bytes": 1703408,
+      "actual_size": [
+        940,
+        1672
+      ],
+      "requested_size": [
+        1152,
+        2048
+      ],
+      "size_mismatch": true,
+      "input": "references/shots/shot_01_v1.png",
+      "input_sha256": "db9157244333c3b93c5189bfddc8e750cf598fd16c4240afc907547444acf896",
+      "provider": "OpenLux",
+      "model": "gpt-image-2",
+      "image_prompt": "prompts/shots/shot_03_image_v1.txt",
+      "motion_prompt": "prompts/shots/shot_03_motion_v1.txt"
+    },
+    {
+      "shot_id": "04",
+      "path": "references/shots/shot_04_v1.png",
+      "sha256": "2da78ce6be6543cb5f4c92c13881c7e1efb4fe2e6bde73c2d190b8f81f074d3b",
+      "bytes": 1681438,
+      "actual_size": [
+        940,
+        1672
+      ],
+      "requested_size": [
+        1152,
+        2048
+      ],
+      "size_mismatch": true,
+      "input": "references/character/master_v2.png",
+      "input_sha256": "cdedd6cceb43e2ebd66d20f09a5de62bdb8a84178fc4b7da43cee3c094b2a83e",
+      "provider": "OpenLux",
+      "model": "gpt-image-2",
+      "image_prompt": "prompts/shots/shot_04_image_v1.txt",
+      "motion_prompt": "prompts/shots/shot_04_motion_v1.txt"
+    },
+    {
+      "shot_id": "05",
+      "path": "references/shots/shot_05_v1.png",
+      "sha256": "fa23df050aaa2da200bedea5dd60f3e1f555392ce6c69eb5259751fdb5821360",
+      "bytes": 1640024,
+      "actual_size": [
+        940,
+        1672
+      ],
+      "requested_size": [
+        1152,
+        2048
+      ],
+      "size_mismatch": true,
+      "input": "references/shots/shot_02_v1.png",
+      "input_sha256": "e7c7208b76cc394033f904c960b305211280ca2f7ebf9bfa8a87599d77e81b9c",
+      "provider": "OpenLux",
+      "model": "gpt-image-2",
+      "image_prompt": "prompts/shots/shot_05_image_v1.txt",
+      "motion_prompt": "prompts/shots/shot_05_motion_v1.txt"
+    },
+    {
+      "shot_id": "06",
+      "path": "references/shots/shot_06_v1.png",
+      "sha256": "8bb59284a71a0de60ee5a7be22cbd16dc869691b0f2a836d70e45656c471a3b2",
+      "bytes": 1696253,
+      "actual_size": [
+        940,
+        1672
+      ],
+      "requested_size": [
+        1152,
+        2048
+      ],
+      "size_mismatch": true,
+      "input": "references/shots/shot_02_v1.png",
+      "input_sha256": "e7c7208b76cc394033f904c960b305211280ca2f7ebf9bfa8a87599d77e81b9c",
+      "provider": "OpenLux",
+      "model": "gpt-image-2",
+      "image_prompt": "prompts/shots/shot_06_image_v1.txt",
+      "motion_prompt": "prompts/shots/shot_06_motion_v1.txt"
+    },
+    {
+      "shot_id": "07",
+      "path": "references/shots/shot_07_v2.png",
+      "sha256": "88868389d922d22c67d51b6ace8da3601b2972d25d41390899d2138a19829282",
+      "bytes": 1731371,
+      "actual_size": [
+        940,
+        1672
+      ],
+      "requested_size": [
+        1152,
+        2048
+      ],
+      "size_mismatch": true,
+      "input": "references/shots/shot_07_v1.png",
+      "input_sha256": "71f472977f7b2d9902b14d7a05756e9fef6d7c915b6634168d824e4977e439a4",
+      "provider": "OpenLux",
+      "model": "gpt-image-2",
+      "image_prompt": "prompts/shots/shot_07_image_v2.txt",
+      "motion_prompt": "prompts/shots/shot_07_motion_v1.txt"
+    },
+    {
+      "shot_id": "08",
+      "path": "references/shots/shot_08_v1.png",
+      "sha256": "fe3a6975a81cccd7f1a041107161abdfc314267a36905efff183ac4bb5f964d4",
+      "bytes": 1784806,
+      "actual_size": [
+        940,
+        1672
+      ],
+      "requested_size": [
+        1152,
+        2048
+      ],
+      "size_mismatch": true,
+      "input": "references/shots/shot_02_v1.png",
+      "input_sha256": "e7c7208b76cc394033f904c960b305211280ca2f7ebf9bfa8a87599d77e81b9c",
+      "provider": "OpenLux",
+      "model": "gpt-image-2",
+      "image_prompt": "prompts/shots/shot_08_image_v1.txt",
+      "motion_prompt": "prompts/shots/shot_08_motion_v1.txt"
+    },
+    {
+      "shot_id": "09",
+      "path": "references/shots/shot_09_v1.png",
+      "sha256": "4eac6e87dc11e3e8e6a7589b0b19ba8c433227445523fa4deeb8eebb840f56ea",
+      "bytes": 1786571,
+      "actual_size": [
+        940,
+        1672
+      ],
+      "requested_size": [
+        1152,
+        2048
+      ],
+      "size_mismatch": true,
+      "input": "references/shots/shot_01_v1.png",
+      "input_sha256": "db9157244333c3b93c5189bfddc8e750cf598fd16c4240afc907547444acf896",
+      "provider": "OpenLux",
+      "model": "gpt-image-2",
+      "image_prompt": "prompts/shots/shot_09_image_v1.txt",
+      "motion_prompt": "prompts/shots/shot_09_motion_v1.txt"
+    },
+    {
+      "shot_id": "10",
+      "path": "references/shots/shot_10_v1.png",
+      "sha256": "de09607c948af58e095de6ad051b5f177bf0b840384a943e10211b840e229452",
+      "bytes": 1658313,
+      "actual_size": [
+        940,
+        1672
+      ],
+      "requested_size": [
+        1152,
+        2048
+      ],
+      "size_mismatch": true,
+      "input": "references/shots/shot_01_v1.png",
+      "input_sha256": "db9157244333c3b93c5189bfddc8e750cf598fd16c4240afc907547444acf896",
+      "provider": "OpenLux",
+      "model": "gpt-image-2",
+      "image_prompt": "prompts/shots/shot_10_image_v1.txt",
+      "motion_prompt": "prompts/shots/shot_10_motion_v1.txt"
+    },
+    {
+      "shot_id": "11",
+      "path": "references/shots/shot_11_v1.png",
+      "sha256": "563f8413466851262ea166cc3fadab041696c994a785675421b2f661a7c32166",
+      "bytes": 1731064,
+      "actual_size": [
+        940,
+        1672
+      ],
+      "requested_size": [
+        1152,
+        2048
+      ],
+      "size_mismatch": true,
+      "input": "references/shots/shot_02_v1.png",
+      "input_sha256": "e7c7208b76cc394033f904c960b305211280ca2f7ebf9bfa8a87599d77e81b9c",
+      "provider": "OpenLux",
+      "model": "gpt-image-2",
+      "image_prompt": "prompts/shots/shot_11_image_v1.txt",
+      "motion_prompt": "prompts/shots/shot_11_motion_v1.txt"
+    },
+    {
+      "shot_id": "12",
+      "path": "references/shots/shot_12_v2.png",
+      "sha256": "3c7c9f56602ba4344243488bd34567f94ef4b8603d8710a2df3fd54cac6fc6d0",
+      "bytes": 1694979,
+      "actual_size": [
+        941,
+        1672
+      ],
+      "requested_size": [
+        1152,
+        2048
+      ],
+      "size_mismatch": true,
+      "input": "references/shots/shot_12_v1.png",
+      "input_sha256": "2b96727ebfb0f741395adc914791a2d5a142e19e1467db4e77e288b212aabf51",
+      "provider": "OpenLux",
+      "model": "gpt-image-2",
+      "image_prompt": "prompts/shots/shot_12_image_v2.txt",
+      "motion_prompt": "prompts/shots/shot_12_motion_v1.txt"
+    },
+    {
+      "shot_id": "13",
+      "path": "references/shots/shot_13_v1.png",
+      "sha256": "08571023d2915086b35cb7f6601366a45c3f64d4a3638f43c4798b1775952a12",
+      "bytes": 1675589,
+      "actual_size": [
+        941,
+        1672
+      ],
+      "requested_size": [
+        1152,
+        2048
+      ],
+      "size_mismatch": true,
+      "input": "references/shots/shot_01_v1.png",
+      "input_sha256": "db9157244333c3b93c5189bfddc8e750cf598fd16c4240afc907547444acf896",
+      "provider": "OpenLux",
+      "model": "gpt-image-2",
+      "image_prompt": "prompts/shots/shot_13_image_v1.txt",
+      "motion_prompt": "prompts/shots/shot_13_motion_v1.txt"
+    }
+  ]
+}
