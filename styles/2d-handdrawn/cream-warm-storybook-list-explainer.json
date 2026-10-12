@@ -1,0 +1,60 @@
+{
+  "id": "2d-storybook-cream-warm-daily-list-explainer",
+  "version": 1,
+  "display_name": "2D 绘本插画 · 奶油暖彩 · 生活情境清单科普",
+  "alias": "奶油绘本科普",
+  "family": "2d-handdrawn",
+  "status": "draft_not_production_validated",
+  "visual": {
+    "medium": "2D 绘本插画",
+    "rendering": "棕色柔和描边、平涂结合轻柔阴影、少量纸感",
+    "character": "圆脸、简化五官、略大头的成人卡通；非幼儿或极端Q版"
+  },
+  "color": {
+    "temperature": "暖色为主，浅蓝平衡",
+    "brightness": "明亮",
+    "saturation": "低饱和",
+    "palette": [
+      "奶油白 #FFF4DE",
+      "浅粉 #F2C9BF",
+      "杏色 #EDBC91",
+      "浅蓝 #DCECF1",
+      "描边棕 #77513E"
+    ]
+  },
+  "setting": "生活居家",
+  "format": "情境清单科普",
+  "presentation": [
+    "一个编号一个生活情境",
+    "黄色深色描边短标题",
+    "独立旁白",
+    "后期精确文字与信息卡"
+  ],
+  "tone": "按主题配置，本期朋友式陪伴",
+  "pace": "本期舒缓适中，清单短切",
+  "frame": "9:16",
+  "tags": [
+    "2D",
+    "绘本",
+    "奶油",
+    "暖彩",
+    "低饱和",
+    "圆脸成人",
+    "居家",
+    "清单",
+    "科普"
+  ],
+  "skill": "skills/2d-scenario-explainer/SKILL.md",
+  "example": "projects/early_pregnancy_signs_storybook_02/PREPRODUCTION.md",
+  "reference": {
+    "source": "用户指定抖音当前视频：@挪Zhong（孕中期），怀孕后的八个变化，看你中了几个？，19秒",
+    "observed": "UI播放及抽样画面：片头、气味敏感、腰酸；未完成逐帧动态或听审",
+    "scope": "仅提取一般视觉语言；不复制角色或引用医学结论"
+  },
+  "motion_proposal": "H3小动作加固定镜头或轻推；这是本期方案，不是对参考片制作技术的断言",
+  "limitations": [
+    "新预设尚未生成验证",
+    "复用2D情境科普工作流；人物比例与配色以本预设覆盖默认值",
+    "画风与工具路线独立"
+  ]
+}
