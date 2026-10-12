@@ -1,0 +1,29 @@
+{
+  "status": "title_preview_pending_review",
+  "source_run": "runs/storybook-caption-fusion-20261013-074646-2632",
+  "host": "220",
+  "files": {
+    "caption-audit.json": "a880f3e162778fbe225dca2daeeeda83e5ae8a0fa62981981f02b6c722bdaa25",
+    "shot-09.png": "8eb3b8bcd41a85fcd731129e1f99177d2d07fd0db3a1405725ec7c587c663bc7",
+    "shot-01.png": "aad808e252afd2bfa7b5dd07e0c16d1e0f825045e4e85c54d4b89d0c55c205c4",
+    "shot-11.png": "6e839583940275be0b3252941df433e3a216fa8f49113e9ccf355fb0951388a7",
+    "shot-03.png": "d816973df10e913a73d562359924c5d51c547b5adf415a7d8c3cf90e34b949cf",
+    "props.json": "09238bdb49b569fc3ac1a52ec25a298160e0e697538d6d566128db53af989e39",
+    "shot-06.png": "23af1924bedfa38ce38e853f0a85f379f15b60466a809420b45ee3d1b29e358f",
+    "shot-13.png": "92548fca9ae22d5817f5d2852504be0d45386cbc5acf69909d4c042e66c4e07d",
+    "shot-04.png": "54db870dcf3015f35b72fe2bd4c3936029eedfb6fe053b7b669e41e73e3ae4a4",
+    "last-frame.png": "d15cd42fc3939ae4dc1505a8d6e6f01daf57295fb6e68d0e1d1068dcd5d3ca50",
+    "visual.mp4": "290a0002cf2ae1578c6227005d4fe1c78434a9b74de3ff4f6722bc87f857c1f1",
+    "shot-10.png": "482777c350e4b5c1fe07f964305562b33f1cadcf1302a771963cf6b5ba6ccbc5",
+    "preview.mp4": "bdb499b39bc835d6fcabad70a1baeac4c0f1e72299de4d280b0e0768455d0d4d",
+    "shot-07.png": "251562c589d5bbb4f551e371da29eb6025932a4e0ece4a9344d79386e035e00d",
+    "shot-05.png": "11a77c271820c9467d4fee94bc2dde935c65690b9c2fb41d863bd0f099a9c08e",
+    "shot-12.png": "b16d246cfcc5ec11573ceadf9fe76578e79c70b1aeecf2e603e4921308602263",
+    "shot-02.png": "4a945ac2865e4431d1adaa2ba4912e894c9e9347c1d87b4db8f09ac304794ec6",
+    "qa.json": "38602d7cc3cc76daa0e444dbcc40bf558420e28ee1e7704182268ea2f6ffb02d",
+    "index.html": "4c3763e1d54d982d45f612e6109c8bcd4eb03db3d0e2fb80510de444d1ea32bb",
+    "subtitles.srt": "c65ebc899cf9b984e68eaca68d5fd8b6961e04186e4c1192ad6b81e4f8ac7362",
+    "shot-08.png": "41e8dce7811b8da100aa10fb26e1b7b89ae38f6ecdc131d254c5a82b9c4eae88",
+    "contact.png": "94e34bd06a70e3af2e0f5203c75466c6e49dc619924268c0d809614ff8c9b8d0"
+  }
+}

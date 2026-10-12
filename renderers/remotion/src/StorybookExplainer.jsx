@@ -5,12 +5,13 @@ const infoFor=(kind,seconds)=>{
  const cards={truth:[['有这些反应','不能直接确认怀孕'],['没有明显反应','也不能排除怀孕']],test:[['月经日期清楚','月经推迟的第一天起测'],['不知道下次月经日期','上次无保护性行为\n至少 21 天后再测']],retest:[['测得太早，结果阴性','过几天再测一次'],['复测阴性，月经仍没来','可以咨询医生']],care:[['明显腹痛或阴道出血','请及时就医'],['先确认，再决定下一步','不用一个人靠猜']]};
  const thresholds={truth:4.4,test:3.15,retest:3.9,care:3.7};return cards[kind]?.[seconds<(thresholds[kind]||4)?0:1];
 };
-const Film=({scenes=[],captions=[],assetBase='',durationInFrames=240,subtitleLayout='classic'})=>{
+const Film=({scenes=[],captions=[],assetBase='',durationInFrames=240,subtitleLayout='classic',persistentTitle=''})=>{
  const f=useCurrentFrame();const s=scenes.find(x=>f>=x.start&&f<x.start+x.frames)||scenes[0];if(!s)return null;
  const lower=subtitleLayout==='lower-single'||subtitleLayout==='lower-fused';const local=(f-s.start)/24;const card=infoFor(s.kind,local);const cap=captions.find(x=>f/24>=x.start&&f/24<x.end);
  const alpha=interpolate(f-s.start,[0,5],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});
  return <AbsoluteFill style={{background:cream,color:ink,fontFamily:'Noto Sans CJK SC, sans-serif'}}>
  {scenes.map((x,i)=><Sequence key={x.id} from={x.start} durationInFrames={x.frames}><OffthreadVideo muted src={staticFile(`${assetBase}/shot_${x.shot_id||String(i+1).padStart(2,'0')}.mp4`)} style={{width:'100%',height:'100%',objectFit:'cover'}}/></Sequence>)}
+ {persistentTitle&&<div style={{position:'absolute',top:120,left:20,right:20,textAlign:'center',fontSize:90,fontWeight:900,lineHeight:1.3,whiteSpace:'nowrap',color:'#ffff00',WebkitTextStroke:'2.5px #684630',paintOrder:'stroke fill',textShadow:'0 3px 3px rgba(104,70,48,.18)'}}>{persistentTitle}</div>}
  {!lower&&<div style={{position:'absolute',top:228,left:78,right:110,textAlign:'center',opacity:alpha}}>
  <div style={{fontSize:card?58:68,fontWeight:900,lineHeight:1.4,color:ink,background:'rgba(255,232,157,.94)',display:'inline-block',padding:'4px 20px',borderRadius:16}}>{s.number?`${s.number} · `:''}{s.title}</div>
  {!card&&s.kind!=='intro'&&<div style={{display:'block',width:'fit-content',margin:'12px auto 0',padding:'5px 18px',borderRadius:14,background:'#fff8eced',fontSize:34,fontWeight:500}}>{s.note}</div>}

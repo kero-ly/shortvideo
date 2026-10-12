@@ -1,0 +1,25 @@
+{
+  "resolution": [
+    540,
+    960
+  ],
+  "frames": 1910,
+  "fps": 24,
+  "duration_seconds": 79.58333333333333,
+  "full_decode": true,
+  "title": "早孕可能出现的 8 个信号",
+  "title_style": {
+    "color": "#ffff00",
+    "font_size": 90,
+    "top": 120,
+    "side_inset": 20
+  },
+  "title_interval_frames": [
+    0,
+    1910
+  ],
+  "narration_and_caption_timing_unchanged": true,
+  "human_listening": false,
+  "visual_review": "13 scene samples and final frame checked: title fits, no face obstruction",
+  "run": "runs/storybook-title-20261013-075939-4a9b"
+}
