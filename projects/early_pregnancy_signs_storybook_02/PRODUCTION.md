@@ -43,3 +43,9 @@ SSH复用连接一度中断，已及时告知并重建220连接；原后台批�
 当前任务：runs/storybook-caption-restored-20261013-072152-12b7。
 
 交付：deliveries/storybook-caption-restored-20261013-072152-12b7/early_pregnancy_storybook.mp4；自动QA全部通过，SHA256：c5ab2fbbe68ed9cfcc68746443843fe9ba551fb3d28322ef48b79f80e98ad290。已下载本地，全部交付文件hash验证通过。
+
+## 当前正式尺寸交付 v4
+
+用户在融合字幕、亮黄色大标题及深棕描边预览后要求继续完成视频。220输出 deliveries/storybook-final-20261013-080953-5329/early_pregnancy_storybook.mp4；1080×1920、24fps、1910帧、79.583秒，H3原生576×1024放大。14项技术QA全部通过，-16.19 LUFS、-2.67 dBTP，结尾语音后保留0.689秒。13镜合成抽帧检查通过；自动词级字幕对齐及全稿覆盖已检查，完整人工观看和逐句实际听审尚未完成。声线公开使用权未核实，保留内部审阅标记。
+
+已下载本地同目录并验证全部manifest SHA256。视频SHA256：6d047f3438ec3f67a318282bbaad7ca276e51fa48b20e3156a59e820d0d0c371。媒体不入Git；复现入口scripts/finalize_approved_title.py，QA与清单review/final-v4/。

@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "checks": {
+    "complete_narration": true,
+    "ending_tail": true,
+    "audio_duration": true,
+    "resolution": true,
+    "fps": true,
+    "frames": true,
+    "codec": true,
+    "audio": true,
+    "duration": true,
+    "decode": true,
+    "no_black_frames": true,
+    "loudness": true,
+    "peak": true,
+    "h3_all_13": true
+  },
+  "duration_seconds": 79.58333333333333,
+  "loudness": {
+    "input_i": "-16.19",
+    "input_tp": "-2.67",
+    "input_lra": "3.40",
+    "input_thresh": "-26.30",
+    "output_i": "-15.96",
+    "output_tp": "-2.31",
+    "output_lra": "3.40",
+    "output_thresh": "-26.05",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.04"
+  },
+  "native_h3_resolution": [
+    576,
+    1024
+  ],
+  "delivery_resolution": [
+    1080,
+    1920
+  ],
+  "visual_review": "Nine sampled frames per H3 shot and composition contact reviewed; no full human playback or listening claimed",
+  "voice": "Existing internal review narration; production usage rights of source voice not verified",
+  "sha256": "6d047f3438ec3f67a318282bbaad7ca276e51fa48b20e3156a59e820d0d0c371",
+  "caption_audit": "caption-audit.json",
+  "title": {
+    "text": "早孕可能出现的 8 个信号",
+    "color": "#ffff00",
+    "font_size": 90,
+    "stroke": "6px #54351f",
+    "interval_frames": [
+      0,
+      1910
+    ]
+  },
+  "caption_timing_unchanged": true,
+  "source_review": "runs/storybook-title-20261013-080452-b41f"
+}
