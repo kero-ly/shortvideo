@@ -1,0 +1,2 @@
+# Reused resources
+capabilities/narration/indextts2.py copied from the supplied H3 Video Production repository scripts/generate_indextts2_remote.py (Apache-2.0; see LICENSE.reference). Shared IndexTTS2 runtime and model licenses remain at their original locations. teacher_reference_24k.wav is used for internal infrastructure testing only; production voice selection and usage rights must be confirmed for the chosen style.

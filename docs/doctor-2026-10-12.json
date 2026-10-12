@@ -1,0 +1,46 @@
+{
+  "python": {
+    "path": "/home/ly/shortvideo/.venv/bin/python",
+    "executable": true
+  },
+  "node": {
+    "path": "/usr/bin/node",
+    "executable": true
+  },
+  "ffmpeg": {
+    "path": "/usr/bin/ffmpeg",
+    "executable": true
+  },
+  "ffprobe": {
+    "path": "/usr/bin/ffprobe",
+    "executable": true
+  },
+  "tts_python": {
+    "path": "/home/ly/shortvideo/.runtime/tts/bin/python",
+    "readable": true
+  },
+  "tts_runtime": {
+    "path": "/home/video/indextts2_4090/qingyu_indextts_code",
+    "readable": true
+  },
+  "tts_models": {
+    "path": "/home/video/indextts2_4090/modelers_indextts2_try",
+    "readable": true
+  },
+  "tts_reference": {
+    "path": "/home/video/indextts2_4090/input/teacher_reference_24k.wav",
+    "readable": true
+  },
+  "tts_external_site_packages": {
+    "path": "/home/video/indextts2_4090/skill-venv/lib/python3.12/site-packages",
+    "readable": true
+  },
+  "remotion": {
+    "installed": true
+  },
+  "h3_220": {
+    "reachable": true,
+    "version": "0.30.0",
+    "inference_tested": false
+  }
+}

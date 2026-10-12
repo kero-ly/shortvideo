@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "root": "/home/ly/shortvideo",
+  "primary_host": "8.92.9.220",
+  "tools": {
+    "python": "/home/ly/shortvideo/.venv/bin/python",
+    "node": "/usr/bin/node",
+    "ffmpeg": "/usr/bin/ffmpeg",
+    "ffprobe": "/usr/bin/ffprobe",
+    "blender": "/usr/bin/blender",
+    "godot": null
+  },
+  "narration": {
+    "engine": "IndexTTS2",
+    "python": "/home/ly/shortvideo/.runtime/tts/bin/python",
+    "runtime": "/home/video/indextts2_4090/qingyu_indextts_code",
+    "models": "/home/video/indextts2_4090/modelers_indextts2_try",
+    "reference": "/home/video/indextts2_4090/input/teacher_reference_24k.wav",
+    "emotion_alpha": 0.65,
+    "external_site_packages": "/home/video/indextts2_4090/skill-venv/lib/python3.12/site-packages",
+    "additional_site_packages": [
+      "/home/video/indextts2_4090/venv/lib/python3.12/site-packages",
+      "/home/ly/.local/share/storio/engines/h3-20260918-r1/.venv/lib/python3.12/site-packages"
+    ]
+  },
+  "optional_services": {
+    "h3_220": {
+      "url": "http://127.0.0.1:8199",
+      "scope": "on_220",
+      "tested": "read_only_api"
+    },
+    "h3_219": {
+      "host": "8.92.9.219",
+      "url": "http://127.0.0.1:8193",
+      "scope": "on_219_or_ssh_tunnel",
+      "tested": "read_only_api"
+    },
+    "music3_219": {
+      "host": "8.92.9.219",
+      "url": "http://127.0.0.1:8207",
+      "scope": "on_219_or_ssh_tunnel",
+      "tested": "read_only_api"
+    }
+  },
+  "policy": {
+    "shared_models": "read_only",
+    "max_parallel_gpu_jobs": 1,
+    "gpu_selection": "explicit_after_free_memory_check"
+  }
+}

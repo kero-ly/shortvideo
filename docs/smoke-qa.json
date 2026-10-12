@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "size": true,
+    "fps": true,
+    "frames": true,
+    "audio_rate": true,
+    "audio_channels": true,
+    "duration": true,
+    "audible": true,
+    "full_decode": true
+  },
+  "passed": true,
+  "voice_seconds": 3.924172335600907,
+  "duration_seconds": 6.0,
+  "frames": 144,
+  "sha256": "6ff269a58769dd23d7e50c8c44e6d929328aeb887304ccf756c011d73f9e9f43",
+  "limits": [
+    "Infrastructure smoke only; no ASR verification or production style approval",
+    "H3, Music3, Blender, Godot and FreeCAD are not exercised by this smoke"
+  ]
+}
