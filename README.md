@@ -2,6 +2,12 @@
 
 独立生产目录：`/home/ly/shortvideo`（220）。原工程只作为选择性复用来源。
 
+本地创作目录：`/Users/ly/Desktop/project/shortvideo`。两端共享 Git 历史及源文件结构；环境和大文件单独管理。原仓库完整保留在同级 `shortvideo-reference-original`。
+
+- [目录与同步规则](docs/workspace-layout.md)
+- [当前早孕视频案例](projects/early_pregnancy_signs_01/README.md)
+- [当前 H3 V2 图片生成与归档说明](projects/early_pregnancy_signs_01/h3_v2/README.md)
+
 ## 快速验证
 ```bash
 cd /home/ly/shortvideo

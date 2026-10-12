@@ -6,3 +6,17 @@ runs/
 deliveries/
 .env
 __pycache__/
+.DS_Store
+*.env
+*.env.*
+!.env.example
+projects/**/latest-run.txt
+projects/**/generated/
+projects/**/references/**/*.png
+projects/**/references/**/*.jpg
+projects/**/references/**/*.jpeg
+projects/**/references/**/*.webp
+projects/**/references/**/*.mp4
+projects/**/references/**/*.wav
+projects/**/references/**/*.mp3
+projects/**/asr-model-cache/

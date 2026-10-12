@@ -1,0 +1,33 @@
+{
+  "engine": "faster-whisper small, CPU int8",
+  "character_similarity": 0.9773371104815864,
+  "differences": [
+    {
+      "locked": "歇",
+      "recognized": "些",
+      "kind": "replace"
+    },
+    {
+      "locked": "经前",
+      "recognized": "金钱",
+      "kind": "replace"
+    },
+    {
+      "locked": "频繁",
+      "recognized": "平凡",
+      "kind": "replace"
+    },
+    {
+      "locked": "验孕",
+      "recognized": "艳运",
+      "kind": "replace"
+    },
+    {
+      "locked": "猜",
+      "recognized": "彩",
+      "kind": "replace"
+    }
+  ],
+  "critical_facts": "Recognized missed-period day one, at least 21 days, negative retest, pain/bleeding advice.",
+  "limits": "Homophone substitutions are ASR observations, not proof of mispronunciation. Human listening/style approval remains for user review."
+}

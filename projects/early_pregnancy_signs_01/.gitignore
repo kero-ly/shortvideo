@@ -1,0 +1,4 @@
+asr-model-cache/
+*.wav
+*.mp4
+__pycache__/

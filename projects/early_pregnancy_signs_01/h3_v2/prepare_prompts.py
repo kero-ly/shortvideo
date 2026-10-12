@@ -1,0 +1,40 @@
+"""Materialize standalone prompts for the user and a reviewable H3 shot manifest."""
+import json
+from pathlib import Path
+P=Path(__file__).resolve().parent
+for d in ['prompts','references/character','references/shots','generated/h3','review']:(P/d).mkdir(parents=True,exist_ok=True)
+style='''原创二维手绘卡通动画电影关键帧，面向成年女性的温柔健康科普。清晰柔和的深灰青色轮廓线，平涂色块配少量柔和赛璐璐阴影、轻微纸张质感。奶油白、鼠尾草绿、浅木色为环境主色，青绿色与低饱和珊瑚色作人物配色。温暖自然日光，生活感，克制的表情，成人身体比例约六头身，不画成幼童、大头萌娃、3D玩偶或写实照片。不要模仿任何现有作者的具体角色、品牌或标识。'''
+identity='''同一个约30岁的普通成年女性：椭圆脸、深棕色齐下巴短发、左侧偏分、细长自然眉、深棕色眼睛、小巧自然鼻子、正常成人五官比例；身形匀称、腹部平坦、不暗示已怀孕。青绿色无图案开衫、米白色圆领内搭、深灰蓝宽松长裤、浅米色平底居家鞋。无耳环、无项链、无帽子、无复杂花纹。'''
+master=f'''请生成一张用于后续图像一致性参考的原创二维动画角色母版。\n{style}\n{identity}\n竖构图，单个人物完整全身，轻微四分之三正面朝向，平静亲切但不是大笑，双臂自然下垂，双手完整可见，双脚不裁切。人物占画面高度约75%，纯暖白背景，柔和脚底投影。不要道具，不要多视图，不要拼图，不要文字、字幕、水印、边框。面部与手部轮廓清晰，服装色块明确，方便后续复用。'''
+(P/'prompts/00_character_master.txt').write_text(master)
+(P/'prompts/00_character_sheet.txt').write_text(f'''使用我上传的 character_master.png 作为唯一身份参考，制作同一个人的角色设定表，不要重新设计长相、年龄、发型、身材或衣着。{style}\n{identity}\n横向画布，暖白底，严格分区：上排三个完整全身视图，正面、侧面、背面；下排五个头像表情：平静、轻微疑惑、疲惫、轻微恶心、舒缓。所有视图保持同一衣服、发型长度和面部骨架，成人比例一致。各视图互不遮挡，每个头像只一张脸，不要文字、标题、水印或装饰。此图是角色设计表，不是视频首帧。''')
+specs=[
+('01','A 开场','月经没来，先别急着猜','intro',8,'卧室床边，中景偏全身。主角坐在床边，右手拿着一本无文字无数字的小日历，左手放在膝上，低头看日历，眉头轻皱。床、浅色窗帘和小床头柜构成安静生活空间。日历只画空白网格，不出现任何日期、阳性标记或婴儿图案。','She glances down at the blank calendar in her hand, gently furrows her eyebrows, then relaxes her shoulders and breathes out. Keep the calendar rigid and stable. Slow subtle push-in, one continuous shot, no cuts.'),
+('02','B 八种变化','月经推迟','s01',5,'同一卧室，桌边中景。主角在画面右侧看着桌面上的小台历，右手食指停在台历某个空白格旁，左手自然搭桌沿。台历朝向主角且能被镜头看见，仅空白网格，没有文字数字。动作起点是手指尚未触到格子。','She gently points once to a blank calendar cell, pauses thoughtfully, then looks back at the calendar. Locked medium shot, very slight push-in. The grid stays unchanged; no dates or text appear.'),
+('03','B 八种变化','比平时更容易累','s02',5,'同一住宅客厅，中景偏全身。主角刚在浅米色沙发上坐稳，双脚自然落地，双手搭膝，肩膀有点低，表情疲倦但不痛苦。旁边是一小筐叠好的衣物，说明刚做了轻家务。沙发座面与臀部接触可信，双腿完整，不是悬空蹲姿。','Already seated on the sofa, she eases back against the cushion, lowers her shoulders, briefly closes her eyes and exhales. Feet remain planted and hands rest on her knees. Camera locked, no standing up or falling.'),
+('04','B 八种变化','乳房胀痛或敏感','s03',5,'卧室穿衣镜旁中景，上身正常穿好米白内搭和青绿开衫。主角右手轻搭左侧上胸位置的衣料，动作克制，神情是轻微不适。镜子只表现模糊环境反光，不绘制第二个人物。无裸露，不做胸部特写。','She makes a small adjustment to the cardigan near her upper chest, pauses with a mildly uncomfortable expression, then lets her hand settle. Modest fully clothed medium shot, locked camera. No dramatic pain, body close-up or garment removal.'),
+('05','B 八种变化','恶心不只在早晨','s04',5,'厨房台面旁中景，主角脸微微侧向空白台面，右手停在嘴边但不遮住整张脸，左手放在台面边缘。台面有一杯清水。眉眼略显不适，无呕吐物、厕所、夸张痛苦或崩溃。','She brings her right hand gently closer to her mouth, turns her head slightly away, pauses, then takes a slow calming breath. The glass of water remains on the counter. Static medium shot. No vomiting, no sudden camera move.'),
+('06','B 八种变化','对气味更敏感','s05',5,'厨房餐桌旁中景。画面左下方一杯热饮有少量简洁蒸汽，主角在右侧，脸朝热饮，右手尚未抬起，表情只是察觉气味。与恶心镜头换角度，给主角向后稍微避开的空间。杯子无品牌。','A thin curl of steam rises from the cup. She notices the smell, gently wrinkles her nose, leans back a little and raises one hand near her nose. Tiny lateral camera drift only. Cup and table stay fixed; steam remains subtle.'),
+('07','B 八种变化','小便次数增多','s06',5,'住宅走廊中景偏全身。主角站在画面左侧，身体朝右侧半开的洗手间门，双手自然放松。门内只看到干净洗手台的一角，不画坐便或身体隐私。墙上无数字简约时钟。主角与门之间留两步距离。','She takes two small natural steps toward the half-open bathroom door and pauses at the doorway. Gentle short tracking move to the right. Maintain foot contact with the floor and stable leg anatomy. No urgency, pain, undressing or bathroom interior cut.'),
+('08','B 八种变化','口味变化','s07',5,'同一餐桌，主角坐在右侧。左前方一盘普通蔬菜和米饭，中间一小碗清淡面食，均不夸张。她右手放在靠近第一只盘子的桌面，尚未推盘，左手放在膝上，表情轻微犹豫。餐具简单且数量少。','She looks at the nearer plate, slowly slides it a few centimeters away with one hand, then turns her gaze toward the plain bowl. Locked medium shot. No eating or utensil manipulation, no food morphing, keep all dishes rigid.'),
+('09','B 八种变化','情绪起伏','s08',6,'客厅沙发中景，主角坐好，单手持一部屏幕背向镜头的手机，另一只手搭在沙发坐垫上。表情略烦闷或委屈但不流泪。旁边留一小块空坐垫，背景柔和。不要手机聊天文字或第二个人。','She looks at her phone with a mildly troubled expression, lowers it onto her lap, takes a slow breath and gradually relaxes her brow. Gentle slow push-in. No tears, exaggerated mood swings or talking mouth movement.'),
+('10','C 确认与行动','症状不能确认或排除怀孕','truth',8,'温暖客厅，中景。主角位于右下三分之一，坐在桌边，双手自然交叠，表情沉静。画面左侧与中上部约一半面积是干净奶油色墙面，专供后期叠加两张信息卡，当前不要画卡片文字、问号或标志。','She gently unfolds her hands, rests them on the table, and gives a small reassuring nod. Almost locked camera. Preserve the empty wall on the left for later graphics; do not introduce symbols, diagrams, text or new objects.'),
+('11','C 确认与行动','验孕时间规则','test1',8,'明亮干净的桌边场景。主角在画面右下方坐好，桌角放一个无品牌、无文字、无结果窗特写的封闭验孕工具纸盒和折叠说明书。左侧及中央上方留大面积干净墙面给后期日历与21天图解。不得画阳性、阴性、两条杠、婴儿或胎儿。','She picks up the folded instruction leaflet, opens it once and looks down to read. Slow minimal push-in without reducing the blank left area. Keep the test kit box closed and unbranded. No pregnancy result is shown, no generated writing.'),
+('12','C 确认与行动','阴性后复测与咨询','test2',8,'同一桌边，主角位于右下方，一只手放在桌上无数字的小日历旁，另一只手自然拿着手机、屏幕背向镜头。左侧及中上方留干净留白，用于后期“过几天复测”“咨询医生”。没有验孕结果的画面，没有忧虑崩溃表情。','She briefly looks from the small calendar to her phone and brings the phone a little closer as if preparing to seek advice. Calm measured movement, static shot. Keep the screen hidden and the calendar blank. No generated result or text.'),
+('13','C 确认与行动','及时就医，先确认再决定','care',8,'温暖安静客厅，中景。主角在右下侧坐在沙发边，手机自然握在一只手中，表情平静有支持感，不笑着庆祝。左侧与上方留大块干净墙面给后期就医提示。画面无血液、疼痛表演、胎儿、婴儿或阳性验孕棒。','She straightens slightly, holds her phone comfortably and takes a calm breath, then looks forward with a gentle composed expression. Very slow push-in and settle into a steady final pose. No celebratory gestures, no talking, no medical emergency dramatization.')
+]
+common='''输出单张竖屏镜头首帧，不是设定表、九宫格、海报或连续分镜。严格参考我上传的人物母版，保持面部骨架、发型、衣着和成年比例一致。画面中只能有一个主角。主体和道具位于中央安全区；顶部约15%、底部约22%避免放脸、手和关键道具，预留后期标题与字幕空间；左右保留约8%安全余量。画面可以有完整环境，但不要嵌入任何文字、字幕、标题、数字、标识、水印、对话框。手部自然，指头不必张开，优先简单动作起始姿势。'''
+motion_suffix='Preserve the exact original 2D cartoon design, face, adult proportions, hairstyle, clothing colors, background layout and object count from the input image. Smooth restrained character animation, stable outlines, no style change, no extra limbs or people, no scene transition. No text, captions, logos or watermarks. No dialogue or lip-sync; narration and music will be added in post-production.'
+shots=[]
+for sid,group,title,scene,seconds,visual,motion in specs:
+    image_prompt=f'{common}\n\n【固定美术】\n{style}\n\n【固定角色】\n{identity}\n\n【本镜画面与动作起点】\n{visual}\n\n请只生成这一张独立画面。优先9:16竖构图；不要提前把动作终点画进同一张图。'
+    h3=f'{motion}\n\n{motion_suffix}'
+    (P/f'prompts/shot_{sid}_image.txt').write_text(image_prompt)
+    (P/f'prompts/shot_{sid}_h3.txt').write_text(h3)
+    shots.append({'id':'shot_'+sid,'group':group,'title':title,'narration_scene_id':scene,'target_generated_seconds':seconds,'input_image':'references/shots/shot_'+sid+'.png','image_prompt':image_prompt,'h3_prompt':h3,'image_prompt_file':f'prompts/shot_{sid}_image.txt','h3_prompt_file':f'prompts/shot_{sid}_h3.txt','task':'fl2va','status':'awaiting_user_image','postproduction':'Remotion titles, subtitles and evidence-based information overlays; separate narration; discard native H3 audio'})
+(P/'shots.json').write_text(json.dumps({'version':'h3-v2','status':'awaiting_reference_images','character_master':'references/character/character_master.png','shots':shots},ensure_ascii=False,indent=2))
+table=['# 分镜与文件对照','', '| 镜头 | 分组 | 内容 | 图片存放 | H3目标时长 |','|---|---|---|---|---|']
+for s in shots:table.append(f'| {s["id"]} | {s["group"]} | {s["title"]} | `{s["input_image"]}` | {s["target_generated_seconds"]} 秒 |')
+table.extend(['','目标时长不等于已验证的 H3 参数或最终片长。配音复用/重录决定最终剪辑长度；信息卡镜头允许轻微延长静帧。','', '每个图像 prompt 已包含完整的固定风格和人物约束，无需自己拼接。图生视频提示词用英文，方便直接写入现有 H3 workflow。'])
+(P/'SHOT_LIST.md').write_text('\n'.join(table)+'\n')
+print(f'Prepared {len(shots)} image prompts, {len(shots)} H3 prompts and 2 character prompts.')

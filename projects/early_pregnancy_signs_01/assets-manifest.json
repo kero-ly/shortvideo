@@ -1,0 +1,41 @@
+{
+  "root_relative": true,
+  "assets": [
+    {
+      "path": "projects/early_pregnancy_signs_01/contact-sheet-preview.jpg",
+      "bytes": 59803,
+      "sha256": "24e4bd7a694569f690cbbdab39a1f75a49a0498aeed3b9c3ce7b5a5a74980915"
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/sample.png",
+      "bytes": 75243,
+      "sha256": "262962c741fae908b1a24489b27d471a19cfafdb863f3c1a7a7bf1fe88a8b73b"
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/cover.png",
+      "bytes": 160030,
+      "sha256": "9c7333dd60cd86d50bb13b75032888c1225e5f4b7db6a14c9dc40473a15d54d4"
+    },
+    {
+      "path": "projects/early_pregnancy_signs_01/narration.wav",
+      "bytes": 7640078,
+      "sha256": "d5b4680bfd4b49c9a1a8d2322f7bb55e9bf98ed29669a75b4c73cba53362eab6"
+    },
+    {
+      "path": "deliveries/early-pregnancy-20261013-010143-e9a8/contact-sheet-final.png",
+      "bytes": 422707,
+      "sha256": "00e1d545860ac0d23c5e05dbf10ddb04aecc0f52a5201320f68dfc8db64b340a"
+    },
+    {
+      "path": "deliveries/early-pregnancy-20261013-010143-e9a8/cover.png",
+      "bytes": 160030,
+      "sha256": "9c7333dd60cd86d50bb13b75032888c1225e5f4b7db6a14c9dc40473a15d54d4"
+    },
+    {
+      "path": "deliveries/early-pregnancy-20261013-010143-e9a8/early_pregnancy_signs_v1.mp4",
+      "bytes": 6941531,
+      "sha256": "e922c26a630f82eb25129927fb433d804f7b6edf720d9890d607df50e05ca98a"
+    }
+  ],
+  "h3_reference_status": "awaiting_user_images"
+}
