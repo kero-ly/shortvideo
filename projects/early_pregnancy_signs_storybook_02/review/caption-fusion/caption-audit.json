@@ -1,0 +1,528 @@
+{
+  "status": "automatic_alignment_checked_human_review_pending",
+  "audio_sha256": "d5b4680bfd4b49c9a1a8d2322f7bb55e9bf98ed29669a75b4c73cba53362eab6",
+  "asr_audio_sha256": "d5b4680bfd4b49c9a1a8d2322f7bb55e9bf98ed29669a75b4c73cba53362eab6",
+  "asr_json_sha256": "531713fa2ab25409b19ac963a33427a7da5db29711d90e12aa6cc989ceb0bbd1",
+  "reused_asr_reason": "The current narration WAV and ASR source WAV are byte-identical, checked on 220 in this job",
+  "asr_similarity": 0.9773371104815864,
+  "asr_differences": [
+    {
+      "script": "歇",
+      "asr": "些",
+      "kind": "replace",
+      "start": 16.68
+    },
+    {
+      "script": "经前",
+      "asr": "金钱",
+      "kind": "replace",
+      "start": 20.32
+    },
+    {
+      "script": "频繁",
+      "asr": "平凡",
+      "kind": "replace",
+      "start": 32.38
+    },
+    {
+      "script": "验孕",
+      "asr": "艳运",
+      "kind": "replace",
+      "start": 53.1
+    },
+    {
+      "script": "猜",
+      "asr": "彩",
+      "kind": "replace",
+      "start": 78.48
+    }
+  ],
+  "old_cues": 42,
+  "new_cues": 29,
+  "complete_script_coverage": true,
+  "complete_source_index_coverage": true,
+  "scene_boundaries_checked": true,
+  "full_listening_completed": false,
+  "limitations": "ASR word boundaries are estimates, not ear-verified timing. Homophone substitutions need review. Scene audio duration alone does not prove cue synchronization.",
+  "scenes": [
+    {
+      "shot_id": "01",
+      "upper_title": "身体有点不一样？",
+      "upper_note": "先别急着猜答案",
+      "narration": "月经还没来，身体又有点不一样？先别急着猜答案。早孕可能有这些变化，但每个人都不一样。",
+      "cues": [
+        {
+          "text": "月经还没来，身体又有点不一样？",
+          "context": "",
+          "start": 0.0,
+          "end": 2.66,
+          "speech_start": 0.0,
+          "speech_end": 2.44,
+          "source_indices": [
+            0,
+            1
+          ],
+          "shot_id": "01"
+        },
+        {
+          "text": "先别急着猜答案。",
+          "context": "",
+          "start": 2.66,
+          "end": 4.12,
+          "speech_start": 2.66,
+          "speech_end": 3.96,
+          "source_indices": [
+            2
+          ],
+          "shot_id": "01"
+        },
+        {
+          "text": "早孕可能有这些变化，\n但每个人都不一样。",
+          "context": "",
+          "start": 4.12,
+          "end": 7.752,
+          "speech_start": 4.12,
+          "speech_end": 7.02,
+          "source_indices": [
+            3,
+            4
+          ],
+          "shot_id": "01"
+        }
+      ],
+      "fusion": "标题主题融入第一句及后续下方短标签；与旁白同义的说明以完整句保留。未口播的休息/关怀语不伪装成逐字字幕。关键事实已由旁白字幕完整表达。"
+    },
+    {
+      "shot_id": "02",
+      "upper_title": "月经推迟",
+      "upper_note": "平时周期规律时，值得留意",
+      "narration": "第一，月经推迟。尤其平时周期比较规律时，值得留意。",
+      "cues": [
+        {
+          "text": "第一，月经推迟。",
+          "context": "",
+          "start": 7.88,
+          "end": 9.48,
+          "speech_start": 7.880000000000001,
+          "speech_end": 9.24,
+          "source_indices": [
+            5
+          ],
+          "shot_id": "02"
+        },
+        {
+          "text": "尤其平时周期比较规律时，\n值得留意。",
+          "context": "① 月经推迟",
+          "start": 9.48,
+          "end": 12.835,
+          "speech_start": 9.48,
+          "speech_end": 12.16,
+          "source_indices": [
+            6,
+            7
+          ],
+          "shot_id": "02"
+        }
+      ],
+      "fusion": "标题主题融入第一句及后续下方短标签；与旁白同义的说明以完整句保留。未口播的休息/关怀语不伪装成逐字字幕。关键事实已由旁白字幕完整表达。"
+    },
+    {
+      "shot_id": "03",
+      "upper_title": "比平时更容易累",
+      "upper_note": "给自己一点休息的时间",
+      "narration": "第二，容易累。平常做完不费力的事，也想坐下来歇一歇。",
+      "cues": [
+        {
+          "text": "第二，容易累。",
+          "context": "",
+          "start": 13.0,
+          "end": 14.14,
+          "speech_start": 13.0,
+          "speech_end": 13.94,
+          "source_indices": [
+            8
+          ],
+          "shot_id": "03"
+        },
+        {
+          "text": "平常做完不费力的事，\n也想坐下来歇一歇。",
+          "context": "② 容易累",
+          "start": 14.14,
+          "end": 17.627,
+          "speech_start": 14.14,
+          "speech_end": 16.84,
+          "source_indices": [
+            9,
+            10
+          ],
+          "shot_id": "03"
+        }
+      ],
+      "fusion": "标题主题融入第一句及后续下方短标签；与旁白同义的说明以完整句保留。未口播的休息/关怀语不伪装成逐字字幕。关键事实已由旁白字幕完整表达。"
+    },
+    {
+      "shot_id": "04",
+      "upper_title": "乳房胀痛或敏感",
+      "upper_note": "经前也可能出现",
+      "narration": "第三，乳房胀痛或变得敏感。不过，经前也可能这样。",
+      "cues": [
+        {
+          "text": "第三，乳房胀痛或变得敏感。",
+          "context": "",
+          "start": 17.8,
+          "end": 20.08,
+          "speech_start": 17.8,
+          "speech_end": 19.92,
+          "source_indices": [
+            11
+          ],
+          "shot_id": "04"
+        },
+        {
+          "text": "不过，经前也可能这样。",
+          "context": "③ 乳房胀痛或敏感",
+          "start": 20.08,
+          "end": 22.127,
+          "speech_start": 20.08,
+          "speech_end": 21.38,
+          "source_indices": [
+            12
+          ],
+          "shot_id": "04"
+        }
+      ],
+      "fusion": "标题主题融入第一句及后续下方短标签；与旁白同义的说明以完整句保留。未口播的休息/关怀语不伪装成逐字字幕。关键事实已由旁白字幕完整表达。"
+    },
+    {
+      "shot_id": "05",
+      "upper_title": "恶心",
+      "upper_note": "不一定只在早晨出现",
+      "narration": "第四，恶心。它不一定只在早晨出现。",
+      "cues": [
+        {
+          "text": "第四，恶心。",
+          "context": "",
+          "start": 22.167,
+          "end": 23.74,
+          "speech_start": 22.040000000000003,
+          "speech_end": 23.48,
+          "source_indices": [
+            13
+          ],
+          "shot_id": "05"
+        },
+        {
+          "text": "它不一定只在早晨出现。",
+          "context": "④ 恶心",
+          "start": 23.74,
+          "end": 26.21,
+          "speech_start": 23.74,
+          "speech_end": 25.48,
+          "source_indices": [
+            14
+          ],
+          "shot_id": "05"
+        }
+      ],
+      "fusion": "标题主题融入第一句及后续下方短标签；与旁白同义的说明以完整句保留。未口播的休息/关怀语不伪装成逐字字幕。关键事实已由旁白字幕完整表达。"
+    },
+    {
+      "shot_id": "06",
+      "upper_title": "对气味更敏感",
+      "upper_note": "熟悉的味道，也可能变了感觉",
+      "narration": "第五，对气味更敏感。熟悉的味道，突然觉得受不了。",
+      "cues": [
+        {
+          "text": "第五，对气味更敏感。",
+          "context": "",
+          "start": 26.25,
+          "end": 28.2,
+          "speech_start": 26.12,
+          "speech_end": 27.98,
+          "source_indices": [
+            15
+          ],
+          "shot_id": "06"
+        },
+        {
+          "text": "熟悉的味道，\n突然觉得受不了。",
+          "context": "⑤ 对气味更敏感",
+          "start": 28.2,
+          "end": 30.668,
+          "speech_start": 28.2,
+          "speech_end": 29.94,
+          "source_indices": [
+            16,
+            17
+          ],
+          "shot_id": "06"
+        }
+      ],
+      "fusion": "标题主题融入第一句及后续下方短标签；与旁白同义的说明以完整句保留。未口播的休息/关怀语不伪装成逐字字幕。关键事实已由旁白字幕完整表达。"
+    },
+    {
+      "shot_id": "07",
+      "upper_title": "小便次数增多",
+      "upper_note": "留意和平时相比的变化",
+      "narration": "第六，上厕所比平时频繁，尤其是小便次数增多。",
+      "cues": [
+        {
+          "text": "第六，上厕所比平时频繁，\n尤其是小便次数增多。",
+          "context": "",
+          "start": 30.708,
+          "end": 35.335,
+          "speech_start": 30.62,
+          "speech_end": 34.58,
+          "source_indices": [
+            18,
+            19
+          ],
+          "shot_id": "07"
+        }
+      ],
+      "fusion": "标题主题融入第一句及后续下方短标签；与旁白同义的说明以完整句保留。未口播的休息/关怀语不伪装成逐字字幕。关键事实已由旁白字幕完整表达。"
+    },
+    {
+      "shot_id": "08",
+      "upper_title": "口味变化",
+      "upper_note": "以前爱吃的，现在未必想吃",
+      "narration": "第七，口味变了。以前爱吃的食物，现在可能不想碰。",
+      "cues": [
+        {
+          "text": "第七，口味变了。",
+          "context": "",
+          "start": 35.375,
+          "end": 36.86,
+          "speech_start": 35.26,
+          "speech_end": 36.72,
+          "source_indices": [
+            20
+          ],
+          "shot_id": "08"
+        },
+        {
+          "text": "以前爱吃的食物，\n现在可能不想碰。",
+          "context": "⑦ 口味变化",
+          "start": 36.86,
+          "end": 39.71,
+          "speech_start": 36.86,
+          "speech_end": 38.98,
+          "source_indices": [
+            21,
+            22
+          ],
+          "shot_id": "08"
+        }
+      ],
+      "fusion": "标题主题融入第一句及后续下方短标签；与旁白同义的说明以完整句保留。未口播的休息/关怀语不伪装成逐字字幕。关键事实已由旁白字幕完整表达。"
+    },
+    {
+      "shot_id": "09",
+      "upper_title": "情绪起伏",
+      "upper_note": "对自己的感受温柔一点",
+      "narration": "第八，情绪起伏比平时明显，也可能只是众多变化之一。",
+      "cues": [
+        {
+          "text": "第八，情绪起伏比平时明显，",
+          "context": "",
+          "start": 39.75,
+          "end": 42.44,
+          "speech_start": 39.660000000000004,
+          "speech_end": 42.24,
+          "source_indices": [
+            23
+          ],
+          "shot_id": "09"
+        },
+        {
+          "text": "也可能只是众多变化之一。",
+          "context": "⑧ 情绪起伏",
+          "start": 42.44,
+          "end": 44.918,
+          "speech_start": 42.44,
+          "speech_end": 44.24,
+          "source_indices": [
+            24
+          ],
+          "shot_id": "09"
+        }
+      ],
+      "fusion": "标题主题融入第一句及后续下方短标签；与旁白同义的说明以完整句保留。未口播的休息/关怀语不伪装成逐字字幕。关键事实已由旁白字幕完整表达。"
+    },
+    {
+      "shot_id": "10",
+      "upper_title": "症状不是答案",
+      "upper_note": "不用数自己“中了几条”",
+      "narration": "但请记住，有几条都不能直接说明怀孕，没有这些反应也不能排除。最可靠的下一步，是按说明做一次验孕。",
+      "cues": [
+        {
+          "text": "但请记住，有几条\n都不能直接说明怀孕，",
+          "context": "症状不是答案",
+          "start": 45.04,
+          "end": 48.46,
+          "speech_start": 45.04,
+          "speech_end": 48.28,
+          "source_indices": [
+            25,
+            26
+          ],
+          "shot_id": "10"
+        },
+        {
+          "text": "没有这些反应也不能排除。",
+          "context": "症状不是答案",
+          "start": 48.46,
+          "end": 50.16,
+          "speech_start": 48.46,
+          "speech_end": 50.16,
+          "source_indices": [
+            27
+          ],
+          "shot_id": "10"
+        },
+        {
+          "text": "最可靠的下一步，\n是按说明做一次验孕。",
+          "context": "下一步：验孕",
+          "start": 50.16,
+          "end": 54.293,
+          "speech_start": 50.16,
+          "speech_end": 53.5,
+          "source_indices": [
+            28,
+            29
+          ],
+          "shot_id": "10"
+        }
+      ],
+      "fusion": "标题主题融入第一句及后续下方短标签；与旁白同义的说明以完整句保留。未口播的休息/关怀语不伪装成逐字字幕。关键事实已由旁白字幕完整表达。"
+    },
+    {
+      "shot_id": "11",
+      "upper_title": "什么时候测？",
+      "upper_note": "按验孕工具说明操作",
+      "narration": "通常从月经推迟的第一天开始测。如果不知道月经什么时候来，就在上次无保护性行为至少二十一天后测。",
+      "cues": [
+        {
+          "text": "通常从月经推迟的\n第一天开始测。",
+          "context": "验孕时间",
+          "start": 54.333,
+          "end": 57.16,
+          "speech_start": 54.24,
+          "speech_end": 56.92,
+          "source_indices": [
+            30
+          ],
+          "shot_id": "11"
+        },
+        {
+          "text": "如果不知道\n月经什么时候来，",
+          "context": "验孕时间",
+          "start": 57.16,
+          "end": 59.1,
+          "speech_start": 57.16,
+          "speech_end": 58.94,
+          "source_indices": [
+            31
+          ],
+          "shot_id": "11"
+        },
+        {
+          "text": "就在上次无保护性行为\n至少二十一天后测。",
+          "context": "月经日期不清楚时",
+          "start": 59.1,
+          "end": 63.377,
+          "speech_start": 59.1,
+          "speech_end": 62.54,
+          "source_indices": [
+            32
+          ],
+          "shot_id": "11"
+        }
+      ],
+      "fusion": "标题主题融入第一句及后续下方短标签；与旁白同义的说明以完整句保留。未口播的休息/关怀语不伪装成逐字字幕。关键事实已由旁白字幕完整表达。"
+    },
+    {
+      "shot_id": "12",
+      "upper_title": "阴性，但月经还没来？",
+      "upper_note": "太早测，结果可能不可靠",
+      "narration": "测得太早是阴性，月经又没来？过几天再测一次。第二次仍是阴性、月经还没来，可以咨询医生。",
+      "cues": [
+        {
+          "text": "测得太早是阴性，\n月经又没来？",
+          "context": "",
+          "start": 63.5,
+          "end": 66.0,
+          "speech_start": 63.5,
+          "speech_end": 65.84,
+          "source_indices": [
+            33,
+            34
+          ],
+          "shot_id": "12"
+        },
+        {
+          "text": "过几天再测一次。",
+          "context": "阴性，但月经没来？",
+          "start": 66.0,
+          "end": 67.28,
+          "speech_start": 66.0,
+          "speech_end": 67.02,
+          "source_indices": [
+            35
+          ],
+          "shot_id": "12"
+        },
+        {
+          "text": "第二次仍是阴性、月经还没来，\n可以咨询医生。",
+          "context": "复测后的下一步",
+          "start": 67.28,
+          "end": 71.168,
+          "speech_start": 67.28,
+          "speech_end": 70.38,
+          "source_indices": [
+            36,
+            37
+          ],
+          "shot_id": "12"
+        }
+      ],
+      "fusion": "标题主题融入第一句及后续下方短标签；与旁白同义的说明以完整句保留。未口播的休息/关怀语不伪装成逐字字幕。关键事实已由旁白字幕完整表达。"
+    },
+    {
+      "shot_id": "13",
+      "upper_title": "这些情况，请及时就医",
+      "upper_note": "明显腹痛 · 阴道出血",
+      "narration": "要是出现明显腹痛或阴道出血，请及时就医。先确认，再决定下一步，不用一个人靠猜。",
+      "cues": [
+        {
+          "text": "要是出现明显腹痛或阴道出血，\n请及时就医。",
+          "context": "就医提醒",
+          "start": 71.22,
+          "end": 75.56,
+          "speech_start": 71.22,
+          "speech_end": 75.24,
+          "source_indices": [
+            38,
+            39
+          ],
+          "shot_id": "13"
+        },
+        {
+          "text": "先确认，再决定下一步，\n不用一个人靠猜。",
+          "context": "",
+          "start": 75.56,
+          "end": 79.543,
+          "speech_start": 75.56,
+          "speech_end": 78.72,
+          "source_indices": [
+            40,
+            41
+          ],
+          "shot_id": "13"
+        }
+      ],
+      "fusion": "标题主题融入第一句及后续下方短标签；与旁白同义的说明以完整句保留。未口播的休息/关怀语不伪装成逐字字幕。关键事实已由旁白字幕完整表达。"
+    }
+  ],
+  "label_redundancy_review": "Removed two labels that repeated the spoken sentence; only contextual, non-duplicate labels remain"
+}

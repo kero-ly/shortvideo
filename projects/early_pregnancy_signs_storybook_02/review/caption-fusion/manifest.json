@@ -1,0 +1,30 @@
+{
+  "status": "voiced_preview_pending_review",
+  "host": "220",
+  "files": {
+    "preview-fused.mp4": "3174f0c934073d1cd2f9bd484854dca1213454c57b20bdcafab8990b5a15e0b3",
+    "caption-audit.json": "a880f3e162778fbe225dca2daeeeda83e5ae8a0fa62981981f02b6c722bdaa25",
+    "shot-09.png": "1e17174f6a8bc66668515a244f436efa2b2e9f521fcd61fa306fc1d809612e2f",
+    "shot-01.png": "45a41ad863b3f54d647df5e2e6dc7a32864fe2da1fee1067d745d921ed14474d",
+    "shot-11.png": "cfab606914062af5c73dbabbe210a561a176dd29a519c877dc3e5b68633dfd15",
+    "visual-fused.mp4": "2a7cbb09e09ba39202496b8ce27d6afe7fb556c668d5a2ab5dcabea3b843091f",
+    "shot-03.png": "8ec2d659254424dbf9e1aa03df703c8679c3aefda531d9d8e33fda3a7ae57fe5",
+    "props.json": "8b6bb85db50621c6abe844b4499054106d5f1e928e566c4781bebf5448a9aa9b",
+    "shot-06.png": "79c08b1ce00f6e754f901ac81ba13f4ed6254e3ac7e9128d08e8c26adbccd508",
+    "shot-13.png": "ad7d63ab954fc9e881670bfce07fbe7e70a81255a858501f26506d93f495931b",
+    "shot-04.png": "36fcd043f71608bbbccc408767811357993b6d7c721b10f825beba546dd6a56c",
+    "visual.mp4": "46708b5b3e661df097fd86e83f42da54f51fab5880f04bba2d8b029e45893697",
+    "shot-10.png": "c1315bb60ba63172018085cde70d63c18272a14ed44beb8917f35f5ad13b030c",
+    "preview.mp4": "25213ec27ce8bb2ab49b637dddc0d1b24cacc0ad5c79df6b9e69b8a8061981e5",
+    "shot-07.png": "446f1b2ce7df71e49327115b20cdf925357f218af9c232cdf69fa0361ae9a3fb",
+    "shot-05.png": "1305ac1f9dcb73a2f3faacb833750acd879866c7044076a2a5b13a2581d4b817",
+    "shot-12.png": "00b569a87adb98407f4adf4f2b83427d94ae78df2b69d63ab41c3388cda084c4",
+    "shot-02.png": "2cfc735dfba2cf0028a1d5d9808d736009efbfc19204945493bd96336e791854",
+    "tail-fixed.mp4": "5eba649c9bc10f1f9f9440236e15073f0f3a95e6885e6cfb9b339cc22c8ddb11",
+    "index.html": "b66db764d9775572ae3bc799d62b44dc36adac63cb2b3129bf2110a4f44fb5e1",
+    "subtitles.srt": "c65ebc899cf9b984e68eaca68d5fd8b6961e04186e4c1192ad6b81e4f8ac7362",
+    "shot-08.png": "bc9114f54dc1e2101045ec7c6a9600e7e6eaaf9aa9f2f28697064300ac9da60c",
+    "contact.png": "65f0e2dbcf2ae93ade88c72e5b875d9a5d6a8722395bc52e3902647c31b301dc",
+    "preview-qa.json": "cfeb53e6b7bbc96ec67145338720c0bc9e299c2968600a116390a188de7040da"
+  }
+}

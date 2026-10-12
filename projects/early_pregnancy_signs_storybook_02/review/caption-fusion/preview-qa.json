@@ -1,0 +1,13 @@
+{
+  "frames": 1910,
+  "fps": 24,
+  "duration": 79.58333333333333,
+  "resolution": [
+    540,
+    960
+  ],
+  "full_decode": true,
+  "audio_duration": "79.550000",
+  "human_listening": false,
+  "label_redundancy_review": "two duplicate contextual labels removed"
+}
