@@ -1,13 +1,17 @@
 ---
-name: gentle-2d-scenario-explainer
-description: Use when planning or producing 温柔陪伴 · 2D 情境科普 short videos, with consistent adult cartoon characters acting out everyday situations, reassuring narration and readable explanatory cards, including maternal health and everyday science topics.
+name: 2d-scenario-explainer
+description: Use when planning or producing 2D 手绘动画 · 暖色明亮低饱和 · 生活情境科普 short videos, with consistent adult cartoon characters acting out everyday situations, reassuring narration and readable explanatory cards, including maternal health and everyday science topics.
 ---
 
-# 温柔陪伴 · 2D 情境科普
+# 2D 手绘动画 · 暖色明亮低饱和 · 生活情境科普
 
 用原创 2D 人物演生活情境，以像朋友一样的旁白解释主题，再给出清晰的行动建议。适用于成年观众的母婴、健康和生活科普；具体受众按本期 brief 决定。不要仿制参考作者的角色、声音、标识。
 
 从本 skill 所在目录向上两级找到工厂根目录。先读根目录 `AGENTS.md`、`docs/workspace-layout.md`、`configs/resources.json`。工作流细节见 [references/workflow.md](references/workflow.md)；准备前期方案时读 [references/preproduction.md](references/preproduction.md)。
+
+## 风格检索与输入
+
+本 skill 是“2D 人物情境科普”的制作方法，当前默认预设为 `2d-handdrawn-warm-light-muted-daily-explainer`。命名与分类见根目录 `styles/README.md`，默认预设见 `styles/2d-handdrawn/warm-light-muted-daily-explainer.json`。前期方案记录 preset ID、版本、各风格维度与本期覆盖项；“温柔陪伴”归入语气，“母婴”归入主题，工具归入实现路线。用户修改色调或语气时明确记录覆盖项，不必复制整套 skill。换成实拍、3D 或纯剪辑形式时重新选择制作路线，不自动宣称本 skill 已支持。
 
 ## 输入与风格
 

@@ -1,4 +1,0 @@
-interface:
-  display_name: "温柔陪伴 · 2D 情境科普"
-  short_description: "以原创卡通人物演生活情境，先讨论确认角色与分镜方案，再生成、合成和质检"
-  default_prompt: "使用 $gentle-2d-scenario-explainer 为我的主题准备角色、文案、分镜和工具方案，先与我讨论确认，再开始制作。"

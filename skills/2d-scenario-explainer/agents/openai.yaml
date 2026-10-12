@@ -1,0 +1,4 @@
+interface:
+  display_name: "2D 手绘动画 · 暖色明亮低饱和 · 生活情境科普"
+  short_description: "以原创卡通人物演生活情境，先讨论确认角色与分镜方案，再生成、合成和质检"
+  default_prompt: "使用 $2d-scenario-explainer 为我的主题准备角色、文案、分镜和工具方案，先与我讨论确认，再开始制作。"

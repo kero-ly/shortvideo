@@ -1,0 +1,59 @@
+{
+  "id": "2d-handdrawn-warm-light-muted-daily-explainer",
+  "version": 1,
+  "display_name": "2D 手绘动画 · 暖色明亮低饱和 · 生活情境科普",
+  "family": "2d-handdrawn",
+  "status": "internal_review_example_validated",
+  "visual": {
+    "medium": "2D 手绘动画",
+    "rendering": "柔和线稿、轻赛璐璐阴影、轻纸感",
+    "character": "成人比例人物"
+  },
+  "color": {
+    "temperature": "暖色",
+    "brightness": "明亮",
+    "saturation": "低饱和",
+    "palette": [
+      "奶油白",
+      "鼠尾草绿",
+      "浅木色",
+      "克制的珊瑚色点缀"
+    ]
+  },
+  "setting": "生活居家情境",
+  "format": "人物情境科普",
+  "presentation": [
+    "人物动作演绎",
+    "独立旁白",
+    "后期信息卡"
+  ],
+  "tone": "温柔陪伴",
+  "pace": "舒缓适中",
+  "frame": "9:16",
+  "tags": [
+    "2D",
+    "手绘",
+    "动画",
+    "暖色",
+    "明亮",
+    "低饱和",
+    "居家",
+    "情境",
+    "科普",
+    "成人角色",
+    "陪伴旁白"
+  ],
+  "skill": "skills/2d-scenario-explainer/SKILL.md",
+  "example": "projects/early_pregnancy_signs_01/h3_v2",
+  "implementation_example": [
+    "OpenLux GPT Image 2",
+    "MiniMax H3",
+    "Remotion",
+    "FFmpeg"
+  ],
+  "limitations": [
+    "内部审阅案例；非所有主题自动验证",
+    "工具型号不是风格定义",
+    "案例合成脚本需要按新期内容适配"
+  ]
+}
