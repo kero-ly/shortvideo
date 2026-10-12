@@ -1,0 +1,379 @@
+{
+  "03": {
+    "clip": "runs/h3-storybook-03-20261013-044450-bafa/clip.mp4",
+    "sha256": "a1b2e72231ce05e61dec8870801f4c1fbce14d38a948383250b4e3af5ee9a624",
+    "reference": "references/shots/shot_03_v1.png",
+    "reference_sha256": "714f7e575a043cdb88164dbcdfcff2e11ece7928435d5622e6c81a6f0255a39e",
+    "frames": 124,
+    "target_frames": 115,
+    "decode": true,
+    "accepted": true,
+    "contact": "review/shot_03_h3.jpg",
+    "visual_review": "Nine sampled frames reviewed. Yawn and hand lowering visible; minor yellow emphasis strokes added. No full human playback claimed.",
+    "generation": {
+      "input.json": {
+        "image": "/home/ly/shortvideo/projects/early_pregnancy_signs_storybook_02/references/shots/shot_03_v1.png",
+        "sha256": "714f7e575a043cdb88164dbcdfcff2e11ece7928435d5622e6c81a6f0255a39e",
+        "frames": 124,
+        "seed": 20261023,
+        "prompt": "Preserve the same adult woman, room and storybook illustration. One continuous static-camera shot. 保持一手抱靠垫，另一手轻掩嘴完成哈欠后放松。Small gentle motion, stable hands, stable face, no cuts, no new props or text, no lip-sync.",
+        "url": "http://127.0.0.1:8199"
+      },
+      "submission.json": {
+        "prompt_id": "899683ab-4727-4831-8f21-d0492b37fc1d",
+        "number": 84,
+        "node_errors": {}
+      },
+      "workflow_sha256": "e8c9b4375c77449ab80808d92b98193f9603c60b1c7d1ae6658c32ab922db2f3",
+      "graph_family": "turbo8"
+    }
+  },
+  "01": {
+    "clip": "runs/h3-storybook-01-20261013-044816-f28a/clip.mp4",
+    "sha256": "badd7d35e6cf0f9ac415f3d7420207ba5174aa30e17c450cd9c12cdc03cf198d",
+    "reference": "references/shots/shot_01_v1.png",
+    "reference_sha256": "db9157244333c3b93c5189bfddc8e750cf598fd16c4240afc907547444acf896",
+    "frames": 192,
+    "target_frames": 187,
+    "decode": true,
+    "accepted": true,
+    "contact": "review/shot_01_h3.jpg",
+    "visual_review": "Nine sampled frames reviewed. Looks up from calendar, character and props stable. No full human playback claimed.",
+    "generation": {
+      "input.json": {
+        "image": "/home/ly/shortvideo/projects/early_pregnancy_signs_storybook_02/references/shots/shot_01_v1.png",
+        "sha256": "db9157244333c3b93c5189bfddc8e750cf598fd16c4240afc907547444acf896",
+        "frames": 192,
+        "seed": 20261021,
+        "prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 从日历抬眼，轻轻放松肩膀。Camera: 缓慢推近。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
+        "url": "http://127.0.0.1:8199"
+      },
+      "submission.json": {
+        "prompt_id": "ae1df77a-9405-463c-a90d-717411b8c38d",
+        "number": 85,
+        "node_errors": {}
+      },
+      "workflow_sha256": "7fb06ebf092a637898e819d0d38f7d4495b68e3a66737f98e310e0ac9dd70e3b",
+      "graph_family": "turbo8"
+    }
+  },
+  "02": {
+    "clip": "runs/h3-storybook-02-20261013-045012-c332/clip.mp4",
+    "sha256": "6ae5a7e0619110a63a1965bdcd8a6e34a1512ac3e55b4a14b9bab197a5eba545",
+    "reference": "references/shots/shot_02_v1.png",
+    "reference_sha256": "e7c7208b76cc394033f904c960b305211280ca2f7ebf9bfa8a87599d77e81b9c",
+    "frames": 124,
+    "target_frames": 122,
+    "decode": true,
+    "accepted": true,
+    "contact": "review/shot_02_h3.jpg",
+    "visual_review": "Nine sampled frames reviewed. Raises an index finger instead of pointing at calendar; calendar remains visible, meaning preserved. No full human playback claimed.",
+    "generation": {
+      "input.json": {
+        "image": "/home/ly/shortvideo/projects/early_pregnancy_signs_storybook_02/references/shots/shot_02_v1.png",
+        "sha256": "e7c7208b76cc394033f904c960b305211280ca2f7ebf9bfa8a87599d77e81b9c",
+        "frames": 124,
+        "seed": 20261022,
+        "prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 用一根手指指向日历，稍作停顿。Camera: 固定。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
+        "url": "http://127.0.0.1:8199"
+      },
+      "submission.json": {
+        "prompt_id": "e91188e8-c415-4537-b415-4a7dabeff3bc",
+        "number": 86,
+        "node_errors": {}
+      },
+      "workflow_sha256": "0dbecc6eb1509e7273a9a07b2df3a8668b255852a832bcdfcdfbff15d1a9cba8",
+      "graph_family": "turbo8"
+    }
+  },
+  "04": {
+    "clip": "runs/h3-storybook-04-20261013-045118-07b5/clip.mp4",
+    "sha256": "f5cb2c7c53c160953d543f004376e3e028084ca04c29a6e69a2a64c4319fcbb9",
+    "reference": "references/shots/shot_04_v1.png",
+    "reference_sha256": "2da78ce6be6543cb5f4c92c13881c7e1efb4fe2e6bde73c2d190b8f81f074d3b",
+    "frames": 124,
+    "target_frames": 108,
+    "decode": true,
+    "accepted": true,
+    "contact": "review/shot_04_h3.jpg",
+    "visual_review": "Nine sampled frames reviewed. Hand moves gently across cardigan; modest, stable anatomy. No full human playback claimed.",
+    "generation": {
+      "input.json": {
+        "image": "/home/ly/shortvideo/projects/early_pregnancy_signs_storybook_02/references/shots/shot_04_v1.png",
+        "sha256": "2da78ce6be6543cb5f4c92c13881c7e1efb4fe2e6bde73c2d190b8f81f074d3b",
+        "frames": 124,
+        "seed": 20261024,
+        "prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 轻调开衫前襟，微皱眉后停住。Camera: 固定。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
+        "url": "http://127.0.0.1:8199"
+      },
+      "submission.json": {
+        "prompt_id": "f41f0809-c6c8-498d-be84-e4695a8d43dc",
+        "number": 87,
+        "node_errors": {}
+      },
+      "workflow_sha256": "d46c909251763a22b8a6adb7104b8abb79730100b74d5bdf899b56b3d8efe293",
+      "graph_family": "turbo8"
+    }
+  },
+  "05": {
+    "clip": "runs/h3-storybook-05-20261013-045223-5411/clip.mp4",
+    "sha256": "6c5ab3728a662d88720c30580b2c3b88b4e4f4ebeec4eb89313f94d039e4898e",
+    "reference": "references/shots/shot_05_v1.png",
+    "reference_sha256": "fa23df050aaa2da200bedea5dd60f3e1f555392ce6c69eb5259751fdb5821360",
+    "frames": 124,
+    "target_frames": 98,
+    "decode": true,
+    "accepted": true,
+    "contact": "review/shot_05_h3.jpg",
+    "visual_review": "Nine sampled frames reviewed. Covers mouth then relaxes; brief smile differs from intended discomfort. No full human playback claimed.",
+    "generation": {
+      "input.json": {
+        "image": "/home/ly/shortvideo/projects/early_pregnancy_signs_storybook_02/references/shots/shot_05_v1.png",
+        "sha256": "fa23df050aaa2da200bedea5dd60f3e1f555392ce6c69eb5259751fdb5821360",
+        "frames": 124,
+        "seed": 20261025,
+        "prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 轻掩嘴并停顿，不呕吐、不弯腰剧烈晃动。Camera: 固定。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
+        "url": "http://127.0.0.1:8199"
+      },
+      "submission.json": {
+        "prompt_id": "785c7997-2560-41a7-ab16-86e3cfea6b76",
+        "number": 88,
+        "node_errors": {}
+      },
+      "workflow_sha256": "1479f103b2540f3d8476774f09337a137982539a17f3fea4d75b39ff1d117af2",
+      "graph_family": "turbo8"
+    }
+  },
+  "06": {
+    "clip": "runs/h3-storybook-06-20261013-045329-af5f/clip.mp4",
+    "sha256": "a765a8a8b120a73f124fa425a55c04d11759f754ea49c4592aa1b830515025a7",
+    "reference": "references/shots/shot_06_v1.png",
+    "reference_sha256": "8bb59284a71a0de60ee5a7be22cbd16dc869691b0f2a836d70e45656c471a3b2",
+    "frames": 124,
+    "target_frames": 107,
+    "decode": true,
+    "accepted": true,
+    "contact": "review/shot_06_h3.jpg",
+    "visual_review": "Nine sampled frames reviewed. Small head movement near soup, subtle smell-avoidance gesture. No full human playback claimed.",
+    "generation": {
+      "input.json": {
+        "image": "/home/ly/shortvideo/projects/early_pregnancy_signs_storybook_02/references/shots/shot_06_v1.png",
+        "sha256": "8bb59284a71a0de60ee5a7be22cbd16dc869691b0f2a836d70e45656c471a3b2",
+        "frames": 124,
+        "seed": 20261026,
+        "prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 微转头避开热汤，另一只手保持静止。Camera: 固定。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
+        "url": "http://127.0.0.1:8199"
+      },
+      "submission.json": {
+        "prompt_id": "ba3fadcc-02b1-437a-aabd-ecdac9bc0bd7",
+        "number": 89,
+        "node_errors": {}
+      },
+      "workflow_sha256": "5cbb4a75d8440800004a5ece5ed9537e12d681c02d46ad0b679dd19f7de67ac6",
+      "graph_family": "turbo8"
+    }
+  },
+  "08": {
+    "clip": "runs/h3-storybook-08-20261013-045540-27fd/clip.mp4",
+    "sha256": "a92336574d7df3273770e40d7a58892f3c3eee8a146d901d65b97d19b4bb0355",
+    "reference": "references/shots/shot_08_v1.png",
+    "reference_sha256": "fe3a6975a81cccd7f1a041107161abdfc314267a36905efff183ac4bb5f964d4",
+    "frames": 124,
+    "target_frames": 105,
+    "decode": true,
+    "accepted": true,
+    "contact": "review/shot_08_h3.jpg",
+    "visual_review": "Nine sampled frames reviewed. Plate moves slightly away; expression subtle, meal props stable. No full human playback claimed.",
+    "generation": {
+      "input.json": {
+        "image": "/home/ly/shortvideo/projects/early_pregnancy_signs_storybook_02/references/shots/shot_08_v1.png",
+        "sha256": "fe3a6975a81cccd7f1a041107161abdfc314267a36905efff183ac4bb5f964d4",
+        "frames": 124,
+        "seed": 20261028,
+        "prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 将餐盘轻推远一点，轻摇头。Camera: 固定。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
+        "url": "http://127.0.0.1:8199"
+      },
+      "submission.json": {
+        "prompt_id": "246487ee-8523-4eba-8fd5-35109ba7d675",
+        "number": 91,
+        "node_errors": {}
+      },
+      "workflow_sha256": "ce1b586f5cbb938d07543e5138cc23a9ff65a20cf6167c131f216ef59eca5498",
+      "graph_family": "turbo8"
+    }
+  },
+  "09": {
+    "clip": "runs/h3-storybook-09-20261013-045646-8d1c/clip.mp4",
+    "sha256": "41d7b279f0a865ccfb8c7cdcd4742b56cb8d6c4790592db6a56a174fbb3fcf9b",
+    "reference": "references/shots/shot_09_v1.png",
+    "reference_sha256": "4eac6e87dc11e3e8e6a7589b0b19ba8c433227445523fa4deeb8eebb840f56ea",
+    "frames": 141,
+    "target_frames": 125,
+    "decode": true,
+    "accepted": true,
+    "contact": "review/shot_09_h3.jpg",
+    "visual_review": "Nine sampled frames reviewed. Gentle push in, eyes close and face relaxes. No full human playback claimed.",
+    "generation": {
+      "input.json": {
+        "image": "/home/ly/shortvideo/projects/early_pregnancy_signs_storybook_02/references/shots/shot_09_v1.png",
+        "sha256": "4eac6e87dc11e3e8e6a7589b0b19ba8c433227445523fa4deeb8eebb840f56ea",
+        "frames": 141,
+        "seed": 20261029,
+        "prompt": "Preserve the exact same adult character, outfit, warm cream storybook illustration and soft brown outlines of the reference. One continuous shot. Action: 呼出一口气，眉头逐渐放松。Camera: 轻推近。 Gentle small movement, stable face and hands, stable background and props. No cuts, no lip-sync, no new people, no new objects, no written text, no photorealism, no 3D rendering, no pregnancy-belly growth.",
+        "url": "http://127.0.0.1:8199"
+      },
+      "submission.json": {
+        "prompt_id": "edbe79ad-e951-46a1-bf4c-632d8e776040",
+        "number": 92,
+        "node_errors": {}
+      },
+      "workflow_sha256": "92fbdf8941a43005a75cf7ccacf5d91e3408424e9f35df539162aa51e646e70e",
+      "graph_family": "turbo8"
+    }
+  },
+  "07": {
+    "clip": "runs/h3-storybook-07-20261013-060507-ed64/clip.mp4",
+    "sha256": "d4b053889fe0f825ada58845feab47a00ff183ca2f6d6b1347b3dd4b4e12bee4",
+    "reference": "references/shots/shot_07_v2.png",
+    "reference_sha256": "88868389d922d22c67d51b6ace8da3601b2972d25d41390899d2138a19829282",
+    "frames": 124,
+    "target_frames": 112,
+    "decode": true,
+    "accepted": true,
+    "contact": "review/shot_07_h3.jpg",
+    "visual_review": "Nine sampled frames reviewed: blank hallway wall, stable character/door; intended small step is understated, character mainly settles stance. No full human playback claimed.",
+    "generation": {
+      "input.json": {
+        "image": "/home/ly/shortvideo/projects/early_pregnancy_signs_storybook_02/references/shots/shot_07_v2.png",
+        "sha256": "88868389d922d22c67d51b6ace8da3601b2972d25d41390899d2138a19829282",
+        "frames": 124,
+        "seed": 20262027,
+        "prompt": "A continuous silent cream storybook animation matching the reference illustration. The woman takes one small step toward the closed wooden door, then stands still. Locked camera. The adult woman, face, hair clip, clothing, furniture and objects remain consistent. The plain pastel walls remain blank throughout. Small natural movement.\n",
+        "url": "http://127.0.0.1:8199"
+      },
+      "submission.json": {
+        "prompt_id": "3be112a5-76a9-4637-805f-edfa4f641d51",
+        "number": 97,
+        "node_errors": {}
+      },
+      "workflow_sha256": "0111e411deb615f8422e0f12a0d1be7794a8ff491ba62227383ce2ca152df038",
+      "graph_family": "baseline20"
+    }
+  },
+  "11": {
+    "clip": "runs/h3-storybook-11-20261013-061158-0f0d/clip.mp4",
+    "sha256": "c369d02f33cbc42332567d69051c80dbb990bd55b0e9f65fa91470a001fb1105",
+    "reference": "references/shots/shot_11_v1.png",
+    "reference_sha256": "563f8413466851262ea166cc3fadab041696c994a785675421b2f661a7c32166",
+    "frames": 226,
+    "target_frames": 218,
+    "decode": true,
+    "accepted": true,
+    "contact": "review/shot_11_h3.jpg",
+    "visual_review": "Nine sampled frames reviewed: no added text or phone, instruction booklet and adult character stable, pointing/resting hand action subtle. No full human playback claimed.",
+    "generation": {
+      "input.json": {
+        "image": "/home/ly/shortvideo/projects/early_pregnancy_signs_storybook_02/references/shots/shot_11_v1.png",
+        "sha256": "563f8413466851262ea166cc3fadab041696c994a785675421b2f661a7c32166",
+        "frames": 226,
+        "seed": 20262031,
+        "prompt": "A continuous silent cream storybook animation matching the reference illustration. The seated woman lightly points at the instruction booklet on the table, then rests her hand. Locked camera. The adult woman, face, hair clip, clothing, furniture and objects remain consistent. The plain pastel walls remain blank throughout. Small natural movement.\n",
+        "url": "http://127.0.0.1:8199"
+      },
+      "submission.json": {
+        "prompt_id": "fcc1d81b-9eda-4a12-be25-ced2d9a07a81",
+        "number": 99,
+        "node_errors": {}
+      },
+      "workflow_sha256": "b9d9cc8108d7120ec8b28cc85b62c92bb3007fe220f9f628ff7b81ce48ac260c",
+      "graph_family": "baseline20"
+    }
+  },
+  "12": {
+    "clip": "runs/h3-storybook-12-20261013-061643-3159/clip.mp4",
+    "sha256": "b590e32bd4f2dbc42742ed093ed15e6095e86c0e339cb6c7f970c48ad3442d0f",
+    "reference": "references/shots/shot_12_v2.png",
+    "reference_sha256": "3c7c9f56602ba4344243488bd34567f94ef4b8603d8710a2df3fd54cac6fc6d0",
+    "frames": 192,
+    "target_frames": 187,
+    "decode": true,
+    "accepted": true,
+    "contact": "review/shot_12_h3.jpg",
+    "visual_review": "Nine sampled frames reviewed: stable phone, face and props, no added text. No full human playback claimed.",
+    "generation": {
+      "input.json": {
+        "image": "/home/ly/shortvideo/projects/early_pregnancy_signs_storybook_02/references/shots/shot_12_v2.png",
+        "sha256": "3c7c9f56602ba4344243488bd34567f94ef4b8603d8710a2df3fd54cac6fc6d0",
+        "frames": 192,
+        "seed": 20262032,
+        "prompt": "A continuous silent cream storybook animation matching the reference illustration. The seated woman holds her existing phone, briefly looks at its screen and nods gently. Locked camera. The adult woman, face, hair clip, clothing, furniture and objects remain consistent. The plain pastel walls remain blank throughout. Small natural movement.\n",
+        "url": "http://127.0.0.1:8199"
+      },
+      "submission.json": {
+        "prompt_id": "e7fe6824-b459-4736-9f6f-49ee712ea6f6",
+        "number": 100,
+        "node_errors": {}
+      },
+      "workflow_sha256": "13108bc1777135024a1d4f816f19f18463062e431833fbca28bf1b06caec248e",
+      "graph_family": "baseline20"
+    }
+  },
+  "13": {
+    "clip": "runs/h3-storybook-13-20261013-062029-24ac/clip.mp4",
+    "sha256": "094778031f823461602cd9ce727fe2e572d481f3ee1c0720ebe218c0ea4ed252",
+    "reference": "references/shots/shot_13_v1.png",
+    "reference_sha256": "08571023d2915086b35cb7f6601366a45c3f64d4a3638f43c4798b1775952a12",
+    "frames": 209,
+    "target_frames": 201,
+    "decode": true,
+    "accepted": true,
+    "contact": "review/shot_13_h3.jpg",
+    "visual_review": "Nine sampled frames reviewed: stable sofa, hands, lamp and blank wall; gentle pullback visible. No full human playback claimed.",
+    "generation": {
+      "input.json": {
+        "image": "/home/ly/shortvideo/projects/early_pregnancy_signs_storybook_02/references/shots/shot_13_v1.png",
+        "sha256": "08571023d2915086b35cb7f6601366a45c3f64d4a3638f43c4798b1775952a12",
+        "frames": 209,
+        "seed": 20262033,
+        "prompt": "A continuous silent cream storybook animation matching the reference illustration. The seated woman relaxes her shoulders and looks calmly forward. Very slow camera pullback. The adult woman, face, hair clip, clothing, furniture and objects remain consistent. The plain pastel walls remain blank throughout. Small natural movement.\n",
+        "url": "http://127.0.0.1:8199"
+      },
+      "submission.json": {
+        "prompt_id": "a01af0f2-97e1-4e55-a19b-aa4f3943453e",
+        "number": 101,
+        "node_errors": {}
+      },
+      "workflow_sha256": "cc82f9cf554b4852897b8410a7fe95384f3e82ae2d0e72f7f61baf1627cb01d7",
+      "graph_family": "baseline20"
+    }
+  },
+  "10": {
+    "clip": "runs/h3-storybook-10-20261013-062449-c9c6/clip.mp4",
+    "sha256": "732395078ca0410504de06778c07f84124d09f798332243290a95c0124423b39",
+    "reference": "references/shots/shot_10_v1.png",
+    "reference_sha256": "de09607c948af58e095de6ad051b5f177bf0b840384a943e10211b840e229452",
+    "frames": 226,
+    "target_frames": 225,
+    "decode": true,
+    "accepted": true,
+    "contact": "review/shot_10_h3.jpg",
+    "visual_review": "Second baseline20 repair: nine sampled frames reviewed, no added text, stable sofa/lamp/character, slight chin lowering. No full human playback claimed.",
+    "generation": {
+      "input.json": {
+        "image": "/home/ly/shortvideo/projects/early_pregnancy_signs_storybook_02/references/shots/shot_10_v1.png",
+        "sha256": "de09607c948af58e095de6ad051b5f177bf0b840384a943e10211b840e229452",
+        "frames": 226,
+        "seed": 20263030,
+        "prompt": "A continuous warm hand-drawn 2D animation of the adult woman from the input picture sitting quietly on her sofa. Her hands rest together on her lap. She takes a relaxed breath and gently lowers her chin once. Her brown hair and cream cardigan follow her tiny movement. Her expression is calm and thoughtful, lips closed. The camera stays fixed at the original framing. The pale blue wall, sofa, table and lamp retain their original appearance throughout the shot. Understated natural body language.\n",
+        "url": "http://127.0.0.1:8199"
+      },
+      "submission.json": {
+        "prompt_id": "ee4d6d9f-f804-467f-91ff-72f4ead5677e",
+        "number": 102,
+        "node_errors": {}
+      },
+      "workflow_sha256": "3aa8744e723c33b5e95a33886a2b071e81e726ec2bb9e2e0431bc8b5ac31bfdf",
+      "graph_family": "baseline20"
+    }
+  }
+}

@@ -34,3 +34,6 @@ projects/**/*.wav
 projects/**/*.mp3
 projects/**/*.m4a
 projects/**/*.flac
+
+# Remotion downloaded browser runtime cache
+.remotion/

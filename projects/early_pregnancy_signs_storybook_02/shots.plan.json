@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "status": "storyboard_review_pending",
+  "status": "production_approved",
   "style_preset": "2d-storybook-cream-warm-daily-list-explainer",
   "style_version": 1,
   "shots": [
@@ -28,7 +28,9 @@
         940,
         1672
       ],
-      "review_status": "awaiting_user_review"
+      "review_status": "approved_for_video",
+      "production_frames": 187,
+      "production_start": 0
     },
     {
       "id": "02",
@@ -54,7 +56,9 @@
         940,
         1672
       ],
-      "review_status": "awaiting_user_review"
+      "review_status": "approved_for_video",
+      "production_frames": 122,
+      "production_start": 187
     },
     {
       "id": "03",
@@ -80,7 +84,9 @@
         940,
         1672
       ],
-      "review_status": "awaiting_user_review"
+      "review_status": "approved_for_video",
+      "production_frames": 115,
+      "production_start": 309
     },
     {
       "id": "04",
@@ -106,7 +112,9 @@
         940,
         1672
       ],
-      "review_status": "awaiting_user_review"
+      "review_status": "approved_for_video",
+      "production_frames": 108,
+      "production_start": 424
     },
     {
       "id": "05",
@@ -132,7 +140,9 @@
         940,
         1672
       ],
-      "review_status": "awaiting_user_review"
+      "review_status": "approved_for_video",
+      "production_frames": 98,
+      "production_start": 532
     },
     {
       "id": "06",
@@ -158,7 +168,9 @@
         940,
         1672
       ],
-      "review_status": "awaiting_user_review"
+      "review_status": "approved_for_video",
+      "production_frames": 107,
+      "production_start": 630
     },
     {
       "id": "07",
@@ -186,7 +198,9 @@
         940,
         1672
       ],
-      "review_status": "awaiting_user_review"
+      "review_status": "approved_for_video",
+      "production_frames": 112,
+      "production_start": 737
     },
     {
       "id": "08",
@@ -212,7 +226,9 @@
         940,
         1672
       ],
-      "review_status": "awaiting_user_review"
+      "review_status": "approved_for_video",
+      "production_frames": 105,
+      "production_start": 849
     },
     {
       "id": "09",
@@ -238,7 +254,9 @@
         940,
         1672
       ],
-      "review_status": "awaiting_user_review"
+      "review_status": "approved_for_video",
+      "production_frames": 125,
+      "production_start": 954
     },
     {
       "id": "10",
@@ -264,7 +282,9 @@
         940,
         1672
       ],
-      "review_status": "awaiting_user_review"
+      "review_status": "approved_for_video",
+      "production_frames": 225,
+      "production_start": 1079
     },
     {
       "id": "11",
@@ -290,7 +310,9 @@
         940,
         1672
       ],
-      "review_status": "awaiting_user_review"
+      "review_status": "approved_for_video",
+      "production_frames": 218,
+      "production_start": 1304
     },
     {
       "id": "12",
@@ -318,7 +340,9 @@
         941,
         1672
       ],
-      "review_status": "awaiting_user_review"
+      "review_status": "approved_for_video",
+      "production_frames": 187,
+      "production_start": 1522
     },
     {
       "id": "13",
@@ -344,8 +368,11 @@
         941,
         1672
       ],
-      "review_status": "awaiting_user_review"
+      "review_status": "approved_for_video",
+      "production_frames": 201,
+      "production_start": 1709
     }
   ],
-  "character_reference": "references/character/master_v2.png"
+  "character_reference": "references/character/master_v2.png",
+  "approval_basis": "用户看过REVIEW.html图文包v2后明确说“你开始制作视频吧”；批准当前13镜参考帧、中文文案和H3路线。"
 }

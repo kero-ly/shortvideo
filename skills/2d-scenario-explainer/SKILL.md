@@ -50,3 +50,6 @@ description: Use when planning or producing 2D character scenario explainers, in
 `projects/early_pregnancy_signs_01/h3_v2/` 已验证 OpenLux GPT Image 2 → MiniMax H3 → Remotion → FFmpeg 的内部审阅链路；查看 `PRODUCTION.md`、`SHOT_LIST.md` 和 `review/h3-clips.json` 获取真实记录。可复用适配器和版式，不复用早孕事实、旧旁白、角色或医学卡片去套无关主题。
 
 该例 `compose_h3.py` / `finalize_h3.py` 仍硬编码本期 13 镜、旧声轨和医学内容，不能直接用于新主题。新期先建立自己的 episode 数据与合成入口或明确参数化；本 skill 是可执行指导，不是已经完成的通用批量调度器。
+
+
+网页审阅是默认交付方式：把全分镜参考帧、逐镜中文旁白、屏幕文字、预计时长、动作/运镜及工具路线组织成可直接打开的HTML页面。提供镜头编号导航、点击放大原图和可折叠prompt，图片与文案一一对应；另存Markdown供归档。静态网页预览不等于视频渲染。先检查图像可加载与页面布局，再给用户审阅；记录用户批准的页面/图文包版本，不能因打开页面就推定批准。可参考 projects/early_pregnancy_signs_storybook_02/scripts/build_review.py，复制到新期时适配路径与主题。

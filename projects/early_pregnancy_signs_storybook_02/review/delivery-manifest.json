@@ -1,0 +1,17 @@
+{
+  "version": "storybook-v1",
+  "run": "/home/ly/shortvideo/runs/storybook-compose-20261013-063138-cc62",
+  "duration_seconds": 79.58333333333333,
+  "files": {
+    "audio-source.json": "ce5ec13222550a5364b68af9bc9f8bf506c2e822661a2d84a0dfb52c27db95df",
+    "contact-sheet.png": "66056875b082ed5414a22e29ec5928206f664617ba4b918f0a6d23aa3090463e",
+    "cover.png": "f31fa044a111e06fe84a9a7b282e62a28a06ba73cb250d3c44e36ad13ad7a555",
+    "early_pregnancy_storybook.mp4": "4c019324dfcee2e0e16c3f8f48bc547607d23b5e850f8f5e919c78e05c93d890",
+    "h3-clips.json": "ab95fbebc0b2a4aafcad5ad08315d1606ea728ad441df6dd9666f9982b6123c8",
+    "index.html": "97de88fc580a063324716c5169dc24b06e1ecfa4b933b58968ce77ef636c65a8",
+    "props.json": "b39e8349c132f06fa6af7b3f8c9ac9a1338cfd4d39edceb6512112f388b6664c",
+    "qa.json": "021a009b94d610cf83814c5d87fbe20b03ab36815928f49a1fd7013536b2508f",
+    "subtitles.srt": "c50894223db4a6aa5c386e32c942a9459f2cff9aa6b016f8e4cfea8bcaa69080",
+    "visual-review.json": "1e28fc7b5ea9b8be733924421b5b01a5b5998b992eda9d5dc0ab96c9f7981371"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "07": {
+    "clip": "runs/h3-storybook-07-20261013-045435-bf0a/clip.mp4",
+    "sha256": "fa08f7b3c42e4a5052997c51b672743b9b549e500a62eee6bf5ef03673b8bbf0",
+    "reference": "references/shots/shot_07_v2.png",
+    "reference_sha256": "88868389d922d22c67d51b6ace8da3601b2972d25d41390899d2138a19829282",
+    "frames": 124,
+    "target_frames": 112,
+    "decode": true,
+    "accepted": false,
+    "contact": "review/shot_07_h3.jpg",
+    "visual_review": "Rejected: unrequested generated text/bubbles on background."
+  },
+  "10": {
+    "clip": "runs/h3-storybook-10-20261013-045802-b86c/clip.mp4",
+    "sha256": "9ec8dfb6a0fdf8c7d69672112cdf950338e89f1c5f9802165a26e6a7e9c78389",
+    "reference": "references/shots/shot_10_v1.png",
+    "reference_sha256": "de09607c948af58e095de6ad051b5f177bf0b840384a943e10211b840e229452",
+    "frames": 226,
+    "target_frames": 225,
+    "decode": true,
+    "accepted": false,
+    "contact": "review/shot_10_h3.jpg",
+    "visual_review": "Rejected: unrequested generated text/bubbles on background."
+  },
+  "11": {
+    "clip": "runs/h3-storybook-11-20261013-050023-76f9/clip.mp4",
+    "sha256": "e5454325f39cce458b0afc338202a52201b529b418198ca73d9ca4a0bc9676c0",
+    "reference": "references/shots/shot_11_v1.png",
+    "reference_sha256": "563f8413466851262ea166cc3fadab041696c994a785675421b2f661a7c32166",
+    "frames": 226,
+    "target_frames": 218,
+    "decode": true,
+    "accepted": false,
+    "contact": "review/shot_11_h3.jpg",
+    "visual_review": "Rejected: unrequested generated text/bubbles on background."
+  },
+  "12": {
+    "clip": "runs/h3-storybook-12-20261013-050244-3d06/clip.mp4",
+    "sha256": "d005c8366de332167ed6bb7df68466c75e09ce049a69420e25f658a4438c7727",
+    "reference": "references/shots/shot_12_v2.png",
+    "reference_sha256": "3c7c9f56602ba4344243488bd34567f94ef4b8603d8710a2df3fd54cac6fc6d0",
+    "frames": 192,
+    "target_frames": 187,
+    "decode": true,
+    "accepted": false,
+    "contact": "review/shot_12_h3.jpg",
+    "visual_review": "Rejected: unrequested generated text/bubbles on background."
+  },
+  "13": {
+    "clip": "runs/h3-storybook-13-20261013-050435-7491/clip.mp4",
+    "sha256": "510be225833a26ed5b3c5c061abe3764d2685f65beb8717258e31185188df6a4",
+    "reference": "references/shots/shot_13_v1.png",
+    "reference_sha256": "08571023d2915086b35cb7f6601366a45c3f64d4a3638f43c4798b1775952a12",
+    "frames": 209,
+    "target_frames": 201,
+    "decode": true,
+    "accepted": false,
+    "contact": "review/shot_13_h3.jpg",
+    "visual_review": "Rejected: unrequested generated text/bubbles on background."
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "10": {
+    "clip": "runs/h3-storybook-10-20261013-060713-ada8/clip.mp4",
+    "sha256": "b77744875af58901ce081bf49fe76503f92af3b8f6029466fc1c5e66afcd5673",
+    "reference": "references/shots/shot_10_v1.png",
+    "reference_sha256": "de09607c948af58e095de6ad051b5f177bf0b840384a943e10211b840e229452",
+    "frames": 226,
+    "target_frames": 225,
+    "decode": true,
+    "accepted": false,
+    "contact": "review/shot_10_h3.jpg",
+    "visual_review": "First baseline20 repair rejected: temporary 12~ text appeared."
+  }
+}
