@@ -1,0 +1,110 @@
+{
+  "status": "layout_preview_pending_user_review",
+  "subtitleLayout": "lower-single",
+  "frames": [
+    {
+      "shot_id": "01",
+      "title": "身体有点不一样？",
+      "caption": "先别急着猜答案",
+      "frame": 80,
+      "image": "shot-01.png",
+      "sha256": "975a3f30f51edd588488d238f68ad045dd16ec99214fb6c1252919477c44d2f6"
+    },
+    {
+      "shot_id": "02",
+      "title": "月经推迟",
+      "caption": "尤其平时周期比较规律时",
+      "frame": 251,
+      "image": "shot-02.png",
+      "sha256": "9c246c3c0288e6d4482f4ee5158fa0b45443a0e6ebea5220b7986039fbc237e1"
+    },
+    {
+      "shot_id": "03",
+      "title": "比平时更容易累",
+      "caption": "平常做完不费力的事",
+      "frame": 356,
+      "image": "shot-03.png",
+      "sha256": "5bd557b3a7a2c599b9c120f60d9fbec8854dc3b7eb1b6099fd7c6019fe8ea8c4"
+    },
+    {
+      "shot_id": "04",
+      "title": "乳房胀痛或敏感",
+      "caption": "第三，乳房胀痛或变得敏感",
+      "frame": 453,
+      "image": "shot-04.png",
+      "sha256": "87664fa515dc6843ea7ca039713d9efc461758e0c914fbdcb7c7c2d1d6c1f83c"
+    },
+    {
+      "shot_id": "05",
+      "title": "恶心",
+      "caption": "它不一定只在早晨出现",
+      "frame": 591,
+      "image": "shot-05.png",
+      "sha256": "c462c02076761bd82c55faa03b693b4088c6ced5d5d30c49b4fe2b7bee0a11cc"
+    },
+    {
+      "shot_id": "06",
+      "title": "对气味更敏感",
+      "caption": "熟悉的味道",
+      "frame": 685,
+      "image": "shot-06.png",
+      "sha256": "049924ef3bd09e7649e22274ccbbb586db52fcb7d7cd4b5d9dd3ccfb8d10bfb0"
+    },
+    {
+      "shot_id": "07",
+      "title": "小便次数增多",
+      "caption": "第六，上厕所比平时频繁",
+      "frame": 764,
+      "image": "shot-07.png",
+      "sha256": "3fa84e41f8cde1ce1bbc337ebc637e7b146d6e3b7cc75751a1505522942c7547"
+    },
+    {
+      "shot_id": "08",
+      "title": "口味变化",
+      "caption": "以前爱吃的食物",
+      "frame": 897,
+      "image": "shot-08.png",
+      "sha256": "5bf78f234445d0ecbf366f44e3f7812975226183fc353eb273a9c92604b5e8c2"
+    },
+    {
+      "shot_id": "09",
+      "title": "情绪起伏",
+      "caption": "第八，情绪起伏比平时明显",
+      "frame": 985,
+      "image": "shot-09.png",
+      "sha256": "f537e959716c805e96a4fd77280349e3ab22bb331003595905ef40c0052e9919"
+    },
+    {
+      "shot_id": "10",
+      "title": "症状不是答案",
+      "caption": "没有这些反应也不能排除",
+      "frame": 1183,
+      "image": "shot-10.png",
+      "sha256": "737aed48b6dd31621d51946f3f5aa668647a394ab3ee1b969bb8fd2cfac28e70"
+    },
+    {
+      "shot_id": "11",
+      "title": "什么时候测？",
+      "caption": "如果不知道月经什么时候来",
+      "frame": 1394,
+      "image": "shot-11.png",
+      "sha256": "62db718a7c8bfeeb4e16444f8bba928d142e5782e81518bc3ef2763c61e93e5e"
+    },
+    {
+      "shot_id": "12",
+      "title": "阴性，但月经还没来？",
+      "caption": "过几天再测一次",
+      "frame": 1597,
+      "image": "shot-12.png",
+      "sha256": "68e2953402f36b39aaeb4d5b71520d0beb272560ea12db713ae62c5b78cf7eab"
+    },
+    {
+      "shot_id": "13",
+      "title": "这些情况，请及时就医",
+      "caption": "请及时就医",
+      "frame": 1794,
+      "image": "shot-13.png",
+      "sha256": "680dba3442ca4b28e2e096b2c365442443acf165e5843f4e7b72a2549e06c4eb"
+    }
+  ]
+}
