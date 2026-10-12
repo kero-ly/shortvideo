@@ -2,8 +2,8 @@
 
 | 阶段 | 输入 / 工具 | 输出与进入下一阶段的条件 |
 |---|---|---|
-| 前期 | 用户 brief、可靠事实来源、风格规范 | PREPRODUCTION.md、逐镜 prompt 草稿；明确确认后开始素材制作；明确授权的限定样张按约定范围制作后返回讨论 |
-| 角色 | 选定图片 skill；目前已验证 openlux-gpt-image | 唯一母版、设定表；核对实际尺寸、成年观感、角色识别点 |
+| 前期 | 用户 brief、可靠事实来源、风格规范 | PREPRODUCTION.md、逐镜 prompt 草稿；先做有限角色探索，展示实际图片与完整方案后确认整期 |
+| 角色 | 选定图片 skill；目前已验证 openlux-gpt-image | 候选单人母版一张、设定表一张；核对实际尺寸、成年观感、角色识别点；展示后由用户确认角色及整期方案 |
 | 首帧 | 用同一母版编辑每镜参考图；先做代表镜头 | references/character 与 references/shots；身份、手与道具、动作起点、留白通过审核 |
 | 视频试跑 | 220 的 ComfyUI / MiniMax H3；capabilities/video-generation/h3_comfy.py | 单镜原片、完整 workflow / seed / 输入 hash / prompt / task ID；实际动作通过审核后再批量 |
 | 视频批量 | 逐镜串行提交，GPU 锁与队列检查 | 各自唯一 runs；原片技术检查、抽帧审核、接受/拒绝与原因记录 |

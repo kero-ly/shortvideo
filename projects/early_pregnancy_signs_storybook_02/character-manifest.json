@@ -1,0 +1,44 @@
+{
+  "status": "character_review_pending",
+  "requests": 4,
+  "assets": [
+    {
+      "path": "references/character/master_v1.png",
+      "sha256": "fac759a27bd05fc8fef65e5ee64c1a38d9d520006409c6d98f19c44252c6d7f7",
+      "bytes": 1781081,
+      "status": "superseded_style_too_detailed",
+      "model": "OpenLux gpt-image-2",
+      "actual_size": "1024x1536"
+    },
+    {
+      "path": "references/character/master_v2.png",
+      "sha256": "cdedd6cceb43e2ebd66d20f09a5de62bdb8a84178fc4b7da43cee3c094b2a83e",
+      "bytes": 1229111,
+      "status": "candidate_awaiting_user_review",
+      "model": "OpenLux gpt-image-2",
+      "actual_size": "1024x1536"
+    },
+    {
+      "path": "references/character/sheet_v1.png",
+      "sha256": "0ca9453be1af65ab89aaf34c5441558ce9227ff92dd643ba26c6f64bdddee583",
+      "bytes": 1617738,
+      "status": "superseded_style_too_detailed",
+      "model": "OpenLux gpt-image-2",
+      "actual_size": "1536x1024"
+    },
+    {
+      "path": "references/character/sheet_v2.png",
+      "sha256": "1690018a06f4890451f640386353b309289f0fd86583e03804bea6aa9d1498e3",
+      "bytes": 1413743,
+      "status": "candidate_awaiting_user_review",
+      "model": "OpenLux gpt-image-2",
+      "actual_size": "1536x1024"
+    }
+  ],
+  "lineage": {
+    "master_v1": "generate; prompts/character/master_v1.txt",
+    "sheet_v1": "edit master_v1; prompts/character/sheet_v1.txt; submitted before style correction",
+    "master_v2": "edit master_v1; prompts/character/master_v2.txt",
+    "sheet_v2": "edit master_v2; prompts/character/sheet_v1.txt"
+  }
+}
