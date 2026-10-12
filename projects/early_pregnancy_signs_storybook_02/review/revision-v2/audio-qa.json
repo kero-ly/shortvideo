@@ -1,0 +1,108 @@
+{
+  "complete_narration": true,
+  "segments": [
+    {
+      "id": "intro",
+      "source_sha256": "b1063cc299ad890be47b49180ea1aec1715e36868b0efec611229626762fbc2d",
+      "speech_end": 7.105306,
+      "slot_end": 7.791666666666667,
+      "complete": true
+    },
+    {
+      "id": "s01",
+      "source_sha256": "f426b0838505bef90b3ce9802ce1a16e13a8e4f3e6d6548832f808e9a483d2b4",
+      "speech_end": 12.215067666666666,
+      "slot_end": 12.875,
+      "complete": true
+    },
+    {
+      "id": "s02",
+      "source_sha256": "77807ab61f06bd52b1cc16bffdc550330e288d83658bb06dd8b608e853f7e386",
+      "speech_end": 16.984932,
+      "slot_end": 17.666666666666668,
+      "complete": true
+    },
+    {
+      "id": "s03",
+      "source_sha256": "37085383e000306c35d03437ada5d719cfa8ccce13892962f6787c0b3662d28a",
+      "speech_end": 21.509568666666667,
+      "slot_end": 22.166666666666668,
+      "complete": true
+    },
+    {
+      "id": "s04",
+      "source_sha256": "32cb0c8e36298717753d98784cead4c94d524a23a8c41afa065f1974e23a61c3",
+      "speech_end": 25.591609666666667,
+      "slot_end": 26.25,
+      "complete": true
+    },
+    {
+      "id": "s05",
+      "source_sha256": "a7234942c496aed3508ccb80c0b45c0aa78e79d6a404ceab6548001618d0d801",
+      "speech_end": 30.058073,
+      "slot_end": 30.708333333333332,
+      "complete": true
+    },
+    {
+      "id": "s06",
+      "source_sha256": "1b5a1c36eaad11bfd54cb2abe9ec286254ef5d7f59bbbdfd80df56bac10ccefc",
+      "speech_end": 34.71377533333333,
+      "slot_end": 35.375,
+      "complete": true
+    },
+    {
+      "id": "s07",
+      "source_sha256": "d1176eda054b1d4e752937b848e2562dbceabea4723ce27742e6ac5fdc2a8091",
+      "speech_end": 39.078583,
+      "slot_end": 39.75,
+      "complete": true
+    },
+    {
+      "id": "s08",
+      "source_sha256": "78667f56537eb37aa9a4b69504731ad6b4f13d14ae9ffa6fae2eaec1d21f7a05",
+      "speech_end": 44.301111,
+      "slot_end": 44.958333333333336,
+      "complete": true
+    },
+    {
+      "id": "truth",
+      "source_sha256": "5eb7d04f7696784cf49c984c89b0c93a0f58e0be23f0e9d9879000823524bf38",
+      "speech_end": 53.654206333333335,
+      "slot_end": 54.333333333333336,
+      "complete": true
+    },
+    {
+      "id": "test1",
+      "source_sha256": "9cd80cab4c6b7e51b4f25505f877e71669d375b597f5d23c3ed0ec48f8a28e70",
+      "speech_end": 62.750567333333336,
+      "slot_end": 63.416666666666664,
+      "complete": true
+    },
+    {
+      "id": "test2",
+      "source_sha256": "45427dac98900ac43e7b4af030fa647b57fb5bb92e5b3f93115797228f18a2ac",
+      "speech_end": 70.55680266666667,
+      "slot_end": 71.20833333333333,
+      "complete": true
+    },
+    {
+      "id": "care",
+      "source_sha256": "def1a00b51f4562fdcc8976666b831f608e37a7f49305fe481bfaf2020f0b5a4",
+      "speech_end": 78.89413833333333,
+      "slot_end": 79.58333333333333,
+      "complete": true
+    }
+  ],
+  "duration_seconds": 79.58333333333333,
+  "ending_tail_seconds": 0.689194999999998,
+  "music": {
+    "source": "original procedural composition",
+    "tempo_bpm": 104,
+    "style": "light plucked melody, soft bass and shaker",
+    "seed": 20261013,
+    "music_lufs_before_ducking": -25,
+    "voice_lufs_before_mix": -17,
+    "mix_target_lufs": -16
+  },
+  "listening": "Full human listening pending"
+}

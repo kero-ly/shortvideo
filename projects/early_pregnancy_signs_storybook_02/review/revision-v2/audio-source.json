@@ -1,0 +1,7 @@
+{
+  "source": "runs/storybook-audio-20261013-065657-a25b/mix.wav",
+  "sha256": "582a295e25d443ce504d3a0c6be6574b2a49cbf05ee57e8b93fcb9a06d4ac456",
+  "narration": "Complete source scene WAVs reconstructed; sample-identical to previously ASR-aligned full narration",
+  "scope": "internal_review_voice_rights_unverified",
+  "music": "Original light plucked instrumental 104 BPM"
+}

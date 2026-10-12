@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "checks": {
+    "complete_narration": true,
+    "ending_tail": true,
+    "audio_duration": true,
+    "resolution": true,
+    "fps": true,
+    "frames": true,
+    "codec": true,
+    "audio": true,
+    "duration": true,
+    "decode": true,
+    "no_black_frames": true,
+    "loudness": true,
+    "peak": true,
+    "h3_all_13": true
+  },
+  "duration_seconds": 79.58333333333333,
+  "loudness": {
+    "input_i": "-16.19",
+    "input_tp": "-2.67",
+    "input_lra": "3.40",
+    "input_thresh": "-26.30",
+    "output_i": "-15.96",
+    "output_tp": "-2.31",
+    "output_lra": "3.40",
+    "output_thresh": "-26.05",
+    "normalization_type": "dynamic",
+    "target_offset": "-0.04"
+  },
+  "native_h3_resolution": [
+    576,
+    1024
+  ],
+  "delivery_resolution": [
+    1080,
+    1920
+  ],
+  "visual_review": "Nine sampled frames per H3 shot and composition contact reviewed; no full human playback or listening claimed",
+  "voice": "Existing internal review narration; production usage rights of source voice not verified",
+  "sha256": "3e5a5390c028bf84ff0db6bb82f1fea5fb9375152d33c7cb11ac56af5d9f2f05"
+}

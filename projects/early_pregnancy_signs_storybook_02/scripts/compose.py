@@ -18,7 +18,7 @@ for s in props['scenes']:
  assert clips[s['shot_id']]['frames']>=s['frames'], 'Insufficient clip duration'
  run('prepare-'+s['shot_id'],['ffmpeg','-y','-i',src,'-an','-vf','fps=24,format=yuv420p','-frames:v',s['frames'],'-c:v','libx264','-crf','17','-preset','fast',assets/f"shot_{s['shot_id']}.mp4"])
 props['assetBase']=base;(job/'props.json').write_text(json.dumps(props,ensure_ascii=False,indent=2));mix=ROOT/props['mix_path'];assert mix.exists()
-(job/'audio-source.json').write_text(json.dumps({'source':str(mix.relative_to(ROOT)),'sha256':hashlib.sha256(mix.read_bytes()).hexdigest(),'narration':'IndexTTS2 previous episode; identical Chinese script checked','scope':'internal_review_voice_rights_unverified'},ensure_ascii=False,indent=2))
+(job/'audio-source.json').write_text(json.dumps({'source':str(mix.relative_to(ROOT)),'sha256':hashlib.sha256(mix.read_bytes()).hexdigest(),'narration':'Complete IndexTTS2 scene WAVs reconstructed to the approved scene starts; see audio-qa.json','music':'Original light plucked instrumental, 104 BPM, synthesized on 220','scope':'internal_review_voice_rights_unverified'},ensure_ascii=False,indent=2))
 binary=renderer/'node_modules/.bin/remotion';entry=renderer/'src/StorybookExplainer.jsx';duration=props['durationInFrames']/24
 run('preview-render',[binary,'render',entry,'StorybookExplainer',job/'preview-visual.mp4','--props',job/'props.json','--scale','.5','--concurrency','3','--codec','h264'],cwd=renderer)
 run('preview-mix',['ffmpeg','-y','-i',job/'preview-visual.mp4','-i',mix,'-c:v','copy','-c:a','aac','-t',duration,'-movflags','+faststart',job/'preview.mp4'])
