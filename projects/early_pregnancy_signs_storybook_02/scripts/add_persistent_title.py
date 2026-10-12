@@ -26,7 +26,7 @@ run('contact',['ffmpeg','-y','-framerate','1','-start_number','1','-i',job/'shot
 for name in ['caption-audit.json','subtitles.srt']:shutil.copy2(source/name,job/name)
 page=(source/'index.html').read_text().replace('src="preview-fused.mp4"','src="preview.mp4"').replace('字幕融合与语音对齐 · 完整审阅','全片黄字标题 · 视频审阅').replace('下方一个字幕块：短主题标签＋完整语义字幕。','上方黄字标题“早孕可能出现的 8 个信号”贯穿全片。<br>下方一个字幕块：短主题标签＋完整语义字幕。')
 (job/'index.html').write_text(page)
-qa={'resolution':[v['width'],v['height']],'frames':1910,'fps':24,'duration_seconds':1910/24,'full_decode':True,'title':props['persistentTitle'],'title_style':{'color':'#ffff00','font_size':90,'top':120,'side_inset':20},'title_interval_frames':[0,1910],'narration_and_caption_timing_unchanged':props['captions']==json.loads((source/'props.json').read_text())['captions'],'human_listening':False}
+qa={'resolution':[v['width'],v['height']],'frames':1910,'fps':24,'duration_seconds':1910/24,'full_decode':True,'title':props['persistentTitle'],'title_style':{'color':'#ffff00','font_size':90,'top':120,'side_inset':20,'stroke':'6px #54351f'},'title_interval_frames':[0,1910],'narration_and_caption_timing_unchanged':props['captions']==json.loads((source/'props.json').read_text())['captions'],'human_listening':False}
 (job/'qa.json').write_text(json.dumps(qa,ensure_ascii=False,indent=2))
 (job/'manifest.json').write_text(json.dumps({'status':'title_preview_pending_review','source_run':str(source.relative_to(ROOT)),'host':'220','files':{f.name:hashlib.sha256(f.read_bytes()).hexdigest() for f in job.iterdir() if f.suffix in ('.json','.mp4','.png','.html','.srt') and f.name!='manifest.json'}},ensure_ascii=False,indent=2))
 print('REVIEW_READY '+str(job),flush=True)

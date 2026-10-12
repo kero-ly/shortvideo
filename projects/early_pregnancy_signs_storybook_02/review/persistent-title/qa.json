@@ -12,7 +12,8 @@
     "color": "#ffff00",
     "font_size": 90,
     "top": 120,
-    "side_inset": 20
+    "side_inset": 20,
+    "stroke": "6px #54351f"
   },
   "title_interval_frames": [
     0,
@@ -20,6 +21,6 @@
   ],
   "narration_and_caption_timing_unchanged": true,
   "human_listening": false,
-  "visual_review": "13 scene samples and final frame checked: title fits, no face obstruction",
-  "run": "runs/storybook-title-20261013-075939-4a9b"
+  "run": "runs/storybook-title-20261013-080452-b41f",
+  "visual_review": "Final frame checked: stronger outline, complete title, no face obstruction"
 }

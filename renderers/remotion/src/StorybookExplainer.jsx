@@ -11,7 +11,7 @@ const Film=({scenes=[],captions=[],assetBase='',durationInFrames=240,subtitleLay
  const alpha=interpolate(f-s.start,[0,5],[0,1],{extrapolateLeft:'clamp',extrapolateRight:'clamp'});
  return <AbsoluteFill style={{background:cream,color:ink,fontFamily:'Noto Sans CJK SC, sans-serif'}}>
  {scenes.map((x,i)=><Sequence key={x.id} from={x.start} durationInFrames={x.frames}><OffthreadVideo muted src={staticFile(`${assetBase}/shot_${x.shot_id||String(i+1).padStart(2,'0')}.mp4`)} style={{width:'100%',height:'100%',objectFit:'cover'}}/></Sequence>)}
- {persistentTitle&&<div style={{position:'absolute',top:120,left:20,right:20,textAlign:'center',fontSize:90,fontWeight:900,lineHeight:1.3,whiteSpace:'nowrap',color:'#ffff00',WebkitTextStroke:'2.5px #684630',paintOrder:'stroke fill',textShadow:'0 3px 3px rgba(104,70,48,.18)'}}>{persistentTitle}</div>}
+ {persistentTitle&&<div style={{position:'absolute',top:120,left:20,right:20,textAlign:'center',fontSize:90,fontWeight:900,lineHeight:1.3,whiteSpace:'nowrap',color:'#ffff00',WebkitTextStroke:'6px #54351f',paintOrder:'stroke fill',textShadow:'0 3px 3px rgba(104,70,48,.18)'}}>{persistentTitle}</div>}
  {!lower&&<div style={{position:'absolute',top:228,left:78,right:110,textAlign:'center',opacity:alpha}}>
  <div style={{fontSize:card?58:68,fontWeight:900,lineHeight:1.4,color:ink,background:'rgba(255,232,157,.94)',display:'inline-block',padding:'4px 20px',borderRadius:16}}>{s.number?`${s.number} · `:''}{s.title}</div>
  {!card&&s.kind!=='intro'&&<div style={{display:'block',width:'fit-content',margin:'12px auto 0',padding:'5px 18px',borderRadius:14,background:'#fff8eced',fontSize:34,fontWeight:500}}>{s.note}</div>}
