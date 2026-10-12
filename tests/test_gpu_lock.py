@@ -15,4 +15,3 @@ class LockTest(unittest.TestCase):
    handle.close()
    self.assertEqual(subprocess.run(command,capture_output=True).returncode,0)
 if __name__=='__main__': unittest.main()
-
