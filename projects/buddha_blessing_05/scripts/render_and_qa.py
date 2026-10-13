@@ -1,7 +1,7 @@
 """220-only composition and technical QA; no generated-frame padding or looping."""
 import argparse, hashlib, json, shutil, subprocess, time
 from pathlib import Path
-p=argparse.ArgumentParser();p.add_argument('--clip',type=Path,required=True);p.add_argument('--audio-job',type=Path,required=True);p.add_argument('--stage',choices=['preview','final'],required=True);a=p.parse_args()
+p=argparse.ArgumentParser();p.add_argument('--version',default='v1');p.add_argument('--voice-usage',default='configured teacher reference; source record limited to internal testing; public use pending confirmation');p.add_argument('--clip',type=Path,required=True);p.add_argument('--audio-job',type=Path,required=True);p.add_argument('--stage',choices=['preview','final'],required=True);a=p.parse_args()
 E=Path(__file__).resolve().parents[1];clip=a.clip.resolve();audio=a.audio_job.resolve()
 def run(name,args,job):
  result=subprocess.run([str(s) for s in args],capture_output=True,text=True);(job/(name+'.log')).write_text(result.stdout+result.stderr);assert result.returncode==0,(name,result.stderr[-1500:]);return result
@@ -14,7 +14,7 @@ for i,c in enumerate(align['cues']):
  assert c['start']<c['end']<=15
  if i: assert align['cues'][i-1]['end']<=c['start']
  assert hashlib.sha256((audio/'audio'/f"{c['id']}.wav").read_bytes()).hexdigest()==c['sha256']
-job=E/('runs' if a.stage=='preview' else 'deliveries')/(a.stage+'-v1-'+time.strftime('%Y%m%d-%H%M%S'));job.mkdir(parents=True,exist_ok=False)
+job=E/('runs' if a.stage=='preview' else 'deliveries')/(a.stage+'-'+a.version+'-'+time.strftime('%Y%m%d-%H%M%S'));job.mkdir(parents=True,exist_ok=False)
 size='576:1024' if a.stage=='preview' else '1080:1920'
 output=job/('preview.mp4' if a.stage=='preview' else 'buddha-blessing-15s.mp4')
 run('render',['ffmpeg','-y','-i',clip,'-i',audio/'mix.wav','-map','0:v:0','-map','1:a:0','-vf',f"scale={size}:flags=lanczos,ass={audio/'captions.ass'},format=yuv420p",'-frames:v','360','-r','24','-c:v','libx264','-crf','18','-preset','medium','-c:a','aac','-b:a','192k','-ar','48000','-ac','2','-t','15','-movflags','+faststart',output],job)
@@ -32,7 +32,7 @@ run('cover',['ffmpeg','-y','-ss','7.8','-i',output,'-frames:v','1',job/'cover.jp
 run('contact',['ffmpeg','-y','-i',output,'-vf','fps=1,scale=270:480,tile=5x3','-frames:v','1',job/'contact-sheet.jpg'],job)
 for t in [0,5,10,14.5]:run('frame-'+str(t),['ffmpeg','-y','-ss',str(t),'-i',output,'-frames:v','1',job/f'frame-{t}.png'],job)
 for name in ['captions.srt','captions.ass','alignment.json','music-source.json','tts-manifest.json']:shutil.copy2(audio/name,job/name)
-qa=dict(technical='passed: full decode, 360 frames at24fps, H264/yuv420p, AAC48k stereo, no black intervals',duration=15,native_resolution=[576,1024],output_resolution=[v['width'],v['height']],loudness_lufs=float(measurement['input_i']),true_peak_dbtp=float(measurement['input_tp']),caption_timing='actual phrase WAV + faster-whisper word timestamps; locked copy kept; no character interpolation',narration_tail_seconds=15-max(c['audio_end'] for c in align['cues']),visual_review='pending',full_playback='pending',actual_listening='pending',voice_usage='configured teacher reference; source record limited to internal testing; public use pending confirmation',user_approval='review/approval-v1.json',stage=a.stage)
+qa=dict(technical='passed: full decode, 360 frames at24fps, H264/yuv420p, AAC48k stereo, no black intervals',duration=15,native_resolution=[576,1024],output_resolution=[v['width'],v['height']],loudness_lufs=float(measurement['input_i']),true_peak_dbtp=float(measurement['input_tp']),caption_timing='actual phrase WAV + faster-whisper word timestamps; locked copy kept; no character interpolation',narration_tail_seconds=15-max(c['audio_end'] for c in align['cues']),visual_review='pending',full_playback='pending',actual_listening='pending',voice_usage=a.voice_usage,user_approval='review/approval-v1.json',stage=a.stage)
 (job/'qa.json').write_text(json.dumps(qa,ensure_ascii=False,indent=2))
 source=dict(master=str(E/'references/master-v1.png'),master_sha256=hashlib.sha256((E/'references/master-v1.png').read_bytes()).hexdigest(),clip=str(clip),clip_sha256=hashlib.sha256(clip.read_bytes()).hexdigest(),native_frames=int(stream['nb_frames']),native_duration=float(stream['duration']),trim='last 2 native frames omitted to15s; no retiming, looping or frozen frames',narration=str(audio/'narration.wav'),narration_sha256=align['narration_sha256'],mix=str(audio/'mix.wav'),mix_sha256=hashlib.sha256((audio/'mix.wav').read_bytes()).hexdigest(),reference_preprocess='Lanczos aspect-preserving cover with center crop;948x1659→576x1024; approx0.78% removed at each horizontal edge')
 (job/'sources.json').write_text(json.dumps(source,ensure_ascii=False,indent=2))
