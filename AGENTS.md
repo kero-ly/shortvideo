@@ -32,3 +32,7 @@ Reusable production choices: inspect styles/registry.json selectable_components 
 For 2D organ cutaways, personified organs, blood/particle flow and controlled local deformation, read skills/2d-mechanism-explainer/SKILL.md for reference analysis, software selection, layered assets and motion storyboards. The heart-circulation episode provides sample-tested SVG/Remotion components (arc-length particles, local contours, simple expressions/limbs, camera and vessel clipping). This is case-based evidence, not generic anatomy/rigging support or user-approved style. Read its QA and validate new structures before reuse.
 
 Documentation entrypoints are canonical AGENTS.md and README.md (standard casing); do not create duplicate Agent.md or ReadME.md on case-insensitive filesystems. Update both relevant guidance and references when architecture changes.
+
+祈福佛像、巨型神像与云海景观请求读取 skills/devotional-landscape/SKILL.md，检索“佛祖保佑 / 金色云海祈福”。当前为前期方法指导，非生产就绪；按本期实际授权与工具实测推进，不把截图推定为原声证据。
+
+For supplied-reference animation and narration/caption revisions, follow skills/caption-alignment/references/pregnancy-revision-lessons.md when applicable. Keep TTS pronunciation overrides separate from display text, preserve unaffected clip/audio hashes, and distinguish independent ASR from actual listening. Case parameters remain optional, not series defaults.

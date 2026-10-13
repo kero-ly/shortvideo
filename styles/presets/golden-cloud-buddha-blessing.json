@@ -1,0 +1,42 @@
+{
+  "id": "golden-cloud-buddha-blessing",
+  "version": 1,
+  "display_name": "电影感佛像 · 金色云海 · 平安祈福",
+  "aliases": [
+    "佛祖保佑",
+    "金色云海祈福",
+    "佛光祈福"
+  ],
+  "components": {
+    "visual": {
+      "id": "golden-cloud-blessing-visual",
+      "version": 1,
+      "path": "styles/visual/golden-cloud-blessing.json"
+    },
+    "layouts": {
+      "id": "blessing-bold-outline-layout",
+      "version": 1,
+      "path": "styles/layouts/blessing-bold-outline.json"
+    },
+    "audio": {
+      "id": "peaceful-blessing-audio",
+      "version": 1,
+      "path": "styles/audio/peaceful-blessing.json"
+    },
+    "format": {
+      "id": "short-blessing",
+      "version": 1,
+      "path": "formats/short-blessing.json"
+    }
+  },
+  "compatible_methods": [
+    "devotional-landscape"
+  ],
+  "status": "configured_preproduction_only",
+  "limitations": [
+    "按各期实际图文版本和授权证据推进，共享预设不携带单期批准",
+    "方法为操作规范，非自动调度器；H3单镜15秒未验证",
+    "配音方案非原声复刻；字幕renderer待本期实现验证"
+  ],
+  "example": "projects/buddha_blessing_05/storyboard/v1.md"
+}

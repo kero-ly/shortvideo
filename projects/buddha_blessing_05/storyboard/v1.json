@@ -1,0 +1,52 @@
+{
+  "revision": 1,
+  "duration_seconds": 15,
+  "timing_basis": "预计值；TTS尚未授权，实际音频后调整",
+  "continuous_shot": "01",
+  "reference": "references/master-v1.png",
+  "segments": [
+    {
+      "id": "01",
+      "start": 0,
+      "end": 4,
+      "narration": "愿佛光照耀你，平安喜乐。",
+      "screen_text": "愿佛光照耀你 / 平安喜乐",
+      "action": "佛像合十保持稳定，薄雾缓缓向两侧飘移。",
+      "camera": "全景起始，缓慢推进约1%。"
+    },
+    {
+      "id": "02",
+      "start": 4,
+      "end": 7,
+      "narration": "诸事顺遂。",
+      "screen_text": "诸事顺遂",
+      "action": "海浪轻推，夕阳光晕柔和。",
+      "camera": "继续同一镜头缓推，不切场景。"
+    },
+    {
+      "id": "03",
+      "start": 7,
+      "end": 11,
+      "narration": "家旺，财旺，子孙旺。",
+      "screen_text": "家旺财旺子孙旺",
+      "action": "渔民自然小幅移动，船与岸线稳定。",
+      "camera": "推进累计约3%，佛像头顶完整。"
+    },
+    {
+      "id": "04",
+      "start": 11,
+      "end": 15,
+      "narration": "愿你阖家幸福，岁岁安康。",
+      "screen_text": "阖家幸福 / 岁岁安康",
+      "action": "云海微动，佛像保持宁静；结尾语音后≥0.6秒。",
+      "camera": "最后保持，累计推进≤5%。"
+    }
+  ],
+  "tool_plan": {
+    "image": "OpenLux GPT Image 2，编辑用户截图",
+    "video": "220 H3候选，单镜时长与路径适配待验证",
+    "narration": "220 IndexTTS2，新配音，非原声克隆",
+    "music": "原创轻钟声与持续音，尚未生成",
+    "composition": "220 ffmpeg或Remotion，字幕支持待实测"
+  }
+}

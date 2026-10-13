@@ -1,0 +1,17 @@
+{
+  "id": "peaceful-blessing-audio",
+  "version": 1,
+  "narration": {
+    "delivery": "沉稳温和，真诚祝愿，清晰停顿",
+    "engine": "IndexTTS2",
+    "voice_reference": "显式配置的参考音，不默认为原视频声线",
+    "speed": "依据实际时长调整文案，禁止硬压速"
+  },
+  "music": {
+    "direction": "轻钟声、柔和持续音、极简五声音阶",
+    "source": "原创或有授权的素材，来源与实际音频记录在各期清单",
+    "mix": "旁白清晰优先，钟声不盖住辅音"
+  },
+  "tail_silence_seconds": 0.6,
+  "status": "configured_audio_unverified"
+}

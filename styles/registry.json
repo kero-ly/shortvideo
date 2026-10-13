@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "default_preset": null,
   "presets": [
     {
@@ -48,6 +48,27 @@
         "深棕描边",
         "融合字幕"
       ]
+    },
+    {
+      "id": "golden-cloud-buddha-blessing",
+      "version": 1,
+      "path": "styles/presets/golden-cloud-buddha-blessing.json",
+      "aliases": [
+        "佛祖保佑",
+        "金色云海祈福",
+        "佛光祈福"
+      ],
+      "method": "devotional-landscape",
+      "status": "configured_preproduction_only",
+      "tags": [
+        "佛像",
+        "祈福",
+        "金色",
+        "云海",
+        "写实",
+        "竖屏",
+        "短祝愿"
+      ]
     }
   ],
   "methods": {
@@ -59,12 +80,51 @@
       "path": "skills/2d-mechanism-explainer/SKILL.md",
       "version": 3,
       "status": "implemented_case_based"
+    },
+    "devotional-landscape": {
+      "path": "skills/devotional-landscape/SKILL.md",
+      "status": "preproduction_guidance_only",
+      "production_ready": false,
+      "limitations": "图文可制作；H3新期输出路径和景观连续性需生产前适配验证"
     }
   },
   "selectable_components": [
-    {"id": "science-expressive", "version": 1, "kind": "audio", "path": "styles/audio/science-expressive.json", "aliases": ["科普表现型配音", "有风格的科普配音"], "skill": "skills/science-narration/SKILL.md", "status": "case_tested_listening_pending"},
-    {"id": "procedural-science-mix", "version": 1, "kind": "audio", "path": "styles/audio/procedural-science-mix.json", "aliases": ["轻快程序配乐", "可闻背景音乐"], "skill": "skills/procedural-music-mix/SKILL.md", "status": "case_tested_listening_pending"},
-    {"id": "svg-mechanism-guidance", "version": 1, "kind": "visual", "path": "styles/visual/svg-mechanism-guidance.json", "aliases": ["SVG机制动画", "粗箭头与呼吸高亮"], "skill": "skills/2d-mechanism-explainer/SKILL.md", "status": "case_tested_user_acceptance_pending"}
+    {
+      "id": "science-expressive",
+      "version": 1,
+      "kind": "audio",
+      "path": "styles/audio/science-expressive.json",
+      "aliases": [
+        "科普表现型配音",
+        "有风格的科普配音"
+      ],
+      "skill": "skills/science-narration/SKILL.md",
+      "status": "case_tested_listening_pending"
+    },
+    {
+      "id": "procedural-science-mix",
+      "version": 1,
+      "kind": "audio",
+      "path": "styles/audio/procedural-science-mix.json",
+      "aliases": [
+        "轻快程序配乐",
+        "可闻背景音乐"
+      ],
+      "skill": "skills/procedural-music-mix/SKILL.md",
+      "status": "case_tested_listening_pending"
+    },
+    {
+      "id": "svg-mechanism-guidance",
+      "version": 1,
+      "kind": "visual",
+      "path": "styles/visual/svg-mechanism-guidance.json",
+      "aliases": [
+        "SVG机制动画",
+        "粗箭头与呼吸高亮"
+      ],
+      "skill": "skills/2d-mechanism-explainer/SKILL.md",
+      "status": "case_tested_user_acceptance_pending"
+    }
   ],
   "selection": "explicit_user > approved_episode > explicitly_selected_series > content_recommendation",
   "automatic_runtime_dispatch": false

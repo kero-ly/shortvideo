@@ -1,0 +1,1 @@
+本期h3_episode.py选择性复用capabilities/video-generation/h3_comfy.py：ROOT适配episode脚本层级，作业父目录改为EPISODE/runs。图谱、无自动重提交与prompt_id恢复保持原适配器行为。原图与目标576×1024均为9:16比例，非等比拉伸风险不适用；模型实际预处理仍以服务输出为证据。H3端点显式传入18311。

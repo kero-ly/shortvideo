@@ -1,0 +1,25 @@
+{
+  "id": "blessing-bold-outline-layout",
+  "version": 1,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "caption": {
+    "font_family": "Noto Sans CJK SC",
+    "font_size": 68,
+    "font_weight": 900,
+    "color": "#FFFFFF",
+    "stroke_color": "#111111",
+    "stroke_width": 8,
+    "accent_color": "#EF8A9B",
+    "anchor_y_ratio": 0.83,
+    "left": 90,
+    "right": 150,
+    "max_lines": 1,
+    "max_characters": 11
+  },
+  "title": null,
+  "timing": "实际分段音频或对齐结果驱动，不按字数均分",
+  "status": "configured_renderer_pending"
+}

@@ -1,0 +1,230 @@
+{
+  "episode_id": "buddha_blessing_05",
+  "revision": 1,
+  "status": "storyboard_review_pending",
+  "brief": {
+    "topic": "佛祖保佑风格15秒祈福视频",
+    "audience": "短视频祈福祝愿观众",
+    "key_points": [
+      "平安喜乐",
+      "诸事顺遂",
+      "阖家幸福与安康"
+    ]
+  },
+  "selection": {
+    "basis": "explicit_user_reference",
+    "preset": {
+      "id": "golden-cloud-buddha-blessing",
+      "version": 1,
+      "path": "styles/presets/golden-cloud-buddha-blessing.json",
+      "sha256": "57ccf246145cd33470a918b121bf3992be5e1a4f0c48d92b5688b93ce7b32334"
+    },
+    "components": [
+      {
+        "id": "golden-cloud-blessing-visual",
+        "version": 1,
+        "path": "styles/visual/golden-cloud-blessing.json",
+        "sha256": "0fe524be28271a19f835b358246ed431191afe1d58426df5b6d394d2c5372583"
+      },
+      {
+        "id": "blessing-bold-outline-layout",
+        "version": 1,
+        "path": "styles/layouts/blessing-bold-outline.json",
+        "sha256": "0e1a7ddbb331b060c6c6a865de0c42b30c06a7eb09ea71dd65fc291ba773b8aa"
+      },
+      {
+        "id": "peaceful-blessing-audio",
+        "version": 1,
+        "path": "styles/audio/peaceful-blessing.json",
+        "sha256": "58b9f3f9da259703df5b9195337531169dfe9d975028d8f103765117152d7649"
+      },
+      {
+        "id": "short-blessing",
+        "version": 1,
+        "path": "formats/short-blessing.json",
+        "sha256": "92ac9ab976d832f8f79e40dc590df7fe02051051a089a9163efa248951c92bda"
+      }
+    ],
+    "overrides": {}
+  },
+  "resolved": {
+    "visual": {
+      "id": "golden-cloud-blessing-visual",
+      "version": 1,
+      "medium": "写实电影感AI宗教景观",
+      "subject": "合十立佛，象牙白石质感，面容宁静；不混用不同神像特征",
+      "composition": {
+        "canvas": [
+          1080,
+          1920
+        ],
+        "buddha": "中央上部约65%，头顶完整",
+        "clouds": "佛像背后巨大体积云柱，缓慢变化",
+        "foreground": "下部18%海滩、木船、渔民剪影",
+        "text_safe_area": "y=0.78–0.87，避免遮挡佛像手脸"
+      },
+      "palette": [
+        "#F3D9A2",
+        "#D99544",
+        "#FFF1D2",
+        "#365A68"
+      ],
+      "lighting": "金色夕阳、柔和佛光、蓝青天空平衡",
+      "motion": "佛像和手势稳定，云雾缓移，浪花推进，低幅运镜",
+      "status": "configured_reference_generation_pending",
+      "limitations": [
+        "风格配置并非自动渲染实现",
+        "尚无本主题H3成片验证"
+      ]
+    },
+    "layouts": {
+      "id": "blessing-bold-outline-layout",
+      "version": 1,
+      "canvas": [
+        1080,
+        1920
+      ],
+      "caption": {
+        "font_family": "Noto Sans CJK SC",
+        "font_size": 68,
+        "font_weight": 900,
+        "color": "#FFFFFF",
+        "stroke_color": "#111111",
+        "stroke_width": 8,
+        "accent_color": "#EF8A9B",
+        "anchor_y_ratio": 0.83,
+        "left": 90,
+        "right": 150,
+        "max_lines": 1,
+        "max_characters": 11
+      },
+      "title": null,
+      "timing": "实际分段音频或对齐结果驱动，不按字数均分",
+      "status": "configured_renderer_pending"
+    },
+    "audio": {
+      "id": "peaceful-blessing-audio",
+      "version": 1,
+      "narration": {
+        "delivery": "沉稳温和，真诚祝愿，清晰停顿",
+        "engine": "IndexTTS2",
+        "voice_reference": "显式配置的参考音，不默认为原视频声线",
+        "speed": "依据实际时长调整文案，禁止硬压速"
+      },
+      "music": {
+        "direction": "轻钟声、柔和持续音、极简五声音阶",
+        "source": "原创或有授权的素材，来源与实际音频记录在各期清单",
+        "mix": "旁白清晰优先，钟声不盖住辅音"
+      },
+      "tail_silence_seconds": 0.6,
+      "status": "configured_audio_unverified"
+    },
+    "format": {
+      "id": "short-blessing",
+      "version": 1,
+      "duration_range_seconds": [
+        10,
+        18
+      ],
+      "structure": [
+        "佛光/平安祝愿开场",
+        "顺遂和家庭祝愿",
+        "安康幸福收尾"
+      ],
+      "copy_rules": [
+        "作为祝愿表达，不写成效果保证",
+        "不附加强制点赞转发或恐吓",
+        "避免替代医疗、投资建议"
+      ],
+      "shot_design": "可单一连续场景；字幕段落不等于镜头切换"
+    },
+    "canvas": [
+      1080,
+      1920
+    ],
+    "duration_seconds": 15,
+    "reference_native_dimensions": [
+      948,
+      1659
+    ]
+  },
+  "methods": [
+    "devotional-landscape"
+  ],
+  "tools": [
+    {
+      "capability": "image",
+      "provider": "OpenLux GPT Image 2",
+      "status": "smoke_tested",
+      "evidence": "review/image-generation-v1.json；本期单张图完成，不代表video ready"
+    },
+    {
+      "capability": "video",
+      "provider": "220 H3",
+      "status": "unverified"
+    },
+    {
+      "capability": "narration",
+      "provider": "220 IndexTTS2",
+      "status": "configured"
+    },
+    {
+      "capability": "composition",
+      "provider": "220 ffmpeg/Remotion",
+      "status": "configured"
+    }
+  ],
+  "shots": [
+    {
+      "id": "01",
+      "method": "devotional-landscape",
+      "reference": "references/master-v1.png",
+      "segments": [
+        {
+          "id": "01",
+          "start": 0,
+          "end": 4,
+          "narration": "愿佛光照耀你，平安喜乐。",
+          "screen_text": "愿佛光照耀你 / 平安喜乐",
+          "action": "佛像合十保持稳定，薄雾缓缓向两侧飘移。",
+          "camera": "全景起始，缓慢推进约1%。"
+        },
+        {
+          "id": "02",
+          "start": 4,
+          "end": 7,
+          "narration": "诸事顺遂。",
+          "screen_text": "诸事顺遂",
+          "action": "海浪轻推，夕阳光晕柔和。",
+          "camera": "继续同一镜头缓推，不切场景。"
+        },
+        {
+          "id": "03",
+          "start": 7,
+          "end": 11,
+          "narration": "家旺，财旺，子孙旺。",
+          "screen_text": "家旺财旺子孙旺",
+          "action": "渔民自然小幅移动，船与岸线稳定。",
+          "camera": "推进累计约3%，佛像头顶完整。"
+        },
+        {
+          "id": "04",
+          "start": 11,
+          "end": 15,
+          "narration": "愿你阖家幸福，岁岁安康。",
+          "screen_text": "阖家幸福 / 岁岁安康",
+          "action": "云海微动，佛像保持宁静；结尾语音后≥0.6秒。",
+          "camera": "最后保持，累计推进≤5%。"
+        }
+      ],
+      "duration_seconds": 15
+    }
+  ],
+  "approvals": [
+    {
+      "scope": "前期图像与文案，非视频生产批准",
+      "revision": 1,
+      "evidence": "2026-10-13 用户选择：先给我看图像和文案"
+    }
+  ]
+}

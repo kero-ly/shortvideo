@@ -1,0 +1,29 @@
+{
+  "revision": 1,
+  "lineage": [
+    {
+      "source": "references/user-reference.png",
+      "source_sha256": "acd5cfe59685a5be0ede6d0ed6e70410620e80055fb953c92617e8a50949e823",
+      "prompt": "storyboard/image-prompt-v1.txt",
+      "prompt_sha256": "ec0559bb4f9cf4b15010d740ad2480d12f09c312bfa1f4d39fbde71d666bef36",
+      "output": "references/master-v1.png",
+      "output_sha256": "e1eeec568e8dfda5f11dca068c02482aa79d99e480824421ea4ce27952a03ac5",
+      "provider": "OpenLux GPT Image 2",
+      "native_dimensions": [
+        948,
+        1659
+      ],
+      "requested_dimensions": [
+        1024,
+        1792
+      ],
+      "postprocess": "none"
+    }
+  ],
+  "qa": {
+    "image_review": "实际查看：无播放图标、文字、边框；佛像脸与头顶完整；双掌有小缝，未严格贴合；渔船为3艘，并非prompt中的2艘；整体构图接近参考但非逐像素复刻",
+    "video": "not_started",
+    "audio": "not_started",
+    "production_approval": "pending"
+  }
+}

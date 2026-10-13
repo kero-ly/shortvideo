@@ -1,0 +1,27 @@
+{
+  "user_reference": {
+    "path": "references/user-reference.png",
+    "sha256": "acd5cfe59685a5be0ede6d0ed6e70410620e80055fb953c92617e8a50949e823",
+    "scope": "用户指定图像，用于本期参考和编辑",
+    "upstream_author": "抖音 @🌸青春无处安放🌸",
+    "upstream_date_display": "7月7日，年份未知",
+    "original_video_duration_seconds": 10
+  },
+  "observed": [
+    "抖音播放画面：巨型合十佛像、云柱、夕阳海滩渔船",
+    "字幕家旺财旺子孙旺、一顺百顺、阖家幸福；幸福粉色强调"
+  ],
+  "unknown": [
+    "完整原片台词",
+    "原声声线、音轨和音乐来源",
+    "原素材公开复用授权"
+  ],
+  "proposed": "15秒新配音新字幕，画面风格复刻",
+  "approval_evidence": [
+    {
+      "scope": "图像与文案前期",
+      "evidence": "2026-10-13 用户答复：先给我看图像和文案",
+      "production_approved": false
+    }
+  ]
+}
