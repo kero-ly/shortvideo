@@ -1,0 +1,34 @@
+import json,re,difflib,hashlib
+from pathlib import Path
+from faster_whisper import WhisperModel
+P=Path(__file__).resolve().parents[1];ROOT=P.parents[1];assert str(ROOT)=='/home/ly/shortvideo'
+t=json.loads((P/'timeline/audio-v2.json').read_text());cache=ROOT/'.cache/asr-model-cache/models--Systran--faster-whisper-small/snapshots';model=WhisperModel(str(next(cache.iterdir())),device='cpu',compute_type='int8',cpu_threads=6)
+clean=lambda s:re.sub(r'[^\u4e00-\u9fff0-9]','',s)
+cues=[];evidence=[];maps=[]
+for shot in t['shots']:
+ audio=P/shot['audio'];assert hashlib.sha256(audio.read_bytes()).hexdigest()==shot['sha256']
+ segs,info=model.transcribe(str(audio),language='zh',word_timestamps=True,beam_size=5,vad_filter=False,initial_prompt=shot['text'])
+ words=[{'text':w.word,'start':w.start,'end':w.end} for seg in segs for w in (seg.words or [])]
+ assert words,shot['id'];spoken='';owners=[]
+ for i,w in enumerate(words):
+  for c in clean(w['text']):spoken+=c;owners.append(i)
+ locked=clean(shot['text']);match=difflib.SequenceMatcher(None,locked,spoken,autojunk=False);mapping={}
+ for block in match.get_matching_blocks():
+  for k in range(block.size):mapping[block.a+k]=owners[block.b+k]
+ # Matched actual words bound each semantic phrase; no proportional timing allocation.
+ cursor=0;shotcues=[]
+ phrases=[x for x in re.findall(r'[^，。？！：；]+[，。？！：；]?',shot['text']) if clean(x)]
+ for phrase in phrases:
+  n=len(clean(phrase));inds=sorted(set(mapping[k] for k in range(cursor,cursor+n) if k in mapping));cursor+=n
+  assert inds,('Unaligned phrase',shot['id'],phrase)
+  start=shot['audio_start']+words[inds[0]]['start'];end=shot['audio_start']+words[inds[-1]]['end']
+  shotcues.append({'shot_id':shot['id'],'text':phrase,'start':round(start,3),'end':round(end,3),'source_indices':inds})
+ for i,c in enumerate(shotcues):c['end']=round(min(shotcues[i+1]['start'] if i+1<len(shotcues) else (shot['start']+shot['frames'])/24-.04,max(c['end']+.12,c['start']+.3)),3)
+ cues+=shotcues;evidence.append({'shot_id':shot['id'],'audio_sha256':shot['sha256'],'words':words,'similarity':match.ratio(),'differences':[{'kind':tag,'locked':locked[a:b],'recognized':spoken[c:d]} for tag,a,b,c,d in match.get_opcodes() if tag!='equal']})
+ maps.append({'shot_id':shot['id'],'original_screen_text':shot['screen_text'],'destination':'week heading plus complete narration cues; no duplicated screen paragraph','cue_indices':list(range(len(cues)-len(shotcues),len(cues)))})
+ print(shot['id'],match.ratio(),flush=True)
+(P/'timeline/captions-v2.json').write_text(json.dumps({'engine':'faster-whisper small CPU int8; matched real word boundaries','narration_sha256':t['narration_sha256'],'cues':cues},ensure_ascii=False,indent=2))
+(P/'review/alignment-evidence-v2.json').write_text(json.dumps({'shots':evidence,'semantic_mapping':maps,'listening':'pending'},ensure_ascii=False,indent=2))
+def stamp(s):
+ ms=round(s*1000);return f'{ms//3600000:02}:{ms//60000%60:02}:{ms//1000%60:02},{ms%1000:03}'
+(P/'timeline/captions-v2.srt').write_text('\n\n'.join(f'{i+1}\n{stamp(c["start"])} --> {stamp(c["end"])}\n{c["text"]}' for i,c in enumerate(cues))+'\n')
