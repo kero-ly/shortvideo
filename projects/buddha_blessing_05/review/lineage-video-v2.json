@@ -1,0 +1,80 @@
+{
+  "composition": {
+    "master": "/home/ly/shortvideo/projects/buddha_blessing_05/references/master-v1.png",
+    "master_sha256": "e1eeec568e8dfda5f11dca068c02482aa79d99e480824421ea4ce27952a03ac5",
+    "clip": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/h3-buddha-v2-20261014-065240-87ec/clip.mp4",
+    "clip_sha256": "ae0704c1b1c7ecbb1f81177796d7542a753165f90b7217f84d5042372f26fa51",
+    "native_frames": 362,
+    "native_duration": 15.083333,
+    "trim": "last 2 native frames omitted to15s; no retiming, looping or frozen frames",
+    "narration": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/voice-sacred-v2-20261014-070902/narration.wav",
+    "narration_sha256": "ccd0827d4ae2f6bf298bb336ec43d38d5103beb2c68c22debe079fd50cdb6146",
+    "mix": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/voice-sacred-v2-20261014-070902/mix.wav",
+    "mix_sha256": "2410829d60c6801aaddf1e8ee20198a56f192974473c3499b1c86fc7ca9b37f7",
+    "reference_preprocess": "Lanczos aspect-preserving cover with center crop;948x1659→576x1024; approx0.78% removed at each horizontal edge"
+  },
+  "voice_effects": {
+    "direction": "低沉庄严，轻微殿堂空间感，非原视频原声",
+    "pitch_semitones": -3,
+    "tempo": 1,
+    "reverb_delays_ms": [
+      110,
+      230,
+      390
+    ],
+    "reverb_gains": [
+      0.13,
+      0.08,
+      0.04
+    ],
+    "reverb_tail_max_seconds": 0.39,
+    "narration_sha256": "ccd0827d4ae2f6bf298bb336ec43d38d5103beb2c68c22debe079fd50cdb6146",
+    "mix_sha256": "2410829d60c6801aaddf1e8ee20198a56f192974473c3499b1c86fc7ca9b37f7",
+    "actual_listening": "pending"
+  },
+  "derived_voice": {
+    "source_job": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409",
+    "method": "pitch-shift and EQ of authorized existing IndexTTS2 speech; no new TTS/model invocation",
+    "semitones": -3,
+    "voice_filter": "rubberband=tempo=1:pitch=0.840896415,highpass=f=65,equalizer=f=150:t=q:w=0.8:g=3,equalizer=f=3200:t=q:w=1:g=-1",
+    "authorization": "user: 我有授权，你需要换成佛祖那样的神圣配音",
+    "sources": [
+      {
+        "id": "phrase-01",
+        "source": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/audio/phrase-01.wav",
+        "source_sha256": "0de93e7da0374e18111ec7a27b1c4635c46b453a2d3d09ef2be1fc454f1b5715",
+        "processed_sha256": "1805d33d99087da3a0075775b19f471df578bd93334b9b0d8b1e1a4a1e2c47c2"
+      },
+      {
+        "id": "phrase-02",
+        "source": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/audio/phrase-02.wav",
+        "source_sha256": "ecb372d9619afacaf15a1994e55e09c86f4013e55652fe2fd5c2516db07f7f37",
+        "processed_sha256": "5f2a1c7a8c4604c6342b7e48292c2c44d47d305f9ec6a1883cd2e52aeab04793"
+      },
+      {
+        "id": "phrase-03",
+        "source": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/audio/phrase-03.wav",
+        "source_sha256": "ea2945b5266a2a4618754a5d61d557b88e8ab4b0ac16b3edb8189f37e521ce46",
+        "processed_sha256": "2cd2b0f5b152099e227208d0eb8ce2b15b444364b0e1cf2c9b7a7a7993a6d03b"
+      },
+      {
+        "id": "phrase-04",
+        "source": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/audio/phrase-04.wav",
+        "source_sha256": "400486dfba6292f0ceea11e5b775e9ca15bc6e8397b9f0ea22b2e1adbbf94c8a",
+        "processed_sha256": "65e36e73196c9080e06b4b02c26f890e4c2a9c1141914c13fb1992860ca954ad"
+      },
+      {
+        "id": "phrase-05",
+        "source": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/audio/phrase-05.wav",
+        "source_sha256": "3712a6dd6d44a9bd41e580b2125bd884cc53d24995ce9b99a463b510e9014c7a",
+        "processed_sha256": "f29680a8c4d70f08086ad0c43461678fa7d41a4ab81d491087828e1bf4e7b5d6"
+      },
+      {
+        "id": "phrase-06",
+        "source": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/audio/phrase-06.wav",
+        "source_sha256": "7eebf390cf4e1f60aec9d7c033c1071eb484a83c14bc34fe8bbccefb29d0e187",
+        "processed_sha256": "d3fdd9f0cdd2d339bb1d5a9eb2f4c242531d2117b40cb93d0332712ef57d8896"
+      }
+    ]
+  }
+}

@@ -1,6 +1,6 @@
 {
   "episode_id": "buddha_blessing_05",
-  "revision": 1,
+  "revision": 2,
   "status": "delivered",
   "brief": {
     "topic": "佛祖保佑风格15秒祈福视频",
@@ -45,7 +45,14 @@
         "sha256": "92ac9ab976d832f8f79e40dc590df7fe02051051a089a9163efa248951c92bda"
       }
     ],
-    "overrides": {}
+    "overrides": {
+      "audio": {
+        "voice_direction": "低沉、庄严、温和，轻微殿堂混响",
+        "source": "用户确认授权的既有IndexTTS2配音",
+        "method": "rubberband -3 semitones, tempo1; low-mid EQ; 110/230/390ms quiet reverb",
+        "scope": "episode_only"
+      }
+    }
   },
   "resolved": {
     "visual": {
@@ -117,7 +124,13 @@
         "mix": "旁白清晰优先，钟声不盖住辅音"
       },
       "tail_silence_seconds": 0.6,
-      "status": "configured_audio_unverified"
+      "status": "configured_audio_unverified",
+      "episode_voice_revision": {
+        "voice_direction": "低沉、庄严、温和，轻微殿堂混响",
+        "source": "用户确认授权的既有IndexTTS2配音",
+        "method": "rubberband -3 semitones, tempo1; low-mid EQ; 110/230/390ms quiet reverb",
+        "scope": "episode_only"
+      }
     },
     "format": {
       "id": "short-blessing",
@@ -233,24 +246,19 @@
       "scope": "图文v1与所列配音、H3及合成路线；按原请求完成成片",
       "revision": 1,
       "evidence": "2026-10-13 用户回复“可以”，承接“这版图像和文案可以作为制作版本吗？”"
+    },
+    {
+      "scope": "参考声线授权确认与神圣配音修订，沿用已批准文案画面",
+      "revision": 2,
+      "evidence": "2026-10-13 user: 我有授权，你需要换成佛祖那样的神圣配音"
     }
   ],
-  "delivery": {
-    "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824",
-    "scope": "internal_review",
-    "qa": "review/qa-video-v1.json",
-    "limitations": [
-      "实际听审待确认",
-      "参考声线公开使用授权待确认",
-      "云层变化幅度较大，成片接受待用户审阅"
-    ]
-  },
   "execution": {
     "video_prompt": "storyboard/h3-prompt-v2.txt",
     "graph": "scripts/h3-static-end-v2.json",
     "first_last_anchor": "same approved master",
     "actual_motion": "locked camera; visible cloud/light variation",
-    "narration_timing": "deliveries/final-v1-20261014-065824/alignment.json",
+    "narration_timing": "projects/buddha_blessing_05/deliveries/final-v2-20261014-071043/alignment.json",
     "shared_runtime": "read-only H3 install; own service18311 GPU7",
     "server_git_head": "8ae317e",
     "source_commits": [
@@ -258,6 +266,16 @@
       "9320170",
       "451571c"
     ],
-    "sync": "selective new episode files; shared dirty server registry/docs not overwritten"
+    "sync": "selective new episode files; shared dirty server registry/docs not overwritten",
+    "voice_revision": "projects/buddha_blessing_05/runs/voice-sacred-v2-20261014-070902/voice-effects.json"
+  },
+  "delivery": {
+    "path": "projects/buddha_blessing_05/deliveries/final-v2-20261014-071043",
+    "scope": "user_authorized_voice_revision",
+    "qa": "review/qa-video-v2.json",
+    "limitations": [
+      "actual listening/style acceptance pending",
+      "unchanged H3 cloud/light variation"
+    ]
   }
 }

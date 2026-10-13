@@ -1,0 +1,137 @@
+{
+  "episode_id": "buddha_blessing_05",
+  "revision": 2,
+  "stage": "final",
+  "files": [
+    {
+      "path": "alignment.json",
+      "bytes": 5934,
+      "sha256": "40dba82e9c66ec0e64b586d7f9cc845caf4eb0cfa3b5022043b1c76fb919326f"
+    },
+    {
+      "path": "black-check.log",
+      "bytes": 1749,
+      "sha256": "b5891d4bc3f38bdb9b80df01ae77fc995dfa6a26e3be427d68e5e6de8f554615"
+    },
+    {
+      "path": "buddha-blessing-15s.mp4",
+      "bytes": 11773887,
+      "sha256": "7235b8a8383a7c90501335996e26f5a2c869724cff6f9475211c0b44b8eee54a"
+    },
+    {
+      "path": "captions.ass",
+      "bytes": 992,
+      "sha256": "ac4bb659e06e5c9390345bde5790ad95e59db9cbaf35be4c7672804d4db51e81"
+    },
+    {
+      "path": "captions.srt",
+      "bytes": 290,
+      "sha256": "a648256f6f76f6cd13838d4fa03db2ca98c4ac69d454c57f8d99dbac7e27b64f"
+    },
+    {
+      "path": "contact-sheet.jpg",
+      "bytes": 198404,
+      "sha256": "4edcfcab7374e844038059d27e25d2ac39922e0ab30cb882797530956079a5dd"
+    },
+    {
+      "path": "contact.log",
+      "bytes": 4163,
+      "sha256": "ac1fa48ea4938e3857ac0b8bdd5d0c9968e83e28cc720ac2536c96f04c3fd9e2"
+    },
+    {
+      "path": "cover.jpg",
+      "bytes": 98216,
+      "sha256": "6d4437143a7209a796a104cd131eb504955436c8008ac654a24387dc064d3c70"
+    },
+    {
+      "path": "cover.log",
+      "bytes": 4168,
+      "sha256": "aa0c7cfeaa696eda9fd8177fec3d18cc8b64e71db215bbfed23ccec1976f227e"
+    },
+    {
+      "path": "ffprobe.json",
+      "bytes": 3503,
+      "sha256": "20fe1f23821a366368cebdf716524a7a812b9fe7791fee452db39c8e9817c270"
+    },
+    {
+      "path": "frame-0.log",
+      "bytes": 3978,
+      "sha256": "f742cf31683a10b9c68cac77af47405de67f2a09885389c059c7d0ef1bb5bf32"
+    },
+    {
+      "path": "frame-0.png",
+      "bytes": 2439172,
+      "sha256": "b2026736edb4effb09b460c5e594ac251f7ae1580573ffc0b5500d0ab340ce6c"
+    },
+    {
+      "path": "frame-10.log",
+      "bytes": 3980,
+      "sha256": "b6bc13535f1c2cdc20c87935288ef2f742b5b14a7977a35e2b95edb9bfa8113e"
+    },
+    {
+      "path": "frame-10.png",
+      "bytes": 3016246,
+      "sha256": "cfa1b102f56c45cd60a2c7f894655ccf10b60f9201037f771edce619c01da3ad"
+    },
+    {
+      "path": "frame-14.5.log",
+      "bytes": 3984,
+      "sha256": "d372779a9da8a092a30dcab8fd2f50382652e3b14869b979ee2a56b45a2993cb"
+    },
+    {
+      "path": "frame-14.5.png",
+      "bytes": 3136008,
+      "sha256": "5890d70a9238d6f3ac19e77ca576e0e2edfb725b407b0cf0d629c06637008374"
+    },
+    {
+      "path": "frame-5.log",
+      "bytes": 3978,
+      "sha256": "222ee4a42c45c36ab2014564cdb2b0817dd9d40f1332104941fdf73d7096dbbf"
+    },
+    {
+      "path": "frame-5.png",
+      "bytes": 3056906,
+      "sha256": "ae85cb7d0de26564010cd2a856784e96a09def8666959e3005b41a93a2be0ff6"
+    },
+    {
+      "path": "full-decode.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "loudness.log",
+      "bytes": 1919,
+      "sha256": "2e938c07ae6ce215eef4c3954fcc178d58026d90d748b1b499db3cd3277d817f"
+    },
+    {
+      "path": "music-source.json",
+      "bytes": 706,
+      "sha256": "f744f2d725d4c3492cdd7f238b9656da9eb4caa478a9c2431bda16cd1f8ad4ae"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 1472,
+      "sha256": "cf15981120e5f102d0ca64683b3cbeab5dba143ee06ad8183298d1faf3821053"
+    },
+    {
+      "path": "render.log",
+      "bytes": 8835,
+      "sha256": "27c6d809a1c7c9dfd801228d7767f5a6656ec27ddfd9aefdc3ec3209ff4282da"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 1053,
+      "sha256": "428d4a05e98bab559ff9f6e1b11e3542cf24e077eb5762d070c5a42d9331bfb9"
+    },
+    {
+      "path": "tts-manifest.json",
+      "bytes": 4604,
+      "sha256": "b2e68e31172ecfabf6a4bbcd2b1c13921c054ebaf8a034f93992b3cdd1a9e8e0"
+    },
+    {
+      "path": "voice-effects.json",
+      "bytes": 468,
+      "sha256": "ccf3fd1f990d1f36e95cf50ede9a042c1554cf24a2268c5c37e78194b12a5ebd"
+    }
+  ]
+}

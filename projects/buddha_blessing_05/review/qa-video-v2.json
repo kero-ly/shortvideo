@@ -1,0 +1,26 @@
+{
+  "technical": "passed: full decode, 360 frames at24fps, H264/yuv420p, AAC48k stereo, no black intervals",
+  "duration": 15,
+  "native_resolution": [
+    576,
+    1024
+  ],
+  "output_resolution": [
+    1080,
+    1920
+  ],
+  "loudness_lufs": -17.82,
+  "true_peak_dbtp": -4.32,
+  "caption_timing": "actual phrase WAV + faster-whisper word timestamps; locked copy kept; no character interpolation",
+  "narration_tail_seconds": 0.9335416666666667,
+  "visual_review": "Reviewed 15 one-second contact frames plus full-resolution 10s/10.8s and start/end browser views. Statue framing and visible face/hands stable; captions legible, pink happiness verified. Mid-shot clouds/light change substantially; retained as internal review limitation.",
+  "full_playback": "v2 browser played0→15s; ended=true readyState4, 1080×1920 no media error; actual listening remains pending",
+  "actual_listening": "pending",
+  "voice_usage": "user-confirmed-authorization-review/voice-approval-v2.json",
+  "user_approval": "review/approval-v1.json + review/voice-approval-v2.json",
+  "stage": "final",
+  "voice_revision": "authorized original IndexTTS2 speech shifted -3 semitones without retiming, low-mid EQ and light110/230/390ms echo; six re-aligned ASR phrases similarity1.0",
+  "voice_authorization": "User confirmed: 我有授权，你需要换成佛祖那样的神圣配音",
+  "voice_style_acceptance": "pending user listening",
+  "delivery_scope": "user_authorized_voice_revision"
+}
