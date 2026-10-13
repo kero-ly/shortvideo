@@ -15,3 +15,5 @@ description: Use when producing character-driven scenario animation with consist
 图片使用用户指定当前skill；案例路线为OpenLux GPT Image 2→220 H3→Remotion/FFmpeg，不能当作永久指定。提交前检查GPU/队列，不停止共享任务；220中断立即报告，不切本地或219。纯图文或准确结构内容可提出其他逐镜路线，但必须核实其实现与批准状态。
 
 字幕/声音阶段调用../caption-alignment/SKILL.md；最终验收调用../video-qa/SKILL.md。新主题不继承旧事实、角色身份、旁白、时码或固定镜头数。模型原生音频默认不参与旁白科普，未经专门对齐不声称口型同步。
+
+用户明确提供现成角色/场景参考并要求直接延伸时，以授权素材作为本期身份与构图依据，不再默认新造母版。先检查素材可读性/来源范围，完成全部编号图文分镜和逐镜映射，记录具体批准范围；参考图授权本身不代表TTS/H3生产批准。已接受动画仅作字幕/声音修订时保留source/hash与动作连续性。案例见[参考图动画修订经验](../caption-alignment/references/pregnancy-revision-lessons.md)。

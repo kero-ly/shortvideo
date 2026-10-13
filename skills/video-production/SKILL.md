@@ -33,3 +33,5 @@ registry.selectable_components提供独立可选声音/视觉，不是整片pres
 工具脚本、JSON规范与skill并非自动调度器。使用前核对案例脚本中的旧主题、时码、镜头数和run路径。状态只能根据实际产物推进，不能凭文件存在标记批准/完成。
 
 项目归档：每期任务写projects/<episode-id>/runs/，交付写同项目deliveries/，导航写OUTPUTS.md；Git跟踪的QA/manifest摘要放review/。根runs/deliveries软链接仅兼容历史记录，新任务先适配案例脚本输出路径。素材库暂缓建设。
+
+现成参考图延伸按character-scenario的用户素材分支执行。改读音/字幕/音乐先界定受影响阶段，不重新生成已接受动画；修订经验与候选配置见[孕周案例](../caption-alignment/references/pregnancy-revision-lessons.md)。积累方法时分别登记技术证据、听审、用户风格接受与效果数据，不将候选配置自动设为系列默认。

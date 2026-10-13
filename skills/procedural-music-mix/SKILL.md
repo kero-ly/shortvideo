@@ -22,3 +22,5 @@ v9旁白gain 1.25、音乐gain 1.20、sidechain threshold 0.08、ratio 2、attac
 5. 依[caption-alignment](../caption-alignment/SKILL.md)核对旁白位置/字幕、音轨长度与末尾≥0.6秒；保存narration/music/mix、music-source、QA与manifest。
 
 [v9 QA](../../projects/heart_circulation_mechanism_04/review/v9-qa.json)证明实际混音、响度与完整解码；听感仍待用户审阅，浏览器播放和技术检查不替代听审。
+
+暖色母婴案例的88BPM、gain与较轻侧链，以及显式音轨选择的失败恢复，见[孕周修订经验](../caption-alignment/references/pregnancy-revision-lessons.md)。它是可参考的案例参数，听感未确认；不替换已选音乐配置。

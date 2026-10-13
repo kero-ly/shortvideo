@@ -21,3 +21,5 @@ description: Use when verifying generated clips or composed videos, assessing au
 交付到projects/<episode-id>/deliveries/<unique-run>/：MP4、封面、SRT、props/时间线、来源/镜头索引、QA、manifest（文件SHA256）。标明原生生成分辨率及合成输出分辨率。220渲染/抽帧，下载本地逐文件验hash并确认网页视频加载。媒体不入Git，源码/提示词/清单入Git按docs/workspace-layout.md同步；两端脏文件先检查备份。
 
 目前可参考两期案例QA脚本，但新期须适配镜头数、时间、路径和断言。没有通用QA执行器时逐项调用工具，不把本skill说成已自动执行。
+
+数字/专业词读音、字幕挡脸及多音轨mux检查见[孕周修订案例](../caption-alignment/references/pregnancy-revision-lessons.md)。带稿ASR全稿覆盖不等于读音通过；记录独立识别与实际听审。抽样写明已检查时点和剩余项；最终编码声轨核对当前mix，避免默认选中静音轨。

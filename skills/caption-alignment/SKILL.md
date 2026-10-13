@@ -13,3 +13,5 @@ description: Use when aligning narration and subtitles, merging duplicate screen
 以词级实际时间定位；哈希一致且片段位置不变才能复用对齐。不得按字数均分；改变配音、剪裁或顺序后重对齐受影响段。完整覆盖旁白，尾句实际结束后默认至少0.6秒，混音不能截断语音。背景音乐记录来源、音量和淡入淡出，实际听审清晰度。
 
 排版参数来自所选layout；用实际手机尺度检查长句、描边和遮挡，静帧之后还要完整带声样片。自动对齐检查与实际听审分别记录；语义正确性需要审校，不因cue格式通过而自动成立。技术QA调用../video-qa/SKILL.md。
+
+局部重配、数字误读、ASR空输出、逐镜字幕避让或新旧文案预览交接时，读[怀孕孕周修订经验](references/pregnancy-revision-lessons.md)。包含实际失败与恢复证据；候选排版和声音不是通用默认。

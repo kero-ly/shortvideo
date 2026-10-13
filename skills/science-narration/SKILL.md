@@ -21,3 +21,5 @@ description: Use when Chinese science narration sounds flat or needs segment-lev
 ## 证据与验收
 
 [v6运行与参数记录](../../projects/heart_circulation_mechanism_04/review/v6-tts-manifest.json)、[v10 QA](../../projects/heart_circulation_mechanism_04/review/v10-QA.md)证明案例运行与技术检查；它们不证明声音授权或完整听审。实际听审仍pending。交付独立旁白及带音乐片段，检查术语、重音、句尾完整性和语气；不要因情绪参数存在就宣称听感优秀。新主题保留已接受声音的对比版本，修改仅影响本期覆盖项。
+
+数字读音修订时读[配音文字与显示文字分离](../caption-alignment/references/pregnancy-revision-lessons.md)：序数显式写“第二周”，保持屏幕“第2周”；ASR数字归一化不证明读音。保存tts_text覆盖项，只重配受影响段，并独立识别/听审。
