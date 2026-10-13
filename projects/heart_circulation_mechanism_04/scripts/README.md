@@ -11,3 +11,6 @@
 7. 只为本地播放启动HTTP静态服务不属于本地视频渲染。
 
 旁白按每句源WAV实测容器时长定位；没有假造逐字时间。素材库与全局风格注册均未扩展。
+
+
+v5排版修订：`Heart-v4.jsx`锁定旧版源，当前`Heart.jsx`为v5；执行`render-v5.sh`→`finalize-v5.sh`→`package-v5.py`。v5直接拷贝v4 AAC声音流，另建唯一run。

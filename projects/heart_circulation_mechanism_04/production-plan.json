@@ -1,6 +1,6 @@
 {
   "episode_id": "heart_circulation_mechanism_04",
-  "revision": 4,
+  "revision": 5,
   "status": "preview_review",
   "brief": {
     "topic": "心脏如何推动血液循环",
@@ -16,16 +16,16 @@
     "basis": "用户授权自主选题、制作动画并对照抖音参考优化；本期原创推荐路线，非沿用上一期风格",
     "preset": {
       "id": "heart-transport-warm-flat",
-      "version": 4,
+      "version": 5,
       "path": "projects/heart_circulation_mechanism_04/episode-style.json",
-      "sha256": "b4772f2bee063bb7f25f6cf2dc5606d08e662984be69ac34c453edd5c341c3f0"
+      "sha256": "451e2e295fa0c9737edfe85a60299194d1c2c6ee5f8d51dc0f29f8ded217c75e"
     },
     "components": [
       {
         "id": "heart-circulation-svg",
-        "version": 4,
+        "version": 5,
         "path": "projects/heart_circulation_mechanism_04/scripts/Heart.jsx",
-        "sha256": "62cef306e55b06442cdd16564708992934c9fac1f7cda57311ce807a8a07663e"
+        "sha256": "51d0989f6572e38f635d87b5fa38651487d392e1eb53d01539ce68f7055b9df8"
       },
       {
         "id": "arc-length-particle-motion",
@@ -35,12 +35,16 @@
       }
     ],
     "overrides": {
-      "episode_only": true
+      "episode_only": true,
+      "full_bleed": true,
+      "title": "心脏一跳 / 血液去哪儿？",
+      "caption_placement": "lower safe zone",
+      "reuse_audio": "v4 AAC bitstream unchanged"
     }
   },
   "resolved": {
     "id": "heart-transport-warm-flat",
-    "version": 4,
+    "version": 5,
     "scope": "episode-only, not an approved series default",
     "visual": {
       "palette": [
@@ -59,14 +63,17 @@
       "height": 1920,
       "fps": 30,
       "scene": [
-        50,
-        325,
-        950,
-        1170
+        0,
+        405,
+        1080,
+        1515
       ],
-      "caption_font_px": 39,
-      "title_font_px": 62,
-      "safe_right": 80
+      "caption_font_px": 49,
+      "title_font_px": 103,
+      "safe_right": 80,
+      "background": "cream edge-to-edge, no border",
+      "title": "心脏一跳 / 血液去哪儿？",
+      "caption": "white with dark outline; lower safe area; soft background fade"
     },
     "audio": {
       "provider": "IndexTTS2",
@@ -165,6 +172,11 @@
       "scope": "自主选题、样片制作和对照参考优化；不代表用户已接受风格或批准发布",
       "revision": 1,
       "evidence": "用户：你尝试找一个主题做一个动画，如果你认为和抖音上目前视频的还有差距，你就继续优化"
+    },
+    {
+      "scope": "v5去边框、全屏动画、重新安排字幕、上部大标题；保留既有动画与配音",
+      "revision": 5,
+      "evidence": "用户：我觉得还不错，但是我不喜欢这个橙色的边框，是不是应该把中间动画部分全屏，字幕也放在合适的位置重新配下，视频中上部分放一个短视频常用的那种大标题"
     }
   ],
   "facts": [
@@ -181,7 +193,7 @@
   "lineage": {
     "art": "original SVG, no source-video asset extraction",
     "audio": "runs/20261013-heart-v1/audio/shot-01.wav … shot-05.wav → narration.wav → mux",
-    "video": "v1 540p → v2 1080p → v3 1080p → v4 1080p",
+    "video": "v1 540p → v2 1080p → v3 1080p → v4 1080p → v5 full-screen layout",
     "reference_scope": "user screenshots/video used for technique comparison only"
   }
 }

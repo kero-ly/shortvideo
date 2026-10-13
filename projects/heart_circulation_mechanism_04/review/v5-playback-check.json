@@ -1,0 +1,11 @@
+{
+  "version": 5,
+  "url": "http://127.0.0.1:18769/20261013-heart-v5/index.html",
+  "started_seconds": 0.190635,
+  "ended_seconds": 22.733333,
+  "ended": true,
+  "error": null,
+  "images_loaded": 5,
+  "actual_listening": "pending",
+  "audio_packet_sha256_v4_and_v5": "1de16a6bb1b0cef66586904b16fd84fb453e4ade78ba37127febad0240471c27"
+}

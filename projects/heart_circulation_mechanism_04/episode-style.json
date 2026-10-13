@@ -1,6 +1,6 @@
 {
   "id": "heart-transport-warm-flat",
-  "version": 4,
+  "version": 5,
   "scope": "episode-only, not an approved series default",
   "visual": {
     "palette": [
@@ -19,14 +19,17 @@
     "height": 1920,
     "fps": 30,
     "scene": [
-      50,
-      325,
-      950,
-      1170
+      0,
+      405,
+      1080,
+      1515
     ],
-    "caption_font_px": 39,
-    "title_font_px": 62,
-    "safe_right": 80
+    "caption_font_px": 49,
+    "title_font_px": 103,
+    "safe_right": 80,
+    "background": "cream edge-to-edge, no border",
+    "title": "心脏一跳 / 血液去哪儿？",
+    "caption": "white with dark outline; lower safe area; soft background fade"
   },
   "audio": {
     "provider": "IndexTTS2",

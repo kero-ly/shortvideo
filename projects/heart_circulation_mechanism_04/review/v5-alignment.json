@@ -1,0 +1,56 @@
+{
+  "level": "sentence_wav",
+  "narration_sha256": "c3f55652e8aac3a2e377c2a829dc6950fd358323b61bb6655a8f49f034c8975f",
+  "cues": [
+    {
+      "shot_id": "shot-01",
+      "source_indices": [
+        0
+      ],
+      "start": 0.3,
+      "end": 4.351882086167801,
+      "text": "心脏就像一台泵，靠收缩和舒张推动血液。",
+      "context": "One WAV per sentence; measured container duration, not word-aligned"
+    },
+    {
+      "shot_id": "shot-02",
+      "source_indices": [
+        1
+      ],
+      "start": 5.066666666666666,
+      "end": 8.851519274376416,
+      "text": "右侧心脏把血液送到肺部，在这里完成气体交换。",
+      "context": "One WAV per sentence; measured container duration, not word-aligned"
+    },
+    {
+      "shot_id": "shot-03",
+      "source_indices": [
+        2
+      ],
+      "start": 9.566666666666668,
+      "end": 12.794240362811793,
+      "text": "血液回到左侧心脏，再被送往全身。",
+      "context": "One WAV per sentence; measured container duration, not word-aligned"
+    },
+    {
+      "shot_id": "shot-04",
+      "source_indices": [
+        3
+      ],
+      "start": 13.5,
+      "end": 17.13392290249433,
+      "text": "红细胞沿着血管前进，把氧送到身体各处。",
+      "context": "One WAV per sentence; measured container duration, not word-aligned"
+    },
+    {
+      "shot_id": "shot-05",
+      "source_indices": [
+        4
+      ],
+      "start": 17.866666666666667,
+      "end": 21.8140589569161,
+      "text": "血液再回到心脏，两条循环接力，持续运转。",
+      "context": "One WAV per sentence; measured container duration, not word-aligned"
+    }
+  ]
+}
