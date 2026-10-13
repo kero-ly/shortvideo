@@ -1,0 +1,22 @@
+{
+  "id": "cream-storybook-visual",
+  "version": 1,
+  "visual": {
+    "medium": "2D 绘本插画",
+    "rendering": "棕色柔和描边、平涂结合轻柔阴影、少量纸感",
+    "character": "圆脸、简化五官、略大头的成人卡通；非幼儿或极端Q版"
+  },
+  "color": {
+    "temperature": "暖色为主，浅蓝平衡",
+    "brightness": "明亮",
+    "saturation": "低饱和",
+    "palette": [
+      "奶油白 #FFF4DE",
+      "浅粉 #F2C9BF",
+      "杏色 #EDBC91",
+      "浅蓝 #DCECF1",
+      "描边棕 #77513E"
+    ]
+  },
+  "setting": "生活居家"
+}

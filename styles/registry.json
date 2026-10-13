@@ -1,0 +1,61 @@
+{
+  "version": 1,
+  "default_preset": null,
+  "presets": [
+    {
+      "id": "2d-handdrawn-warm-light-muted-daily-explainer",
+      "version": 1,
+      "path": "styles/presets/2d-handdrawn-warm-light-muted-daily-explainer.json",
+      "aliases": [
+        "暖色手绘科普",
+        "2D 手绘动画 · 暖色明亮低饱和 · 生活情境科普"
+      ],
+      "method": "character-scenario",
+      "tags": [
+        "2D",
+        "手绘",
+        "动画",
+        "暖色",
+        "明亮",
+        "低饱和",
+        "居家",
+        "情境",
+        "科普",
+        "成人角色",
+        "陪伴旁白"
+      ]
+    },
+    {
+      "id": "2d-storybook-cream-warm-daily-list-explainer",
+      "version": 2,
+      "path": "styles/presets/2d-storybook-cream-warm-daily-list-explainer.json",
+      "aliases": [
+        "奶油绘本科普",
+        "2D 绘本动画 · 奶油暖彩 · 生活情境清单科普"
+      ],
+      "method": "character-scenario",
+      "tags": [
+        "2D",
+        "绘本",
+        "奶油",
+        "暖彩",
+        "低饱和",
+        "圆脸成人",
+        "居家",
+        "清单",
+        "科普",
+        "亮黄标题",
+        "深棕描边",
+        "融合字幕"
+      ]
+    }
+  ],
+  "methods": {
+    "character-scenario": {
+      "path": "skills/character-scenario/SKILL.md",
+      "status": "implemented_case_based"
+    }
+  },
+  "selection": "explicit_user > approved_episode > explicitly_selected_series > content_recommendation",
+  "automatic_runtime_dispatch": false
+}

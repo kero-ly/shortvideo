@@ -1,0 +1,36 @@
+{
+  "id": "cream-storybook-layouts",
+  "version": 1,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "title": {
+    "top": 120,
+    "left": 20,
+    "right": 20,
+    "font_size": 90,
+    "font_weight": 900,
+    "color": "#FFFF00",
+    "stroke": "6px #54351F",
+    "background": null,
+    "duration": "full_video"
+  },
+  "caption": {
+    "left": 88,
+    "right": 125,
+    "bottom": 280,
+    "font_size": 62,
+    "color": "#684630",
+    "background": "rgba(255,249,238,.95)",
+    "shadow": null,
+    "context_font_size": 38
+  },
+  "optional_notice": {
+    "left": 28,
+    "top": 32,
+    "font_size": 28,
+    "background": null,
+    "text": "episode_specific"
+  }
+}

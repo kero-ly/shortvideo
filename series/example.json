@@ -1,0 +1,7 @@
+{
+  "status": "template_only_not_active",
+  "id": "example",
+  "default_preset": null,
+  "default_method": null,
+  "note": "用户明确指定栏目并批准默认值后再填写；上一条视频不自动成为默认"
+}

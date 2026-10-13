@@ -1,0 +1,217 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "episode_id",
+    "revision",
+    "status",
+    "brief",
+    "selection",
+    "resolved",
+    "methods",
+    "tools",
+    "shots",
+    "approvals"
+  ],
+  "properties": {
+    "episode_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "character_review_pending",
+        "character_approved",
+        "storyboard_review_pending",
+        "production_approved",
+        "preview_review",
+        "delivered",
+        "revision_required"
+      ]
+    },
+    "brief": {
+      "type": "object",
+      "required": [
+        "topic",
+        "audience",
+        "key_points"
+      ],
+      "properties": {
+        "topic": {
+          "type": "string"
+        },
+        "audience": {
+          "type": "string"
+        },
+        "key_points": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "selection": {
+      "type": "object",
+      "required": [
+        "basis",
+        "preset",
+        "components",
+        "overrides"
+      ],
+      "properties": {
+        "basis": {
+          "type": "string"
+        },
+        "preset": {
+          "type": "object",
+          "required": [
+            "id",
+            "version",
+            "path",
+            "sha256"
+          ],
+          "properties": {
+            "id": {
+              "type": "string"
+            },
+            "version": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "path": {
+              "type": "string"
+            },
+            "sha256": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          },
+          "additionalProperties": false
+        },
+        "components": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "version",
+              "path",
+              "sha256"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "version": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "path": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": [
+                  "string",
+                  "null"
+                ],
+                "pattern": "^[a-f0-9]{64}$"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "overrides": {
+          "type": "object"
+        }
+      }
+    },
+    "resolved": {
+      "type": "object",
+      "description": "批准时保存完整合并配置；此schema仅校验结构，审批真实性由工作流检查"
+    },
+    "methods": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "tools": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "capability",
+          "provider",
+          "status"
+        ],
+        "properties": {
+          "capability": {
+            "type": "string"
+          },
+          "provider": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "configured",
+              "reachable",
+              "smoke_tested",
+              "production_approved",
+              "unverified"
+            ]
+          }
+        }
+      }
+    },
+    "shots": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "method"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "method": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "approvals": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "scope",
+          "revision",
+          "evidence"
+        ],
+        "properties": {
+          "scope": {
+            "type": "string"
+          },
+          "revision": {
+            "type": "integer"
+          },
+          "evidence": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    }
+  }
+}

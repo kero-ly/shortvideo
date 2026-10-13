@@ -1,0 +1,40 @@
+{
+  "id": "2d-storybook-cream-warm-daily-list-explainer",
+  "version": 2,
+  "display_name": "2D 绘本动画 · 奶油暖彩 · 生活情境清单科普",
+  "alias": "奶油绘本科普",
+  "components": {
+    "visual": {
+      "path": "styles/visual/cream-storybook.json",
+      "id": "cream-storybook-visual",
+      "version": 1
+    },
+    "layouts": {
+      "path": "styles/layouts/cream-storybook.json",
+      "id": "cream-storybook-layouts",
+      "version": 1
+    },
+    "audio": {
+      "path": "styles/audio/cream-storybook.json",
+      "id": "cream-storybook-audio",
+      "version": 1
+    },
+    "format": {
+      "path": "formats/list-explainer.json",
+      "id": "list-explainer",
+      "version": 1
+    }
+  },
+  "compatible_methods": [
+    "character-scenario"
+  ],
+  "status": "end_to_end_rendered_technical_qa_passed_human_listening_pending",
+  "example": "projects/early_pregnancy_signs_storybook_02/PREPRODUCTION.md",
+  "limitations": [
+    "本预设是代理读取的规范，未接入自动预设加载器",
+    "案例脚本仍含旧主题、镜头数、run和时码，复用前适配",
+    "技术QA与抽帧通过不代表完整人工播放/实际听审通过",
+    "画风、主题、语气和工具路线分别配置"
+  ],
+  "legacy_snapshot": "styles/2d-handdrawn/cream-warm-storybook-list-explainer.json"
+}

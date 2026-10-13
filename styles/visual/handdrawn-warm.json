@@ -1,0 +1,21 @@
+{
+  "id": "handdrawn-warm-visual",
+  "version": 1,
+  "visual": {
+    "medium": "2D 手绘动画",
+    "rendering": "柔和线稿、轻赛璐璐阴影、轻纸感",
+    "character": "成人比例人物"
+  },
+  "color": {
+    "temperature": "暖色",
+    "brightness": "明亮",
+    "saturation": "低饱和",
+    "palette": [
+      "奶油白",
+      "鼠尾草绿",
+      "浅木色",
+      "克制的珊瑚色点缀"
+    ]
+  },
+  "setting": "生活居家情境"
+}

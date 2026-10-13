@@ -1,0 +1,53 @@
+{
+  "episode_id": "example-new-topic",
+  "revision": 1,
+  "status": "draft",
+  "brief": {
+    "topic": "替换为本期主题",
+    "audience": "替换为目标受众",
+    "key_points": []
+  },
+  "selection": {
+    "basis": "示例推荐，未经用户批准",
+    "preset": {
+      "id": "2d-storybook-cream-warm-daily-list-explainer",
+      "version": 2,
+      "path": "styles/presets/2d-storybook-cream-warm-daily-list-explainer.json",
+      "sha256": null
+    },
+    "components": [
+      {
+        "path": "styles/visual/cream-storybook.json",
+        "id": "cream-storybook-visual",
+        "version": 1,
+        "sha256": null
+      },
+      {
+        "path": "styles/layouts/cream-storybook.json",
+        "id": "cream-storybook-layouts",
+        "version": 1,
+        "sha256": null
+      },
+      {
+        "path": "styles/audio/cream-storybook.json",
+        "id": "cream-storybook-audio",
+        "version": 1,
+        "sha256": null
+      },
+      {
+        "path": "formats/list-explainer.json",
+        "id": "list-explainer",
+        "version": 1,
+        "sha256": null
+      }
+    ],
+    "overrides": {}
+  },
+  "resolved": {},
+  "methods": [
+    "character-scenario"
+  ],
+  "tools": [],
+  "shots": [],
+  "approvals": []
+}

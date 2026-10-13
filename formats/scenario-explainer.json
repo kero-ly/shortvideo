@@ -1,0 +1,11 @@
+{
+  "id": "scenario-explainer",
+  "version": 1,
+  "structure": [
+    "生活疑问",
+    "人物情境",
+    "解释与限制",
+    "行动建议"
+  ],
+  "shot_count": "按内容与真实配音时长确定"
+}

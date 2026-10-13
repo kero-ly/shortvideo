@@ -1,59 +1,9 @@
 ---
 name: 2d-scenario-explainer
-description: Use when planning or producing 2D character scenario explainers, including hand-drawn animation and cream storybook illustration presets, with consistent adult cartoon characters acting out everyday situations, reassuring narration and readable explanatory cards, including maternal health and everyday science topics.
+description: Use when existing projects reference the legacy 2D scenario explainer skill or request hand-drawn or cream storybook character explainers.
 ---
+# 兼容入口：2D人物情境科普
 
-# 2D 人物情境科普：手绘与奶油绘本
+新任务先读 [video-production](../video-production/SKILL.md)，人物制作读 [character-scenario](../character-scenario/SKILL.md)。手绘与绘本是styles/registry.json中两个风格组合，共用人物方法；不因旧入口名称强制默认风格。
 
-用原创 2D 人物演生活情境，以像朋友一样的旁白解释主题，再给出清晰的行动建议。适用于成年观众的母婴、健康和生活科普；具体受众按本期 brief 决定。不要仿制参考作者的角色、声音、标识。
-
-从本 skill 所在目录向上两级找到工厂根目录。先读根目录 `AGENTS.md`、`docs/workspace-layout.md`、`configs/resources.json`。工作流细节见 [references/workflow.md](references/workflow.md)；准备前期方案时读 [references/preproduction.md](references/preproduction.md)。
-
-选择“奶油绘本科普”或本期成片风格时，读取 [references/cream-storybook.md](references/cream-storybook.md)，使用 `2d-storybook-cream-warm-daily-list-explainer@2`。进入字幕、音频、排版修订或成片审阅时，读取 [references/captions-and-review.md](references/captions-and-review.md)：语义融合映射、真实音频词级对齐、尾句完整性、网页审阅和分层QA。
-
-## 风格检索与输入
-
-本 skill 是“2D 人物情境科普”的制作方法，当前默认预设为 `2d-handdrawn-warm-light-muted-daily-explainer`。命名与分类见根目录 `styles/README.md`，默认预设见 `styles/2d-handdrawn/warm-light-muted-daily-explainer.json`。前期方案记录 preset ID、版本、各风格维度与本期覆盖项；“温柔陪伴”归入语气，“母婴”归入主题，工具归入实现路线。用户修改色调或语气时明确记录覆盖项，不必复制整套 skill。换成实拍、3D 或纯剪辑形式时重新选择制作路线，不自动宣称本 skill 已支持。
-
-## 输入与风格
-
-用户通常只提供主题、核心观点、受众、必须准确的事实和参考。已有信息直接复用，只询问影响内容设计的缺项；工具由你提出并解释，用户指定工具优先。
-
-- 视觉：以选定风格预设为准；奶油绘本预设可用略大头的成人卡通，默认预设用成人比例的 2D 手绘卡通、克制表情、柔和轮廓、低饱和配色、温暖日常场景。默认奶油白 / 鼠尾草绿 / 浅木色，可按主题调整。
-- 内容：生活中的疑问 → 情境化解释 → 限制与误区 → 可执行的下一步。时长和镜头数量随内容决定，不套用固定 13 镜。
-- 声音：温和陪伴、自然停顿、不制造焦虑；旁白独立于角色口型。声线来源和使用范围必须记录。
-- 画面：每镜一个主要动作和一种轻微运镜；角色保持一致，生活道具少而清晰。抽象事实、数字、医学文字用后期信息卡表达。
-- 版式：默认竖屏，标题、字幕、信息卡留安全区；避免挡脸和关键动作。发布平台安全区要单独检查。
-
-## 两次看图确认：角色与完整分镜
-
-用户提出主题和风格后，先准备 brief、角色设计及前期方案草稿，制作有限角色样张：默认一张单人母版、一张角度/表情设定表。展示实际图片、尺寸和设计供讨论；已有角色探索授权不重复询问，样张未经确认不视为批准资产。
-
-角色方向确认后，完成全部分镜参考帧及逐镜中文文案。先规划可复用场景、家具、配色和关键物品，再将人物、背景、物品、动作起点及文字留白一起设计进每镜完整首帧；不能用空背景角色母版代替情境首帧。同一空间保持布局与物品连续性。准确汉字、日期、医学数字及字幕留给后期添加。
-
-用户已授权全分镜参考帧时，直接完成全部，不在三张代表样张后重复请求许可。可先制作代表镜头自行检查一致性，但不将内部检查变成额外审批。用户明确限定数量时按其范围执行。图片调用使用已选工具；本地可调用图片API，视频生产仍在220。
-
-完成后统一展示全部实际参考帧（按镜头ID排序，可用总览加逐镜大图），每镜对应中文旁白、屏幕文字、预计时长、动作、运镜、参考帧版本及工具/模型路线。图片与文字必须一一对应；只有prompt或未生成路径不算完成。请用户确认这个具体版本，修改后记录确认范围，再开始TTS、H3、建模、剪辑及渲染。角色确认或参考帧生成授权不等于视频制作批准。
-
-在 `projects/<episode>/PREPRODUCTION.md` 分开记录角色探索授权、角色确认、全分镜图文待审、整期制作批准及对话依据。用户明确指定其他范围或审批顺序时优先遵从；已确认范围不重复索取批准。角色、场景含义、关键事实或工具路线实质改变时再讨论。保持已确认含义的技术瑕疵最多自行返修两次，仍失败则展示问题讨论。
-
-## 执行与交付
-
-角色母版与设定图 → 角色方向确认 → 全部分镜完整参考帧＋逐镜中文文案 → 用户统一确认版本 → 配音与单镜视频试跑 → 逐镜视频生成与审核 → 旁白时间线与合成样片 → 成片QA → 交付。全分镜图文确认后，配音可与视频阶段并行，剪辑长度以真实旁白为准；确认前不预先配音。调用和失败恢复按 workflow reference。
-
-视频生成、建模、剪辑、渲染及视频抽帧在 220 执行；本地可编写方案、调用已选图片 API、归档与预览。服务器连接异常立即通知用户并停下依赖服务器的工作，禁止擅自转成本地视频生产或 219。恢复后查询原任务，避免重复提交。
-
-验收同时覆盖人物/肢体/道具、动作含义、事实、字幕、同步、声音和技术参数。明确区分抽帧检查、完整人工观看、实际听审、自动技术 QA，未做的不能声称做过。旁白使用权未确认时只交内部审阅版。
-
-交付视频、封面、SRT、分镜与 prompt 索引、来源、版本和 QA、SHA256 manifest。案例图片/视频/音频（含封面与审核缩略图）只保留磁盘和媒体备份，不进入 Git。Git 追踪源代码、文案、prompt、参数、来源及 QA 文本、媒体哈希；按根目录同步规则操作。
-
-## 已有案例与复用边界
-
-`projects/early_pregnancy_signs_01/h3_v2/` 已验证 OpenLux GPT Image 2 → MiniMax H3 → Remotion → FFmpeg 的内部审阅链路；查看 `PRODUCTION.md`、`SHOT_LIST.md` 和 `review/h3-clips.json` 获取真实记录。可复用适配器和版式，不复用早孕事实、旧旁白、角色或医学卡片去套无关主题。
-
-该例 `compose_h3.py` / `finalize_h3.py` 仍硬编码本期 13 镜、旧声轨和医学内容，不能直接用于新主题。新期先建立自己的 episode 数据与合成入口或明确参数化；本 skill 是可执行指导，不是已经完成的通用批量调度器。
-
-
-网页审阅是默认交付方式：把全分镜参考帧、逐镜中文旁白、屏幕文字、预计时长、动作/运镜及工具路线组织成可直接打开的HTML页面。提供镜头编号导航、点击放大原图和可折叠prompt，图片与文案一一对应；另存Markdown供归档。静态网页预览不等于视频渲染。先检查图像可加载与页面布局，再给用户审阅；记录用户批准的页面/图文包版本，不能因打开页面就推定批准。可参考 projects/early_pregnancy_signs_storybook_02/scripts/build_review.py，复制到新期时适配路径与主题。
-
-声音验收：复用声轨时必须核对实际音频与当前逐镜时间线，不能仅凭文案相同复用旧混音。核实每镜完整旁白都落在对应镜头内，最后一句结束后保留至少0.6秒；输出音轨长度应匹配视频。独立记录背景音乐来源、混音增益及淡入淡出，听审旁白清晰度与配乐可闻度。
+字幕与音频读 [caption-alignment](../caption-alignment/SKILL.md)，交付读 [video-qa](../video-qa/SKILL.md)。references旧路径保留转向，历史项目无需改写。此入口不重复维护流程。

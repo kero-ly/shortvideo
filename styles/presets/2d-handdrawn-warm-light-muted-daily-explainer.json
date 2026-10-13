@@ -1,0 +1,39 @@
+{
+  "id": "2d-handdrawn-warm-light-muted-daily-explainer",
+  "version": 1,
+  "display_name": "2D 手绘动画 · 暖色明亮低饱和 · 生活情境科普",
+  "alias": "暖色手绘科普",
+  "components": {
+    "visual": {
+      "path": "styles/visual/handdrawn-warm.json",
+      "id": "handdrawn-warm-visual",
+      "version": 1
+    },
+    "layouts": {
+      "path": "styles/layouts/handdrawn-warm.json",
+      "id": "handdrawn-warm-layouts",
+      "version": 1
+    },
+    "audio": {
+      "path": "styles/audio/handdrawn-warm.json",
+      "id": "handdrawn-warm-audio",
+      "version": 1
+    },
+    "format": {
+      "path": "formats/scenario-explainer.json",
+      "id": "scenario-explainer",
+      "version": 1
+    }
+  },
+  "compatible_methods": [
+    "character-scenario"
+  ],
+  "status": "internal_review_example_validated",
+  "example": "projects/early_pregnancy_signs_01/h3_v2",
+  "limitations": [
+    "内部审阅案例；非所有主题自动验证",
+    "工具型号不是风格定义",
+    "案例合成脚本需要按新期内容适配"
+  ],
+  "legacy_snapshot": "styles/2d-handdrawn/warm-light-muted-daily-explainer.json"
+}

@@ -1,3 +1,7 @@
+# 当前统一入口
+
+所有视频任务先读 skills/video-production/SKILL.md。方法、风格与能力分层见skills/README.md；styles/registry.json为当前风格索引。下文为流程背景，旧skill路径已保留兼容转向。
+
 # 风格 skill 的端到端约定
 
 风格 skill 以主题、受众、观点、事实来源、参考和可选工具要求作为输入。
