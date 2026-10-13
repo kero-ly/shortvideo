@@ -1,6 +1,6 @@
 {
   "episode_id": "heart_circulation_mechanism_04",
-  "revision": 9,
+  "revision": 10,
   "status": "preview_review",
   "brief": {
     "topic": "心脏如何推动血液循环",
@@ -23,9 +23,9 @@
     "components": [
       {
         "id": "heart-circulation-svg",
-        "version": 8,
-        "path": "projects/heart_circulation_mechanism_04/scripts/Heart-v8.jsx",
-        "sha256": "a2c9676ec7d2e6565f63d92c9f12c9edfe785f8b788766836a234318553e2b58"
+        "version": 10,
+        "path": "projects/heart_circulation_mechanism_04/scripts/Heart-v10.jsx",
+        "sha256": "9a49f558cc3f426c81e82491f5f4e7e831b5d1122ce6842d2a1acbc98d6dd3b1"
       },
       {
         "id": "arc-length-particle-motion",
@@ -83,7 +83,8 @@
       "caption_placement": "lower safe zone",
       "audio_revision": "IndexTTS2 per-shot happy/surprised/calm guidance; original music with sidechain ducking",
       "mix_revision": "v9 music gain 0.60→1.20 (+6.02 dB); lighter ducking threshold 0.025→0.08 ratio 5→2; narration gain 1.25; v8 video unchanged",
-      "route_guidance": "v8: shot 02 right heart → lungs, shot 03 left heart → body; origin ring + numbered badge + gold path reveal + forward chevrons + destination ring. Based on v7 timing; no shared style change."
+      "route_guidance": "v10: thick dual-tone chevrons on right-heart→lungs, lungs→left-heart, left-heart→body, body→right-heart; 1.2Hz soft breathing corner brackets (68–100% opacity), no hard strobe.",
+      "body_detail": "Original SVG body silhouette with red/blue schematic vessels; focus abdominal segment then expand same detail origin over frames 500–542; narration timing unchanged."
     }
   },
   "resolved": {
@@ -100,7 +101,8 @@
       ],
       "technique": "original layered SVG, deterministic frame-driven motion",
       "outline": "organic dark brown",
-      "characters": "personified heart, lungs and blood cells"
+      "characters": "personified heart, lungs and blood cells",
+      "body": "Original non-personified human silhouette replacing tissue icon; schematic, not anatomical scale."
     },
     "layout": {
       "width": 1080,
@@ -230,7 +232,7 @@
       "audioStart": 0.3,
       "audioDuration": 5.108390022675737,
       "method": "2d-mechanism-explainer",
-      "source": "scripts/Heart-v8.jsx"
+      "source": "scripts/Heart-v10.jsx"
     },
     {
       "id": "shot-02",
@@ -241,9 +243,9 @@
       "audioStart": 6.133333333333333,
       "audioDuration": 5.50312925170068,
       "method": "2d-mechanism-explainer",
-      "source": "scripts/Heart-v8.jsx",
+      "source": "scripts/Heart-v10.jsx",
       "guidance": {
-        "origin_frame": 183,
+        "origin_frame": 179,
         "travel_frames": [
           219,
           261
@@ -261,15 +263,25 @@
       "audioStart": 12.366666666666667,
       "audioDuration": 3.889342403628118,
       "method": "2d-mechanism-explainer",
-      "source": "scripts/Heart-v8.jsx",
+      "source": "scripts/Heart-v10.jsx",
       "guidance": {
-        "origin_frame": 370,
-        "travel_frames": [
-          441,
-          476
+        "segments": [
+          {
+            "path_index": 1,
+            "travel_frames": [
+              371,
+              427
+            ]
+          },
+          {
+            "path_index": 2,
+            "travel_frames": [
+              441,
+              476
+            ]
+          }
         ],
-        "arrival_frame": 476,
-        "path_index": 2
+        "body_focus_start": 477
       }
     },
     {
@@ -281,7 +293,26 @@
       "audioStart": 16.96666666666667,
       "audioDuration": 4.446621315192743,
       "method": "2d-mechanism-explainer",
-      "source": "scripts/Heart-v8.jsx"
+      "source": "scripts/Heart-v10.jsx",
+      "camera": {
+        "type": "abdominal vessel anchored scale/translation",
+        "frames": [
+          500,
+          542
+        ],
+        "start_screen": [
+          520,
+          1319.96
+        ],
+        "end_screen": [
+          533.6,
+          785.4
+        ],
+        "scale": [
+          0.055,
+          1.04
+        ]
+      }
     },
     {
       "id": "shot-05",
@@ -292,7 +323,15 @@
       "audioStart": 22.133333333333333,
       "audioDuration": 5.027120181405896,
       "method": "2d-mechanism-explainer",
-      "source": "scripts/Heart-v8.jsx"
+      "source": "scripts/Heart-v10.jsx",
+      "guidance": {
+        "path_index": 3,
+        "travel_frames": [
+          665,
+          717
+        ],
+        "origin_frame": 659
+      }
     }
   ],
   "approvals": [
@@ -325,6 +364,11 @@
       "scope": "Raise background music audibility in v8; audio revision only",
       "revision": 9,
       "evidence": "用户：背景音乐再大一点，听不见"
+    },
+    {
+      "revision": 10,
+      "scope": "Episode-only visual revision; directly authorized production; retain v9 audio",
+      "evidence": "用户要求补回心脏箭头、加粗突出方向；圆圈重新设计并闪烁；全身组织改人体，从人体连续运镜放大到红细胞血管画面。"
     }
   ],
   "facts": [
@@ -340,8 +384,8 @@
   ],
   "lineage": {
     "art": "original SVG, no source-video asset extraction",
-    "audio": "v6 narration and original music unchanged → v7 voice/music gain revision and sidechain mix → AAC remux; v6 preserved → v8 AAC packet copy from v7 → v9 increased music with lighter ducking; same sources and timing",
-    "video": "v1 540p → v2 1080p → v3 1080p → v4 1080p → v5 full-screen layout → v6 new audio timings → v7 identical video stream → v8 origin / direction / destination cues in shots 02 and 03",
+    "audio": "v6 narration and original music unchanged → v7 voice/music gain revision and sidechain mix → AAC remux; v6 preserved → v8 AAC packet copy from v7 → v9 increased music with lighter ducking; same sources and timing → v10 identical v9 AAC packets",
+    "video": "v1 540p → v2 1080p → v3 1080p → v4 1080p → v5 full-screen layout → v6 new audio timings → v7 identical video stream → v8 origin / direction / destination cues in shots 02 and 03 → v10 body silhouette, four flow directions, breathing corner focus, abdominal-vessel zoom",
     "reference_scope": "user screenshots/video used for technique comparison only"
   }
 }

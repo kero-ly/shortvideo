@@ -1,0 +1,37 @@
+{
+  "technical": "passed",
+  "resolution": "1080x1920",
+  "frames": 842,
+  "fps": 30,
+  "decode": "passed",
+  "black_frames": "none >= 0.15s",
+  "loudness": {
+    "input_i": "-16.22",
+    "input_tp": "-7.99",
+    "input_lra": "2.50",
+    "input_thresh": "-27.34",
+    "output_i": "-16.22",
+    "output_tp": "-7.54",
+    "output_lra": "2.40",
+    "output_thresh": "-27.26",
+    "normalization_type": "dynamic",
+    "target_offset": "0.22"
+  },
+  "tail_seconds": 0.9062131519274388,
+  "audio_packets_sha256": "SHA256=f9093d2b7c2e2033ff1a45ac8b29cc80858d284f213b8084edee388a355741a4",
+  "audio": "identical AAC packets to v9",
+  "timing": "v9 props, narration, captions and ASR retained byte-for-byte",
+  "visual": "Reviewed all five shot start/middle/end frames and frames 240,280,410,470,499,500,510,521,532,542,695,725. Bold chevrons follow blood tracks; rounded breathing corner brackets; body silhouette and abdominal vessel expansion; title/captions readable.",
+  "full_playback": {
+    "status": "completed in IAB",
+    "duration": 28.066667,
+    "currentTime": 28.066667,
+    "ended": true,
+    "videoWidth": 1080,
+    "videoHeight": 1920,
+    "error": null
+  },
+  "actual_listening": "pending user review; browser playback is not auditory review",
+  "status": "internal review, not publication approval",
+  "media_sync": "45 delivery file SHA256 values checked locally against server manifest before review finalization; timing/captions/audio source files byte-identical to v9"
+}
