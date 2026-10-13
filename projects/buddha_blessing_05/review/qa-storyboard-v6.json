@@ -5,5 +5,5 @@
   "links": "All HTML media and evidence links verified",
   "audio": "new narration not generated",
   "video": "new motion not generated",
-  "font_note": "HTML system fallback preview; final Noto Sans CJK SC Black italic rendition needs220 renderer sample"
+  "font_note": "Reference matched: white heavy oblique glyphs with thick rounded black outline, no plaque/background; HTML preview uses 7px -webkit-text-stroke"
 }
