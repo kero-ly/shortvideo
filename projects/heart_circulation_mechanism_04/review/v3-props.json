@@ -1,0 +1,51 @@
+{
+  "shots": [
+    {
+      "id": "shot-01",
+      "text": "心脏就像一台泵，靠收缩和舒张推动血液。",
+      "duration_ms": 6000,
+      "start": 0,
+      "frames": 143,
+      "audioStart": 0.3,
+      "audioDuration": 4.051882086167801
+    },
+    {
+      "id": "shot-02",
+      "text": "右侧心脏把血液送到肺部，在这里完成气体交换。",
+      "duration_ms": 6000,
+      "start": 143,
+      "frames": 135,
+      "audioStart": 5.066666666666666,
+      "audioDuration": 3.7848526077097504
+    },
+    {
+      "id": "shot-03",
+      "text": "血液回到左侧心脏，再被送往全身。",
+      "duration_ms": 6000,
+      "start": 278,
+      "frames": 118,
+      "audioStart": 9.566666666666668,
+      "audioDuration": 3.2275736961451247
+    },
+    {
+      "id": "shot-04",
+      "text": "红细胞沿着血管前进，把氧送到身体各处。",
+      "duration_ms": 6000,
+      "start": 396,
+      "frames": 131,
+      "audioStart": 13.5,
+      "audioDuration": 3.633922902494331
+    },
+    {
+      "id": "shot-05",
+      "text": "血液再回到心脏，两条循环接力，持续运转。",
+      "duration_ms": 6000,
+      "start": 527,
+      "frames": 155,
+      "audioStart": 17.866666666666667,
+      "audioDuration": 3.947392290249433
+    }
+  ],
+  "totalFrames": 682,
+  "revision": 3
+}

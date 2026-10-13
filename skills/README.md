@@ -6,6 +6,7 @@
 |---|---|---|
 | 总工作流 | video-production | 主题、选择、阶段、审阅、交付组织 |
 | 制作方法 | character-scenario | 角色、场景、完整首帧、动作、H3路线 |
+| 方法案例与参考 | [2d-mechanism-explainer](2d-mechanism-explainer/SKILL.md) | 器官/机制分层与运动分镜；心脏循环的血流、轮廓、简单拟人和运镜已有限实测，复杂绑定未验证 |
 | 共用能力 | caption-alignment | 字幕融合、声音完整性、对齐与样片 |
 | 共用能力 | video-qa | 技术、视觉、内容、听审和交付证据 |
 | 旧入口 | 2d-scenario-explainer | 转到上述规范，兼容历史案例 |

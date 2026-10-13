@@ -1,0 +1,13 @@
+{
+  "video_sha256": "eac43df42415218834dd3b4d63fa7c9958a5da22f45a2de41a4d57167d60a92e",
+  "browser": "Codex in-app browser",
+  "start_time": 0.149195,
+  "end_time": 22.733333,
+  "ended": true,
+  "media_error": null,
+  "loaded_images": 5,
+  "total_images": 5,
+  "actual_listening": "pending",
+  "visual_review": "15 shot-boundary samples plus timed contact sheet",
+  "date": "2026-10-13"
+}

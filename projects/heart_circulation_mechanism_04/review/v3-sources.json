@@ -1,0 +1,13 @@
+{
+  "facts": [
+    {
+      "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+      "retrieved": "2026-10-13",
+      "use": "Right ventricle→lungs→left atrium/ventricle→body; oxygen exchange in lungs"
+    }
+  ],
+  "art": "Original SVG code, no Douyin pixels or music reused",
+  "audio": "IndexTTS2; configured reference teacher_reference_24k.wav; internal review",
+  "music": null,
+  "lineage": "original SVG source → deterministic shot frames → v1/v2/v3 render → narration mux; source hashes in production-plan"
+}

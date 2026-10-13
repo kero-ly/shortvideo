@@ -40,6 +40,7 @@ projects/<episode-id>/
 |---|---|
 | skills/video-production | 统一入口：选择、确认、阶段与交付组织 |
 | skills/character-scenario | 人物母版、完整场景首帧、动作/运镜与视频生成方法 |
+| skills/2d-mechanism-explainer | 二维器官/机制动画；心脏循环SVG/Remotion样片已在220有限实测，非通用骨骼/解剖引擎，风格待用户接受 |
 | skills/caption-alignment | 字幕融合、真实声音对齐、混音与带声审阅 |
 | skills/video-qa | 技术、视觉、内容、完整听审分别验收 |
 | styles/registry.json、presets/ | 别名检索、风格组合与兼容方法 |

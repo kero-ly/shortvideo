@@ -1,0 +1,14 @@
+{
+  "note": "Final v3/v4 delivery bundles are separately verified in full; intermediate sources below only",
+  "matching_local_run_files": [
+    "runs/20261013-heart-v1/props.json",
+    "runs/20261013-heart-v1/shot01.png",
+    "runs/20261013-heart-v2/shot01.png",
+    "runs/20261013-heart-v2/shot02.png",
+    "runs/20261013-heart-v2/shot03.png",
+    "runs/20261013-heart-v2/shot04.png",
+    "runs/20261013-heart-v2/shot05.png"
+  ],
+  "server_run_files": 73,
+  "full_episode_archive_local": false
+}

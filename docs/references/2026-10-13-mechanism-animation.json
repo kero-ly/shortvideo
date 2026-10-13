@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "purpose": "User-provided animation technique references; no source media reuse authorized",
+  "media_archived": false,
+  "source_software": "unknown",
+  "runtime_validation": "not_performed",
+  "screenshots": [
+    {
+      "image_number": 1,
+      "temporary_source_path": "/var/folders/97/x8rj0pdx6yg344p0m9z6htgc0000gn/T/codex-clipboard-2d14b401-c788-4b28-b1cc-02a45ee632c0.png",
+      "sha256": "9dbd40cd5d56f0f264b1a28fd9ba0570f56ce014d02ab3c3dcb78cb9dd8af7ce",
+      "bytes": 485517
+    },
+    {
+      "image_number": 2,
+      "temporary_source_path": "/var/folders/97/x8rj0pdx6yg344p0m9z6htgc0000gn/T/codex-clipboard-19ee069e-85c9-4d57-8023-2af313fe4d94.png",
+      "sha256": "c7b479aaad5333924c2772f2baec3b8de5b50d44c459796194bcb89f3c977c77",
+      "bytes": 490335
+    },
+    {
+      "image_number": 3,
+      "temporary_source_path": "/var/folders/97/x8rj0pdx6yg344p0m9z6htgc0000gn/T/codex-clipboard-da1d8ec1-f13b-4beb-a444-71c0bb953381.png",
+      "sha256": "beba6735f20a21952eab11437189c6578ae2a768bdcf0d3e8c2d0f0290026525",
+      "bytes": 499095
+    },
+    {
+      "image_number": 4,
+      "temporary_source_path": "/var/folders/97/x8rj0pdx6yg344p0m9z6htgc0000gn/T/codex-clipboard-0a6915b4-bed2-401d-b704-0cb2af6da920.png",
+      "sha256": "978cb72b76932abb5af51f9e038d2dbf3a2f811baa82069c3d6a975cc8aa1dc7",
+      "bytes": 406877
+    }
+  ]
+}

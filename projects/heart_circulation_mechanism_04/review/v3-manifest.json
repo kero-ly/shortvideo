@@ -1,0 +1,74 @@
+{
+  "alignment.json": {
+    "sha256": "f435204d066aed034e5e93aacdf78d094fc5be607657e51b8322ddfff4ac9ac9",
+    "bytes": 1682
+  },
+  "contact-sheet.png": {
+    "sha256": "ad9df7deada1904dd99a479788e2e71a1d814a007bac5ff964e84eb119354543",
+    "bytes": 394225
+  },
+  "cover.png": {
+    "sha256": "b536908cf975e2b99ffcbed2423f44a6a3aa303d8e37b49a99c53dc6314356ab",
+    "bytes": 133960
+  },
+  "ffprobe.json": {
+    "sha256": "f54fb71fde02ea0c056c050c0e3eb15b6d9b05958086baf9b9660e1876a62513",
+    "bytes": 3748
+  },
+  "heart-circulation.mp4": {
+    "sha256": "606a32e3ca034afb056980601d651fdd05971a1178361cecdf55a7edad5602d6",
+    "bytes": 8056712
+  },
+  "index.html": {
+    "sha256": "39d87929cc953e70ea5c2229617b74b96a6ca8299ea244f958c9ab368530f1f7",
+    "bytes": 3485
+  },
+  "loudness.json": {
+    "sha256": "18ffd2ed2c01f8aa004055a2f4a393b987ae2364bdd94321584e39962276bbef",
+    "bytes": 262
+  },
+  "preview-v1.mp4": {
+    "sha256": "298fcacaa8c28c7570654569dd5c5aad0d442f4edd80bc3953e7a22ab74950aa",
+    "bytes": 3297951
+  },
+  "props.json": {
+    "sha256": "7c0a05085e80a6bfb5039a012820fc9e312e7cc57e44d67a0b6cb59386f86045",
+    "bytes": 1330
+  },
+  "qa.json": {
+    "sha256": "15db0242115234a7acc4be5b48b66cce657e6a92a3a2f5f710c43680859affac",
+    "bytes": 1056
+  },
+  "shot01.png": {
+    "sha256": "b536908cf975e2b99ffcbed2423f44a6a3aa303d8e37b49a99c53dc6314356ab",
+    "bytes": 133960
+  },
+  "shot02.png": {
+    "sha256": "8541699e0e0ed4a04a1d3c73563a3a1b3ba6c5f506cd59e3f928426b620268fc",
+    "bytes": 134528
+  },
+  "shot03.png": {
+    "sha256": "d4c4705532580c2e71bce351ce65cce2e32ca0513d367cb817bdf53b6ceebb8f",
+    "bytes": 139239
+  },
+  "shot04.png": {
+    "sha256": "0f842026572e9aa3bfc037ce80db3992dd5937260566f6dc1aeb8c52034cd2e3",
+    "bytes": 111933
+  },
+  "shot05.png": {
+    "sha256": "4f22550872573b32463de5322742d2248711de8c5c500ac45e2725d5e2816c7a",
+    "bytes": 133367
+  },
+  "sources.json": {
+    "sha256": "57da6a3c7ff99d3c5ff232095ae48944a623910015dda364733cfa98c7c5a501",
+    "bytes": 535
+  },
+  "subtitles.srt": {
+    "sha256": "37ec56494b41624b0a7d85aeb4159e2b9725d4dd4127fd8b7a119eeeecc8f647",
+    "bytes": 457
+  },
+  "tts-manifest.json": {
+    "sha256": "db7486d74bfa89ecac646a2d42e50e0ec41263763316856f0852e42fbc27c6c7",
+    "bytes": 1991
+  }
+}

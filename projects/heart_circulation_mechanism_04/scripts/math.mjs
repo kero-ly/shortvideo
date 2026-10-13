@@ -1,0 +1,4 @@
+export function makeTrack(points){let length=0;const segments=[];for(let i=1;i<points.length;i++){const [x,y]=points[i-1], [u,v]=points[i];const d=Math.hypot(u-x,v-y);if(d){segments.push({x,y,u,v,start:length,d});length+=d;}}if(!length)throw Error('Empty track');return {segments,length};}
+export function sampleTrack(track,phase){const distance=((phase%1)+1)%1*track.length;const s=track.segments.find(s=>distance<s.start+s.d)||track.segments.at(-1);const t=(distance-s.start)/s.d;return{x:s.x+(s.u-s.x)*t,y:s.y+(s.v-s.y)*t,angle:Math.atan2(s.v-s.y,s.u-s.x)*180/Math.PI};}
+export function cellPosition(track,frame,fps,index,count,period){return sampleTrack(track,frame/fps/period+index/count);}
+export function bezier(points,n=90){const [a,b,c,d]=points;return Array.from({length:n+1},(_,i)=>{const t=i/n,q=1-t;return [0,1].map(k=>q*q*q*a[k]+3*q*q*t*b[k]+3*q*t*t*c[k]+t*t*t*d[k]);});}

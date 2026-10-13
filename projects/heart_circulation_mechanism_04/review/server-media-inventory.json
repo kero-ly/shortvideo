@@ -1,0 +1,371 @@
+{
+  "host": "220",
+  "scope": "physical episode runs, not shared assets",
+  "files": [
+    {
+      "path": "runs/20261013-heart-v1/audio/shot-01.wav",
+      "bytes": 178732,
+      "sha256": "4e050a6c8d64690e14ab59df088eccab81c0e825793e178b3b8dbffab884c14e"
+    },
+    {
+      "path": "runs/20261013-heart-v1/audio/shot-02.wav",
+      "bytes": 166956,
+      "sha256": "4a3b348033f80978dfc32791d52d7463c93e4a2b9111f84790c83402d4074be2"
+    },
+    {
+      "path": "runs/20261013-heart-v1/audio/shot-03.wav",
+      "bytes": 142380,
+      "sha256": "3d8a2c5dade27271d681c8c2c714eb400054ae5810f511d50cfd13ced105471c"
+    },
+    {
+      "path": "runs/20261013-heart-v1/audio/shot-04.wav",
+      "bytes": 160300,
+      "sha256": "3a469171725f38d0c46e726a664b9e8ec1fc4c100ea6392d77d60e7ff67084ff"
+    },
+    {
+      "path": "runs/20261013-heart-v1/audio/shot-05.wav",
+      "bytes": 174124,
+      "sha256": "67ddc091e49d483edf6cabffd0421acc0651be618de3946c74ecd18c6774c34d"
+    },
+    {
+      "path": "runs/20261013-heart-v1/narration.wav",
+      "bytes": 1002584,
+      "sha256": "c3f55652e8aac3a2e377c2a829dc6950fd358323b61bb6655a8f49f034c8975f"
+    },
+    {
+      "path": "runs/20261013-heart-v1/preview.mp4",
+      "bytes": 3297951,
+      "sha256": "298fcacaa8c28c7570654569dd5c5aad0d442f4edd80bc3953e7a22ab74950aa"
+    },
+    {
+      "path": "runs/20261013-heart-v1/props.json",
+      "bytes": 1330,
+      "sha256": "2a62da96ad1cbc54807b8cd63f79b96183d3bba95427234191f9400157dcac9e"
+    },
+    {
+      "path": "runs/20261013-heart-v1/shot01.png",
+      "bytes": 128012,
+      "sha256": "ce6a573b2e2f1faa5492b0b3ca933e5e1756eccc154973895901bbe88d16afc3"
+    },
+    {
+      "path": "runs/20261013-heart-v1/tts-manifest.json",
+      "bytes": 1991,
+      "sha256": "db7486d74bfa89ecac646a2d42e50e0ec41263763316856f0852e42fbc27c6c7"
+    },
+    {
+      "path": "runs/20261013-heart-v1/tts-plan.json",
+      "bytes": 548,
+      "sha256": "dec6956ea82e049628ae8d81812c18150469cff91918a4b371a48ac0e42e9efb"
+    },
+    {
+      "path": "runs/20261013-heart-v1/visual.mp4",
+      "bytes": 3899749,
+      "sha256": "62d8023cdbfe67a91a217a0634103dd26a818f6309c80337080729a379da88b3"
+    },
+    {
+      "path": "runs/20261013-heart-v2/heart-circulation.mp4",
+      "bytes": 10178308,
+      "sha256": "df725e02641dc4228b027334f81f8c6396e1059ea7c53c06f01397bac5f2769e"
+    },
+    {
+      "path": "runs/20261013-heart-v2/props.json",
+      "bytes": 1330,
+      "sha256": "59637b060798d1ab1e02ad937a4cb4ec39b93a56f2c55e3333b915c7ca5230cf"
+    },
+    {
+      "path": "runs/20261013-heart-v2/shot01.png",
+      "bytes": 134702,
+      "sha256": "736e726f7aa9b007ade5299b345163e6ef3a467d964f4ec09e47052530d95507"
+    },
+    {
+      "path": "runs/20261013-heart-v2/shot02.png",
+      "bytes": 138884,
+      "sha256": "82f608c3156d82c571772885305737188e7f30325a540d52fe84b7b4dfa05029"
+    },
+    {
+      "path": "runs/20261013-heart-v2/shot03.png",
+      "bytes": 139320,
+      "sha256": "21f17d188984577f013683d22831a6c48110916bd8a5004e6f9ed32781e76299"
+    },
+    {
+      "path": "runs/20261013-heart-v2/shot04.png",
+      "bytes": 112005,
+      "sha256": "a121b80195b62544330e5f4e1a668d3664cf894729d4f88a25ba907459ccd415"
+    },
+    {
+      "path": "runs/20261013-heart-v2/shot05.png",
+      "bytes": 133340,
+      "sha256": "e34ac479f5254736d3f4b95150f5f7be0de0dc2c17fbcc24bbd3080b886c2b09"
+    },
+    {
+      "path": "runs/20261013-heart-v2/visual.mp4",
+      "bytes": 10780106,
+      "sha256": "96741844303a34163aa83ce6888e5fc946143c4d6bdbd92a0934b393572b453d"
+    },
+    {
+      "path": "runs/20261013-heart-v3/contact-sheet.png",
+      "bytes": 394225,
+      "sha256": "ad9df7deada1904dd99a479788e2e71a1d814a007bac5ff964e84eb119354543"
+    },
+    {
+      "path": "runs/20261013-heart-v3/ffprobe.json",
+      "bytes": 3748,
+      "sha256": "f54fb71fde02ea0c056c050c0e3eb15b6d9b05958086baf9b9660e1876a62513"
+    },
+    {
+      "path": "runs/20261013-heart-v3/heart-circulation.mp4",
+      "bytes": 8056712,
+      "sha256": "606a32e3ca034afb056980601d651fdd05971a1178361cecdf55a7edad5602d6"
+    },
+    {
+      "path": "runs/20261013-heart-v3/loudness.json",
+      "bytes": 262,
+      "sha256": "18ffd2ed2c01f8aa004055a2f4a393b987ae2364bdd94321584e39962276bbef"
+    },
+    {
+      "path": "runs/20261013-heart-v3/props.json",
+      "bytes": 1330,
+      "sha256": "7c0a05085e80a6bfb5039a012820fc9e312e7cc57e44d67a0b6cb59386f86045"
+    },
+    {
+      "path": "runs/20261013-heart-v3/qa-1-end.png",
+      "bytes": 118518,
+      "sha256": "15b30a779da4a7af7b2a18c88765d2815474c8e0d8544a79838ea3350c35ff0e"
+    },
+    {
+      "path": "runs/20261013-heart-v3/qa-1-middle.png",
+      "bytes": 112038,
+      "sha256": "5e649c87ab6d707eb3be47b2beaee7ff776a743c0da4e643b84e55f16cf71e70"
+    },
+    {
+      "path": "runs/20261013-heart-v3/qa-1-start.png",
+      "bytes": 96933,
+      "sha256": "f8b4e3790a72185a6877c9fc785a068112d847ba9c446916bbead70548732d9d"
+    },
+    {
+      "path": "runs/20261013-heart-v3/qa-2-end.png",
+      "bytes": 121109,
+      "sha256": "a7f0b6ba4bab7845aeb97ed20bfb1193572f058c9a73f2a6413948f324b3c5e7"
+    },
+    {
+      "path": "runs/20261013-heart-v3/qa-2-middle.png",
+      "bytes": 121797,
+      "sha256": "903ded829a1f4d35b217e5c82417584d7fa9421d33970eaeea94033df55681b4"
+    },
+    {
+      "path": "runs/20261013-heart-v3/qa-2-start.png",
+      "bytes": 108814,
+      "sha256": "03204e0248c7dba5db297b9d43ef58f3d2cd8946a048b8cd5bfd7bf2ea7c9b76"
+    },
+    {
+      "path": "runs/20261013-heart-v3/qa-3-end.png",
+      "bytes": 121451,
+      "sha256": "a6bafb16c568b276288793054400957c0469bf1b1e57e7c96279d7bec0bb19e4"
+    },
+    {
+      "path": "runs/20261013-heart-v3/qa-3-middle.png",
+      "bytes": 121453,
+      "sha256": "711215c996b6af0c4eb2ca6edb543ae9bc80bf58e5933ed8e1b0f099a00498d6"
+    },
+    {
+      "path": "runs/20261013-heart-v3/qa-3-start.png",
+      "bytes": 108276,
+      "sha256": "e9c8cf34abf9e459ad550778c3a79485f4e77604071431b6041d909b0ac8d8e1"
+    },
+    {
+      "path": "runs/20261013-heart-v3/qa-4-end.png",
+      "bytes": 97758,
+      "sha256": "7361d74f05eedd486558d7769dd1f58d1413f671984416e086451c0d9862330c"
+    },
+    {
+      "path": "runs/20261013-heart-v3/qa-4-middle.png",
+      "bytes": 98027,
+      "sha256": "f7fa416b5998a82d55ccd5403ec67a38fdc8405e81fdebc9a388ade21a88a362"
+    },
+    {
+      "path": "runs/20261013-heart-v3/qa-4-start.png",
+      "bytes": 89226,
+      "sha256": "c9cbaf1f0693986767f77ca033017602e262f27e9f5b338e77838d455e5e16e5"
+    },
+    {
+      "path": "runs/20261013-heart-v3/qa-5-end.png",
+      "bytes": 108401,
+      "sha256": "115ba2d8eddb714e23a511cc7bfa7a79a70fff4336c305c0d7370cc85f3d8cff"
+    },
+    {
+      "path": "runs/20261013-heart-v3/qa-5-middle.png",
+      "bytes": 111329,
+      "sha256": "6eeb2a1b9fe3910a14de88d16713b113cc34bdb9c79a9786fa20dc011a199333"
+    },
+    {
+      "path": "runs/20261013-heart-v3/qa-5-start.png",
+      "bytes": 104277,
+      "sha256": "a08d51bfde8ce312fb1e96af6951d896d0c0fcbaf1caaa7424aa625bc3a57844"
+    },
+    {
+      "path": "runs/20261013-heart-v3/shot01.png",
+      "bytes": 133960,
+      "sha256": "b536908cf975e2b99ffcbed2423f44a6a3aa303d8e37b49a99c53dc6314356ab"
+    },
+    {
+      "path": "runs/20261013-heart-v3/shot02.png",
+      "bytes": 134528,
+      "sha256": "8541699e0e0ed4a04a1d3c73563a3a1b3ba6c5f506cd59e3f928426b620268fc"
+    },
+    {
+      "path": "runs/20261013-heart-v3/shot03.png",
+      "bytes": 139239,
+      "sha256": "d4c4705532580c2e71bce351ce65cce2e32ca0513d367cb817bdf53b6ceebb8f"
+    },
+    {
+      "path": "runs/20261013-heart-v3/shot04.png",
+      "bytes": 111933,
+      "sha256": "0f842026572e9aa3bfc037ce80db3992dd5937260566f6dc1aeb8c52034cd2e3"
+    },
+    {
+      "path": "runs/20261013-heart-v3/shot05.png",
+      "bytes": 133367,
+      "sha256": "4f22550872573b32463de5322742d2248711de8c5c500ac45e2725d5e2816c7a"
+    },
+    {
+      "path": "runs/20261013-heart-v3/visual.mp4",
+      "bytes": 10659922,
+      "sha256": "a423c2262c98d59b6927cb2732dacfe5c6f7ae31091581b8dd53da34bbfa5b8b"
+    },
+    {
+      "path": "runs/20261013-heart-v4/contact-sheet.png",
+      "bytes": 390835,
+      "sha256": "9b94bdac326dd01daf7561041f0ea07e95c7c07ea6fee825124ccc5f8678c097"
+    },
+    {
+      "path": "runs/20261013-heart-v4/ffprobe.json",
+      "bytes": 3748,
+      "sha256": "bc1209927e182c373179c18de7e444add06535afb131e0d2f839989d583e4a17"
+    },
+    {
+      "path": "runs/20261013-heart-v4/heart-circulation.mp4",
+      "bytes": 7975578,
+      "sha256": "eac43df42415218834dd3b4d63fa7c9958a5da22f45a2de41a4d57167d60a92e"
+    },
+    {
+      "path": "runs/20261013-heart-v4/loudness.json",
+      "bytes": 262,
+      "sha256": "18ffd2ed2c01f8aa004055a2f4a393b987ae2364bdd94321584e39962276bbef"
+    },
+    {
+      "path": "runs/20261013-heart-v4/props.json",
+      "bytes": 1330,
+      "sha256": "774280f79e0c0f3fb898a94a1eba1e64711b97889c051a1f5ea4f6024a91988e"
+    },
+    {
+      "path": "runs/20261013-heart-v4/qa-1-end.png",
+      "bytes": 118493,
+      "sha256": "7e2aad98915b4b276d6b90445b13ca573d099196010eedd1ff141fc5bae5ef48"
+    },
+    {
+      "path": "runs/20261013-heart-v4/qa-1-middle.png",
+      "bytes": 112106,
+      "sha256": "5e5898afdd136c0ad3e07db2441326ce019668a07c43f299eb6d86e64be1e4db"
+    },
+    {
+      "path": "runs/20261013-heart-v4/qa-1-start.png",
+      "bytes": 97033,
+      "sha256": "23b06dfcabc7b0623c1afffb3c9e474ce4a411e24e037b1228f33ffdc1fd4dc1"
+    },
+    {
+      "path": "runs/20261013-heart-v4/qa-2-end.png",
+      "bytes": 117996,
+      "sha256": "7ecf35b4734d5b5709ce1d792e33777841c3f08c22da1b4585ea2b8a204df75f"
+    },
+    {
+      "path": "runs/20261013-heart-v4/qa-2-middle.png",
+      "bytes": 118829,
+      "sha256": "ee5f541cd0d9049f8fd208644ea429484556217c4aa95e1197a4e6c97771f306"
+    },
+    {
+      "path": "runs/20261013-heart-v4/qa-2-start.png",
+      "bytes": 108516,
+      "sha256": "bf002847c796f4e26af8a21541d619c0626a477bd00632413bfd99fa7d9eeb92"
+    },
+    {
+      "path": "runs/20261013-heart-v4/qa-3-end.png",
+      "bytes": 121152,
+      "sha256": "65d382883422b4d7e766ea250ad99c6a00cb166921ad28171e88d96118f6a59d"
+    },
+    {
+      "path": "runs/20261013-heart-v4/qa-3-middle.png",
+      "bytes": 121224,
+      "sha256": "1b5c96947ff57a4117c4fdbaeeb2128bd8c739da636d33eebe05381c18f40d76"
+    },
+    {
+      "path": "runs/20261013-heart-v4/qa-3-start.png",
+      "bytes": 105223,
+      "sha256": "240cd23097039133966b819d9bd8df86f8413188f5d8ba9789968d82bf1303c6"
+    },
+    {
+      "path": "runs/20261013-heart-v4/qa-4-end.png",
+      "bytes": 97779,
+      "sha256": "a3bba8f23cefdfd1cf7a096b5dedfb2fb27abcc5be3a71a826298a48842f821f"
+    },
+    {
+      "path": "runs/20261013-heart-v4/qa-4-middle.png",
+      "bytes": 98022,
+      "sha256": "c2ee1285af66cbfe624245017391b1ba455edb5225dc52bed767ce9280910bf1"
+    },
+    {
+      "path": "runs/20261013-heart-v4/qa-4-start.png",
+      "bytes": 89252,
+      "sha256": "01124a4a9bb1aa577f7c622659e153ba9d7e7606e427bf2801047cac0c17923a"
+    },
+    {
+      "path": "runs/20261013-heart-v4/qa-5-end.png",
+      "bytes": 108452,
+      "sha256": "41fb93f21b7ac9b92a1a3d7d68ccd0bef15752488b05d63c3d148e3963ed76af"
+    },
+    {
+      "path": "runs/20261013-heart-v4/qa-5-middle.png",
+      "bytes": 111238,
+      "sha256": "9b162562600622e4ac93d31ab19473fd85eede4a4b557eafc5f10b4de21e5c20"
+    },
+    {
+      "path": "runs/20261013-heart-v4/qa-5-start.png",
+      "bytes": 104334,
+      "sha256": "419ca7b32de880d9b92a0b115e66fc6f88d41ad3671db553493dd64ace5a031d"
+    },
+    {
+      "path": "runs/20261013-heart-v4/shot-boundaries.png",
+      "bytes": 1278997,
+      "sha256": "6cd21923733c24bedf1f6cb36f584368f023b71ace52c728e664b02afcfa2d52"
+    },
+    {
+      "path": "runs/20261013-heart-v4/shot01.png",
+      "bytes": 133838,
+      "sha256": "f1ea75e3685b76df5224944f4769b389e3e9ca19c5e10d8215c5c971148f79fd"
+    },
+    {
+      "path": "runs/20261013-heart-v4/shot02.png",
+      "bytes": 131709,
+      "sha256": "011833edfb4e04791581630b569106f0678687d2b80883186266dcd8b0251f2c"
+    },
+    {
+      "path": "runs/20261013-heart-v4/shot03.png",
+      "bytes": 139117,
+      "sha256": "1fe2acf19679219286b9317b96d1e5d3caaa5f2d3a9148a6bf5f9dee25c3c5ec"
+    },
+    {
+      "path": "runs/20261013-heart-v4/shot04.png",
+      "bytes": 111798,
+      "sha256": "a53bd078c901aa7154a223933da4a909abfcd09e4a1fdf09ec304a2c019f0fea"
+    },
+    {
+      "path": "runs/20261013-heart-v4/shot05.png",
+      "bytes": 133250,
+      "sha256": "088a9117db481771b7fc7e7768432ef6dec8d114436157a0f7ec966ba0a8795e"
+    },
+    {
+      "path": "runs/20261013-heart-v4/visual.mp4",
+      "bytes": 10553950,
+      "sha256": "5ab602cfe68bb052122e51f161a2b2a7854b01cdb28f55587334b4b1e8093452"
+    }
+  ]
+}

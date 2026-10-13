@@ -12,6 +12,8 @@ description: Use when a user provides a video topic, asks to produce an episode,
 
 preset引用visual、layout、audio、format和compatible_methods；制作方法不等于画风。允许逐镜混合方法，但仅执行已实现且本期批准的方法；候选3D/实拍路线不视为可用skill。工具明确指定优先，实际可用性、预算和原生尺寸独立检查；无合适工具则报告阻塞，不静默替换供应商或服务器。
 
+器官剖面、血流、拟人器官和局部形变需求读../2d-mechanism-explainer/SKILL.md做选型与运动分镜。已有心脏循环案例在220完成有限组件实测，详见该skill的实现与QA链接；不是通用调度器，也未获用户风格认可。新主题先按真实结构验证代表镜头，不把单次样片外推为完整方法或风格批准。
+
 用schemas/production-plan.schema.json和本skill的references/production-plan.example.json建立本期production-plan.json：记录每个配置的ID/version/path/SHA256、选择依据与覆盖项，方法和工具版本、实测状态、审批证据及逐镜路由。读取时合并preset默认值与本期overrides；合并结果在审阅页展示。批准后锁定resolved配置，registry更新不修改已批准项目；修改受影响项另建revision，不篡改历史批准。
 
 ## 阶段与调用

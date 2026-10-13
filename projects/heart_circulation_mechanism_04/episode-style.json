@@ -1,0 +1,45 @@
+{
+  "id": "heart-transport-warm-flat",
+  "version": 4,
+  "scope": "episode-only, not an approved series default",
+  "visual": {
+    "palette": [
+      "#f5b875",
+      "#ffdcaa",
+      "#64372e",
+      "#ed685b",
+      "#859ac8"
+    ],
+    "technique": "original layered SVG, deterministic frame-driven motion",
+    "outline": "organic dark brown",
+    "characters": "personified heart, lungs and blood cells"
+  },
+  "layout": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "scene": [
+      50,
+      325,
+      950,
+      1170
+    ],
+    "caption_font_px": 39,
+    "title_font_px": 62,
+    "safe_right": 80
+  },
+  "audio": {
+    "provider": "IndexTTS2",
+    "music": null,
+    "target_lufs": -16,
+    "peak_dbtp": -1.5,
+    "timing": "measured sentence WAV durations"
+  },
+  "format": "pump → lungs → body → oxygen delivery → continuous circulation",
+  "method": "2d-mechanism-explainer",
+  "limitations": [
+    "simplified two-sided heart, not four-chamber anatomy",
+    "colors represent oxygen state, not literal blood color",
+    "sample-tested only; actual listening and user style acceptance pending"
+  ]
+}

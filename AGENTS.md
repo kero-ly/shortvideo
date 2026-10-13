@@ -27,4 +27,6 @@ Resolve user choice > approved episode > explicitly selected series defaults > r
 
 Asset-library construction is DEFERRED by user request. Preserve per-episode sources, authorization scope, hashes and master→reference→clip→composition lineage now; do not build catalogs, databases, semantic search or migrate assets into a shared library yet. Existing library/ATTRIBUTIONS.md remains for selective upstream reuse.
 
+For 2D organ cutaways, personified organs, blood/particle flow and controlled local deformation, read skills/2d-mechanism-explainer/SKILL.md for reference analysis, software selection, layered assets and motion storyboards. The heart-circulation episode provides sample-tested SVG/Remotion components (arc-length particles, local contours, simple expressions/limbs, camera and vessel clipping). This is case-based evidence, not generic anatomy/rigging support or user-approved style. Read its QA and validate new structures before reuse.
+
 Documentation entrypoints are canonical AGENTS.md and README.md (standard casing); do not create duplicate Agent.md or ReadME.md on case-insensitive filesystems. Update both relevant guidance and references when architecture changes.
