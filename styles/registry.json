@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 4,
   "default_preset": null,
   "presets": [
     {
@@ -59,7 +59,7 @@
         "佛光祈福"
       ],
       "method": "devotional-landscape",
-      "status": "configured_preproduction_only",
+      "status": "case_tested_internal_review",
       "tags": [
         "佛像",
         "祈福",
@@ -83,9 +83,11 @@
     },
     "devotional-landscape": {
       "path": "skills/devotional-landscape/SKILL.md",
-      "status": "preproduction_guidance_only",
+      "status": "implemented_case_based_internal_review",
       "production_ready": false,
-      "limitations": "图文可制作；H3新期输出路径和景观连续性需生产前适配验证"
+      "limitations": "15秒H3+IndexTTS2+libass已实测；云层变化明显，听审和参考声线公开授权待确认；不是通用自动dispatcher",
+      "version": 2,
+      "evidence": "projects/buddha_blessing_05/review/qa-video-v1.json"
     }
   },
   "selectable_components": [

@@ -23,4 +23,4 @@
 
 独立声音/视觉选项见styles/registry.json的selectable_components：可只选科普配音、只选配乐，或只选SVG机制动画，不隐式打包心脏整片风格。它们有真实案例实现，但目前需要代理按技能适配代码，JSON不会自动驱动渲染。混合镜头与逐步升级规则见[制作方法复用指南](../docs/production-method-reuse.md)。
 
-祈福景观入口：[devotional-landscape](devotional-landscape/SKILL.md)，对应“佛祖保佑 / 金色云海祈福”。当前仅前期指导与图文方案；视频、配音与字幕实现仍需本期实测，不是production-ready。
+祈福景观入口：[devotional-landscape](devotional-landscape/SKILL.md)，对应“佛祖保佑 / 金色云海祈福”。method v2已有单期H3、配音与字幕技术实测；见references/production-route.md，仍不是通用production-ready。

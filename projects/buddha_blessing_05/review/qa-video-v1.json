@@ -1,0 +1,24 @@
+{
+  "technical": "passed: full decode, 360 frames at24fps, H264/yuv420p, AAC48k stereo, no black intervals",
+  "duration": 15,
+  "native_resolution": [
+    576,
+    1024
+  ],
+  "output_resolution": [
+    1080,
+    1920
+  ],
+  "loudness_lufs": -16.3,
+  "true_peak_dbtp": -1.45,
+  "caption_timing": "actual phrase WAV + faster-whisper word timestamps; locked copy kept; no character interpolation",
+  "narration_tail_seconds": 0.933562499999999,
+  "visual_review": "Reviewed 15 one-second contact frames plus full-resolution 10s/10.8s and start/end browser views. Statue framing and visible face/hands stable; captions legible, pink happiness verified. Mid-shot clouds/light change substantially; retained as internal review limitation.",
+  "full_playback": "Browser played 0→15 seconds, readyState4, 1080×1920, ended=true, no media error. Continuous human visual review and actual listening remain pending.",
+  "actual_listening": "pending",
+  "voice_usage": "configured teacher reference; source record limited to internal testing; public use pending confirmation",
+  "user_approval": "review/approval-v1.json",
+  "stage": "final",
+  "delivery_scope": "internal_review",
+  "motion_acceptance": "Camera growth failure in v1 rejected; v2 same-image first/last anchors. Cloud amplitude exceeds subtle-motion target; final user acceptance pending."
+}

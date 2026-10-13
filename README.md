@@ -93,6 +93,6 @@ Git只追踪源代码、规范、prompt、来源、QA摘要和媒体hash；项�
 
 维护前读[AGENTS.md](AGENTS.md)、[目录同步约定](docs/workspace-layout.md)、[工作流](docs/workflow.md)。格式检查可用skill-creator的quick_validate；同时验证registry→preset→组件引用和项目Schema，再做有代表性的实际或只读场景验证。文档通过不等于模型/视频已通过生产验证。
 
-新增前期路线：[金色云海祈福](styles/presets/golden-cloud-buddha-blessing.json) 与 [祈福景观方法](skills/devotional-landscape/SKILL.md)。当前仅参考图文设计，H3连续镜头、配音和字幕实现未实测；不可据注册项称端到端就绪。案例：[佛光祈福图文 v1](projects/buddha_blessing_05/storyboard/v1.md)。
+新增前期路线：[金色云海祈福](styles/presets/golden-cloud-buddha-blessing.json) 与 [祈福景观方法](skills/devotional-landscape/SKILL.md)。已有15秒H3、分段配音、原创配乐与字幕实测，交付内部审阅版；听审和声线公开授权待确认，不是通用端到端就绪。案例：[佛光祈福图文 v1](projects/buddha_blessing_05/storyboard/v1.md)。
 
 可复用的参考图动画修订经验见[孕周案例](skills/caption-alignment/references/pregnancy-revision-lessons.md)：数字配音规范、局部重配、字幕避让和音轨交付。候选母婴配置未成为系列默认；技术证据、完整听审和传播效果分别记录。

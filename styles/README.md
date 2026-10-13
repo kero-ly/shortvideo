@@ -11,4 +11,4 @@ presets/组合visual/画面、layouts/排版、audio/声音和../formats/内容�
 
 JSON供代理读取并形成计划，尚未实现自动加载到Remotion或自动风格选择器。所有样式参数需在本期实际图像与手机尺度样片验证。
 
-金色云海祈福：golden-cloud-buddha-blessing@1。写实佛像、金色体积云、海滩前景、白字黑边/粉色重点；当前configured_preproduction_only，未完成视频/声音/renderer验证。
+金色云海祈福：golden-cloud-buddha-blessing@1。写实佛像、金色体积云、海滩前景、白字黑边/粉色重点；当前case_tested_internal_review，H3/声音/libass技术实测通过；云层幅度、实际听审和声线公开授权仍有限制。

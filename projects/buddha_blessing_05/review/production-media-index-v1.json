@@ -1,0 +1,240 @@
+{
+  "scope": "accepted-v2 job, audio job, final bundle downloaded; not full historical rejected-job archive",
+  "files": [
+    {
+      "path": "projects/buddha_blessing_05/runs/h3-buddha-v2-20261014-065240-87ec/clip.mp4",
+      "bytes": 2543190,
+      "sha256": "ae0704c1b1c7ecbb1f81177796d7542a753165f90b7217f84d5042372f26fa51"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/h3-buddha-v2-20261014-065240-87ec/history.json",
+      "bytes": 5756,
+      "sha256": "4392c87cf2686060fab8965260081dab401c0b269fd93e3e6bf11223e392ccb4"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/h3-buddha-v2-20261014-065240-87ec/input.json",
+      "bytes": 1163,
+      "sha256": "3145e0a5cd03277ffb90695b7a40a5d57dae577975af3a1b16664988de1159d5"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/h3-buddha-v2-20261014-065240-87ec/status.json",
+      "bytes": 229,
+      "sha256": "0cd642d94aaf2459c2c856fca27885002f6f0bcc3adc74c43782e334f60133f6"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/h3-buddha-v2-20261014-065240-87ec/submission.json",
+      "bytes": 93,
+      "sha256": "162053ffdc9f542d1dfef80d57587c2f0e009b5a52d62a49326c3cb02cf1e880"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/h3-buddha-v2-20261014-065240-87ec/workflow.json",
+      "bytes": 3708,
+      "sha256": "6130f663fe099976d2b3b944ce5f768a354ab55b517e566b87739b911c9540dc"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/alignment.json",
+      "bytes": 5930,
+      "sha256": "4b3683725775dfe22e47bdd1800b2d613c7c92a2e167ba8899ed7abb93395243"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/audio/phrase-01.wav",
+      "bytes": 72748,
+      "sha256": "0de93e7da0374e18111ec7a27b1c4635c46b453a2d3d09ef2be1fc454f1b5715"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/audio/phrase-02.wav",
+      "bytes": 51756,
+      "sha256": "ecb372d9619afacaf15a1994e55e09c86f4013e55652fe2fd5c2516db07f7f37"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/audio/phrase-03.wav",
+      "bytes": 74796,
+      "sha256": "ea2945b5266a2a4618754a5d61d557b88e8ab4b0ac16b3edb8189f37e521ce46"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/audio/phrase-04.wav",
+      "bytes": 93228,
+      "sha256": "400486dfba6292f0ceea11e5b775e9ca15bc6e8397b9f0ea22b2e1adbbf94c8a"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/audio/phrase-05.wav",
+      "bytes": 66092,
+      "sha256": "3712a6dd6d44a9bd41e580b2125bd884cc53d24995ce9b99a463b510e9014c7a"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/audio/phrase-06.wav",
+      "bytes": 62508,
+      "sha256": "7eebf390cf4e1f60aec9d7c033c1071eb484a83c14bc34fe8bbccefb29d0e187"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/captions.ass",
+      "bytes": 992,
+      "sha256": "ac4bb659e06e5c9390345bde5790ad95e59db9cbaf35be4c7672804d4db51e81"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/captions.srt",
+      "bytes": 290,
+      "sha256": "a648256f6f76f6cd13838d4fa03db2ca98c4ac69d454c57f8d99dbac7e27b64f"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/mix.wav",
+      "bytes": 2880078,
+      "sha256": "a69b6403e35dffe8a2cf4dfce44819c5ad6519958efa143de60f3a0e84fd0406"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/music-original.wav",
+      "bytes": 2880044,
+      "sha256": "72404d53d22bd27f57a965241836e4c12f2212568dedbee9823b0ce5e72a942d"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/music-source.json",
+      "bytes": 513,
+      "sha256": "1e2050b6e22baaee95242978f9fc9e58b6d394b84461346cdcb7897c4fdfaef5"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/narration.wav",
+      "bytes": 1440044,
+      "sha256": "e20c478e27c2f5cee713397174f8c2172769a47810e32e6abeac809cd3c02a0e"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/tts-manifest.json",
+      "bytes": 2102,
+      "sha256": "3fc764076617ef99e6042b9425902125598a6dd743e7d1c9a29f2fa3ae0f22c2"
+    },
+    {
+      "path": "projects/buddha_blessing_05/runs/tts-v1-20261014-064409/tts-plan.json",
+      "bytes": 551,
+      "sha256": "9138f1a79a1ed885ccf95a90777b90776d190669caea0cdc60c9cb006917e64c"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/alignment.json",
+      "bytes": 5930,
+      "sha256": "4b3683725775dfe22e47bdd1800b2d613c7c92a2e167ba8899ed7abb93395243"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/black-check.log",
+      "bytes": 1749,
+      "sha256": "4c193d03eaf2229529ba7299d676a8431779c0d5fda797b89e8beae27b846a89"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/buddha-blessing-15s.mp4",
+      "bytes": 11775092,
+      "sha256": "f80a08ea23cffc803ff211aa010877c57ef387b879ce78271422d5e165b233a1"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/captions.ass",
+      "bytes": 992,
+      "sha256": "ac4bb659e06e5c9390345bde5790ad95e59db9cbaf35be4c7672804d4db51e81"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/captions.srt",
+      "bytes": 290,
+      "sha256": "a648256f6f76f6cd13838d4fa03db2ca98c4ac69d454c57f8d99dbac7e27b64f"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/contact-sheet.jpg",
+      "bytes": 198404,
+      "sha256": "4edcfcab7374e844038059d27e25d2ac39922e0ab30cb882797530956079a5dd"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/contact.log",
+      "bytes": 4163,
+      "sha256": "1a6606c29690516dade38416ca1ecff568aa25242950872ebf4747a1fec8f6aa"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/cover.jpg",
+      "bytes": 98216,
+      "sha256": "6d4437143a7209a796a104cd131eb504955436c8008ac654a24387dc064d3c70"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/cover.log",
+      "bytes": 4168,
+      "sha256": "6324ff0f3965c05a982d1f49eab81c00ad25ef72cf1caaaf9df700fb9bd5d4c7"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/ffprobe.json",
+      "bytes": 3503,
+      "sha256": "ebe7364e0e0d1231c4d61b5475a87f2e3b5aed540c563e6afa0acba27a5b982d"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/frame-0.log",
+      "bytes": 3978,
+      "sha256": "68b529f47d90770b3df7249d7e6d7a12c5e6133b9f8185bcdcb767ded3d25800"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/frame-0.png",
+      "bytes": 2439172,
+      "sha256": "b2026736edb4effb09b460c5e594ac251f7ae1580573ffc0b5500d0ab340ce6c"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/frame-10.log",
+      "bytes": 3980,
+      "sha256": "ca79e9967cc2eb4a5894b6adcc4de2a67c969119246a8cb0a6391853d70d9424"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/frame-10.png",
+      "bytes": 3016246,
+      "sha256": "cfa1b102f56c45cd60a2c7f894655ccf10b60f9201037f771edce619c01da3ad"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/frame-14.5.log",
+      "bytes": 3984,
+      "sha256": "88cf2e3748ef697b685154556489cd49219b5101639def4179395ae5645f2b6e"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/frame-14.5.png",
+      "bytes": 3136008,
+      "sha256": "5890d70a9238d6f3ac19e77ca576e0e2edfb725b407b0cf0d629c06637008374"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/frame-5.log",
+      "bytes": 3978,
+      "sha256": "5fbaaae7bae6f0b41a957e030b5555612e7a1a510d3a732b1d44120b6303245d"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/frame-5.png",
+      "bytes": 3056906,
+      "sha256": "ae85cb7d0de26564010cd2a856784e96a09def8666959e3005b41a93a2be0ff6"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/full-decode.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/loudness.log",
+      "bytes": 1919,
+      "sha256": "44670e04b5f45c830319776fdf22e11a9a37d8b5887b4c25693f64573ea4c79a"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/manifest.json",
+      "bytes": 3825,
+      "sha256": "4eba01e4110116beae328dd0b562f3f62cc297cc0df10016ccfeae8632b85f5e"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/music-source.json",
+      "bytes": 513,
+      "sha256": "1e2050b6e22baaee95242978f9fc9e58b6d394b84461346cdcb7897c4fdfaef5"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/qa.json",
+      "bytes": 1350,
+      "sha256": "7f798c6020e426de69ea11e302d742dfc06c226ba1401cb3ca87ea92d87a18de"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/render.log",
+      "bytes": 8808,
+      "sha256": "e715ac4ab034fc4baf7d2751d52d5411e92dfffe2105fa04a57a6cdc2238dcb0"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/sources.json",
+      "bytes": 1035,
+      "sha256": "621d2c26203fcb4d6086879f3b3ad48171b69e3c07cc2239879ad6dfecd6a228"
+    },
+    {
+      "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824/tts-manifest.json",
+      "bytes": 2102,
+      "sha256": "3fc764076617ef99e6042b9425902125598a6dd743e7d1c9a29f2fa3ae0f22c2"
+    }
+  ]
+}

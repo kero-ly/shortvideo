@@ -1,7 +1,7 @@
 {
   "episode_id": "buddha_blessing_05",
   "revision": 1,
-  "status": "production_approved",
+  "status": "delivered",
   "brief": {
     "topic": "佛祖保佑风格15秒祈福视频",
     "audience": "短视频祈福祝愿观众",
@@ -156,22 +156,25 @@
       "capability": "image",
       "provider": "OpenLux GPT Image 2",
       "status": "smoke_tested",
-      "evidence": "review/image-generation-v1.json；本期单张图完成，不代表video ready"
+      "evidence": "review/qa-video-v1.json; actual episode execution, not generic production approval"
     },
     {
       "capability": "video",
       "provider": "220 H3",
-      "status": "unverified"
+      "status": "smoke_tested",
+      "evidence": "review/qa-video-v1.json; actual episode execution, not generic production approval"
     },
     {
       "capability": "narration",
       "provider": "220 IndexTTS2",
-      "status": "configured"
+      "status": "smoke_tested",
+      "evidence": "review/qa-video-v1.json; actual episode execution, not generic production approval"
     },
     {
       "capability": "composition",
-      "provider": "220 ffmpeg/Remotion",
-      "status": "configured"
+      "provider": "220 ffmpeg/libass",
+      "status": "smoke_tested",
+      "evidence": "review/qa-video-v1.json; actual episode execution, not generic production approval"
     }
   ],
   "shots": [
@@ -231,5 +234,30 @@
       "revision": 1,
       "evidence": "2026-10-13 用户回复“可以”，承接“这版图像和文案可以作为制作版本吗？”"
     }
-  ]
+  ],
+  "delivery": {
+    "path": "projects/buddha_blessing_05/deliveries/final-v1-20261014-065824",
+    "scope": "internal_review",
+    "qa": "review/qa-video-v1.json",
+    "limitations": [
+      "实际听审待确认",
+      "参考声线公开使用授权待确认",
+      "云层变化幅度较大，成片接受待用户审阅"
+    ]
+  },
+  "execution": {
+    "video_prompt": "storyboard/h3-prompt-v2.txt",
+    "graph": "scripts/h3-static-end-v2.json",
+    "first_last_anchor": "same approved master",
+    "actual_motion": "locked camera; visible cloud/light variation",
+    "narration_timing": "deliveries/final-v1-20261014-065824/alignment.json",
+    "shared_runtime": "read-only H3 install; own service18311 GPU7",
+    "server_git_head": "8ae317e",
+    "source_commits": [
+      "a9c6de1",
+      "9320170",
+      "451571c"
+    ],
+    "sync": "selective new episode files; shared dirty server registry/docs not overwritten"
+  }
 }

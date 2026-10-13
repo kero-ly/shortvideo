@@ -4,7 +4,7 @@ description: Use when a user requests Buddha blessing, devotional cloud landscap
 ---
 # 宗教祈福景观视频
 
-入口读 ../video-production/SKILL.md，解析 styles/registry.json。此方法当前只完成前期指导，非自动工具链，未有本主题视频实测。风格与方法分开：本方法也可用于用户明确选择的其他景观画风。
+入口读 ../video-production/SKILL.md，解析 styles/registry.json。方法v2已有单期15秒生产实测，仍非自动工具链或通用生产批准。具体限制与可复用路径见 [实测路线](references/production-route.md)。风格与方法分开：本方法也可用于用户明确选择的其他景观画风。
 
 ## 参考分析与图文输出
 
@@ -18,7 +18,7 @@ description: Use when a user requests Buddha blessing, devotional cloud landscap
 
 按当前授权做：若用户说“先看图像和文案”，完成图文即停，记录该版本待批准，不提交TTS/H3/合成。若已经明确批准具体图文与工具计划并要求直接完成，不增设角色、三样张或低清样片审批。实质变化另讨论。未知声线/配乐授权不推定原视频音轨可复用。
 
-生产仅在220。先检查GPU与H3队列；不得停止共享任务。capabilities/video-generation/h3_comfy.py现有版本硬编码根runs，没有episode参数：用于新期前必须增加并验证项目内输出路径，或制作本期适配脚本，不能直接照旧运行。任务写projects/<episode-id>/runs/<unique-job-id>/。提交记录保存prompt_id，失败按原任务恢复，不自动重复付费或GPU提交。
+生产仅在220。先检查GPU与H3队列；不得停止共享任务。capabilities/video-generation/h3_comfy.py硬编码根runs；本案例scripts/h3_episode.py已验证episode/runs输出。用于新期仍须解析本期路径并检验，不能照旧复制历史输出目录。任务写projects/<episode-id>/runs/<unique-job-id>/。提交记录保存prompt_id，失败按原任务恢复，不自动重复付费或GPU提交。
 
 实际graph为24fps，帧数按5+17k对齐且适配器至少124帧；默认约5.17秒，360请求成为362帧约15.08秒，这仅是计算值，不能承诺15秒单镜成功。先核对模型时长/显存与本主题实测。若只能稳定短片，提出末帧延展或分段生成的起终帧和接缝方案，记录实际帧数与速度；不能静默循环、倒放、冻结或大幅慢放冒充连续运动。现有适配器去掉原生音频，旁白与音乐须单独生成。
 
