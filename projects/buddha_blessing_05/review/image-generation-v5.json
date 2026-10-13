@@ -1,0 +1,1 @@
+{"status": "completed", "model": "gpt-image-2", "http_status": 200, "mode": "edit", "elapsed_seconds": 92.0, "output": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/image-v5-20261014-0800/master-v5.png", "requested_size": "1024x1792", "actual_size": "1024x1792", "size_mismatch": false, "bytes": 2805631}

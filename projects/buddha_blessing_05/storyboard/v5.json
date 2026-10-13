@@ -1,0 +1,71 @@
+{
+  "revision": 5,
+  "status": "proposed_preproduction_review",
+  "estimated_duration_seconds": [
+    18,
+    20
+  ],
+  "locked_copy": "遇见佛祖，先别划走。评论留朵花。愿你家人平安，万事顺遂。点个赞，把祝福送给你牵挂的人。",
+  "reference": "runs/image-v5-20261014-0800/master-v5.png",
+  "segments": [
+    {
+      "id": "01",
+      "estimated": "0–4秒",
+      "narration": "遇见佛祖，先别划走。",
+      "screen_text": [
+        "遇见佛祖",
+        "先别划走"
+      ],
+      "emphasis": "先别划走",
+      "action": "开场云层已经明显向右翻涌，金色光束从佛祖背后展开；佛像固定。"
+    },
+    {
+      "id": "02",
+      "estimated": "4–7秒",
+      "narration": "评论留朵花。",
+      "screen_text": [
+        "评论留朵花"
+      ],
+      "emphasis": "留朵花",
+      "action": "两侧云层分层流动，后方光束温和扫过；字幕框不挡合十双手。"
+    },
+    {
+      "id": "03",
+      "estimated": "7–13秒",
+      "narration": "愿你家人平安，万事顺遂。",
+      "screen_text": [
+        "愿你家人平安",
+        "万事顺遂"
+      ],
+      "emphasis": "平安 / 顺遂",
+      "action": "云边亮起，露出深蓝天空；保持佛像稳定，不用明暗骤变代替运动。"
+    },
+    {
+      "id": "04",
+      "estimated": "13–19秒",
+      "narration": "点个赞，把祝福送给你牵挂的人。",
+      "screen_text": [
+        "点个赞",
+        "把祝福送给",
+        "你牵挂的人"
+      ],
+      "emphasis": "祝福 / 牵挂的人",
+      "action": "云流持续到结尾，光束收敛为柔和佛光；完整尾音后留≥0.6秒。"
+    }
+  ],
+  "layout": {
+    "font_size": 128,
+    "outline": 12,
+    "position": "lower robe/quiet cloud area y0.76–0.88, not over face/hands",
+    "max_characters_per_cue": 8,
+    "emphasis": "gold text with dark translucent rounded rectangular plaque and gold edge; renderer support to implement on220"
+  },
+  "voice": "User accepted v4 actual Douyin-reference-conditioned IndexTTS2, same reference hash; new copy must be regenerated and aligned",
+  "video": "220 H3; 18–20s is candidate beyond tested15s, actual feasibility requires smoke sample; no loop/freeze/retiming fallback",
+  "tools": [
+    "OpenLux GPT Image2 edit on220",
+    "220 IndexTTS2 actual reference voice",
+    "220 H3 stable statue/moving clouds",
+    "220 ffmpeg/libass plaque captions"
+  ]
+}

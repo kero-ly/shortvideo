@@ -1,0 +1,36 @@
+{
+  "revision": 5,
+  "stage": "preproduction_image_script_review",
+  "production_host": "220",
+  "files": [
+    {
+      "path": "references/master-v1.png",
+      "bytes": 2006584,
+      "sha256": "e1eeec568e8dfda5f11dca068c02482aa79d99e480824421ea4ce27952a03ac5"
+    },
+    {
+      "path": "runs/image-v5-20261014-0800/master-v5.png",
+      "bytes": 2805631,
+      "sha256": "3acf751d6d0a2e8cfd29d2ed26ad2b149790cfa20e69a4d3ec5e51ee4965c4f5"
+    },
+    {
+      "path": "runs/image-v5-20261014-0800/prompt.txt",
+      "bytes": 1711,
+      "sha256": "e1c38ccf45a02a81424880a8afffa1fbe864d2eb20edfee82ce17c223aa22e20"
+    },
+    {
+      "path": "runs/image-v5-20261014-0800/result.json",
+      "bytes": 313,
+      "sha256": "31e6f363f914880fea36d75cf91362e870ee6d2277dfebad66dbc3cf06f1facf"
+    }
+  ],
+  "actual_dimensions": [
+    1024,
+    1792
+  ],
+  "visual_review": "Viewed actual output: Buddha upper-body portrait dominates, hands joined and face clear; halo and rays behind head, tiny boat/coast at bottom; provider slightly restyled facial sculpture/hair curls; not a pixel-preserved statue.",
+  "composition": "Buddha approx68% height; boat approx5% frame width; coast lower7%",
+  "motion_status": "not produced",
+  "layout_status": "HTML overlay proposal, not rendered subtitle",
+  "canvas_conversion": "For9:16 cover, 1024×1792→1008×1792 centeredcrop removes8px each horizontal edge (1.56% total); production not executed"
+}
