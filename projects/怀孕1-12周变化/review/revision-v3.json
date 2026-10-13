@@ -1,0 +1,46 @@
+{
+  "revision": 3,
+  "source_revision": 2,
+  "authorization": "User requested top-left gestational week note, centered upper-middle captions, warm music and gentle engaging narration. Existing full video production authorization persists.",
+  "source_voice_sha256": "ab2593a464a479d153c57664111c66942da95cfc8cfae3f792d7b83db088e1ab",
+  "overrides": {
+    "note": {
+      "left": 76,
+      "top": 78
+    },
+    "captions": {
+      "left": 90,
+      "right": 90,
+      "top": 460,
+      "font_size": 55,
+      "text_align": "center"
+    },
+    "music": "original procedural warm piano-like, 88 bpm, voice ducking",
+    "voice_rate": 1.0,
+    "audio_export": "explicit video 0 and audio 1 maps; AAC48k stereo"
+  },
+  "delivery": "deliveries/revision-v3-20261014-025947-ece0",
+  "qa": "review/delivery-qa-v3.json",
+  "downloaded_files_sha256_verified": [
+    "ffprobe.json",
+    "audio-source.json",
+    "qa.json",
+    "怀孕1-12周变化-v3.mp4",
+    "captions.srt",
+    "PUBLISHING_DRAFT.md",
+    "blackdetect.log",
+    "cover.jpg",
+    "loudness.log",
+    "props.json",
+    "source-index.json",
+    "FACT_CHECK.md"
+  ],
+  "server_only_intermediate": "visual.mp4",
+  "full_playback_and_actual_listening": "pending",
+  "browser_review": {
+    "url": "http://127.0.0.1:8768/projects/怀孕1-12周变化/review/video-v3.html",
+    "loaded": true,
+    "evidence": "browser tab 12 renders video controls; initial buffering indicator cleared",
+    "actual_listening": "pending"
+  }
+}

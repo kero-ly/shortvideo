@@ -1,0 +1,41 @@
+{
+  "revision": 3,
+  "changes": [
+    "top-left gestational-week note",
+    "centered upper-middle narration captions",
+    "explicit voice audio mapping",
+    "original warm piano-like background music"
+  ],
+  "technical": {
+    "decode": true,
+    "size": [
+      1080,
+      1920
+    ],
+    "fps": 24,
+    "frames": 2151,
+    "duration": 89.625,
+    "audio": "AAC 48kHz stereo",
+    "final_audio_rms": 0.15147803723812103,
+    "per_shot_nonsilent": true,
+    "integrated_lufs": -16.37,
+    "true_peak_dbtp": -2.74,
+    "black_intervals": 0,
+    "final_audio_correlation_with_approved_mix": 0.9998782075213799
+  },
+  "native_generation_size": [
+    576,
+    1024
+  ],
+  "caption_timing": "original actual word timestamps reused; voice unchanged",
+  "visual_sampling": {
+    "reviewer": "Codex",
+    "scope": "16 midpoint preview frames, 4x4 mobile-scale contact sheet",
+    "result": "top-left note and centered upper-middle captions visible; sampled captions do not overlap faces",
+    "limits": "not full playback; first/end/action frames not inspected"
+  },
+  "full_playback": "pending",
+  "actual_listening": "pending",
+  "voice_public_rights": "configured factory reference, public-use authorization not documented",
+  "music": "original procedural composition, no external recording"
+}

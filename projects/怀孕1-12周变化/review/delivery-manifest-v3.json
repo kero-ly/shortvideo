@@ -1,0 +1,54 @@
+{
+  "ffprobe.json": {
+    "sha256": "9345b2fea67971bb20e3c1f27553cb6a74eccc15ef7591966084239045026c52",
+    "bytes": 3828
+  },
+  "FACT_CHECK.md": {
+    "sha256": "20053853b1f7f91c4897854c4f28aa04b9f1abae27ef4bf89917a17ff624286f",
+    "bytes": 5071
+  },
+  "source-index.json": {
+    "sha256": "9a54753f9d6a564c3b6facdd0d76aa9c6cf1f270060a654c999b83a30101d118",
+    "bytes": 9921
+  },
+  "props.json": {
+    "sha256": "4b2e65cb89dc946022416ed59c010654c0e543398ec60b8c908a442ee1fe0121",
+    "bytes": 22813
+  },
+  "visual.mp4": {
+    "sha256": "927f05606ddd6cd034fa8aabb2909c61e46dfc0c047f3d99ed6b8cbc5578bc9a",
+    "bytes": 84367652
+  },
+  "blackdetect.log": {
+    "sha256": "6419cf358bf4b166b9cc269f7fe64c5a1754b0185bde43f336674de676393cf3",
+    "bytes": 2427
+  },
+  "qa.json": {
+    "sha256": "8203d51718deb2e51005b50a07457c767c1c2b2ff04140e734d6a1d6982bb917",
+    "bytes": 1293
+  },
+  "audio-source.json": {
+    "sha256": "97fc5bc20bb04c45552eecc787de89108bcd8dde22479badf93cfaa5ce0cf218",
+    "bytes": 866
+  },
+  "怀孕1-12周变化-v3.mp4": {
+    "sha256": "e497dce5727a3f33861b3b9bd401080b0e6f52eb1d2c1e2bcc7d3bc2a1c1ff6a",
+    "bytes": 67819674
+  },
+  "loudness.log": {
+    "sha256": "98e06e709ec71438f2548983b6fdb12088bd3f44896fcfa91d2bd5cef6d7ef5e",
+    "bytes": 2596
+  },
+  "cover.jpg": {
+    "sha256": "497430465afe220cc7b1b610324fcf3b12e9d16947f76b1ab1e7dca27493acac",
+    "bytes": 87813
+  },
+  "PUBLISHING_DRAFT.md": {
+    "sha256": "dac6a15a0f4792c983ea78b44523dc1a15dc317f70966016637c80a8244390ff",
+    "bytes": 833
+  },
+  "captions.srt": {
+    "sha256": "55f0299927ac82a6c374bc85133f02eb04af69d0b301077763ab8bb4462d5288",
+    "bytes": 3374
+  }
+}

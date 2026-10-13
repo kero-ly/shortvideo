@@ -1,0 +1,19 @@
+import sys,json,subprocess,hashlib,shutil,math,array,wave
+from pathlib import Path
+import numpy as np
+P=Path(__file__).resolve().parents[1];ROOT=P.parents[1];assert str(ROOT)=='/home/ly/shortvideo'
+job=P/sys.argv[1];d=P/'deliveries'/job.name;props=json.loads((job/'props.json').read_text());duration=props['duration_seconds'];sr=48000;source=json.loads((job/'audio-source.json').read_text())
+def run(name,cmd,cwd=None):
+ print(name,flush=True)
+ with (job/(name+'.log')).open('w') as f:subprocess.run(list(map(str,cmd)),stdout=f,stderr=subprocess.STDOUT,check=True,cwd=cwd)
+video=d/'怀孕1-12周变化-v3.mp4';run('mux',['ffmpeg','-y','-i',d/'visual.mp4','-i',job/'mix.wav','-map','0:v:0','-map','1:a:0','-c:v','libx264','-crf','18','-vf','scale=in_range=full:out_range=tv,format=yuv420p','-color_range','tv','-c:a','aac','-b:a','192k','-ar','48000','-ac','2','-t',duration,'-movflags','+faststart',video])
+run('decode',['ffmpeg','-v','error','-xerror','-i',video,'-f','null','-'])
+probe=json.loads(subprocess.check_output(['ffprobe','-v','error','-show_streams','-show_format','-of','json',str(video)],text=True));v=next(x for x in probe['streams']if x['codec_type']=='video');a=next(x for x in probe['streams']if x['codec_type']=='audio');assert(v['width'],v['height'],v['r_frame_rate'],v['pix_fmt'],int(v['nb_frames']))==(1080,1920,'24/1','yuv420p',props['total_frames']);assert(a['codec_name'],a['sample_rate'],a['channels'])==('aac','48000',2);assert abs(float(a['duration'])-duration)<.05
+pcm=np.frombuffer(subprocess.check_output(['ffmpeg','-v','error','-i',str(video),'-map','0:a:0','-f','f32le','-ac','1','-ar','48000','-']),dtype=np.float32);rms=float(np.sqrt(np.mean(pcm**2)));assert rms>.02,'Silent/inaudible final audio'
+for s in props['shots']:
+ seg=pcm[round(s['audio_start']*sr):round((s['audio_start']+s['audio_duration'])*sr)];assert float(np.sqrt(np.mean(seg**2)))>.02,s['id']
+run('loudness',['ffmpeg','-hide_banner','-i',video,'-af','loudnorm=I=-16:TP=-1:LRA=11:print_format=json','-vn','-f','null','-'])
+run('blackdetect',['ffmpeg','-hide_banner','-i',video,'-vf','blackdetect=d=0.1:pix_th=0.1','-an','-f','null','-'])
+run('cover',['ffmpeg','-y','-ss','2.8','-i',video,'-frames:v','1',d/'cover.jpg'])
+for src,name in [(job/'props.json','props.json'),(job/'audio-source.json','audio-source.json'),(P/'timeline/captions-v2.srt','captions.srt'),(P/'review/h3-clips-v2.json','source-index.json'),(P/'FACT_CHECK.md','FACT_CHECK.md'),(P/'PUBLISHING_DRAFT.md','PUBLISHING_DRAFT.md'),(job/'loudness.log','loudness.log'),(job/'blackdetect.log','blackdetect.log')]:shutil.copy2(src,d/name)
+(d/'ffprobe.json').write_text(json.dumps(probe,indent=2));qa={'revision':3,'changes':['top-left gestational-week note','centered upper-middle narration captions','explicit voice audio mapping','original warm piano-like background music'],'technical':{'decode':True,'size':[1080,1920],'fps':24,'frames':props['total_frames'],'duration':duration,'audio':'AAC 48kHz stereo','final_audio_rms':rms,'per_shot_nonsilent':True},'native_generation_size':[576,1024],'caption_timing':'original actual word timestamps reused; voice unchanged','visual_sampling':'pending','full_playback':'pending','actual_listening':'pending','voice_public_rights':source['voice_public_rights'],'music':'original procedural composition, no external recording'};(d/'qa.json').write_text(json.dumps(qa,ensure_ascii=False,indent=2));manifest={x.name:{'sha256':hashlib.sha256(x.read_bytes()).hexdigest(),'bytes':x.stat().st_size}for x in d.iterdir()if x.is_file()and x.name!='manifest.json'};(d/'manifest.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2));shutil.copy2(d/'qa.json',P/'review/delivery-qa-v3.json');shutil.copy2(d/'manifest.json',P/'review/delivery-manifest-v3.json');(P/'review/latest-delivery-v3.txt').write_text(str(d.relative_to(P)));print('DELIVERY_READY '+str(d),flush=True)
