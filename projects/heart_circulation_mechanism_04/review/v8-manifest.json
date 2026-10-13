@@ -1,0 +1,201 @@
+{
+  "revision": 8,
+  "parent": "20261013-heart-v7",
+  "files": [
+    {
+      "path": "alignment.json",
+      "sha256": "bee85b24560eba9d200ca8c3b79053353d52c713cc06f48900d337714cc3559a",
+      "bytes": 2720
+    },
+    {
+      "path": "contact-sheet-index.json",
+      "sha256": "2de1cb531e1905db3dea3e3329a54e177f35aeaff3eae8ba0ab3080f7e9d54cd",
+      "bytes": 102
+    },
+    {
+      "path": "contact-sheet.png",
+      "sha256": "8fa9467a5fb5f0e87f3b3da58a292061bd4a09a2dd3cdcd6cf7aa0b89ee2f574",
+      "bytes": 1215189
+    },
+    {
+      "path": "cover.png",
+      "sha256": "fa0899b46d9e63fb07138b2969544735cb967bf0683000a4c3c0c77d390029a9",
+      "bytes": 85817
+    },
+    {
+      "path": "ffprobe.json",
+      "sha256": "c0e074845100752716926178b91c20bed5f5184984a38bef8ba5532d6b4c5457",
+      "bytes": 3755
+    },
+    {
+      "path": "frame-200.png",
+      "sha256": "df95c005c8b356cd3bc361643129047c40b0b6f0c132383d08ddcf78203c625b",
+      "bytes": 439797
+    },
+    {
+      "path": "frame-240.png",
+      "sha256": "909d272d8cd0b3c452466e073ad5b8b81b43edd51cad974e1436318cab6d415a",
+      "bytes": 442716
+    },
+    {
+      "path": "frame-280.png",
+      "sha256": "8b6d1ff4aacc1858a4cf2134e680a2449fc8d20474c12595d85e6955b6b90aef",
+      "bytes": 447138
+    },
+    {
+      "path": "frame-410.png",
+      "sha256": "2c651a6d0d5364bf865ad32b32b7279ddd1f686c521888f4970d0f5ffd591c70",
+      "bytes": 422045
+    },
+    {
+      "path": "frame-460.png",
+      "sha256": "1d83e93625f6397d87dd13718b280c2beea1e804483cffb9c40d7e57060022d6",
+      "bytes": 423927
+    },
+    {
+      "path": "frame-489.png",
+      "sha256": "4a7fed5ee67c8b83ae9d132da15e6618f00280524dcf22d4d6b1eb19e08c8ccf",
+      "bytes": 427631
+    },
+    {
+      "path": "heart-circulation.mp4",
+      "sha256": "a5fb738b6b3dff9169e98816c17bd8586e67a97fffc0e196e6a155e3fd55740d",
+      "bytes": 11763760
+    },
+    {
+      "path": "index.html",
+      "sha256": "05ce2ec5fb8ca733f030afaa9264797d68705d48bc2e9d7ce46bdfd63465ba1a",
+      "bytes": 1713
+    },
+    {
+      "path": "loudness.json",
+      "sha256": "e535b3419ad3a4db23d6e3de42026b4a1d0c57e8b2b5c72358a29a3e82a8c2bd",
+      "bytes": 262
+    },
+    {
+      "path": "mix.wav",
+      "sha256": "fde90661a8e306a8f275bfb33a86e4b0e9406429ea8e828c223a805591c082eb",
+      "bytes": 5388878
+    },
+    {
+      "path": "music-original.wav",
+      "sha256": "f178ee56bd7c49e6e179a070fccc54ee62d6ceb1f9e37d8fbe62ebf648dcc0b3",
+      "bytes": 5388844
+    },
+    {
+      "path": "music-source.json",
+      "sha256": "7decce5838ee01a25985464f5ea5c7a8bbd6f9607f22a18476f4ca0038884126",
+      "bytes": 730
+    },
+    {
+      "path": "narration.wav",
+      "sha256": "8acafc01095ed83bc61270cee8d95b20c4d16a743c3a2890a4e8666e0a7d15df",
+      "bytes": 1237784
+    },
+    {
+      "path": "props.json",
+      "sha256": "202cfe44222b576d9e5da1b7051f7d58356a7954260e38e25216a08d6090a358",
+      "bytes": 1341
+    },
+    {
+      "path": "qa.json",
+      "sha256": "9e842ecdb027a4113b34c50453d23af2f7037ec8275484d97e4ef36546f59258",
+      "bytes": 1199
+    },
+    {
+      "path": "shot01-end.png",
+      "sha256": "a0d68262e6b9a3b3d2d91a1ed93144cb01a7a48997ab3410b8c0622a0ac960c1",
+      "bytes": 89747
+    },
+    {
+      "path": "shot01-middle.png",
+      "sha256": "fa0899b46d9e63fb07138b2969544735cb967bf0683000a4c3c0c77d390029a9",
+      "bytes": 85817
+    },
+    {
+      "path": "shot01-start.png",
+      "sha256": "42253c18249a653b3380265c3c0fe14a8ed6266abf80ef80458b1a9c8bbea635",
+      "bytes": 72423
+    },
+    {
+      "path": "shot02-end.png",
+      "sha256": "1db7585bdb0bd7b798361d680fbb2d41051c90093224b33317dc82bc1a389496",
+      "bytes": 102861
+    },
+    {
+      "path": "shot02-middle.png",
+      "sha256": "44d3588fdd994d0d786bc8aa676d309a4f50ee4047715cd3d915c8b4714d8573",
+      "bytes": 102590
+    },
+    {
+      "path": "shot02-start.png",
+      "sha256": "eb4ded6d7cfb7a05db4c7abe2b83ea25d2f976aba53a3114d7a46abe20a7b2c5",
+      "bytes": 79293
+    },
+    {
+      "path": "shot03-end.png",
+      "sha256": "6dee3b5431e8587a1bf81b814246b8432d2e75a61aab285e483b44f8937a14c6",
+      "bytes": 92804
+    },
+    {
+      "path": "shot03-middle.png",
+      "sha256": "240816dcc44d9837e482b848791e6bea45c28ea091f27d77921174194f582bd3",
+      "bytes": 87969
+    },
+    {
+      "path": "shot03-start.png",
+      "sha256": "bfbf10db3c55225a35009c27c0109a959cca6962474541ca4506b84740f4d02e",
+      "bytes": 83089
+    },
+    {
+      "path": "shot04-end.png",
+      "sha256": "27f03e340dd74233592b82af9ff2416198a155f46d2318cd76c0bf70a56fb544",
+      "bytes": 68506
+    },
+    {
+      "path": "shot04-middle.png",
+      "sha256": "f5c3386b7539d930bccee04ba2b1acf66cb2b0e638043ff06bf9309b72c09e9d",
+      "bytes": 69256
+    },
+    {
+      "path": "shot04-start.png",
+      "sha256": "db068db9bdb8e4ee79a13da7cf9fb3589a0a8acd90764b0e2e11aed787a3932c",
+      "bytes": 58289
+    },
+    {
+      "path": "shot05-end.png",
+      "sha256": "0671e145b8ee126ef677716512e42d5d84f88c2c4b0026f1f2c616dd2135f0e0",
+      "bytes": 82410
+    },
+    {
+      "path": "shot05-middle.png",
+      "sha256": "6268e488eb0f20adb0324623bcf19fe72e4e2d9c16cf9df37334b6221dec8811",
+      "bytes": 84960
+    },
+    {
+      "path": "shot05-start.png",
+      "sha256": "1b48f9a7b526fc07a5abc930dec124c83657bb014ac90abf803be291d46c31a2",
+      "bytes": 77221
+    },
+    {
+      "path": "sources.json",
+      "sha256": "2befca15e82b241656a70d0aa51e0447bb8f75cff9e8bf655abd53d197853467",
+      "bytes": 1411
+    },
+    {
+      "path": "subtitles.srt",
+      "sha256": "2c386bf5134791bc4ae0c9e2bb5da455881ece26bcdb9a7e513de5831d7eb4d7",
+      "bytes": 457
+    },
+    {
+      "path": "tts-manifest.json",
+      "sha256": "3a61ba996a9b9cfb44c15fb9bfa9d9ee3a65583fed6681bae46c3db8ccd10d8d",
+      "bytes": 2643
+    },
+    {
+      "path": "word-alignment.json",
+      "sha256": "305bb1c9c2726bcd0a56a67d436f62bbc4e1256f85ecab3e258a575c1b5ba8e2",
+      "bytes": 9826
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "technical": "passed",
+  "resolution": "1080x1920",
+  "frames": 842,
+  "fps": 30,
+  "decode": "passed",
+  "black_frames": "none >= 0.15s",
+  "loudness": {
+    "input_i": "-16.22",
+    "input_tp": "-8.30",
+    "input_lra": "2.60",
+    "input_thresh": "-27.35",
+    "output_i": "-16.23",
+    "output_tp": "-7.85",
+    "output_lra": "2.50",
+    "output_thresh": "-27.30",
+    "normalization_type": "dynamic",
+    "target_offset": "0.23"
+  },
+  "tail_seconds": 0.9062131519274388,
+  "audio_packets_sha256": "SHA256=0acdd1ccb8a4cd65e0357c794564070b8d9b0eacd4e8bff611341351cbb97496",
+  "audio": "identical AAC packets to v7",
+  "timing": "v7 props, narration, captions and ASR retained byte-for-byte",
+  "visual": "Reviewed 21 chronological contact-sheet frames and full-size route key frames: origins, direction, destination and caption/title separation passed; illustrative anatomy unchanged.",
+  "full_playback": "Codex IAB played from 0 to ended=true at 28.066667 seconds; 1080x1920; no media error",
+  "actual_listening": "pending user review",
+  "status": "internal review, not publication approval",
+  "transfer": "39 listed files downloaded from 220 and SHA256 verified before QA annotation"
+}

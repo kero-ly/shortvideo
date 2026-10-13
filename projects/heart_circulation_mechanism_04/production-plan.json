@@ -1,6 +1,6 @@
 {
   "episode_id": "heart_circulation_mechanism_04",
-  "revision": 7,
+  "revision": 8,
   "status": "preview_review",
   "brief": {
     "topic": "心脏如何推动血液循环",
@@ -23,9 +23,9 @@
     "components": [
       {
         "id": "heart-circulation-svg",
-        "version": 5,
-        "path": "projects/heart_circulation_mechanism_04/scripts/Heart.jsx",
-        "sha256": "51d0989f6572e38f635d87b5fa38651487d392e1eb53d01539ce68f7055b9df8"
+        "version": 8,
+        "path": "projects/heart_circulation_mechanism_04/scripts/Heart-v8.jsx",
+        "sha256": "a2c9676ec7d2e6565f63d92c9f12c9edfe785f8b788766836a234318553e2b58"
       },
       {
         "id": "arc-length-particle-motion",
@@ -76,7 +76,8 @@
       "title": "心脏一跳 / 血液去哪儿？",
       "caption_placement": "lower safe zone",
       "audio_revision": "IndexTTS2 per-shot happy/surprised/calm guidance; original music with sidechain ducking",
-      "mix_revision": "v7 voice gain 1.25 (v6 1.4), music gain 0.60 (v6 0.48); same source audio and picture"
+      "mix_revision": "v7 voice gain 1.25 (v6 1.4), music gain 0.60 (v6 0.48); same source audio and picture",
+      "route_guidance": "v8: shot 02 right heart → lungs, shot 03 left heart → body; origin ring + numbered badge + gold path reveal + forward chevrons + destination ring. Based on v7 timing; no shared style change."
     }
   },
   "resolved": {
@@ -223,7 +224,7 @@
       "audioStart": 0.3,
       "audioDuration": 5.108390022675737,
       "method": "2d-mechanism-explainer",
-      "source": "scripts/Heart.jsx"
+      "source": "scripts/Heart-v8.jsx"
     },
     {
       "id": "shot-02",
@@ -234,7 +235,16 @@
       "audioStart": 6.133333333333333,
       "audioDuration": 5.50312925170068,
       "method": "2d-mechanism-explainer",
-      "source": "scripts/Heart.jsx"
+      "source": "scripts/Heart-v8.jsx",
+      "guidance": {
+        "origin_frame": 183,
+        "travel_frames": [
+          219,
+          261
+        ],
+        "arrival_frame": 261,
+        "path_index": 0
+      }
     },
     {
       "id": "shot-03",
@@ -245,7 +255,16 @@
       "audioStart": 12.366666666666667,
       "audioDuration": 3.889342403628118,
       "method": "2d-mechanism-explainer",
-      "source": "scripts/Heart.jsx"
+      "source": "scripts/Heart-v8.jsx",
+      "guidance": {
+        "origin_frame": 370,
+        "travel_frames": [
+          441,
+          476
+        ],
+        "arrival_frame": 476,
+        "path_index": 2
+      }
     },
     {
       "id": "shot-04",
@@ -256,7 +275,7 @@
       "audioStart": 16.96666666666667,
       "audioDuration": 4.446621315192743,
       "method": "2d-mechanism-explainer",
-      "source": "scripts/Heart.jsx"
+      "source": "scripts/Heart-v8.jsx"
     },
     {
       "id": "shot-05",
@@ -267,7 +286,7 @@
       "audioStart": 22.133333333333333,
       "audioDuration": 5.027120181405896,
       "method": "2d-mechanism-explainer",
-      "source": "scripts/Heart.jsx"
+      "source": "scripts/Heart-v8.jsx"
     }
   ],
   "approvals": [
@@ -290,6 +309,11 @@
       "scope": "Lower narration slightly and raise background music in the existing v6 mix",
       "revision": 7,
       "evidence": "用户：配音的声音稍微小一点，背景音乐大一点"
+    },
+    {
+      "revision": 8,
+      "scope": "Enhance existing shot 02/03 with directional visual cues; no extra production approval required for this requested revision",
+      "evidence": "用户：高亮轮廓或者用一些什么方式高亮突出这个循环，或者做一些箭头引导……不知道从哪里开始看起。后面介绍左侧心脏同理"
     }
   ],
   "facts": [
@@ -305,8 +329,8 @@
   ],
   "lineage": {
     "art": "original SVG, no source-video asset extraction",
-    "audio": "v6 narration and original music unchanged → v7 voice/music gain revision and sidechain mix → AAC remux; v6 preserved",
-    "video": "v1 540p → v2 1080p → v3 1080p → v4 1080p → v5 full-screen layout → v6 new audio timings → v7 identical video stream",
+    "audio": "v6 narration and original music unchanged → v7 voice/music gain revision and sidechain mix → AAC remux; v6 preserved → v8 AAC packet copy from v7",
+    "video": "v1 540p → v2 1080p → v3 1080p → v4 1080p → v5 full-screen layout → v6 new audio timings → v7 identical video stream → v8 origin / direction / destination cues in shots 02 and 03",
     "reference_scope": "user screenshots/video used for technique comparison only"
   }
 }
