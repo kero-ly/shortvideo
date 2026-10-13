@@ -5,7 +5,7 @@
 | 目录 | 用途 |
 |---|---|
 | projects/<episode-id>/ | 每期文案、分镜、生成提示词、时间线、素材清单及版本 |
-| skills/ | 经案例验证后沉淀的端到端风格入口，目前尚未正式封装 |
+| skills/ | 已沉淀2D人物情境科普入口和奶油绘本预设，按引用读取；尚非通用批量调度器 |
 | styles/ | 可复用风格规范及模板 |
 | capabilities/ | 配音、图片、视频、音乐、QA 等共用工具适配 |
 | renderers/ | Remotion / Blender / Godot 引擎和入口 |

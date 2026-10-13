@@ -3,11 +3,13 @@ name: 2d-scenario-explainer
 description: Use when planning or producing 2D character scenario explainers, including hand-drawn animation and cream storybook illustration presets, with consistent adult cartoon characters acting out everyday situations, reassuring narration and readable explanatory cards, including maternal health and everyday science topics.
 ---
 
-# 2D 手绘动画 · 暖色明亮低饱和 · 生活情境科普
+# 2D 人物情境科普：手绘与奶油绘本
 
 用原创 2D 人物演生活情境，以像朋友一样的旁白解释主题，再给出清晰的行动建议。适用于成年观众的母婴、健康和生活科普；具体受众按本期 brief 决定。不要仿制参考作者的角色、声音、标识。
 
 从本 skill 所在目录向上两级找到工厂根目录。先读根目录 `AGENTS.md`、`docs/workspace-layout.md`、`configs/resources.json`。工作流细节见 [references/workflow.md](references/workflow.md)；准备前期方案时读 [references/preproduction.md](references/preproduction.md)。
+
+选择“奶油绘本科普”或本期成片风格时，读取 [references/cream-storybook.md](references/cream-storybook.md)，使用 `2d-storybook-cream-warm-daily-list-explainer@2`。进入字幕、音频、排版修订或成片审阅时，读取 [references/captions-and-review.md](references/captions-and-review.md)：语义融合映射、真实音频词级对齐、尾句完整性、网页审阅和分层QA。
 
 ## 风格检索与输入
 

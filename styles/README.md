@@ -24,11 +24,12 @@
 styles/
 ├── README.md
 └── 2d-handdrawn/                          大类：2D 手绘动画
-    └── warm-light-muted-daily-explainer.json
+    ├── warm-light-muted-daily-explainer.json
+    └── cream-warm-storybook-list-explainer.json
         2D 手绘动画 · 暖色明亮低饱和 · 生活情境科普
 ```
 
-当前登记两个预设：上面的暖色手绘动画已有内部审阅案例；新增的 [奶油绘本科普](2d-handdrawn/cream-warm-storybook-list-explainer.json) 是待制作验证的草案，完整名称为“2D 绘本插画 · 奶油暖彩 · 生活情境清单科普”，ID 为 `2d-storybook-cream-warm-daily-list-explainer@1`。它复用同一情境科普 skill，以圆脸、略大头成人形象、奶油暖彩和清单标题覆盖默认视觉参数。首期方案见 `projects/early_pregnancy_signs_storybook_02/PREPRODUCTION.md`，尚待前期确认。
+当前登记两个预设：暖色手绘情境科普，以及 [奶油绘本科普](2d-handdrawn/cream-warm-storybook-list-explainer.json)。后者完整名称为“2D 绘本动画 · 奶油暖彩 · 生活情境清单科普”，ID `2d-storybook-cream-warm-daily-list-explainer@2`，沿用同一情境科普 skill。已完成角色→参考帧→H3→合成→1080交付，技术QA与抽帧检查通过；完整人工听审和声线公开使用权仍未核实。v2沉淀亮黄色描边常驻标题、下方融合字幕及轻快配乐，详见skill的 cream-storybook.md。
 
 未来可按需要增加同大类的“冷色暗调 · 悬疑叙事”或“明亮高饱和 · 趣味科普”，这些目前只是命名示例，尚未实现或验证。真人实拍、3D 卡通等建立同级大类，避免嵌套到手绘动画之下。
 

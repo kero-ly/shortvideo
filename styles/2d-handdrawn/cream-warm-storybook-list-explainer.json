@@ -1,10 +1,10 @@
 {
   "id": "2d-storybook-cream-warm-daily-list-explainer",
-  "version": 1,
-  "display_name": "2D 绘本插画 · 奶油暖彩 · 生活情境清单科普",
+  "version": 2,
+  "display_name": "2D 绘本动画 · 奶油暖彩 · 生活情境清单科普",
   "alias": "奶油绘本科普",
   "family": "2d-handdrawn",
-  "status": "draft_not_production_validated",
+  "status": "end_to_end_rendered_technical_qa_passed_human_listening_pending",
   "visual": {
     "medium": "2D 绘本插画",
     "rendering": "棕色柔和描边、平涂结合轻柔阴影、少量纸感",
@@ -25,10 +25,10 @@
   "setting": "生活居家",
   "format": "情境清单科普",
   "presentation": [
-    "一个编号一个生活情境",
-    "黄色深色描边短标题",
-    "独立旁白",
-    "后期精确文字与信息卡"
+    "全片亮黄色深棕描边主题标题",
+    "下方单一字幕块：短主题标签＋完整旁白句，去重融合",
+    "独立自然旁白与轻快低音量配乐",
+    "准确文字后期制作"
   ],
   "tone": "按主题配置，本期朋友式陪伴",
   "pace": "本期舒缓适中，清单短切",
@@ -42,7 +42,10 @@
     "圆脸成人",
     "居家",
     "清单",
-    "科普"
+    "科普",
+    "亮黄标题",
+    "深棕描边",
+    "融合字幕"
   ],
   "skill": "skills/2d-scenario-explainer/SKILL.md",
   "example": "projects/early_pregnancy_signs_storybook_02/PREPRODUCTION.md",
@@ -53,8 +56,58 @@
   },
   "motion_proposal": "H3小动作加固定镜头或轻推；这是本期方案，不是对参考片制作技术的断言",
   "limitations": [
-    "新预设尚未生成验证",
-    "复用2D情境科普工作流；人物比例与配色以本预设覆盖默认值",
-    "画风与工具路线独立"
-  ]
+    "本预设是代理读取的规范，未接入自动预设加载器",
+    "案例脚本仍含旧主题、镜头数、run和时码，复用前适配",
+    "技术QA与抽帧通过不代表完整人工播放/实际听审通过",
+    "画风、主题、语气和工具路线分别配置"
+  ],
+  "layout": {
+    "canvas": [
+      1080,
+      1920
+    ],
+    "title": {
+      "top": 120,
+      "left": 20,
+      "right": 20,
+      "font_size": 90,
+      "font_weight": 900,
+      "color": "#FFFF00",
+      "stroke": "6px #54351F",
+      "background": null,
+      "duration": "full_video"
+    },
+    "caption": {
+      "left": 88,
+      "right": 125,
+      "bottom": 280,
+      "font_size": 62,
+      "color": "#684630",
+      "background": "rgba(255,249,238,.95)",
+      "shadow": null,
+      "context_font_size": 38
+    },
+    "optional_notice": {
+      "left": 28,
+      "top": 32,
+      "font_size": 28,
+      "background": null,
+      "text": "episode_specific"
+    }
+  },
+  "validation": {
+    "example": "projects/early_pregnancy_signs_storybook_02/PRODUCTION.md",
+    "qa": "projects/early_pregnancy_signs_storybook_02/review/final-v4/qa.json",
+    "manifest": "projects/early_pregnancy_signs_storybook_02/review/final-v4/manifest.json",
+    "native_video_resolution": [
+      576,
+      1024
+    ],
+    "delivery_resolution": [
+      1080,
+      1920
+    ],
+    "human_listening": "pending",
+    "public_voice_rights": "unverified"
+  }
 }
