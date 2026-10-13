@@ -1,0 +1,28 @@
+{
+  "episode_id": "example-kidney-mixed-method",
+  "revision": 1,
+  "status": "draft",
+  "brief": {"topic": "肾脏机制讲解（路由示例，非获批制作任务）", "audience": "大众", "key_points": []},
+  "selection": {
+    "basis": "独立选择声音和视觉；示例配置，不继承心脏整片风格，不含制作批准",
+    "preset": null,
+    "components": [
+      {"id": "science-expressive", "version": 1, "path": "styles/audio/science-expressive.json", "sha256": null},
+      {"id": "procedural-science-mix", "version": 1, "path": "styles/audio/procedural-science-mix.json", "sha256": null},
+      {"id": "svg-mechanism-guidance", "version": 1, "path": "styles/visual/svg-mechanism-guidance.json", "sha256": null}
+    ],
+    "overrides": {"episode_only": true}
+  },
+  "resolved": {"note": "草案：批准前填写当前组件hash、完整合并参数、具体画风/字幕和真实音频时间；不宣称此示例可直接渲染"},
+  "methods": ["character-scenario", "2d-mechanism-explainer"],
+  "tools": [
+    {"capability": "AI情境片段", "provider": "H3，按当前配置核实", "status": "unverified"},
+    {"capability": "SVG机制镜头", "provider": "Remotion 220，心脏案例实测，新肾脏结构未验证", "status": "unverified"}
+  ],
+  "shots": [
+    {"id": "shot-01", "method": "character-scenario", "purpose": "生活情境开场", "timing": "待真实旁白", "handoff": "源片声音是否保留须明确，统一旁白与字幕", "validation": "角色与完整分镜按既有授权流程"},
+    {"id": "shot-02", "method": "2d-mechanism-explainer", "purpose": "依据核实事实重画肾脏机制", "timing": "待真实旁白", "handoff": "裁切、画幅、颜色语义与源片转换明确；不复用心脏路径", "validation": "新结构/方向/关键帧代表验证"}
+  ],
+  "candidate_methods": [{"method": "3D", "status": "unverified", "reason": "如确需空间结构，另提工具验证；不列入已批准生产镜头"}],
+  "approvals": []
+}

@@ -69,7 +69,8 @@
           "type": "string"
         },
         "preset": {
-          "type": "object",
+          "type": ["object", "null"],
+          "description": "null表示独立组件组合，不隐式继承整片预设；批准时仍需组件hash与完整resolved配置",
           "required": [
             "id",
             "version",

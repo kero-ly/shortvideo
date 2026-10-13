@@ -4,9 +4,9 @@ description: Use when a video needs 2D organ cutaways, personified organs, blood
 ---
 # 二维机制科普动画
 
-版本：2。参考分析、软件选型、分层设计和运动分镜规范可用。心脏循环案例已在220完成SVG/Remotion样片及技术检查：弧长血流粒子、局部轮廓变化、简单表情/肢体、推拉镜头和血管遮罩为 sample-tested。它仍是案例实现，不是通用成片生成器；真实骨骼/网格绑定、任意器官剖面、复杂逐帧表演未验证。用户风格接受与实际听审未完成，不登记为production-approved。
+版本：3。参考分析、软件选型、分层设计和运动分镜规范可用。心脏v10已在220实测弧长粒子、局部形变、简单拟人、粗方向箭头、呼吸四角高亮、人体局部放大和血管遮罩。它仍是案例实现，不是通用成片生成器；真实骨骼/网格绑定、任意器官剖面、复杂逐帧表演未验证。用户风格接受与实际听审未完成，不登记为production-approved。
 
-复用入口：[心脏循环样片说明](../../projects/heart_circulation_mechanism_04/PREPRODUCTION.md)、[实现](../../projects/heart_circulation_mechanism_04/scripts/Heart.jsx)、[运动模块](../../projects/heart_circulation_mechanism_04/scripts/math.mjs)、[QA](../../projects/heart_circulation_mechanism_04/review/QA.md)。更换主题先核对结构、路径和时间线，不能只换字幕。
+复用入口：[v10组件选择与适配](references/heart-case-v10.md)链接源码、参数和QA；[前期样例](../../projects/heart_circulation_mechanism_04/PREPRODUCTION.md)保留历史设计。更换主题先核对结构、路径和时间线，不能只换字幕。配音读[science-narration](../science-narration/SKILL.md)，音乐读[procedural-music-mix](../procedural-music-mix/SKILL.md)，按用户选择独立组合。
 
 先读 ../video-production/SKILL.md，遵守根 AGENTS.md。软件与技法比较见 [references/software-and-motion.md](references/software-and-motion.md)。医学机制和其他技术机制都可采用本方法；具体结构必须依据本期可靠事实来源。
 

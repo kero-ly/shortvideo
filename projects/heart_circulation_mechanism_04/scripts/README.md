@@ -1,5 +1,7 @@
 # 案例脚本与重现
 
+当前复用导航：科普配音见../../../skills/science-narration/SKILL.md；程序音乐/v9可闻混音见../../../skills/procedural-music-mix/SKILL.md；v10粗箭头、四角呼吸高亮、人体局部放大见../../../skills/2d-mechanism-explainer/references/heart-case-v10.md。这些链接对应案例实测，不把旧脚本变成通用CLI。
+
 所有渲染/合成/抽帧只在220。本目录是本期案例，尚非通用调度器。历史job ID和成片时间已固化，禁止直接覆盖重跑；新作先分配唯一run/delivery并适配所有路径、文字和测量时长。
 
 1. `math.test.mjs`验证弧长采样、环路连续与帧确定性。

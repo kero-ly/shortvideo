@@ -16,6 +16,10 @@ preset引用visual、layout、audio、format和compatible_methods；制作方法
 
 用schemas/production-plan.schema.json和本skill的references/production-plan.example.json建立本期production-plan.json：记录每个配置的ID/version/path/SHA256、选择依据与覆盖项，方法和工具版本、实测状态、审批证据及逐镜路由。读取时合并preset默认值与本期overrides；合并结果在审阅页展示。批准后锁定resolved配置，registry更新不修改已批准项目；修改受影响项另建revision，不篡改历史批准。
 
+registry.selectable_components提供独立可选声音/视觉，不是整片preset或自动加载器。科普表现型配音读../science-narration/SKILL.md；配乐/可闻度修订读../procedural-music-mix/SKILL.md；SVG组件读../2d-mechanism-explainer/references/heart-case-v10.md。按内容分配每镜方法，接口与升级约定见../../docs/production-method-reuse.md。不要因一个镜头选择SVG而要求整片只能SVG；3D等未验证路线只列候选，不能虚标已实现。
+
+无整片预设时selection.preset=null，仍登记每个组件版本/hash，批准前保存完整resolved配置。参考[独立组件与混合镜头草案](references/mixed-method.example.json)，其中null hash和unverified仅用于未批准草案，不能直接当作生产计划。
+
 ## 阶段与调用
 
 1. brief：主题、受众、核心观点、事实来源、时长/画幅、预算与已有素材。缺事实标待核实，不凭症状下诊断。

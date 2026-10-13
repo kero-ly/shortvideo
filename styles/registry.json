@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "default_preset": null,
   "presets": [
     {
@@ -54,8 +54,18 @@
     "character-scenario": {
       "path": "skills/character-scenario/SKILL.md",
       "status": "implemented_case_based"
+    },
+    "2d-mechanism-explainer": {
+      "path": "skills/2d-mechanism-explainer/SKILL.md",
+      "version": 3,
+      "status": "implemented_case_based"
     }
   },
+  "selectable_components": [
+    {"id": "science-expressive", "version": 1, "kind": "audio", "path": "styles/audio/science-expressive.json", "aliases": ["科普表现型配音", "有风格的科普配音"], "skill": "skills/science-narration/SKILL.md", "status": "case_tested_listening_pending"},
+    {"id": "procedural-science-mix", "version": 1, "kind": "audio", "path": "styles/audio/procedural-science-mix.json", "aliases": ["轻快程序配乐", "可闻背景音乐"], "skill": "skills/procedural-music-mix/SKILL.md", "status": "case_tested_listening_pending"},
+    {"id": "svg-mechanism-guidance", "version": 1, "kind": "visual", "path": "styles/visual/svg-mechanism-guidance.json", "aliases": ["SVG机制动画", "粗箭头与呼吸高亮"], "skill": "skills/2d-mechanism-explainer/SKILL.md", "status": "case_tested_user_acceptance_pending"}
+  ],
   "selection": "explicit_user > approved_episode > explicitly_selected_series > content_recommendation",
   "automatic_runtime_dispatch": false
 }

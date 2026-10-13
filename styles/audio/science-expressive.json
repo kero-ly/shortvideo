@@ -1,0 +1,21 @@
+{
+  "id": "science-expressive",
+  "version": 1,
+  "display_name": "科普表现型配音",
+  "status": "case_tested_listening_pending",
+  "skill": "skills/science-narration/SKILL.md",
+  "tone": "有重点、有停顿、轻快而不过度表演",
+  "pace": "逐句选择，以实际音频时长为准",
+  "voice_identity": "每期单独选择并核实使用范围",
+  "case_parameters": {
+    "provider": "IndexTTS2",
+    "emotion_alpha": 0.85,
+    "emotion_order": ["happy", "angry", "sad", "afraid", "disgusted", "melancholic", "surprised", "calm"],
+    "example_vector": [0.42, 0, 0, 0, 0, 0, 0.25, 0.33],
+    "interval_silence_ms": 140
+  },
+  "implementation": "projects/heart_circulation_mechanism_04/scripts/tts-v6.py",
+  "evidence": "projects/heart_circulation_mechanism_04/review/v6-tts-manifest.json",
+  "automatic_runtime_loading": false,
+  "default_for_new_episodes": false
+}

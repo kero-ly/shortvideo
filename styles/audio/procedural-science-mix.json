@@ -1,0 +1,13 @@
+{
+  "id": "procedural-science-mix",
+  "version": 1,
+  "display_name": "轻快程序配乐与可闻混音",
+  "status": "case_tested_listening_pending",
+  "skill": "skills/procedural-music-mix/SKILL.md",
+  "case_parameters": {"bpm": 104, "key": "C major", "seed": 613, "fade_in_seconds": 0.7, "fade_out_seconds": 1.2, "voice_gain": 1.25, "music_gain": 1.2, "duck_threshold": 0.08, "duck_ratio": 2, "attack_ms": 12, "release_ms": 240, "target_lufs": -16, "target_true_peak_dbtp": -1.5},
+  "implementation": "projects/heart_circulation_mechanism_04/scripts/remix-v9.py",
+  "generator": "projects/heart_circulation_mechanism_04/scripts/music-v6.py",
+  "evidence": "projects/heart_circulation_mechanism_04/review/v9-qa.json",
+  "automatic_runtime_loading": false,
+  "default_for_new_episodes": false
+}

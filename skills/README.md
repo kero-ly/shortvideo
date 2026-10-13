@@ -8,6 +8,8 @@
 | 制作方法 | character-scenario | 角色、场景、完整首帧、动作、H3路线 |
 | 方法案例与参考 | [2d-mechanism-explainer](2d-mechanism-explainer/SKILL.md) | 器官/机制分层与运动分镜；心脏循环的血流、轮廓、简单拟人和运镜已有限实测，复杂绑定未验证 |
 | 共用能力 | caption-alignment | 字幕融合、声音完整性、对齐与样片 |
+| 共用能力 | [science-narration](science-narration/SKILL.md) | 科普表现型配音，逐段情绪和实际时长；对应可选audio配置 |
+| 共用能力 | [procedural-music-mix](procedural-music-mix/SKILL.md) | 原创程序配乐、侧链、音乐可闻度修订；对应可选audio配置 |
 | 共用能力 | video-qa | 技术、视觉、内容、听审和交付证据 |
 | 旧入口 | 2d-scenario-explainer | 转到上述规范，兼容历史案例 |
 
@@ -18,3 +20,5 @@
 当前工具适配器在capabilities/；图像服务读用户指定的个人skill。尚未实现的3D/实拍方法不注册为空壳skill。更多颜色组合新增preset，新的制作步骤新增方法，换服务新增适配器，换主题新建项目。
 
 仓库skills通过AGENTS.md发现；未安装到个人技能目录，不保证在客户端个人列表显示。
+
+独立声音/视觉选项见styles/registry.json的selectable_components：可只选科普配音、只选配乐，或只选SVG机制动画，不隐式打包心脏整片风格。它们有真实案例实现，但目前需要代理按技能适配代码，JSON不会自动驱动渲染。混合镜头与逐步升级规则见[制作方法复用指南](../docs/production-method-reuse.md)。

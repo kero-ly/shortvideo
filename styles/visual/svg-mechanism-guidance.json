@@ -1,0 +1,14 @@
+{
+  "id": "svg-mechanism-guidance",
+  "version": 1,
+  "display_name": "SVG机制引导：粗箭头、呼吸高亮、连续放大",
+  "status": "case_tested_user_acceptance_pending",
+  "skill": "skills/2d-mechanism-explainer/SKILL.md",
+  "technique": "原创分层SVG + Remotion；按帧确定性运动",
+  "case_palette": {"ink": "#64372e", "oxygen_rich": "#ed685b", "oxygen_poor": "#859ac8", "attention": "#ffdd65"},
+  "guidance": {"arrow": "粗双chevron，深描边和亮色内线，按路径切线定向", "focus": "圆角四角", "breathing_hz": 1.2, "opacity_range": [0.68, 1], "zoom": "同一局部锚点平移+缩放"},
+  "implementation": "projects/heart_circulation_mechanism_04/scripts/Heart-v10.jsx",
+  "evidence": "projects/heart_circulation_mechanism_04/review/v10-QA.md",
+  "automatic_runtime_loading": false,
+  "default_for_new_episodes": false
+}

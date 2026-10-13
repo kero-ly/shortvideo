@@ -42,6 +42,7 @@ projects/<episode-id>/
 | skills/character-scenario | 人物母版、完整场景首帧、动作/运镜与视频生成方法 |
 | skills/2d-mechanism-explainer | 二维器官/机制动画；心脏循环SVG/Remotion样片已在220有限实测，非通用骨骼/解剖引擎，风格待用户接受 |
 | skills/caption-alignment | 字幕融合、真实声音对齐、混音与带声审阅 |
+| skills/science-narration、procedural-music-mix | 科普表现型配音、程序配乐与可闻混音；可独立选择，有案例代码和QA |
 | skills/video-qa | 技术、视觉、内容、完整听审分别验收 |
 | styles/registry.json、presets/ | 别名检索、风格组合与兼容方法 |
 | styles/visual、layouts、audio | 画风、字幕外观、声音表现规范 |
@@ -52,6 +53,8 @@ projects/<episode-id>/
 | library/ | 现有来源归属记录；素材库建设暂缓 |
 
 旧skills/2d-scenario-explainer是兼容转向；旧styles/2d-handdrawn是历史快照，新配置以registry/presets为准。仓库skill通过AGENTS.md发现，未自动安装进个人skill列表。详细入口见[skills/README.md](skills/README.md)。
+
+独立可选项在registry.selectable_components，可说“科普表现型配音＋轻快程序配乐＋SVG机制动画”，也可只选其中一项。当前为案例实测、待逐期验证与听审，非自动加载器或全局默认。混合视频按镜头选择方法，复用/升级规则见[制作方法复用指南](docs/production-method-reuse.md)。
 
 ## 制作与审阅流程
 
