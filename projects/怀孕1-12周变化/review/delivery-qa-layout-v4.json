@@ -1,0 +1,32 @@
+{
+  "revision": "4-layout-music-preview",
+  "changes": [
+    "large centered yellow outlined title",
+    "warmer phase labels",
+    "music +6dB with gentler ducking",
+    "preview retains v3 voice and spoken captions; rewritten v4 narration not yet generated"
+  ],
+  "technical": {
+    "decode": true,
+    "size": [
+      1080,
+      1920
+    ],
+    "fps": 24,
+    "frames": 2151,
+    "duration": 89.625,
+    "audio": "AAC 48kHz stereo",
+    "final_audio_rms": 0.16110993921756744,
+    "per_shot_nonsilent": true
+  },
+  "native_generation_size": [
+    576,
+    1024
+  ],
+  "caption_timing": "original actual word timestamps reused; voice unchanged",
+  "visual_sampling": "pending",
+  "full_playback": "pending",
+  "actual_listening": "pending",
+  "voice_public_rights": "configured factory reference, public-use authorization not documented",
+  "music": "original procedural composition, no external recording"
+}

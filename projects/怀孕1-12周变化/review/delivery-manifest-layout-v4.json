@@ -1,0 +1,54 @@
+{
+  "ffprobe.json": {
+    "sha256": "fec7a64009a723163d6597aee7e522c966968c2e701caa9d81a73c3f9f76a6fd",
+    "bytes": 3869
+  },
+  "FACT_CHECK.md": {
+    "sha256": "20053853b1f7f91c4897854c4f28aa04b9f1abae27ef4bf89917a17ff624286f",
+    "bytes": 5071
+  },
+  "source-index.json": {
+    "sha256": "9a54753f9d6a564c3b6facdd0d76aa9c6cf1f270060a654c999b83a30101d118",
+    "bytes": 9921
+  },
+  "props.json": {
+    "sha256": "1258e5b12ead444429162db2cd00da399cb0334fd9564304f5a69eba7e117799",
+    "bytes": 22849
+  },
+  "visual.mp4": {
+    "sha256": "d4ca212bf6fbe92fcb8d4ac4d09c6b110d85944702e240eacd1043919eaa240b",
+    "bytes": 84150579
+  },
+  "blackdetect.log": {
+    "sha256": "64eab1e9ee14d8b61501d91c6f92b7edf8a5cc645e317b553e55443a39716ef0",
+    "bytes": 2450
+  },
+  "qa.json": {
+    "sha256": "a9df07ee6f7f3f297c904a016123aba0c670285becb5aa928324b0412104d6d4",
+    "bytes": 912
+  },
+  "audio-source.json": {
+    "sha256": "0f9975ec7360d153a5ffcddb6194e8326ea8d2f52a50f88ca715da624d7e0cdb",
+    "bytes": 909
+  },
+  "loudness.log": {
+    "sha256": "1ab8f8387ee8107421c399bfd05607250cda017869be0bc5076a62df4f8f91a3",
+    "bytes": 2673
+  },
+  "cover.jpg": {
+    "sha256": "13a764b3905cf57c909658ff6f0f8ff3e6c423c62ee7cb00e288a258d12f8c59",
+    "bytes": 94236
+  },
+  "PUBLISHING_DRAFT.md": {
+    "sha256": "dac6a15a0f4792c983ea78b44523dc1a15dc317f70966016637c80a8244390ff",
+    "bytes": 833
+  },
+  "captions.srt": {
+    "sha256": "55f0299927ac82a6c374bc85133f02eb04af69d0b301077763ab8bb4462d5288",
+    "bytes": 3374
+  },
+  "怀孕1-12周变化-排版音乐预览-v4.mp4": {
+    "sha256": "2548f7af1e5671ce664bd5e04c65825fcfbc57d3101141a891a12b25fb3a2fd8",
+    "bytes": 67910010
+  }
+}

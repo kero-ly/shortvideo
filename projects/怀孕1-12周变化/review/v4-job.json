@@ -1,0 +1,12 @@
+{
+  "status": "waiting_for_existing_gpu_batch",
+  "worker": "remote finite chain: TTS -> word alignment -> video composition/render; local finite followthrough: technical QA -> download -> SHA256 verification -> review page",
+  "source": "storyboard/revision-v4.json",
+  "music_and_title_preview": "review/layout-music-v4.html",
+  "new_full_video": "review/video-v4.html when job completes",
+  "automatic_listening": "not performed; remains pending",
+  "local_rendering": false,
+  "remote_orchestration": "runs/orchestration-v4-20261014-035058/chain.log",
+  "remote_pid": 2995891,
+  "local_download_pid": 72996
+}

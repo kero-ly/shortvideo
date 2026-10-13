@@ -1,0 +1,154 @@
+{
+  "revision": 4,
+  "source_revision": 3,
+  "authorization": "User requested revision of all captions, maternal-friendly wording including 小蝌蚪, subject in week12, warm ending label, louder music and centered yellow outlined larger title.",
+  "title": "怀孕1—12周变化",
+  "note": "孕周按末次月经起算，个体发育和感受有差异",
+  "shots": [
+    {
+      "id": "shot-01",
+      "phase": "写给刚怀孕的你",
+      "narration": "怀孕第1周，宝宝还没开始长？这12周，你的身体正悄悄改变。",
+      "screen_text": "写给刚怀孕的你",
+      "previous_narration": "怀孕第1周，通常还没受精？看懂这12周，也看见妈妈的辛苦。",
+      "estimated_seconds": 5.37037037037037
+    },
+    {
+      "id": "shot-02",
+      "phase": "第1周",
+      "narration": "孕周从你末次月经的第一天算起，不是从受精那天开始算。",
+      "screen_text": "第1周",
+      "previous_narration": "孕周从末次月经第一天算，不是从受精那天算。",
+      "estimated_seconds": 5
+    },
+    {
+      "id": "shot-03",
+      "phase": "第2周",
+      "narration": "第2周，身体在为排卵做准备。每个人的周期不同，排卵时间也会不同。",
+      "screen_text": "第2周",
+      "previous_narration": "第2周，身体为排卵做准备。周期不同，排卵时间也不同。",
+      "estimated_seconds": 5.925925925925926
+    },
+    {
+      "id": "shot-04",
+      "phase": "第3周",
+      "narration": "第3周前后，小蝌蚪可能与卵子相遇。受精卵一边分裂，一边向子宫移动。",
+      "screen_text": "第3周",
+      "previous_narration": "第3周前后，可能发生受精。细胞分裂，随后向子宫移动。",
+      "estimated_seconds": 6.111111111111111
+    },
+    {
+      "id": "shot-05",
+      "phase": "第4周",
+      "narration": "第4周前后，受精卵通常已经着床。你也许还没什么感觉。",
+      "screen_text": "第4周",
+      "previous_narration": "到第4周前后，着床通常已经发生，但你可能还没有明显感觉。",
+      "estimated_seconds": 5
+    },
+    {
+      "id": "shot-06",
+      "phase": "第5周",
+      "narration": "第5周，宝宝的脑、脊髓和心脏正在发育。月经没来、总想睡，可能让你发现怀孕。",
+      "screen_text": "第5周",
+      "previous_narration": "第5周，脑、脊髓和心脏正在发育。停经、犯困，也可能让你发现怀孕。",
+      "estimated_seconds": 6.851851851851851
+    },
+    {
+      "id": "shot-07",
+      "phase": "第6周",
+      "narration": "第6周，宝宝的小胳膊、小腿开始长出雏形。你可能会反胃、想吐，不一定只在早上。",
+      "screen_text": "第6周",
+      "previous_narration": "第6周，四肢芽开始出现。恶心可能找上门，而且不只发生在早晨。",
+      "estimated_seconds": 6.481481481481481
+    },
+    {
+      "id": "shot-08",
+      "phase": "第7周",
+      "narration": "第7周，宝宝的脑部和小胳膊继续发育。容易累的时候，就多休息一会儿。",
+      "screen_text": "第7周",
+      "previous_narration": "第7周，脑部快速发育，小胳膊继续长。妈妈可能依然很累。",
+      "estimated_seconds": 6.111111111111111
+    },
+    {
+      "id": "shot-09",
+      "phase": "第8周",
+      "narration": "第8周，宝宝的手脚继续发育。如果闻到饭味就反胃，先选自己吃得下的食物。",
+      "screen_text": "第8周",
+      "previous_narration": "第8周，四肢继续发育。闻到饭味就难受，真的不是矫情。",
+      "estimated_seconds": 6.481481481481481
+    },
+    {
+      "id": "shot-10",
+      "phase": "第9周",
+      "narration": "第9周，宝宝的面部轮廓更清楚，手脚继续发育。孕吐和疲倦可能还没缓解。",
+      "screen_text": "第9周",
+      "previous_narration": "第9周，面部轮廓更清楚，手脚继续发育。孕吐和疲倦可能还在。",
+      "estimated_seconds": 6.296296296296296
+    },
+    {
+      "id": "shot-11",
+      "phase": "第10周",
+      "narration": "第10周，宝宝已经会做小动作了。不过，这时你通常还感觉不到胎动。",
+      "screen_text": "第10周",
+      "previous_narration": "第10周，宝宝已经有小动作，但妈妈通常还感觉不到胎动。",
+      "estimated_seconds": 5.925925925925926
+    },
+    {
+      "id": "shot-12",
+      "phase": "第11周",
+      "narration": "第11周，宝宝的小手指、脚趾逐渐分开，身体还在继续长大。",
+      "screen_text": "第11周",
+      "previous_narration": "第11周，小手指、脚趾逐渐分开，身体仍在快速成长。",
+      "estimated_seconds": 5.185185185185185
+    },
+    {
+      "id": "shot-13",
+      "phase": "第12周",
+      "narration": "第12周，宝宝从头顶到小屁股大约五厘米。器官还在发育，记得按医生安排产检。",
+      "screen_text": "第12周",
+      "previous_narration": "第12周，头臀长大约五厘米。器官还在发育，产检继续按医生安排。",
+      "estimated_seconds": 6.851851851851851
+    },
+    {
+      "id": "shot-14",
+      "phase": "把爱放进小事里",
+      "narration": "陪伴，可以从小事开始：分担家务，准备她吃得下的饭菜，陪她去产检。",
+      "screen_text": "把爱放进小事里",
+      "previous_narration": "准爸爸能做的：分担家务，准备她吃得下的小餐，陪她休息、产检。",
+      "estimated_seconds": 5.925925925925926
+    },
+    {
+      "id": "shot-15",
+      "phase": "照顾好自己",
+      "narration": "每个人的感受都不同。如果出血、明显腹痛，或吐到喝不进水，记得及时就医。",
+      "screen_text": "照顾好自己",
+      "previous_narration": "每个人反应不同。出血、明显腹痛，或吐到喝不进水，要及时就医。",
+      "estimated_seconds": 6.481481481481481
+    },
+    {
+      "id": "shot-16",
+      "phase": "给温暖的你",
+      "narration": "肚子还没显出来，你也已经很辛苦了。收藏这份孕周记录，转给那个愿意好好照顾你的人。",
+      "screen_text": "给温暖的你",
+      "previous_narration": "肚子还没显出来，不代表她不辛苦。收藏对照孕周，转给陪你迎接宝宝的人。",
+      "estimated_seconds": 7.4074074074074066
+    }
+  ],
+  "layout": {
+    "title": "centered, warm yellow #FFE083, brown outline #77552F, 80px",
+    "phase": "centered 52px",
+    "captions": "upper-middle centered,55px"
+  },
+  "music": {
+    "gain": 1.2,
+    "previous_gain": 0.6,
+    "increase_db": 6.02,
+    "sidechain": "gentler ducking; retain narration priority"
+  },
+  "fact_notes": [
+    "小蝌蚪 is a colloquial metaphor for sperm; 受精卵 remains explicitly named",
+    "week12 five centimeters refers to crown-rump length, not full body length; individual variation remains in note",
+    "nausea does not occur only in mornings; no guarantee of resolution at week12",
+    "no symptom-based health diagnosis"
+  ]
+}
