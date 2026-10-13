@@ -39,3 +39,7 @@ projects/**/*.flac
 .remotion/
 
 projects/**/review/latest-caption-preview.txt
+
+# Per-episode execution logs/intermediates and delivery media bundles
+projects/*/runs/
+projects/*/deliveries/

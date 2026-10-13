@@ -1,0 +1,370 @@
+{
+  "policy": "physical project directories; legacy symlinks retained",
+  "entries": [
+    {
+      "old": "runs/storybook-caption-20261013-071646-ee8f",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-caption-20261013-071646-ee8f",
+      "host": "local"
+    },
+    {
+      "old": "runs/storybook-caption-fusion-20261013-074646-2632",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-caption-fusion-20261013-074646-2632",
+      "host": "local"
+    },
+    {
+      "old": "runs/storybook-caption-preview-20261013-071909-2089",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-caption-preview-20261013-071909-2089",
+      "host": "local"
+    },
+    {
+      "old": "runs/storybook-compose-20261013-065713-485f",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-compose-20261013-065713-485f",
+      "host": "local"
+    },
+    {
+      "old": "runs/storybook-frames-20261012-202405",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-frames-20261012-202405",
+      "host": "local"
+    },
+    {
+      "old": "runs/storybook-frames-20261012-202546",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-frames-20261012-202546",
+      "host": "local"
+    },
+    {
+      "old": "runs/storybook-frames-20261012-202607",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-frames-20261012-202607",
+      "host": "local"
+    },
+    {
+      "old": "runs/storybook-layout-preview-20261013-073238-293e",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-layout-preview-20261013-073238-293e",
+      "host": "local"
+    },
+    {
+      "old": "runs/storybook-title-20261013-075539-1a73",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-title-20261013-075539-1a73",
+      "host": "local"
+    },
+    {
+      "old": "runs/storybook-title-20261013-075939-4a9b",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-title-20261013-075939-4a9b",
+      "host": "local"
+    },
+    {
+      "old": "runs/storybook-title-20261013-080452-b41f",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-title-20261013-080452-b41f",
+      "host": "local"
+    },
+    {
+      "old": "deliveries/storybook-caption-restored-20261013-072152-12b7",
+      "new": "projects/early_pregnancy_signs_storybook_02/deliveries/storybook-caption-restored-20261013-072152-12b7",
+      "host": "local"
+    },
+    {
+      "old": "deliveries/storybook-compose-20261013-063138-cc62",
+      "new": "projects/early_pregnancy_signs_storybook_02/deliveries/storybook-compose-20261013-063138-cc62",
+      "host": "local"
+    },
+    {
+      "old": "deliveries/storybook-compose-20261013-065713-485f",
+      "new": "projects/early_pregnancy_signs_storybook_02/deliveries/storybook-compose-20261013-065713-485f",
+      "host": "local"
+    },
+    {
+      "old": "deliveries/storybook-final-20261013-080953-5329",
+      "new": "projects/early_pregnancy_signs_storybook_02/deliveries/storybook-final-20261013-080953-5329",
+      "host": "local"
+    },
+    {
+      "old": "runs/h3-storybook-01-20261013-044816-f28a",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-01-20261013-044816-f28a",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-02-20261013-045012-c332",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-02-20261013-045012-c332",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-03-20261013-044450-bafa",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-03-20261013-044450-bafa",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-04-20261013-045118-07b5",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-04-20261013-045118-07b5",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-05-20261013-045223-5411",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-05-20261013-045223-5411",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-06-20261013-045329-af5f",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-06-20261013-045329-af5f",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-07-20261013-045435-bf0a",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-07-20261013-045435-bf0a",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-07-20261013-060507-ed64",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-07-20261013-060507-ed64",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-08-20261013-045540-27fd",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-08-20261013-045540-27fd",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-09-20261013-045646-8d1c",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-09-20261013-045646-8d1c",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-10-20261013-045802-b86c",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-10-20261013-045802-b86c",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-10-20261013-060713-ada8",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-10-20261013-060713-ada8",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-10-20261013-062449-c9c6",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-10-20261013-062449-c9c6",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-11-20261013-050023-76f9",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-11-20261013-050023-76f9",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-11-20261013-061158-0f0d",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-11-20261013-061158-0f0d",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-12-20261013-050244-3d06",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-12-20261013-050244-3d06",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-12-20261013-061643-3159",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-12-20261013-061643-3159",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-13-20261013-050435-7491",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-13-20261013-050435-7491",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-storybook-13-20261013-062029-24ac",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/h3-storybook-13-20261013-062029-24ac",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-audio-20261013-065657-a25b",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-audio-20261013-065657-a25b",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-caption-20261013-071646-ee8f",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-caption-20261013-071646-ee8f",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-caption-final-20261013-072035-6296",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-caption-final-20261013-072035-6296",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-caption-fusion-20261013-074646-2632",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-caption-fusion-20261013-074646-2632",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-caption-preview-20261013-071909-2089",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-caption-preview-20261013-071909-2089",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-caption-restored-20261013-072152-12b7",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-caption-restored-20261013-072152-12b7",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-compose-20261013-063138-cc62",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-compose-20261013-063138-cc62",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-compose-20261013-065713-485f",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-compose-20261013-065713-485f",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-final-20261013-080953-5329",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-final-20261013-080953-5329",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-layout-20261013-044934",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-layout-20261013-044934",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-layout-preview-20261013-073238-293e",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-layout-preview-20261013-073238-293e",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-overlay-20261013-060603",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-overlay-20261013-060603",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-production",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-production",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-01-20261013-044816",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-01-20261013-044816",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-02-20261013-045012",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-02-20261013-045012",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-03-20261013-044450",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-03-20261013-044450",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-04-20261013-045118",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-04-20261013-045118",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-05-20261013-045223",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-05-20261013-045223",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-06-20261013-045329",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-06-20261013-045329",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-07-20261013-045435",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-07-20261013-045435",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-07-20261013-060507",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-07-20261013-060507",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-08-20261013-045540",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-08-20261013-045540",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-09-20261013-045646",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-09-20261013-045646",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-10-20261013-045802",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-10-20261013-045802",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-10-20261013-060713",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-10-20261013-060713",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-10-20261013-062449",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-10-20261013-062449",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-11-20261013-050023",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-11-20261013-050023",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-11-20261013-061158",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-11-20261013-061158",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-12-20261013-050244",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-12-20261013-050244",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-12-20261013-061643",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-12-20261013-061643",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-13-20261013-050435",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-13-20261013-050435",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-submit-13-20261013-062029",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-submit-13-20261013-062029",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-title-20261013-075539-1a73",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-title-20261013-075539-1a73",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-title-20261013-075939-4a9b",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-title-20261013-075939-4a9b",
+      "host": "server"
+    },
+    {
+      "old": "runs/storybook-title-20261013-080452-b41f",
+      "new": "projects/early_pregnancy_signs_storybook_02/runs/storybook-title-20261013-080452-b41f",
+      "host": "server"
+    },
+    {
+      "old": "deliveries/storybook-caption-restored-20261013-072152-12b7",
+      "new": "projects/early_pregnancy_signs_storybook_02/deliveries/storybook-caption-restored-20261013-072152-12b7",
+      "host": "server"
+    },
+    {
+      "old": "deliveries/storybook-compose-20261013-063138-cc62",
+      "new": "projects/early_pregnancy_signs_storybook_02/deliveries/storybook-compose-20261013-063138-cc62",
+      "host": "server"
+    },
+    {
+      "old": "deliveries/storybook-compose-20261013-065713-485f",
+      "new": "projects/early_pregnancy_signs_storybook_02/deliveries/storybook-compose-20261013-065713-485f",
+      "host": "server"
+    },
+    {
+      "old": "deliveries/storybook-final-20261013-080953-5329",
+      "new": "projects/early_pregnancy_signs_storybook_02/deliveries/storybook-final-20261013-080953-5329",
+      "host": "server"
+    }
+  ]
+}

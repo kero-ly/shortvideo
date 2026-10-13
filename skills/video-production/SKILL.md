@@ -25,3 +25,5 @@ preset引用visual、layout、audio、format和compatible_methods；制作方法
 只修改字幕/样式时定位批准版本，重做受影响合成与QA，不重跑已接受的角色/H3/TTS。用户要求回退时用版本记录确定目标；不清楚才问。连接异常立即报告，恢复后查原任务避免重复提交。
 
 工具脚本、JSON规范与skill并非自动调度器。使用前核对案例脚本中的旧主题、时码、镜头数和run路径。状态只能根据实际产物推进，不能凭文件存在标记批准/完成。
+
+项目归档：每期任务写projects/<episode-id>/runs/，交付写同项目deliveries/，导航写OUTPUTS.md；Git跟踪的QA/manifest摘要放review/。根runs/deliveries软链接仅兼容历史记录，新任务先适配案例脚本输出路径。素材库暂缓建设。

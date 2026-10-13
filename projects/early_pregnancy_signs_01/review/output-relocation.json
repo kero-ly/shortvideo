@@ -1,0 +1,190 @@
+{
+  "policy": "physical project directories; legacy symlinks retained",
+  "entries": [
+    {
+      "old": "runs/h3-compose-20261013-030001-0fb4",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-compose-20261013-030001-0fb4",
+      "host": "local"
+    },
+    {
+      "old": "runs/h3-pregnancy-01-20261013-021929-74fb",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-01-20261013-021929-74fb",
+      "host": "local"
+    },
+    {
+      "old": "runs/h3-pregnancy-02-20261013-022753-fccb",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-02-20261013-022753-fccb",
+      "host": "local"
+    },
+    {
+      "old": "runs/h3-pregnancy-03-20261013-022258-773f",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-03-20261013-022258-773f",
+      "host": "local"
+    },
+    {
+      "old": "runs/h3-pregnancy-04-20261013-022403-a668",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-04-20261013-022403-a668",
+      "host": "local"
+    },
+    {
+      "old": "runs/h3-pregnancy-05-20261013-022508-e3ce",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-05-20261013-022508-e3ce",
+      "host": "local"
+    },
+    {
+      "old": "runs/h3-pregnancy-06-20261013-022614-6948",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-06-20261013-022614-6948",
+      "host": "local"
+    },
+    {
+      "old": "runs/h3-pregnancy-07-20261013-022858-24eb",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-07-20261013-022858-24eb",
+      "host": "local"
+    },
+    {
+      "old": "runs/h3-pregnancy-08-20261013-023003-dabe",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-08-20261013-023003-dabe",
+      "host": "local"
+    },
+    {
+      "old": "runs/h3-pregnancy-09-20261013-023109-d3d2",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-09-20261013-023109-d3d2",
+      "host": "local"
+    },
+    {
+      "old": "runs/h3-pregnancy-10-20261013-023229-1d2c",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-10-20261013-023229-1d2c",
+      "host": "local"
+    },
+    {
+      "old": "runs/h3-pregnancy-10-v2-20261013-024144-c25d",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-10-v2-20261013-024144-c25d",
+      "host": "local"
+    },
+    {
+      "old": "runs/h3-pregnancy-10-v3-20261013-024641-fd37",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-10-v3-20261013-024641-fd37",
+      "host": "local"
+    },
+    {
+      "old": "runs/h3-pregnancy-11-20261013-023449-f29b",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-11-20261013-023449-f29b",
+      "host": "local"
+    },
+    {
+      "old": "runs/h3-pregnancy-12-20261013-023715-9f3f",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-12-20261013-023715-9f3f",
+      "host": "local"
+    },
+    {
+      "old": "runs/h3-pregnancy-13-20261013-023906-2e26",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-13-20261013-023906-2e26",
+      "host": "local"
+    },
+    {
+      "old": "deliveries/early-pregnancy-20261013-010143-e9a8",
+      "new": "projects/early_pregnancy_signs_01/deliveries/early-pregnancy-20261013-010143-e9a8",
+      "host": "local"
+    },
+    {
+      "old": "deliveries/h3-compose-20261013-030001-0fb4",
+      "new": "projects/early_pregnancy_signs_01/deliveries/h3-compose-20261013-030001-0fb4",
+      "host": "local"
+    },
+    {
+      "old": "runs/early-pregnancy-20261013-010143-e9a8",
+      "new": "projects/early_pregnancy_signs_01/runs/early-pregnancy-20261013-010143-e9a8",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-compose-20261013-030001-0fb4",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-compose-20261013-030001-0fb4",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-pregnancy-01-20261013-021929-74fb",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-01-20261013-021929-74fb",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-pregnancy-02-20261013-022753-fccb",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-02-20261013-022753-fccb",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-pregnancy-03-20261013-022258-773f",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-03-20261013-022258-773f",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-pregnancy-04-20261013-022403-a668",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-04-20261013-022403-a668",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-pregnancy-05-20261013-022508-e3ce",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-05-20261013-022508-e3ce",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-pregnancy-06-20261013-022614-6948",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-06-20261013-022614-6948",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-pregnancy-07-20261013-022858-24eb",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-07-20261013-022858-24eb",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-pregnancy-08-20261013-023003-dabe",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-08-20261013-023003-dabe",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-pregnancy-09-20261013-023109-d3d2",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-09-20261013-023109-d3d2",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-pregnancy-10-20261013-023229-1d2c",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-10-20261013-023229-1d2c",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-pregnancy-10-v2-20261013-024144-c25d",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-10-v2-20261013-024144-c25d",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-pregnancy-10-v3-20261013-024641-fd37",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-10-v3-20261013-024641-fd37",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-pregnancy-11-20261013-023449-f29b",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-11-20261013-023449-f29b",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-pregnancy-12-20261013-023715-9f3f",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-12-20261013-023715-9f3f",
+      "host": "server"
+    },
+    {
+      "old": "runs/h3-pregnancy-13-20261013-023906-2e26",
+      "new": "projects/early_pregnancy_signs_01/runs/h3-pregnancy-13-20261013-023906-2e26",
+      "host": "server"
+    },
+    {
+      "old": "deliveries/early-pregnancy-20261013-010143-e9a8",
+      "new": "projects/early_pregnancy_signs_01/deliveries/early-pregnancy-20261013-010143-e9a8",
+      "host": "server"
+    },
+    {
+      "old": "deliveries/h3-compose-20261013-030001-0fb4",
+      "new": "projects/early_pregnancy_signs_01/deliveries/h3-compose-20261013-030001-0fb4",
+      "host": "server"
+    }
+  ]
+}

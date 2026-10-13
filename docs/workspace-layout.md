@@ -1,3 +1,7 @@
+# 当前集中归档规则
+
+每期内容、运行产物、交付统一在projects/<episode-id>/。runs/和deliveries/作为项目子目录不入Git，QA与manifest摘要放review/。旧根目录路径保留软链接。基础设施smoke和备份仍用根runs/。迁移清单见各期review/output-relocation.json，导航见OUTPUTS.md。两端媒体不保证等量。下文旧全局输出路径仅为历史兼容；现行组织与维护方法以根README.md为准。素材库建设暂缓。
+
 # 工厂目录和同步约定
 
 本地 `/Users/ly/Desktop/project/shortvideo` 与 220 `/home/ly/shortvideo` 使用同一个 Git 历史和目录结构。服务器负责模型与生产渲染，本地负责创作、审阅与交付预览。运行环境不跨操作系统复制。

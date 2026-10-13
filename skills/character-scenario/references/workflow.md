@@ -48,7 +48,7 @@ H3 当前资源由 configs/resources.json 指向 220 本机 ComfyUI；提交前�
 
 技术：全片解码、宽高/帧率/帧数/时长、H.264 yuv420p、AAC 48kHz 双声道（平台有不同要求时按其要求）；检查黑帧、响度与峰值。默认可接受 -19 至 -13 LUFS、真峰值 ≤ -1 dBTP。保留探测输出和检查日志，自动通过不代表内容/视觉/听审全部通过。
 
-交付到 deliveries/<run-id>/：MP4、封面、SRT、时间线、镜头来源索引、QA、manifest。下载到本地核对 SHA256 再预览。视频和图片不入 Git；源码与文本记录按 docs/workspace-layout.md 同步，两端存在未提交文件先备份检查，禁止覆盖。
+交付到 projects/<episode-id>/deliveries/<run-id>/：MP4、封面、SRT、时间线、镜头来源索引、QA、manifest。下载到本地核对 SHA256 再预览。视频和图片不入 Git；源码与文本记录按 docs/workspace-layout.md 同步，两端存在未提交文件先备份检查，禁止覆盖。
 
 
 网页审阅是默认交付方式：把全分镜参考帧、逐镜中文旁白、屏幕文字、预计时长、动作/运镜及工具路线组织成可直接打开的HTML页面。提供镜头编号导航、点击放大原图和可折叠prompt，图片与文案一一对应；另存Markdown供归档。静态网页预览不等于视频渲染。先检查图像可加载与页面布局，再给用户审阅；记录用户批准的页面/图文包版本，不能因打开页面就推定批准。可参考 projects/early_pregnancy_signs_storybook_02/scripts/build_review.py，复制到新期时适配路径与主题。

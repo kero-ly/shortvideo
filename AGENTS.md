@@ -4,7 +4,7 @@ Local authoring root is /Users/ly/Desktop/project/shortvideo with the same Git l
 Never store passwords/API keys in tracked files. Do not modify shared /home/video runtimes.
 Read configs/resources.json and docs/workflow.md before production. Explicit user tool choices override defaults.
 Do not claim capability is ready based solely on a path or HTTP response: distinguish configured, reachable, smoke-tested and production-approved.
-All jobs write unique runs/<job-id>/ directories. Check GPU availability before model work. Never kill shared jobs.
+Episode jobs write unique projects/<episode-id>/runs/<job-id>/ directories; infrastructure jobs use root runs/. Check GPU availability before model work. Never kill shared jobs.
 A smoke test is not a validated style. Final content production requires script/storyboard, audio timing, preview review, render, QA and delivery manifest.
 
 Python uses uv: orchestration via uv sync / uv run; TTS environment via uv venv. TTS borrows explicitly configured external dependency directories read-only. configs/tts-observed-packages.json is an observed snapshot, NOT a portable lockfile. A separate fully isolated TTS lock remains future work.
@@ -14,3 +14,17 @@ For 2D character scenario explainers (including cream storybook presets), read s
 Style lookup: “奶油绘本科普” maps to styles/2d-handdrawn/cream-warm-storybook-list-explainer.json (v2) and skills/2d-scenario-explainer/references/cream-storybook.md. For caption/audio/layout revisions, read that skill’s references/captions-and-review.md before composition.
 
 For any new video topic or continuation, start with skills/video-production/SKILL.md. Resolve current styles through styles/registry.json; use character-scenario for character methods, caption-alignment for subtitle/audio work, and video-qa for verification. Old 2d-scenario-explainer paths are compatibility redirects. Do not silently use the last episode as a series default.
+
+## Episode ownership and archive policy (current)
+All NEW episode jobs write projects/<episode-id>/runs/<unique-job-id>/ and final bundles write projects/<episode-id>/deliveries/<unique-delivery-id>/. Keep source, prompts, storyboard, approvals, review summaries and media indexes in the same episode tree. Global runs/ is only for environment smoke tests, infrastructure logs and migration backups. The two historical episodes have physical outputs moved under their own directories with root runs/ and deliveries/ symlinks retained for old scripts/URLs; do not delete these compatibility links or blindly rewrite historic manifests. OUTPUTS.md provides navigation. Historical scripts still using global paths must be adapted before producing new jobs. If relocation changes HTML-relative links, preserve legacy serving paths or update and verify links in a NEW reviewed delivery version, never silently rewrite hashed historical files.
+
+Track source, prompts, QA summaries and manifests in Git; episode runs/deliveries and media remain ignored. Copy versioned QA/manifest evidence to review/. Back up the physical episode directory, not only symlinks. Local and server media completeness may differ; inventory/hash before claiming full archive. Do not move active jobs. The migration helper only classifies known episode prefixes, not arbitrary future output names.
+
+## Extension and maintenance contract
+Read README.md for the human-facing architecture and operating guide. New visuals belong in styles/visual, text appearances in styles/layouts, voice/music behavior in styles/audio, narrative structure in formats, and reusable combinations in styles/presets + registry. Materially different production steps get a method skill; provider changes get capabilities adapters. Runtime features (e.g. karaoke captions) need actual renderer support and timing data, not merely a registered style. Never register unimplemented methods as ready.
+
+Resolve user choice > approved episode > explicitly selected series defaults > recommendation. Last episode is not an implicit default. Store production-plan with component versions/hashes, resolved configuration, overrides, per-shot method, tools/status and actual approval evidence. Increment versions for shared changes; preserve old approved snapshots. Episode-only feedback stays an override unless user asks to make it reusable. Verify limited representative samples, compatibility, links/schema and actual tool behavior as appropriate; distinguish configured/reachable/smoke-tested/production-approved. No unnecessary new approval for already authorized steps.
+
+Asset-library construction is DEFERRED by user request. Preserve per-episode sources, authorization scope, hashes and master→reference→clip→composition lineage now; do not build catalogs, databases, semantic search or migrate assets into a shared library yet. Existing library/ATTRIBUTIONS.md remains for selective upstream reuse.
+
+Documentation entrypoints are canonical AGENTS.md and README.md (standard casing); do not create duplicate Agent.md or ReadME.md on case-insensitive filesystems. Update both relevant guidance and references when architecture changes.
