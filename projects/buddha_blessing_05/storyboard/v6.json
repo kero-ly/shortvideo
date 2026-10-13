@@ -62,8 +62,10 @@
     "color": "#FFFFFF",
     "outline": {
       "color": "#050505",
-      "width_px": 7,
-      "join": "round"
+      "width_px": 23,
+      "join": "round",
+      "preview_width_px": 7,
+      "basis": "1080px output; preview324px, CSS stroke total width"
     },
     "shadow": "none",
     "background": "none",

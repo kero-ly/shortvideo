@@ -357,18 +357,25 @@
       }
     ],
     "layout": {
-      "font_family": "Noto Sans CJK SC Black",
-      "font_weight": 900,
+      "font_family": "Noto Sans CJK SC Black / Arial Black fallback",
+      "font_weight": 950,
       "font_size": 128,
       "italic": true,
       "color": "#FFFFFF",
-      "outline": 0,
-      "shadow": "subtle dark drop shadow only",
+      "outline": {
+        "color": "#050505",
+        "width_px": 23,
+        "join": "round",
+        "preview_width_px": 7,
+        "basis": "1080px output; preview324px, CSS stroke total width"
+      },
+      "shadow": "none",
       "background": "none",
       "border": "none",
       "position": "y0.76–0.88 below hands",
       "max_characters_per_cue": 6,
-      "emphasis": "bold white oblique type; no plaque, border, gold color or box"
+      "emphasis": "bold white oblique type; no plaque, border, gold color or box",
+      "reference_style": "用户参考图：白色厚重斜体字，粗黑外描边"
     },
     "voice": "User accepted v4 actual Douyin-reference-conditioned IndexTTS2, same reference hash; new copy must be regenerated and aligned",
     "video": "220 H3; 17–19s is candidate beyond tested15s, actual feasibility requires smoke sample; no loop/freeze/retiming fallback",
