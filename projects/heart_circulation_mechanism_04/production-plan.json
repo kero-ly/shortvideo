@@ -1,6 +1,6 @@
 {
   "episode_id": "heart_circulation_mechanism_04",
-  "revision": 6,
+  "revision": 7,
   "status": "preview_review",
   "brief": {
     "topic": "心脏如何推动血液循环",
@@ -56,6 +56,18 @@
         "version": 1,
         "path": "projects/heart_circulation_mechanism_04/scripts/align-v6.py",
         "sha256": "7bf0156b07625cf3a921ba3d0e6905174ded7ec17e4ef91da2fe65b84b441031"
+      },
+      {
+        "id": "remix-v7",
+        "version": 1,
+        "path": "projects/heart_circulation_mechanism_04/scripts/remix-v7.sh",
+        "sha256": "6e643cef8686983a07f6a2495444c48bf72b4ec20a048518a106f077840c2785"
+      },
+      {
+        "id": "package-v7",
+        "version": 1,
+        "path": "projects/heart_circulation_mechanism_04/scripts/package-v7.py",
+        "sha256": "48d2a4c5c3ca1cb568c6e83d4cd580bb351ff72710630c8fee5f7594483b4ff6"
       }
     ],
     "overrides": {
@@ -63,7 +75,8 @@
       "full_bleed": true,
       "title": "心脏一跳 / 血液去哪儿？",
       "caption_placement": "lower safe zone",
-      "audio_revision": "IndexTTS2 per-shot happy/surprised/calm guidance; original music with sidechain ducking"
+      "audio_revision": "IndexTTS2 per-shot happy/surprised/calm guidance; original music with sidechain ducking",
+      "mix_revision": "v7 voice gain 1.25 (v6 1.4), music gain 0.60 (v6 0.48); same source audio and picture"
     }
   },
   "resolved": {
@@ -165,6 +178,9 @@
         ]
       ],
       "music": "original procedural pluck/bass/light percussion, 104 BPM C major; no external recordings",
+      "voice_gain": 1.25,
+      "music_gain": 0.6,
+      "music_ducking": "sidechaincompress threshold=0.025 ratio=5 attack=12ms release=240ms",
       "target_lufs": -16,
       "peak_dbtp": -1.5,
       "timing": "new measured sentence WAVs and actual ASR word timestamps"
@@ -269,6 +285,11 @@
       "scope": "Optimize narration for styled science explanation and add background music; retime existing animation",
       "revision": 6,
       "evidence": "用户：配音需要优化，现在太平淡了，需要有一些科普有风格的，同时也需要背景音乐"
+    },
+    {
+      "scope": "Lower narration slightly and raise background music in the existing v6 mix",
+      "revision": 7,
+      "evidence": "用户：配音的声音稍微小一点，背景音乐大一点"
     }
   ],
   "facts": [
@@ -284,8 +305,8 @@
   ],
   "lineage": {
     "art": "original SVG, no source-video asset extraction",
-    "audio": "v6 newly guided narration WAVs → music/voice sidechain mix → v6 mux; v5 remains preserved",
-    "video": "v1 540p → v2 1080p → v3 1080p → v4 1080p → v5 full-screen layout → v6 same layout with new audio timings",
+    "audio": "v6 narration and original music unchanged → v7 voice/music gain revision and sidechain mix → AAC remux; v6 preserved",
+    "video": "v1 540p → v2 1080p → v3 1080p → v4 1080p → v5 full-screen layout → v6 new audio timings → v7 identical video stream",
     "reference_scope": "user screenshots/video used for technique comparison only"
   }
 }

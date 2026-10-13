@@ -22,3 +22,7 @@ Visual layout and locked text remain v5. produce-v6.py queues on the factory GPU
 Orchestration uses uv run on 220. music-v6.py uses the configured TTS Python for NumPy. align-v6.py uses the existing tested faster-whisper 1.2.1 environment /home/ly/.cache/uv/archive-v0/EHM1RV4AF41ciiYBgIu3A/bin/python. This cache is not a portable lockfile. FFmpeg decodes 16k float PCM into an ndarray to avoid an incompatible PyAV keyword.
 
 Then run render-v6.sh, finalize-v6.sh and uv run python .../package-v6.py. music-v6.py is original procedural 104 BPM C-major pluck/bass/light percussion, with no external recordings; voice-driven music ducking, 0.7s fade-in/1.2s fade-out and -16LUFS/-1.5dBTP targets. Fixed v6 paths belong to this revision; future runs need new IDs and must preserve this delivery.
+
+## v7 mix revision
+
+`remix-v7.sh` reads the immutable v6 narration and music, changes only pre-normalization voice/music gain from 1.4/0.48 to 1.25/0.60, keeps the sidechain settings, and remuxes AAC while copying the video stream. `package-v7.py` verifies identical video packets, decodes the output, checks loudness/black frames/tail, and creates a separate v7 review delivery with a v6 comparison. Run these on 220; v6 remains intact.

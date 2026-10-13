@@ -1,0 +1,94 @@
+{
+  "alignment.json": {
+    "sha256": "bee85b24560eba9d200ca8c3b79053353d52c713cc06f48900d337714cc3559a",
+    "bytes": 2720
+  },
+  "contact-sheet.png": {
+    "sha256": "f14bc3e52ac7ad72018736c0d2b13849ebf815967629966cf341da0106beec3d",
+    "bytes": 466716
+  },
+  "cover.png": {
+    "sha256": "5017f0f5b3afd5520c20e65a8352d6ab06cd17a1ac1699e408e078e4bc2dc088",
+    "bytes": 434731
+  },
+  "ffprobe.json": {
+    "sha256": "622d79d242889632ee4693d3a8d1b7962a368edb68e92fdd3bdc26acb151d7e0",
+    "bytes": 3755
+  },
+  "heart-circulation.mp4": {
+    "sha256": "b020466fb8868ac326575a1e0fd4bce60b43bdd5561de733221f2c14bb584e43",
+    "bytes": 11500160
+  },
+  "index.html": {
+    "sha256": "7d18ee91b39a8918428f2479d86213b86436cd7b81d688a7a5299c7c99f93669",
+    "bytes": 2909
+  },
+  "loudness.json": {
+    "sha256": "e535b3419ad3a4db23d6e3de42026b4a1d0c57e8b2b5c72358a29a3e82a8c2bd",
+    "bytes": 262
+  },
+  "mix.wav": {
+    "sha256": "fde90661a8e306a8f275bfb33a86e4b0e9406429ea8e828c223a805591c082eb",
+    "bytes": 5388878
+  },
+  "music-original.wav": {
+    "sha256": "f178ee56bd7c49e6e179a070fccc54ee62d6ceb1f9e37d8fbe62ebf648dcc0b3",
+    "bytes": 5388844
+  },
+  "music-source.json": {
+    "sha256": "7decce5838ee01a25985464f5ea5c7a8bbd6f9607f22a18476f4ca0038884126",
+    "bytes": 730
+  },
+  "narration.wav": {
+    "sha256": "8acafc01095ed83bc61270cee8d95b20c4d16a743c3a2890a4e8666e0a7d15df",
+    "bytes": 1237784
+  },
+  "preview-v6.mp4": {
+    "sha256": "4ec9ee1211f0197cef13a17760d0a3f9d38475eadb324a7109fa6de83be997d1",
+    "bytes": 11498590
+  },
+  "props.json": {
+    "sha256": "202cfe44222b576d9e5da1b7051f7d58356a7954260e38e25216a08d6090a358",
+    "bytes": 1341
+  },
+  "qa.json": {
+    "sha256": "f9b2d247a4e6f0beccfece9a21853b4a81854b2c7de01697bb21dc8ffc84fdc2",
+    "bytes": 1073
+  },
+  "shot01.png": {
+    "sha256": "5017f0f5b3afd5520c20e65a8352d6ab06cd17a1ac1699e408e078e4bc2dc088",
+    "bytes": 434731
+  },
+  "shot02.png": {
+    "sha256": "fe7de91aeaa77ce3e8763be806951ab9005fc0057e23d3be38858cd957ed6f45",
+    "bytes": 441557
+  },
+  "shot03.png": {
+    "sha256": "144f4318863901b0598c375b6b2a02c83470860ae8c0242a09232d2afdb62a39",
+    "bytes": 422552
+  },
+  "shot04.png": {
+    "sha256": "bcbba9f37a4dfe72cdb5afc4ae192abd887f71fe8f6877ad99f0792a38c6f81d",
+    "bytes": 327213
+  },
+  "shot05.png": {
+    "sha256": "f39d5b5bb04ce5792395d369e501e213982df18617124e8e59873456af54c650",
+    "bytes": 436143
+  },
+  "sources.json": {
+    "sha256": "d3f7dc85c0a474076c1f2eeb96057797e0f3a20c1b37786f3c58c9cc1b366544",
+    "bytes": 1269
+  },
+  "subtitles.srt": {
+    "sha256": "2c386bf5134791bc4ae0c9e2bb5da455881ece26bcdb9a7e513de5831d7eb4d7",
+    "bytes": 457
+  },
+  "tts-manifest.json": {
+    "sha256": "3a61ba996a9b9cfb44c15fb9bfa9d9ee3a65583fed6681bae46c3db8ccd10d8d",
+    "bytes": 2643
+  },
+  "word-alignment.json": {
+    "sha256": "305bb1c9c2726bcd0a56a67d436f62bbc4e1256f85ecab3e258a575c1b5ba8e2",
+    "bytes": 9826
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "source": "original procedural composition; no external recordings",
+  "generator": "scripts/music-v6.py; reused unchanged",
+  "bpm": 104,
+  "key": "C major",
+  "instruments": "sine pluck, bass and seeded noise percussion",
+  "seed": 613,
+  "mix_filter": "[0:a]aresample=48000,volume=1.25,asplit=2[voice][side];[1:a]volume=0.60[music];[music][side]sidechaincompress=threshold=0.025:ratio=5:attack=12:release=240[duck];[voice][duck]amix=inputs=2:normalize=0,loudnorm=I=-16:TP=-1.5:LRA=8:linear=false,aresample=48000[mix]",
+  "fade_in": 0.7,
+  "fade_out": 1.2,
+  "duration": 28.066666666666666,
+  "voice_gain": 1.25,
+  "music_gain": 0.6,
+  "previous_voice_gain": 1.4,
+  "previous_music_gain": 0.48,
+  "revision": "v7 mix only"
+}

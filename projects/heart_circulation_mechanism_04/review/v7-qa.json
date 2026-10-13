@@ -1,0 +1,30 @@
+{
+  "technical": "passed",
+  "revision": "v7 mix only",
+  "resolution": "1080x1920",
+  "frames": 842,
+  "fps": 30,
+  "duration_seconds": 28.066666666666666,
+  "loudness": {
+    "input_i": "-16.22",
+    "input_tp": "-8.30",
+    "input_lra": "2.60",
+    "input_thresh": "-27.35",
+    "output_i": "-16.23",
+    "output_tp": "-7.85",
+    "output_lra": "2.50",
+    "output_thresh": "-27.30",
+    "normalization_type": "dynamic",
+    "target_offset": "0.23"
+  },
+  "tail_seconds": 0.9062131519274388,
+  "decode": "all frames decoded without error",
+  "black_frames": "none >= 0.15 seconds",
+  "audio": "AAC 48kHz stereo",
+  "visual_stream_sha256": "SHA256=fa62151c1a5d0166d5b710ad204df628bde7c8eb54f1b077193b1d5376325cec",
+  "visual": "bit-identical video packets to v6",
+  "caption_timing": "v6 narration and alignment files reused byte-for-byte",
+  "full_playback": "pending browser playback check",
+  "actual_listening": "pending; user to compare v7 and v6 balance",
+  "release": "internal review; no publication approval; reference voice rights not independently confirmed"
+}
