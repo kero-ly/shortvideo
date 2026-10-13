@@ -1,0 +1,11 @@
+{
+  "version": 6,
+  "url": "http://127.0.0.1:18769/20261013-heart-v6/index.html",
+  "started_seconds": 0.177313,
+  "ended_seconds": 28.066667,
+  "ended": true,
+  "error": null,
+  "images_loaded": 5,
+  "video_ready_state_before_play": 4,
+  "actual_listening": "pending; browser playback observation does not assess sound quality"
+}

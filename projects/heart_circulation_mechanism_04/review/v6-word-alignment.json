@@ -1,0 +1,472 @@
+{
+  "engine": "faster-whisper small CPU int8; actual word timestamps, locked script retained",
+  "narration_sha256": "8acafc01095ed83bc61270cee8d95b20c4d16a743c3a2890a4e8666e0a7d15df",
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "locked_text": "心脏就像一台泵，靠收缩和舒张推动血液。",
+      "recognized_text": "心脏就像一台泵，靠收缩和舒张推动血液。",
+      "similarity": 1.0,
+      "words": [
+        {
+          "text": "心",
+          "start": 0.0,
+          "end": 0.46
+        },
+        {
+          "text": "脏",
+          "start": 0.46,
+          "end": 0.74
+        },
+        {
+          "text": "就",
+          "start": 0.74,
+          "end": 0.92
+        },
+        {
+          "text": "像",
+          "start": 0.92,
+          "end": 1.1
+        },
+        {
+          "text": "一",
+          "start": 1.1,
+          "end": 1.24
+        },
+        {
+          "text": "台",
+          "start": 1.24,
+          "end": 1.4
+        },
+        {
+          "text": "泵，",
+          "start": 1.4,
+          "end": 1.66
+        },
+        {
+          "text": "靠",
+          "start": 2.12,
+          "end": 2.4
+        },
+        {
+          "text": "收",
+          "start": 2.4,
+          "end": 2.64
+        },
+        {
+          "text": "缩",
+          "start": 2.64,
+          "end": 3.02
+        },
+        {
+          "text": "和",
+          "start": 3.02,
+          "end": 3.2
+        },
+        {
+          "text": "舒",
+          "start": 3.2,
+          "end": 3.42
+        },
+        {
+          "text": "张",
+          "start": 3.42,
+          "end": 3.68
+        },
+        {
+          "text": "推",
+          "start": 3.68,
+          "end": 4.06
+        },
+        {
+          "text": "动",
+          "start": 4.06,
+          "end": 4.28
+        },
+        {
+          "text": "血",
+          "start": 4.28,
+          "end": 4.54
+        },
+        {
+          "text": "液。",
+          "start": 4.54,
+          "end": 4.74
+        }
+      ],
+      "offset": 0.3,
+      "sha256": "96ebbbcde239466f6ca95b80783ac2f8e95b29361b0a0547a87e09fd80855925"
+    },
+    {
+      "shot_id": "shot-02",
+      "locked_text": "右侧心脏把血液送到肺部，在这里完成气体交换。",
+      "recognized_text": "右侧心脏把血液送到肺部，在这里完成气体交换。",
+      "similarity": 1.0,
+      "words": [
+        {
+          "text": "右",
+          "start": 0.0,
+          "end": 0.44
+        },
+        {
+          "text": "侧",
+          "start": 0.44,
+          "end": 0.66
+        },
+        {
+          "text": "心",
+          "start": 0.66,
+          "end": 0.84
+        },
+        {
+          "text": "脏",
+          "start": 0.84,
+          "end": 1.18
+        },
+        {
+          "text": "把",
+          "start": 1.18,
+          "end": 1.44
+        },
+        {
+          "text": "血",
+          "start": 1.44,
+          "end": 1.7
+        },
+        {
+          "text": "液",
+          "start": 1.7,
+          "end": 1.9
+        },
+        {
+          "text": "送",
+          "start": 1.9,
+          "end": 2.08
+        },
+        {
+          "text": "到",
+          "start": 2.08,
+          "end": 2.24
+        },
+        {
+          "text": "肺",
+          "start": 2.24,
+          "end": 2.46
+        },
+        {
+          "text": "部，",
+          "start": 2.46,
+          "end": 2.76
+        },
+        {
+          "text": "在",
+          "start": 3.04,
+          "end": 3.22
+        },
+        {
+          "text": "这里",
+          "start": 3.22,
+          "end": 3.58
+        },
+        {
+          "text": "完成",
+          "start": 3.58,
+          "end": 4.0
+        },
+        {
+          "text": "气",
+          "start": 4.0,
+          "end": 4.5
+        },
+        {
+          "text": "体",
+          "start": 4.5,
+          "end": 4.7
+        },
+        {
+          "text": "交",
+          "start": 4.7,
+          "end": 4.9
+        },
+        {
+          "text": "换。",
+          "start": 4.9,
+          "end": 5.18
+        }
+      ],
+      "offset": 6.133333333333333,
+      "sha256": "c4101944ca45c78925e2cd0c768f638fcc5c1031a0540ef724847fb78606ee02"
+    },
+    {
+      "shot_id": "shot-03",
+      "locked_text": "血液回到左侧心脏，再被送往全身。",
+      "recognized_text": "血液回到左侧心脏，再被送往全身。",
+      "similarity": 1.0,
+      "words": [
+        {
+          "text": "血",
+          "start": 0.0,
+          "end": 0.54
+        },
+        {
+          "text": "液",
+          "start": 0.54,
+          "end": 0.7
+        },
+        {
+          "text": "回",
+          "start": 0.7,
+          "end": 0.86
+        },
+        {
+          "text": "到",
+          "start": 0.86,
+          "end": 1.06
+        },
+        {
+          "text": "左",
+          "start": 1.06,
+          "end": 1.24
+        },
+        {
+          "text": "侧",
+          "start": 1.24,
+          "end": 1.48
+        },
+        {
+          "text": "心",
+          "start": 1.48,
+          "end": 1.68
+        },
+        {
+          "text": "脏，",
+          "start": 1.68,
+          "end": 2.0
+        },
+        {
+          "text": "再",
+          "start": 2.34,
+          "end": 2.5
+        },
+        {
+          "text": "被",
+          "start": 2.5,
+          "end": 2.72
+        },
+        {
+          "text": "送",
+          "start": 2.72,
+          "end": 2.98
+        },
+        {
+          "text": "往",
+          "start": 2.98,
+          "end": 3.14
+        },
+        {
+          "text": "全",
+          "start": 3.14,
+          "end": 3.36
+        },
+        {
+          "text": "身。",
+          "start": 3.36,
+          "end": 3.6
+        }
+      ],
+      "offset": 12.366666666666667,
+      "sha256": "c1b34b64a142734ef469212313d9c01ff7f1e7cc479bf32cd8fa1650e117f057"
+    },
+    {
+      "shot_id": "shot-04",
+      "locked_text": "红细胞沿着血管前进，把氧送到身体各处。",
+      "recognized_text": "红细胞沿着血管前进，把氧送到身体各处。",
+      "similarity": 1.0,
+      "words": [
+        {
+          "text": "红",
+          "start": 0.0,
+          "end": 0.44
+        },
+        {
+          "text": "细",
+          "start": 0.44,
+          "end": 0.62
+        },
+        {
+          "text": "胞",
+          "start": 0.62,
+          "end": 0.88
+        },
+        {
+          "text": "沿",
+          "start": 0.88,
+          "end": 1.1
+        },
+        {
+          "text": "着",
+          "start": 1.1,
+          "end": 1.22
+        },
+        {
+          "text": "血",
+          "start": 1.22,
+          "end": 1.38
+        },
+        {
+          "text": "管",
+          "start": 1.38,
+          "end": 1.62
+        },
+        {
+          "text": "前",
+          "start": 1.62,
+          "end": 1.86
+        },
+        {
+          "text": "进，",
+          "start": 1.86,
+          "end": 2.08
+        },
+        {
+          "text": "把",
+          "start": 2.48,
+          "end": 2.6
+        },
+        {
+          "text": "氧",
+          "start": 2.6,
+          "end": 2.98
+        },
+        {
+          "text": "送",
+          "start": 2.98,
+          "end": 3.18
+        },
+        {
+          "text": "到",
+          "start": 3.18,
+          "end": 3.32
+        },
+        {
+          "text": "身",
+          "start": 3.32,
+          "end": 3.5
+        },
+        {
+          "text": "体",
+          "start": 3.5,
+          "end": 3.72
+        },
+        {
+          "text": "各",
+          "start": 3.72,
+          "end": 3.9
+        },
+        {
+          "text": "处。",
+          "start": 3.9,
+          "end": 4.18
+        }
+      ],
+      "offset": 16.96666666666667,
+      "sha256": "32bb589a7a8d31c0a7ecffe4f1f6fa51b25d9796056b9ab54c42c8a0fbcc46e5"
+    },
+    {
+      "shot_id": "shot-05",
+      "locked_text": "血液再回到心脏，两条循环接力，持续运转。",
+      "recognized_text": "血液再回到心脏，两条循环接力，持续运转。",
+      "similarity": 1.0,
+      "words": [
+        {
+          "text": "血",
+          "start": 0.0,
+          "end": 0.48
+        },
+        {
+          "text": "液",
+          "start": 0.48,
+          "end": 0.78
+        },
+        {
+          "text": "再",
+          "start": 0.78,
+          "end": 0.94
+        },
+        {
+          "text": "回",
+          "start": 0.94,
+          "end": 1.14
+        },
+        {
+          "text": "到",
+          "start": 1.14,
+          "end": 1.28
+        },
+        {
+          "text": "心",
+          "start": 1.28,
+          "end": 1.48
+        },
+        {
+          "text": "脏，",
+          "start": 1.48,
+          "end": 1.8
+        },
+        {
+          "text": "两",
+          "start": 2.22,
+          "end": 2.4
+        },
+        {
+          "text": "条",
+          "start": 2.4,
+          "end": 2.6
+        },
+        {
+          "text": "循",
+          "start": 2.6,
+          "end": 2.82
+        },
+        {
+          "text": "环",
+          "start": 2.82,
+          "end": 3.04
+        },
+        {
+          "text": "接",
+          "start": 3.04,
+          "end": 3.22
+        },
+        {
+          "text": "力，",
+          "start": 3.22,
+          "end": 3.44
+        },
+        {
+          "text": "持",
+          "start": 3.84,
+          "end": 4.0
+        },
+        {
+          "text": "续",
+          "start": 4.0,
+          "end": 4.28
+        },
+        {
+          "text": "运",
+          "start": 4.28,
+          "end": 4.44
+        },
+        {
+          "text": "转。",
+          "start": 4.44,
+          "end": 4.68
+        }
+      ],
+      "offset": 22.133333333333333,
+      "sha256": "5fec48c51adaa7fbb18ae824cf986c66372e9b69dd7ebb610d19260f91a4bc06"
+    }
+  ],
+  "actual_listening": "pending"
+}

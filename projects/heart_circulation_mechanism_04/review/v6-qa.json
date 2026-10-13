@@ -1,0 +1,28 @@
+{
+  "technical": "passed",
+  "resolution": "1080x1920 native vector rasterization",
+  "frames": 842,
+  "fps": 30,
+  "duration_seconds": 28.066666666666666,
+  "loudness": {
+    "input_i": "-16.22",
+    "input_tp": "-7.60",
+    "input_lra": "2.70",
+    "input_thresh": "-27.36",
+    "output_i": "-16.23",
+    "output_tp": "-7.33",
+    "output_lra": "2.50",
+    "output_thresh": "-27.30",
+    "normalization_type": "dynamic",
+    "target_offset": "0.23"
+  },
+  "tail_seconds": 0.9062131519274388,
+  "decode": "all frames decoded without error",
+  "black_frames": "none >= 0.15 seconds",
+  "audio": "AAC 48kHz stereo",
+  "caption_timing": "new measured sentence WAV and new faster-whisper word timestamps; complete sentence burned in during each shot",
+  "visual": "See review/v6-QA.md for actual visual inspection",
+  "full_playback": "pending browser playback check",
+  "actual_listening": "pending; automated waveform metrics do not constitute listening",
+  "release": "internal review; no publication approval; external reference voice rights not independently confirmed"
+}

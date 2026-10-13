@@ -1,0 +1,10 @@
+{
+  "revision": 6,
+  "user_request": "配音需要优化，现在太平淡了，需要有一些科普有风格的，同时也需要背景音乐",
+  "scope": "new narration, original background music, re-time existing v5 animation; episode-only",
+  "direction": "bright curious science explainer, happy/surprised/calm emotion guidance, natural pauses",
+  "script": "same five fact-checked sentences; no new claims",
+  "music": "original procedural 104 BPM C major, pluck/bass/light percussion, speech ducking and fades",
+  "status": "preview review; actual listening pending",
+  "gpu_queue": "respect single factory GPU job lock; no shared job interrupted"
+}

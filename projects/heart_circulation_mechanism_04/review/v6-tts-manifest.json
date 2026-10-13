@@ -1,0 +1,104 @@
+{
+  "engine": "IndexTTS2",
+  "reference_audio": "/home/video/indextts2_4090/input/teacher_reference_24k.wav",
+  "emotion_alpha": 0.85,
+  "device": "cuda:0",
+  "load_seconds": 17.973,
+  "segments": [
+    {
+      "id": "shot-01",
+      "text": "心脏就像一台泵，靠收缩和舒张推动血液。",
+      "emotion_vector": [
+        0.42,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.25,
+        0.33
+      ],
+      "slot_duration_seconds": 6.0,
+      "raw_duration_seconds": 5.108,
+      "tempo": 1.0,
+      "inference_seconds": 6.683,
+      "output": "/home/ly/shortvideo/projects/heart_circulation_mechanism_04/runs/20261013-heart-v6/audio/shot-01.wav"
+    },
+    {
+      "id": "shot-02",
+      "text": "右侧心脏把血液送到肺部，在这里完成气体交换。",
+      "emotion_vector": [
+        0.5,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.12,
+        0.38
+      ],
+      "slot_duration_seconds": 6.0,
+      "raw_duration_seconds": 5.503,
+      "tempo": 1.0,
+      "inference_seconds": 5.409,
+      "output": "/home/ly/shortvideo/projects/heart_circulation_mechanism_04/runs/20261013-heart-v6/audio/shot-02.wav"
+    },
+    {
+      "id": "shot-03",
+      "text": "血液回到左侧心脏，再被送往全身。",
+      "emotion_vector": [
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.18,
+        0.42
+      ],
+      "slot_duration_seconds": 6.0,
+      "raw_duration_seconds": 3.889,
+      "tempo": 1.0,
+      "inference_seconds": 4.151,
+      "output": "/home/ly/shortvideo/projects/heart_circulation_mechanism_04/runs/20261013-heart-v6/audio/shot-03.wav"
+    },
+    {
+      "id": "shot-04",
+      "text": "红细胞沿着血管前进，把氧送到身体各处。",
+      "emotion_vector": [
+        0.62,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.13,
+        0.25
+      ],
+      "slot_duration_seconds": 6.0,
+      "raw_duration_seconds": 4.447,
+      "tempo": 1.0,
+      "inference_seconds": 4.439,
+      "output": "/home/ly/shortvideo/projects/heart_circulation_mechanism_04/runs/20261013-heart-v6/audio/shot-04.wav"
+    },
+    {
+      "id": "shot-05",
+      "text": "血液再回到心脏，两条循环接力，持续运转。",
+      "emotion_vector": [
+        0.4,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0.08,
+        0.52
+      ],
+      "slot_duration_seconds": 6.0,
+      "raw_duration_seconds": 5.027,
+      "tempo": 1.0,
+      "inference_seconds": 4.956,
+      "output": "/home/ly/shortvideo/projects/heart_circulation_mechanism_04/runs/20261013-heart-v6/audio/shot-05.wav"
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "episode_id": "heart_circulation_mechanism_04",
+  "revision": 5,
+  "status": "preview_review",
+  "brief": {
+    "topic": "心脏如何推动血液循环",
+    "audience": "大众科普",
+    "key_points": [
+      "右心将血液送至肺部进行气体交换",
+      "左心将血液送往全身",
+      "红细胞运输氧",
+      "血液回到心脏持续循环"
+    ]
+  },
+  "selection": {
+    "basis": "用户授权自主选题、制作动画并对照抖音参考优化；本期原创推荐路线，非沿用上一期风格",
+    "preset": {
+      "id": "heart-transport-warm-flat",
+      "version": 5,
+      "path": "projects/heart_circulation_mechanism_04/episode-style.json",
+      "sha256": "451e2e295fa0c9737edfe85a60299194d1c2c6ee5f8d51dc0f29f8ded217c75e"
+    },
+    "components": [
+      {
+        "id": "heart-circulation-svg",
+        "version": 5,
+        "path": "projects/heart_circulation_mechanism_04/scripts/Heart.jsx",
+        "sha256": "51d0989f6572e38f635d87b5fa38651487d392e1eb53d01539ce68f7055b9df8"
+      },
+      {
+        "id": "arc-length-particle-motion",
+        "version": 1,
+        "path": "projects/heart_circulation_mechanism_04/scripts/math.mjs",
+        "sha256": "4518e8272417057f19451a8669fbdfb22eb5030fa1f3c90f649174f91adaf6be"
+      }
+    ],
+    "overrides": {
+      "episode_only": true,
+      "full_bleed": true,
+      "title": "心脏一跳 / 血液去哪儿？",
+      "caption_placement": "lower safe zone",
+      "reuse_audio": "v4 AAC bitstream unchanged"
+    }
+  },
+  "resolved": {
+    "id": "heart-transport-warm-flat",
+    "version": 5,
+    "scope": "episode-only, not an approved series default",
+    "visual": {
+      "palette": [
+        "#f5b875",
+        "#ffdcaa",
+        "#64372e",
+        "#ed685b",
+        "#859ac8"
+      ],
+      "technique": "original layered SVG, deterministic frame-driven motion",
+      "outline": "organic dark brown",
+      "characters": "personified heart, lungs and blood cells"
+    },
+    "layout": {
+      "width": 1080,
+      "height": 1920,
+      "fps": 30,
+      "scene": [
+        0,
+        405,
+        1080,
+        1515
+      ],
+      "caption_font_px": 49,
+      "title_font_px": 103,
+      "safe_right": 80,
+      "background": "cream edge-to-edge, no border",
+      "title": "心脏一跳 / 血液去哪儿？",
+      "caption": "white with dark outline; lower safe area; soft background fade"
+    },
+    "audio": {
+      "provider": "IndexTTS2",
+      "music": null,
+      "target_lufs": -16,
+      "peak_dbtp": -1.5,
+      "timing": "measured sentence WAV durations"
+    },
+    "format": "pump → lungs → body → oxygen delivery → continuous circulation",
+    "method": "2d-mechanism-explainer",
+    "limitations": [
+      "simplified two-sided heart, not four-chamber anatomy",
+      "colors represent oxygen state, not literal blood color",
+      "sample-tested only; actual listening and user style acceptance pending"
+    ]
+  },
+  "methods": [
+    "2d-mechanism-explainer"
+  ],
+  "tools": [
+    {
+      "capability": "deterministic 2D animation",
+      "provider": "Remotion 4.0.507 + React 19.2.8 on 220",
+      "status": "smoke_tested"
+    },
+    {
+      "capability": "Chinese narration",
+      "provider": "IndexTTS2 configured 220 runtime",
+      "status": "smoke_tested"
+    },
+    {
+      "capability": "mux and QA",
+      "provider": "FFmpeg on 220",
+      "status": "smoke_tested"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "text": "心脏就像一台泵，靠收缩和舒张推动血液。",
+      "duration_ms": 4767,
+      "start": 0,
+      "frames": 143,
+      "audioStart": 0.3,
+      "audioDuration": 4.051882086167801,
+      "method": "2d-mechanism-explainer",
+      "source": "scripts/Heart.jsx"
+    },
+    {
+      "id": "shot-02",
+      "text": "右侧心脏把血液送到肺部，在这里完成气体交换。",
+      "duration_ms": 4500,
+      "start": 143,
+      "frames": 135,
+      "audioStart": 5.066666666666666,
+      "audioDuration": 3.7848526077097504,
+      "method": "2d-mechanism-explainer",
+      "source": "scripts/Heart.jsx"
+    },
+    {
+      "id": "shot-03",
+      "text": "血液回到左侧心脏，再被送往全身。",
+      "duration_ms": 3933,
+      "start": 278,
+      "frames": 118,
+      "audioStart": 9.566666666666668,
+      "audioDuration": 3.2275736961451247,
+      "method": "2d-mechanism-explainer",
+      "source": "scripts/Heart.jsx"
+    },
+    {
+      "id": "shot-04",
+      "text": "红细胞沿着血管前进，把氧送到身体各处。",
+      "duration_ms": 4367,
+      "start": 396,
+      "frames": 131,
+      "audioStart": 13.5,
+      "audioDuration": 3.633922902494331,
+      "method": "2d-mechanism-explainer",
+      "source": "scripts/Heart.jsx"
+    },
+    {
+      "id": "shot-05",
+      "text": "血液再回到心脏，两条循环接力，持续运转。",
+      "duration_ms": 5167,
+      "start": 527,
+      "frames": 155,
+      "audioStart": 17.866666666666667,
+      "audioDuration": 3.947392290249433,
+      "method": "2d-mechanism-explainer",
+      "source": "scripts/Heart.jsx"
+    }
+  ],
+  "approvals": [
+    {
+      "scope": "自主选题、样片制作和对照参考优化；不代表用户已接受风格或批准发布",
+      "revision": 1,
+      "evidence": "用户：你尝试找一个主题做一个动画，如果你认为和抖音上目前视频的还有差距，你就继续优化"
+    },
+    {
+      "scope": "v5去边框、全屏动画、重新安排字幕、上部大标题；保留既有动画与配音",
+      "revision": 5,
+      "evidence": "用户：我觉得还不错，但是我不喜欢这个橙色的边框，是不是应该把中间动画部分全屏，字幕也放在合适的位置重新配下，视频中上部分放一个短视频常用的那种大标题"
+    }
+  ],
+  "facts": [
+    {
+      "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+      "retrieved": "2026-10-13",
+      "verified_claims": [
+        "right ventricle pumps blood to lungs",
+        "lungs add oxygen; pulmonary veins return oxygen-rich blood",
+        "left ventricle pumps blood to whole body"
+      ]
+    }
+  ],
+  "lineage": {
+    "art": "original SVG, no source-video asset extraction",
+    "audio": "runs/20261013-heart-v1/audio/shot-01.wav … shot-05.wav → narration.wav → mux",
+    "video": "v1 540p → v2 1080p → v3 1080p → v4 1080p → v5 full-screen layout",
+    "reference_scope": "user screenshots/video used for technique comparison only"
+  }
+}

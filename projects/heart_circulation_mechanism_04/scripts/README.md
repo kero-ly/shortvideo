@@ -14,3 +14,11 @@
 
 
 v5排版修订：`Heart-v4.jsx`锁定旧版源，当前`Heart.jsx`为v5；执行`render-v5.sh`→`finalize-v5.sh`→`package-v5.py`。v5直接拷贝v4 AAC声音流，另建唯一run。
+
+## v6 audio revision
+
+Visual layout and locked text remain v5. produce-v6.py queues on the factory GPU lock and verifies GPU6 memory before IndexTTS2 work. tts-v6.py is an episode-scoped adapter copy with happy/surprised/calm vectors. WAV durations drive new props, without tempo acceleration.
+
+Orchestration uses uv run on 220. music-v6.py uses the configured TTS Python for NumPy. align-v6.py uses the existing tested faster-whisper 1.2.1 environment /home/ly/.cache/uv/archive-v0/EHM1RV4AF41ciiYBgIu3A/bin/python. This cache is not a portable lockfile. FFmpeg decodes 16k float PCM into an ndarray to avoid an incompatible PyAV keyword.
+
+Then run render-v6.sh, finalize-v6.sh and uv run python .../package-v6.py. music-v6.py is original procedural 104 BPM C-major pluck/bass/light percussion, with no external recordings; voice-driven music ducking, 0.7s fade-in/1.2s fade-out and -16LUFS/-1.5dBTP targets. Fixed v6 paths belong to this revision; future runs need new IDs and must preserve this delivery.
