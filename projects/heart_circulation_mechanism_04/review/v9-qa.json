@@ -1,0 +1,27 @@
+{
+  "technical": "passed",
+  "visual": "identical video packets to v8",
+  "visual_stream_sha256": "SHA256=916e461a2c370fda4b903bb45c09c94de5f289e6040332cb5836e9a004df1d82",
+  "loudness": {
+    "input_i": "-16.22",
+    "input_tp": "-7.99",
+    "input_lra": "2.50",
+    "input_thresh": "-27.34",
+    "output_i": "-16.22",
+    "output_tp": "-7.54",
+    "output_lra": "2.40",
+    "output_thresh": "-27.26",
+    "normalization_type": "dynamic",
+    "target_offset": "0.22"
+  },
+  "frames": 842,
+  "duration_seconds": 28.066666666666666,
+  "tail_seconds": 0.9062131519274379,
+  "decode": "passed",
+  "black_frames": "none >=0.15s",
+  "caption_timing": "same source narration and byte-identical props/ASR/SRT",
+  "full_playback": "Codex IAB from zero to ended=true at 28.066667 seconds, no media error",
+  "actual_listening": "pending user review",
+  "release": "internal review",
+  "transfer": "39 listed files SHA256 verified against 220"
+}

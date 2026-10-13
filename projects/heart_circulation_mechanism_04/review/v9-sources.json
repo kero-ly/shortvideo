@@ -1,0 +1,35 @@
+{
+  "facts": [
+    {
+      "url": "https://www.nhlbi.nih.gov/health/heart/blood-flow",
+      "retrieved": "2026-10-13",
+      "use": "Right ventricle→lungs→left atrium/ventricle→body; oxygen exchange in lungs"
+    }
+  ],
+  "art": "Original SVG code, no Douyin pixels or music reused",
+  "audio": "IndexTTS2; configured reference teacher_reference_24k.wav; internal review",
+  "music": {
+    "source": "original procedural composition; no external recordings",
+    "generator": "scripts/music-v6.py; reused unchanged",
+    "bpm": 104,
+    "key": "C major",
+    "instruments": "sine pluck, bass and seeded noise percussion",
+    "seed": 613,
+    "mix_filter": "[0:a]aresample=48000,volume=1.25,asplit=2[voice][side];[1:a]volume=1.20[music];[music][side]sidechaincompress=threshold=0.08:ratio=2:attack=12:release=240[duck];[voice][duck]amix=inputs=2:normalize=0,loudnorm=I=-16:TP=-1.5:LRA=8:linear=false,aresample=48000[mix]",
+    "fade_in": 0.7,
+    "fade_out": 1.2,
+    "duration": 28.066666666666666,
+    "voice_gain": 1.25,
+    "music_gain": 1.2,
+    "previous_voice_gain": 1.4,
+    "previous_music_gain": 0.6,
+    "revision": "v9",
+    "music_gain_change_db": 6.0206,
+    "ducking": "threshold=0.08 ratio=2 attack=12 release=240"
+  },
+  "lineage": "v8 video packet copy + same narration/music sources -> v9 music +6.02dB and lighter ducking -> new AAC mix",
+  "renderer": {
+    "path": "scripts/Heart-v8.jsx",
+    "sha256": "a2c9676ec7d2e6565f63d92c9f12c9edfe785f8b788766836a234318553e2b58"
+  }
+}

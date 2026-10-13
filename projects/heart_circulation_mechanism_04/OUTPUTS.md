@@ -1,5 +1,6 @@
 # 本期输出
 
+- 最新配乐增强版：`deliveries/20261013-heart-v9/index.html`，音乐增益0.60→1.20（+6.02dB），口播侧链压低改为threshold=0.08、ratio=2；旁白输入增益1.25不变，v8画面逐包无损复用。脚本`scripts/remix-v9.py`仅在220执行；QA与文件hash见`review/v9-qa.json`、`review/v9-manifest.json`。
 - 最新路径引导版：`deliveries/20261013-heart-v8/index.html`；第二、三镜加入起点圈选、金色路径、沿血流方向箭头、终点提示。声轨逐包复用 v7，时间线不变。
 - v8 源码：`scripts/Heart-v8.jsx`；渲染：`bash scripts/render-v8.sh samples` 后 `bash scripts/render-v8.sh full`（仅在220）；打包：项目根执行 `uv run python projects/heart_circulation_mechanism_04/scripts/package-v8.py`。版本证据：`review/production-plan-v8.json`、`review/v8-manifest.json`、`review/v8-QA.md`。
 - 当前审阅（人声略降、音乐略升）：`deliveries/20261013-heart-v7/index.html`（完整混音视频、v6对照和五镜分镜）。

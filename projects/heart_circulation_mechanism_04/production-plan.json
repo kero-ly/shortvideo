@@ -1,6 +1,6 @@
 {
   "episode_id": "heart_circulation_mechanism_04",
-  "revision": 8,
+  "revision": 9,
   "status": "preview_review",
   "brief": {
     "topic": "心脏如何推动血液循环",
@@ -68,6 +68,12 @@
         "version": 1,
         "path": "projects/heart_circulation_mechanism_04/scripts/package-v7.py",
         "sha256": "48d2a4c5c3ca1cb568c6e83d4cd580bb351ff72710630c8fee5f7594483b4ff6"
+      },
+      {
+        "id": "remix-v9",
+        "version": 1,
+        "path": "projects/heart_circulation_mechanism_04/scripts/remix-v9.py",
+        "sha256": "d03b2e5bfde169b0d227eb07914ee34f2eedbcc427efbd87025b28630f5ea195"
       }
     ],
     "overrides": {
@@ -76,7 +82,7 @@
       "title": "心脏一跳 / 血液去哪儿？",
       "caption_placement": "lower safe zone",
       "audio_revision": "IndexTTS2 per-shot happy/surprised/calm guidance; original music with sidechain ducking",
-      "mix_revision": "v7 voice gain 1.25 (v6 1.4), music gain 0.60 (v6 0.48); same source audio and picture",
+      "mix_revision": "v9 music gain 0.60→1.20 (+6.02 dB); lighter ducking threshold 0.025→0.08 ratio 5→2; narration gain 1.25; v8 video unchanged",
       "route_guidance": "v8: shot 02 right heart → lungs, shot 03 left heart → body; origin ring + numbered badge + gold path reveal + forward chevrons + destination ring. Based on v7 timing; no shared style change."
     }
   },
@@ -180,8 +186,8 @@
       ],
       "music": "original procedural pluck/bass/light percussion, 104 BPM C major; no external recordings",
       "voice_gain": 1.25,
-      "music_gain": 0.6,
-      "music_ducking": "sidechaincompress threshold=0.025 ratio=5 attack=12ms release=240ms",
+      "music_gain": 1.2,
+      "music_ducking": "sidechaincompress threshold=0.08 ratio=2 attack=12ms release=240ms",
       "target_lufs": -16,
       "peak_dbtp": -1.5,
       "timing": "new measured sentence WAVs and actual ASR word timestamps"
@@ -314,6 +320,11 @@
       "revision": 8,
       "scope": "Enhance existing shot 02/03 with directional visual cues; no extra production approval required for this requested revision",
       "evidence": "用户：高亮轮廓或者用一些什么方式高亮突出这个循环，或者做一些箭头引导……不知道从哪里开始看起。后面介绍左侧心脏同理"
+    },
+    {
+      "scope": "Raise background music audibility in v8; audio revision only",
+      "revision": 9,
+      "evidence": "用户：背景音乐再大一点，听不见"
     }
   ],
   "facts": [
@@ -329,7 +340,7 @@
   ],
   "lineage": {
     "art": "original SVG, no source-video asset extraction",
-    "audio": "v6 narration and original music unchanged → v7 voice/music gain revision and sidechain mix → AAC remux; v6 preserved → v8 AAC packet copy from v7",
+    "audio": "v6 narration and original music unchanged → v7 voice/music gain revision and sidechain mix → AAC remux; v6 preserved → v8 AAC packet copy from v7 → v9 increased music with lighter ducking; same sources and timing",
     "video": "v1 540p → v2 1080p → v3 1080p → v4 1080p → v5 full-screen layout → v6 new audio timings → v7 identical video stream → v8 origin / direction / destination cues in shots 02 and 03",
     "reference_scope": "user screenshots/video used for technique comparison only"
   }
