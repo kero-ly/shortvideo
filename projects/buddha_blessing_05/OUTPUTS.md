@@ -1,8 +1,10 @@
 # 佛光祈福 · 当前产物
 
-- [图文方案 v1](review/storyboard-v1.html)：完整参考帧＋四段文案，待用户批准。
-- [文案归档](storyboard/v1.md)
+- [大字幕＋参考声线 v4](review/video-v4.html)：15秒，字幕110；实际抖音参考音生成，全片听审与音色匹配待确认。
+- [大字幕 v3](review/video-v3.html)：保留已被用户拒绝角色音色的v2临时声轨，仅字幕修订。
+- [批准图文方案 v1](review/storyboard-v1.html)
 - [生产计划](production-plan.json)
-- [图像及来源hash](review/media-index-v1.json)
+- [v4 QA](review/qa-video-v4.json) / [v4交付manifest](review/delivery-manifest-v4.json)
+- [声线来源调查](review/voice-source-investigation-v3.md)
 
-当前仅前期：未开始配音、H3、合成或渲染。图像原生948×1659，服务未满足请求尺寸。媒体不入Git。
+所有生成/合成/抽帧在220执行，媒体单独同步并验hash。画面原生576×1024，合成1080×1920。v4不是原视频工具来源确认，也未获用户角色声线验收。

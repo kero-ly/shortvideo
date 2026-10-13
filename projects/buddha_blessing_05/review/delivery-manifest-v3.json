@@ -1,0 +1,131 @@
+{
+  "episode_id": "buddha_blessing_05",
+  "stage": "final",
+  "files": [
+    {
+      "path": "alignment.json",
+      "bytes": 5934,
+      "sha256": "40dba82e9c66ec0e64b586d7f9cc845caf4eb0cfa3b5022043b1c76fb919326f"
+    },
+    {
+      "path": "black-check.log",
+      "bytes": 1749,
+      "sha256": "0bbd58f7f50366b0be79d38c9294be22de559f9b0c84bbb640c196671e71d1db"
+    },
+    {
+      "path": "buddha-blessing-15s.mp4",
+      "bytes": 11787300,
+      "sha256": "20c236a89a4992144c8e882d3e5c06546526cd7a05424970e4ecc1cd3d204e4d"
+    },
+    {
+      "path": "captions.ass",
+      "bytes": 994,
+      "sha256": "ea16143e1cf242ff9d785b9975d1355db42489ac86d1537c3ede4022583a0b80"
+    },
+    {
+      "path": "captions.srt",
+      "bytes": 290,
+      "sha256": "a648256f6f76f6cd13838d4fa03db2ca98c4ac69d454c57f8d99dbac7e27b64f"
+    },
+    {
+      "path": "contact-sheet.jpg",
+      "bytes": 205772,
+      "sha256": "963a16a69c34394828e4147840637ffbbe7370b05eaf93bbf8751aa38a591d35"
+    },
+    {
+      "path": "contact.log",
+      "bytes": 4163,
+      "sha256": "cb641c096c995da74a41fe46b6121b0bc5642f4c795b308d3a5169a88e1017a1"
+    },
+    {
+      "path": "cover.jpg",
+      "bytes": 102024,
+      "sha256": "847e67b5075956a7410e7881371b33f3964eabf402a7c3e3c8e65d4e9c4e4036"
+    },
+    {
+      "path": "cover.log",
+      "bytes": 4169,
+      "sha256": "249c47f37f0b6dacbad8baf42f5825e779ad3b3614db8513138da63802ddb9a4"
+    },
+    {
+      "path": "ffprobe.json",
+      "bytes": 3503,
+      "sha256": "cc76338ded5a6f614015950a3efad1745d3a9a7c05d163c2357dcdabd3367ec6"
+    },
+    {
+      "path": "frame-0.log",
+      "bytes": 3978,
+      "sha256": "4483516107171c3c2f76ed252ef9bf3c03592a011f98b6b4fcc6128e3483858b"
+    },
+    {
+      "path": "frame-0.png",
+      "bytes": 2438845,
+      "sha256": "e9cf910a2814c30580dfd2d4a248b1e9a7e42bbf838dbb09efd66aac9d44b2f0"
+    },
+    {
+      "path": "frame-10.log",
+      "bytes": 3980,
+      "sha256": "97790cae34a736c59772c33b1983873e78f30a3b909f844cf7411f8d18c8515a"
+    },
+    {
+      "path": "frame-10.png",
+      "bytes": 3012160,
+      "sha256": "9c211ebef2f5fa5cb451acae877aff75f18fdfa4cfdce1ba56dc1e629365606d"
+    },
+    {
+      "path": "frame-14.5.log",
+      "bytes": 3984,
+      "sha256": "b546389421585a05268d81255f839191e73b4a6b1a1b8c063ee08ae27771f906"
+    },
+    {
+      "path": "frame-14.5.png",
+      "bytes": 3134381,
+      "sha256": "d1e695221396842e98a98f71094af64fff0e3c5dca56433980e71c9e03e13b6b"
+    },
+    {
+      "path": "frame-5.log",
+      "bytes": 3978,
+      "sha256": "46f1c51238f41caae60521dcc4a2aba13f6ac605634045933abc84e61fc4900d"
+    },
+    {
+      "path": "frame-5.png",
+      "bytes": 3051255,
+      "sha256": "35f058b689f0dfce426b2b0aa5cd12688fdfc6e9ed258176f46f8e631c9298e0"
+    },
+    {
+      "path": "full-decode.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "loudness.log",
+      "bytes": 1919,
+      "sha256": "3fdf564859389dc9c2584196aafdb21f12d771bbd1d5c0f60ad18d8b13d04358"
+    },
+    {
+      "path": "music-source.json",
+      "bytes": 706,
+      "sha256": "f744f2d725d4c3492cdd7f238b9656da9eb4caa478a9c2431bda16cd1f8ad4ae"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 874,
+      "sha256": "fd712d5ca45ebb61005857cbb988019a164e28222d08e7af4bc30a77c49525f6"
+    },
+    {
+      "path": "render.log",
+      "bytes": 8939,
+      "sha256": "77b59820ef01bdf0348efd2b80ec95c5ab8661b3be2df3cc247480e4bd2aa8d9"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 1057,
+      "sha256": "ec09e710cb2ad2b7dde8edea74d8933c9e46b03305ffe1f8d70e84cd86960d87"
+    },
+    {
+      "path": "tts-manifest.json",
+      "bytes": 4604,
+      "sha256": "b2e68e31172ecfabf6a4bbcd2b1c13921c054ebaf8a034f93992b3cdd1a9e8e0"
+    }
+  ]
+}

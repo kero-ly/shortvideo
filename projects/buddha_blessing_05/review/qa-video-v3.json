@@ -1,0 +1,22 @@
+{
+  "technical": "passed: full decode, 360 frames at24fps, H264/yuv420p, AAC48k stereo, no black intervals",
+  "duration": 15,
+  "native_resolution": [
+    576,
+    1024
+  ],
+  "output_resolution": [
+    1080,
+    1920
+  ],
+  "loudness_lufs": -17.82,
+  "true_peak_dbtp": -4.32,
+  "caption_timing": "actual phrase WAV + faster-whisper word timestamps; locked copy kept; no character interpolation",
+  "narration_tail_seconds": 0.9335416666666667,
+  "visual_review": "Contact sheet 0–14s and cover7.8s checked; six captions complete, longest line within safe area; hands/face clear; cloud lighting changes visible",
+  "full_playback": "pending",
+  "actual_listening": "pending",
+  "voice_usage": "Caption revision only; v2 voice retained temporarily, rejected character timbre; reference source unresolved",
+  "user_approval": "review/approval-v1.json",
+  "stage": "final"
+}

@@ -1,0 +1,24 @@
+{
+  "technical": "passed: full decode, 360 frames at24fps, H264/yuv420p, AAC48k stereo, no black intervals",
+  "duration": 15,
+  "native_resolution": [
+    576,
+    1024
+  ],
+  "output_resolution": [
+    1080,
+    1920
+  ],
+  "loudness_lufs": -16.34,
+  "true_peak_dbtp": -5.61,
+  "caption_timing": "actual phrase WAV + faster-whisper word timestamps; locked copy kept; no character interpolation",
+  "narration_tail_seconds": 0.6199999999999974,
+  "visual_review": "Contact sheet 0–14s checked, all six captions complete, longest line unclipped; face/hands clear. Phone-width browser playback showed final caption complete.",
+  "full_playback": "Browser play initiated from start, later screenshot showed final caption; no frame-by-frame full motion inspection",
+  "actual_listening": "pending: no audio perception tool; user character-timbre review required",
+  "voice_usage": "Authorized Douyin reference-conditioned IndexTTS2 synthesis; no pitch shift; original provider unknown; character match listening pending",
+  "user_approval": "review/approval-v1.json",
+  "stage": "final",
+  "reference_limitations": "Reference includes original music, no source separation; exact original provider unknown",
+  "voice_authorization": "User states 我有授权; actual sample reference and new copy generation within episode"
+}

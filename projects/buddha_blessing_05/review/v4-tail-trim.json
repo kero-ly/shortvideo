@@ -1,0 +1,44 @@
+[
+  {
+    "id": "phrase-01",
+    "source_sha256": "175cbee80a0cac699c392801e51670f8956c2db07decddf0593f4a214d15b38d",
+    "output_sha256": "84cffef0a196f5c98cfea53bc7162602910aaf72a5fc64168a255ee355b6c20c",
+    "keep_seconds": 2.64,
+    "method": "remove generated post-word tail; retain 180ms after ASR word end; no tempo or pitch change; listening pending"
+  },
+  {
+    "id": "phrase-02",
+    "source_sha256": "ea7cefac8b62aa248b412e57c6b58673920f8df8a887e6d2f0a0cc5977fd1540",
+    "output_sha256": "49fdb60f1dd91bcb84a9acd7f75986dded365f8a50e70426cb162b0d36e5c6b3",
+    "keep_seconds": 2.08,
+    "method": "remove generated post-word tail; retain 180ms after ASR word end; no tempo or pitch change; listening pending"
+  },
+  {
+    "id": "phrase-03",
+    "source_sha256": "d73eee16f8125ba6fa9d44d83a3aa1918e73305bd8957d16b134c39c16f6eae4",
+    "output_sha256": "9e1b7b90ccbe9920ac435d54dfc0654c4901cfe7e3d6a7c8c9d8f61b7aeb432b",
+    "keep_seconds": 1.76,
+    "method": "remove generated post-word tail; retain 180ms after ASR word end; no tempo or pitch change; listening pending"
+  },
+  {
+    "id": "phrase-04",
+    "source_sha256": "da15c44861b79f8351e07071e1afc91e94b9c7a16a29b5e591ee291f45f3ca93",
+    "output_sha256": "e65d01f813a879e3a5c22dfdc4b7c196cf509476d0366baed0811e31b8d0508e",
+    "keep_seconds": 3.22,
+    "method": "remove generated post-word tail; retain 180ms after ASR word end; no tempo or pitch change; listening pending"
+  },
+  {
+    "id": "phrase-05",
+    "source_sha256": "892872efe337e689294518da04bc991a6ab44f48a366df1fd253451d3978b86a",
+    "output_sha256": "846aa45cf766c4705a44d1dccc867cf80ca55e304d9abc622bb32f9bf97137e0",
+    "keep_seconds": 2.2,
+    "method": "remove generated post-word tail; retain 180ms after ASR word end; no tempo or pitch change; listening pending"
+  },
+  {
+    "id": "phrase-06",
+    "source_sha256": "9c22804c026b8ceb1a2e9be3059fd6fd1abf6fc1d6762ab33e1c2da4b3d443a4",
+    "output_sha256": "7d073ced60d12f9923f83140f43b50f1b0aeebf1842210f85484dfc680f2b4d3",
+    "keep_seconds": 1.82,
+    "method": "remove generated post-word tail; retain 180ms after ASR word end; no tempo or pitch change; listening pending"
+  }
+]

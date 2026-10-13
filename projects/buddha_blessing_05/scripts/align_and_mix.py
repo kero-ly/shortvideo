@@ -3,9 +3,17 @@ import argparse, difflib, hashlib, json, re, subprocess, wave
 from pathlib import Path
 import numpy as np
 from faster_whisper import WhisperModel
-p=argparse.ArgumentParser();p.add_argument('--job',type=Path,required=True);a=p.parse_args();R=a.job.resolve();ROOT=Path(__file__).resolve().parents[3]
+p=argparse.ArgumentParser();p.add_argument('--job',type=Path,required=True);p.add_argument('--dynamic-timing',action='store_true');p.add_argument('--font-size',type=int,default=68);a=p.parse_args();R=a.job.resolve();ROOT=Path(__file__).resolve().parents[3]
 manifest=json.loads((R/'tts-manifest.json').read_text());duration=15.;sr=48000
 positions=[.4,2.65,4.85,7.10,10.40,12.65]
+if a.dynamic_timing:
+ lengths=[]
+ for segment in manifest['segments']:
+  with wave.open(str(R/'audio'/f"{segment['id']}.wav"),'rb') as wav: lengths.append(wav.getnframes()/wav.getframerate())
+ gap=(duration-.15-.62-sum(lengths))/5
+ assert gap>=.08,('Narration exceeds 15 second budget; regenerate rather than truncate',lengths)
+ positions=[.15]
+ for length in lengths[:-1]: positions.append(positions[-1]+length+gap)
 texts=['愿佛光照耀你','平安喜乐','诸事顺遂','家旺财旺子孙旺','阖家幸福','岁岁安康']
 cache=ROOT/'.cache/asr-model-cache/models--Systran--faster-whisper-small/snapshots'
 model=WhisperModel(str(next(cache.iterdir())),device='cpu',compute_type='int8',cpu_threads=4)
@@ -14,7 +22,7 @@ for i,s in enumerate(manifest['segments']):
  path=R/'audio'/f"{s['id']}.wav"
  pcm=np.frombuffer(subprocess.check_output(['ffmpeg','-v','error','-i',str(path),'-ar',str(sr),'-ac','1','-f','f32le','-']),dtype='<f4')
  offset=positions[i];stop=offset+len(pcm)/sr
- assert stop<=(positions[i+1]-.12 if i<5 else duration-.6),('audio exceeds slot',s['id'],stop)
+ assert stop<=(positions[i+1]-.08 if i<5 else duration-.6),('audio exceeds slot',s['id'],stop)
  start=round(offset*sr);voice[start:start+len(pcm)]+=pcm
  samples=np.frombuffer(subprocess.check_output(['ffmpeg','-v','error','-i',str(path),'-ar','16000','-ac','1','-f','f32le','-']),dtype='<f4')
  segs,_=model.transcribe(samples,language='zh',word_timestamps=True,beam_size=5,vad_filter=False,initial_prompt=s['text'])
@@ -47,6 +55,7 @@ def stamp(v,ass=False):
  ms=round(v*1000);return f'{ms//3600000:02}:{ms//60000%60:02}:{ms//1000%60:02},{ms%1000:03}'
 (R/'captions.srt').write_text('\n\n'.join(f"{i+1}\n{stamp(r['start'])} --> {stamp(r['end'])}\n{r['text']}" for i,r in enumerate(rows))+'\n')
 header='''[Script Info]\nScriptType: v4.00+\nPlayResX: 1080\nPlayResY: 1920\nWrapStyle: 2\nScaledBorderAndShadow: yes\n\n[V4+ Styles]\nFormat: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding\nStyle: Blessing,Noto Sans CJK SC,68,&H00FFFFFF,&H00FFFFFF,&H00111111,&H00000000,-1,0,0,0,100,100,1,0,1,8,0,2,90,150,326,1\n\n[Events]\nFormat: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text\n'''
+header=header.replace('SC,68,',f'SC,{a.font_size},').replace(',1,8,0,2,',',1,10,0,2,' if a.font_size>=100 else ',1,8,0,2,')
 lines=[]
 for r in rows:
  text=r['text'].replace('幸福','{\\c&H9B8AEF&}幸福{\\c&HFFFFFF&}')
