@@ -1,0 +1,14 @@
+{
+  "revision": 6,
+  "basis": "用户认为v5文案生硬，提供见佛送花/家旺财旺子孙旺/衣食无忧/家宅兴旺等祝词；不要边框，字体白色、加粗，可斜体",
+  "changes": [
+    "natural rhythmic blessing copy",
+    "white bold oblique captions without frame/background"
+  ],
+  "unchanged": [
+    "v5 Buddha image",
+    "planned visible cloud motion",
+    "v4 accepted reference voice"
+  ],
+  "production_status": "preproduction only; not new TTS or video"
+}
