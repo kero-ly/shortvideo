@@ -1,6 +1,6 @@
 # 字幕融合、声音与版本审阅
 
-适用于本风格的合成与修订；视觉默认值另见 ../../character-scenario/references/cream-storybook.md。用户明确选择的排版优先。
+适用于各风格的合成与修订；视觉和排版取自本期锁定的layout与覆盖项。仅选择奶油绘本预设时参考character-scenario的cream-storybook规范。用户明确选择的排版优先。
 
 ## 同一条阅读线
 
