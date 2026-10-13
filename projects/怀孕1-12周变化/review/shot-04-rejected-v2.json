@@ -1,0 +1,11 @@
+{
+  "clip": "runs/h3-shot-04-20261014-003922-9f6a/clip.mp4",
+  "sha256": "7fb49e961f9431f54e03c60f1c5623d9fd368f2bb3002fe58f20cc24771e2085",
+  "reference": "references/shots/v2/shot-04.png",
+  "reference_sha256": "8dd25cc3041513769840b5fac4df3d7c5677cd261956a9cf8c5bd25f4ac0846c",
+  "frames": 124,
+  "target_frames": 122,
+  "decode": true,
+  "accepted": false,
+  "contact": "runs/h3-submit-shot-04-20261014-003922-c2c4/motion-contact.jpg"
+}

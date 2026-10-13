@@ -1,0 +1,2097 @@
+{
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "audio_sha256": "08a9036389e12182385130adbfafca3c3837d1b454657d759f87836ef16b83a8",
+      "words": [
+        {
+          "text": "怀",
+          "start": 0.0,
+          "end": 0.34
+        },
+        {
+          "text": "孕",
+          "start": 0.34,
+          "end": 0.52
+        },
+        {
+          "text": "第",
+          "start": 0.52,
+          "end": 0.66
+        },
+        {
+          "text": "1",
+          "start": 0.66,
+          "end": 0.82
+        },
+        {
+          "text": "周，",
+          "start": 0.82,
+          "end": 1.0
+        },
+        {
+          "text": "通",
+          "start": 1.16,
+          "end": 1.26
+        },
+        {
+          "text": "常",
+          "start": 1.26,
+          "end": 1.42
+        },
+        {
+          "text": "还",
+          "start": 1.42,
+          "end": 1.56
+        },
+        {
+          "text": "没",
+          "start": 1.56,
+          "end": 1.68
+        },
+        {
+          "text": "受",
+          "start": 1.68,
+          "end": 1.84
+        },
+        {
+          "text": "精，",
+          "start": 1.84,
+          "end": 2.1
+        },
+        {
+          "text": "看",
+          "start": 2.32,
+          "end": 2.46
+        },
+        {
+          "text": "懂",
+          "start": 2.46,
+          "end": 2.64
+        },
+        {
+          "text": "这",
+          "start": 2.64,
+          "end": 2.8
+        },
+        {
+          "text": "12",
+          "start": 2.8,
+          "end": 3.08
+        },
+        {
+          "text": "周，",
+          "start": 3.08,
+          "end": 3.34
+        },
+        {
+          "text": "也",
+          "start": 3.52,
+          "end": 3.62
+        },
+        {
+          "text": "看",
+          "start": 3.62,
+          "end": 3.78
+        },
+        {
+          "text": "见",
+          "start": 3.78,
+          "end": 3.94
+        },
+        {
+          "text": "妈",
+          "start": 3.94,
+          "end": 4.1
+        },
+        {
+          "text": "妈",
+          "start": 4.1,
+          "end": 4.24
+        },
+        {
+          "text": "的",
+          "start": 4.24,
+          "end": 4.32
+        },
+        {
+          "text": "辛苦。",
+          "start": 4.32,
+          "end": 4.56
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-02",
+      "audio_sha256": "88899a5e6061f4e0ceb668baa22f0c8492f5528cc5b7c89d36c224358d4c2ba4",
+      "words": [
+        {
+          "text": "孕",
+          "start": 0.0,
+          "end": 0.3
+        },
+        {
+          "text": "周",
+          "start": 0.3,
+          "end": 0.5
+        },
+        {
+          "text": "从",
+          "start": 0.5,
+          "end": 0.66
+        },
+        {
+          "text": "末",
+          "start": 0.66,
+          "end": 0.84
+        },
+        {
+          "text": "次",
+          "start": 0.84,
+          "end": 0.96
+        },
+        {
+          "text": "月",
+          "start": 0.96,
+          "end": 1.08
+        },
+        {
+          "text": "经",
+          "start": 1.08,
+          "end": 1.22
+        },
+        {
+          "text": "第一",
+          "start": 1.22,
+          "end": 1.42
+        },
+        {
+          "text": "天",
+          "start": 1.42,
+          "end": 1.6
+        },
+        {
+          "text": "算，",
+          "start": 1.6,
+          "end": 1.84
+        },
+        {
+          "text": "不是",
+          "start": 2.06,
+          "end": 2.2
+        },
+        {
+          "text": "从",
+          "start": 2.2,
+          "end": 2.42
+        },
+        {
+          "text": "受",
+          "start": 2.42,
+          "end": 2.6
+        },
+        {
+          "text": "精",
+          "start": 2.6,
+          "end": 2.78
+        },
+        {
+          "text": "那",
+          "start": 2.78,
+          "end": 2.9
+        },
+        {
+          "text": "天",
+          "start": 2.9,
+          "end": 3.06
+        },
+        {
+          "text": "算。",
+          "start": 3.06,
+          "end": 3.3
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-03",
+      "audio_sha256": "31280b04c522b2749a97c3b47a68aa96aff39c7919f51f812790409709f5f66f",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.36
+        },
+        {
+          "text": "2",
+          "start": 0.36,
+          "end": 0.58
+        },
+        {
+          "text": "周，",
+          "start": 0.58,
+          "end": 0.8
+        },
+        {
+          "text": "身",
+          "start": 0.94,
+          "end": 1.06
+        },
+        {
+          "text": "体",
+          "start": 1.06,
+          "end": 1.24
+        },
+        {
+          "text": "为",
+          "start": 1.24,
+          "end": 1.36
+        },
+        {
+          "text": "排",
+          "start": 1.36,
+          "end": 1.6
+        },
+        {
+          "text": "卵",
+          "start": 1.6,
+          "end": 1.78
+        },
+        {
+          "text": "做",
+          "start": 1.78,
+          "end": 1.94
+        },
+        {
+          "text": "准",
+          "start": 1.94,
+          "end": 2.16
+        },
+        {
+          "text": "备。",
+          "start": 2.16,
+          "end": 2.42
+        },
+        {
+          "text": "周",
+          "start": 2.56,
+          "end": 2.66
+        },
+        {
+          "text": "期",
+          "start": 2.66,
+          "end": 2.86
+        },
+        {
+          "text": "不同，",
+          "start": 2.86,
+          "end": 3.14
+        },
+        {
+          "text": "排",
+          "start": 3.38,
+          "end": 3.52
+        },
+        {
+          "text": "卵",
+          "start": 3.52,
+          "end": 3.7
+        },
+        {
+          "text": "时间",
+          "start": 3.7,
+          "end": 3.96
+        },
+        {
+          "text": "也",
+          "start": 3.96,
+          "end": 4.2
+        },
+        {
+          "text": "不同。",
+          "start": 4.2,
+          "end": 4.44
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-04",
+      "audio_sha256": "fd6c29a02ec4ac7934eec5f299b41ac798c8c124d756a504289b228f7ab434cb",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.28
+        },
+        {
+          "text": "3",
+          "start": 0.28,
+          "end": 0.5
+        },
+        {
+          "text": "周",
+          "start": 0.5,
+          "end": 0.68
+        },
+        {
+          "text": "前",
+          "start": 0.68,
+          "end": 0.9
+        },
+        {
+          "text": "后，",
+          "start": 0.9,
+          "end": 1.14
+        },
+        {
+          "text": "可能",
+          "start": 1.22,
+          "end": 1.42
+        },
+        {
+          "text": "发",
+          "start": 1.42,
+          "end": 1.62
+        },
+        {
+          "text": "生",
+          "start": 1.62,
+          "end": 1.78
+        },
+        {
+          "text": "受",
+          "start": 1.78,
+          "end": 1.96
+        },
+        {
+          "text": "精，",
+          "start": 1.96,
+          "end": 2.18
+        },
+        {
+          "text": "细",
+          "start": 2.44,
+          "end": 2.6
+        },
+        {
+          "text": "胞",
+          "start": 2.6,
+          "end": 2.74
+        },
+        {
+          "text": "分",
+          "start": 2.74,
+          "end": 2.92
+        },
+        {
+          "text": "裂，",
+          "start": 2.92,
+          "end": 3.16
+        },
+        {
+          "text": "随",
+          "start": 3.32,
+          "end": 3.44
+        },
+        {
+          "text": "后",
+          "start": 3.44,
+          "end": 3.58
+        },
+        {
+          "text": "向",
+          "start": 3.58,
+          "end": 3.7
+        },
+        {
+          "text": "子",
+          "start": 3.7,
+          "end": 3.86
+        },
+        {
+          "text": "宫",
+          "start": 3.86,
+          "end": 4.02
+        },
+        {
+          "text": "移",
+          "start": 4.02,
+          "end": 4.18
+        },
+        {
+          "text": "动。",
+          "start": 4.18,
+          "end": 4.32
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-05",
+      "audio_sha256": "bce9e506b95738d18402eaba1d746d076fd108bbdae5cf77638568495bbddbcd",
+      "words": [
+        {
+          "text": "在",
+          "start": 0.0,
+          "end": 0.28
+        },
+        {
+          "text": "第",
+          "start": 0.28,
+          "end": 0.44
+        },
+        {
+          "text": "4",
+          "start": 0.44,
+          "end": 0.64
+        },
+        {
+          "text": "周",
+          "start": 0.64,
+          "end": 0.82
+        },
+        {
+          "text": "前",
+          "start": 0.82,
+          "end": 1.04
+        },
+        {
+          "text": "后，",
+          "start": 1.04,
+          "end": 1.24
+        },
+        {
+          "text": "着",
+          "start": 1.28,
+          "end": 1.4
+        },
+        {
+          "text": "床",
+          "start": 1.4,
+          "end": 1.66
+        },
+        {
+          "text": "通",
+          "start": 1.66,
+          "end": 1.82
+        },
+        {
+          "text": "常",
+          "start": 1.82,
+          "end": 2.02
+        },
+        {
+          "text": "已经",
+          "start": 2.02,
+          "end": 2.22
+        },
+        {
+          "text": "发",
+          "start": 2.22,
+          "end": 2.5
+        },
+        {
+          "text": "生，",
+          "start": 2.5,
+          "end": 2.74
+        },
+        {
+          "text": "但",
+          "start": 2.98,
+          "end": 3.1
+        },
+        {
+          "text": "你",
+          "start": 3.1,
+          "end": 3.22
+        },
+        {
+          "text": "可能",
+          "start": 3.22,
+          "end": 3.42
+        },
+        {
+          "text": "还",
+          "start": 3.42,
+          "end": 3.6
+        },
+        {
+          "text": "没有",
+          "start": 3.6,
+          "end": 3.72
+        },
+        {
+          "text": "明",
+          "start": 3.72,
+          "end": 3.96
+        },
+        {
+          "text": "显",
+          "start": 3.96,
+          "end": 4.2
+        },
+        {
+          "text": "感",
+          "start": 4.2,
+          "end": 4.4
+        },
+        {
+          "text": "觉。",
+          "start": 4.4,
+          "end": 4.62
+        }
+      ],
+      "similarity": 0.96,
+      "differences": [
+        {
+          "kind": "replace",
+          "locked": "到",
+          "recognized": "在"
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-06",
+      "audio_sha256": "3ca78564c9aba37bbb7b4d06ef80a7a83136efa359219873ffa8f0586128f848",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.38
+        },
+        {
+          "text": "5",
+          "start": 0.38,
+          "end": 0.54
+        },
+        {
+          "text": "周，",
+          "start": 0.54,
+          "end": 0.76
+        },
+        {
+          "text": "脑、",
+          "start": 0.98,
+          "end": 1.16
+        },
+        {
+          "text": "脊",
+          "start": 1.3,
+          "end": 1.36
+        },
+        {
+          "text": "髓",
+          "start": 1.36,
+          "end": 1.56
+        },
+        {
+          "text": "和",
+          "start": 1.56,
+          "end": 1.7
+        },
+        {
+          "text": "心",
+          "start": 1.7,
+          "end": 1.9
+        },
+        {
+          "text": "脏",
+          "start": 1.9,
+          "end": 2.1
+        },
+        {
+          "text": "正",
+          "start": 2.1,
+          "end": 2.26
+        },
+        {
+          "text": "在",
+          "start": 2.26,
+          "end": 2.42
+        },
+        {
+          "text": "发",
+          "start": 2.42,
+          "end": 2.62
+        },
+        {
+          "text": "育。",
+          "start": 2.62,
+          "end": 2.84
+        },
+        {
+          "text": "停",
+          "start": 3.0,
+          "end": 3.18
+        },
+        {
+          "text": "经、",
+          "start": 3.18,
+          "end": 3.38
+        },
+        {
+          "text": "犯",
+          "start": 3.5,
+          "end": 3.62
+        },
+        {
+          "text": "困，",
+          "start": 3.62,
+          "end": 3.86
+        },
+        {
+          "text": "也",
+          "start": 4.04,
+          "end": 4.14
+        },
+        {
+          "text": "可能",
+          "start": 4.14,
+          "end": 4.36
+        },
+        {
+          "text": "让",
+          "start": 4.36,
+          "end": 4.52
+        },
+        {
+          "text": "你",
+          "start": 4.52,
+          "end": 4.66
+        },
+        {
+          "text": "发",
+          "start": 4.66,
+          "end": 4.8
+        },
+        {
+          "text": "现",
+          "start": 4.8,
+          "end": 4.96
+        },
+        {
+          "text": "怀",
+          "start": 4.96,
+          "end": 5.16
+        },
+        {
+          "text": "孕。",
+          "start": 5.16,
+          "end": 5.34
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-07",
+      "audio_sha256": "59402e957502cfa1999779e7a28864dd7e4bd7cee0ffa9c8f7910c92abc34bfa",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.38
+        },
+        {
+          "text": "6",
+          "start": 0.38,
+          "end": 0.58
+        },
+        {
+          "text": "周，",
+          "start": 0.58,
+          "end": 0.8
+        },
+        {
+          "text": "四",
+          "start": 1.02,
+          "end": 1.06
+        },
+        {
+          "text": "肢",
+          "start": 1.06,
+          "end": 1.2
+        },
+        {
+          "text": "芽",
+          "start": 1.2,
+          "end": 1.42
+        },
+        {
+          "text": "开始",
+          "start": 1.42,
+          "end": 1.68
+        },
+        {
+          "text": "出",
+          "start": 1.68,
+          "end": 1.92
+        },
+        {
+          "text": "现。",
+          "start": 1.92,
+          "end": 2.2
+        },
+        {
+          "text": "恶",
+          "start": 2.3,
+          "end": 2.5
+        },
+        {
+          "text": "心",
+          "start": 2.5,
+          "end": 2.72
+        },
+        {
+          "text": "可能",
+          "start": 2.72,
+          "end": 2.96
+        },
+        {
+          "text": "找",
+          "start": 2.96,
+          "end": 3.18
+        },
+        {
+          "text": "上",
+          "start": 3.18,
+          "end": 3.36
+        },
+        {
+          "text": "门，",
+          "start": 3.36,
+          "end": 3.6
+        },
+        {
+          "text": "而且",
+          "start": 3.72,
+          "end": 3.98
+        },
+        {
+          "text": "不",
+          "start": 3.98,
+          "end": 4.12
+        },
+        {
+          "text": "只",
+          "start": 4.12,
+          "end": 4.24
+        },
+        {
+          "text": "发",
+          "start": 4.24,
+          "end": 4.4
+        },
+        {
+          "text": "生",
+          "start": 4.4,
+          "end": 4.58
+        },
+        {
+          "text": "在",
+          "start": 4.58,
+          "end": 4.74
+        },
+        {
+          "text": "早",
+          "start": 4.74,
+          "end": 4.9
+        },
+        {
+          "text": "晨。",
+          "start": 4.9,
+          "end": 5.18
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-08",
+      "audio_sha256": "471548f1a3aeacd5d64a996c4931e8f06cf5c5ba60ced69352912e2d116f00cf",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "text": "7",
+          "start": 0.32,
+          "end": 0.52
+        },
+        {
+          "text": "周，",
+          "start": 0.52,
+          "end": 0.74
+        },
+        {
+          "text": "脑",
+          "start": 0.88,
+          "end": 1.06
+        },
+        {
+          "text": "部",
+          "start": 1.06,
+          "end": 1.22
+        },
+        {
+          "text": "快",
+          "start": 1.22,
+          "end": 1.4
+        },
+        {
+          "text": "速",
+          "start": 1.4,
+          "end": 1.56
+        },
+        {
+          "text": "发",
+          "start": 1.56,
+          "end": 1.74
+        },
+        {
+          "text": "育，",
+          "start": 1.74,
+          "end": 1.96
+        },
+        {
+          "text": "小",
+          "start": 2.14,
+          "end": 2.26
+        },
+        {
+          "text": "胳",
+          "start": 2.26,
+          "end": 2.42
+        },
+        {
+          "text": "膊",
+          "start": 2.42,
+          "end": 2.54
+        },
+        {
+          "text": "继",
+          "start": 2.54,
+          "end": 2.74
+        },
+        {
+          "text": "续",
+          "start": 2.74,
+          "end": 2.9
+        },
+        {
+          "text": "长。",
+          "start": 2.9,
+          "end": 3.08
+        },
+        {
+          "text": "妈",
+          "start": 3.28,
+          "end": 3.42
+        },
+        {
+          "text": "妈",
+          "start": 3.42,
+          "end": 3.56
+        },
+        {
+          "text": "可能",
+          "start": 3.56,
+          "end": 3.74
+        },
+        {
+          "text": "依",
+          "start": 3.74,
+          "end": 3.9
+        },
+        {
+          "text": "然",
+          "start": 3.9,
+          "end": 4.04
+        },
+        {
+          "text": "很",
+          "start": 4.04,
+          "end": 4.22
+        },
+        {
+          "text": "累。",
+          "start": 4.22,
+          "end": 4.38
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-09",
+      "audio_sha256": "2d09c3f3f91791455a82b5ebb5df2991144b9c4bbf31bb446dccfe351db1f837",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "text": "8",
+          "start": 0.32,
+          "end": 0.56
+        },
+        {
+          "text": "周，",
+          "start": 0.56,
+          "end": 0.8
+        },
+        {
+          "text": "四",
+          "start": 1.04,
+          "end": 1.08
+        },
+        {
+          "text": "肢",
+          "start": 1.08,
+          "end": 1.26
+        },
+        {
+          "text": "继",
+          "start": 1.26,
+          "end": 1.46
+        },
+        {
+          "text": "续",
+          "start": 1.46,
+          "end": 1.6
+        },
+        {
+          "text": "发",
+          "start": 1.6,
+          "end": 1.74
+        },
+        {
+          "text": "育。",
+          "start": 1.74,
+          "end": 2.04
+        },
+        {
+          "text": "闻",
+          "start": 2.12,
+          "end": 2.3
+        },
+        {
+          "text": "到",
+          "start": 2.3,
+          "end": 2.44
+        },
+        {
+          "text": "饭",
+          "start": 2.44,
+          "end": 2.64
+        },
+        {
+          "text": "味",
+          "start": 2.64,
+          "end": 2.8
+        },
+        {
+          "text": "就",
+          "start": 2.8,
+          "end": 2.92
+        },
+        {
+          "text": "难",
+          "start": 2.92,
+          "end": 3.1
+        },
+        {
+          "text": "受，",
+          "start": 3.1,
+          "end": 3.36
+        },
+        {
+          "text": "真的",
+          "start": 3.54,
+          "end": 3.74
+        },
+        {
+          "text": "不是",
+          "start": 3.74,
+          "end": 3.98
+        },
+        {
+          "text": "矫",
+          "start": 3.98,
+          "end": 4.28
+        },
+        {
+          "text": "情。",
+          "start": 4.28,
+          "end": 4.48
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-10",
+      "audio_sha256": "18c93c5b94982cf6b8e7ef02bec1170fcaa32d247807989ced695ff98d436e54",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.4
+        },
+        {
+          "text": "9",
+          "start": 0.4,
+          "end": 0.62
+        },
+        {
+          "text": "周，",
+          "start": 0.62,
+          "end": 0.86
+        },
+        {
+          "text": "面",
+          "start": 1.12,
+          "end": 1.24
+        },
+        {
+          "text": "部",
+          "start": 1.24,
+          "end": 1.4
+        },
+        {
+          "text": "轮",
+          "start": 1.4,
+          "end": 1.6
+        },
+        {
+          "text": "廓",
+          "start": 1.6,
+          "end": 1.8
+        },
+        {
+          "text": "更",
+          "start": 1.8,
+          "end": 1.98
+        },
+        {
+          "text": "清楚，",
+          "start": 1.98,
+          "end": 2.46
+        },
+        {
+          "text": "手",
+          "start": 2.7,
+          "end": 2.88
+        },
+        {
+          "text": "脚",
+          "start": 2.88,
+          "end": 3.08
+        },
+        {
+          "text": "继",
+          "start": 3.08,
+          "end": 3.26
+        },
+        {
+          "text": "续",
+          "start": 3.26,
+          "end": 3.4
+        },
+        {
+          "text": "发",
+          "start": 3.4,
+          "end": 3.58
+        },
+        {
+          "text": "育。",
+          "start": 3.58,
+          "end": 3.82
+        },
+        {
+          "text": "孕",
+          "start": 3.98,
+          "end": 4.1
+        },
+        {
+          "text": "吐",
+          "start": 4.1,
+          "end": 4.3
+        },
+        {
+          "text": "和",
+          "start": 4.3,
+          "end": 4.44
+        },
+        {
+          "text": "疲",
+          "start": 4.44,
+          "end": 4.7
+        },
+        {
+          "text": "倦",
+          "start": 4.7,
+          "end": 4.9
+        },
+        {
+          "text": "可能",
+          "start": 4.9,
+          "end": 5.18
+        },
+        {
+          "text": "还",
+          "start": 5.18,
+          "end": 5.4
+        },
+        {
+          "text": "在。",
+          "start": 5.4,
+          "end": 5.58
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-11",
+      "audio_sha256": "6624203866291fcae9aa76be8a75b610dc76f6e82de339dfd02bd2e8fb4c3566",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.42
+        },
+        {
+          "text": "10",
+          "start": 0.42,
+          "end": 0.66
+        },
+        {
+          "text": "周，",
+          "start": 0.66,
+          "end": 0.86
+        },
+        {
+          "text": "宝",
+          "start": 0.94,
+          "end": 1.08
+        },
+        {
+          "text": "宝",
+          "start": 1.08,
+          "end": 1.24
+        },
+        {
+          "text": "已经",
+          "start": 1.24,
+          "end": 1.4
+        },
+        {
+          "text": "有",
+          "start": 1.4,
+          "end": 1.58
+        },
+        {
+          "text": "小",
+          "start": 1.58,
+          "end": 1.8
+        },
+        {
+          "text": "动",
+          "start": 1.8,
+          "end": 2.0
+        },
+        {
+          "text": "作，",
+          "start": 2.0,
+          "end": 2.26
+        },
+        {
+          "text": "但",
+          "start": 2.44,
+          "end": 2.52
+        },
+        {
+          "text": "妈",
+          "start": 2.52,
+          "end": 2.72
+        },
+        {
+          "text": "妈",
+          "start": 2.72,
+          "end": 2.9
+        },
+        {
+          "text": "通",
+          "start": 2.9,
+          "end": 3.04
+        },
+        {
+          "text": "常",
+          "start": 3.04,
+          "end": 3.26
+        },
+        {
+          "text": "还",
+          "start": 3.26,
+          "end": 3.38
+        },
+        {
+          "text": "感",
+          "start": 3.38,
+          "end": 3.56
+        },
+        {
+          "text": "觉",
+          "start": 3.56,
+          "end": 3.74
+        },
+        {
+          "text": "不到",
+          "start": 3.74,
+          "end": 3.88
+        },
+        {
+          "text": "胎",
+          "start": 3.88,
+          "end": 4.22
+        },
+        {
+          "text": "动。",
+          "start": 4.22,
+          "end": 4.38
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-12",
+      "audio_sha256": "5f41cbb0930cc164a3791ac1fbe1c194f65426c464c8b972508eca94cb34c994",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.34
+        },
+        {
+          "text": "11",
+          "start": 0.34,
+          "end": 0.62
+        },
+        {
+          "text": "周，",
+          "start": 0.62,
+          "end": 0.88
+        },
+        {
+          "text": "小",
+          "start": 1.1,
+          "end": 1.24
+        },
+        {
+          "text": "手",
+          "start": 1.24,
+          "end": 1.42
+        },
+        {
+          "text": "指、",
+          "start": 1.42,
+          "end": 1.66
+        },
+        {
+          "text": "脚",
+          "start": 1.88,
+          "end": 2.04
+        },
+        {
+          "text": "趾",
+          "start": 2.04,
+          "end": 2.24
+        },
+        {
+          "text": "逐",
+          "start": 2.24,
+          "end": 2.38
+        },
+        {
+          "text": "渐",
+          "start": 2.38,
+          "end": 2.54
+        },
+        {
+          "text": "分",
+          "start": 2.54,
+          "end": 2.72
+        },
+        {
+          "text": "开，",
+          "start": 2.72,
+          "end": 2.98
+        },
+        {
+          "text": "身",
+          "start": 3.22,
+          "end": 3.36
+        },
+        {
+          "text": "体",
+          "start": 3.36,
+          "end": 3.6
+        },
+        {
+          "text": "仍",
+          "start": 3.6,
+          "end": 3.76
+        },
+        {
+          "text": "在",
+          "start": 3.76,
+          "end": 3.9
+        },
+        {
+          "text": "快",
+          "start": 3.9,
+          "end": 4.08
+        },
+        {
+          "text": "速",
+          "start": 4.08,
+          "end": 4.28
+        },
+        {
+          "text": "成",
+          "start": 4.28,
+          "end": 4.46
+        },
+        {
+          "text": "长。",
+          "start": 4.46,
+          "end": 4.66
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-13",
+      "audio_sha256": "0394cb72ec9d20bb5dc82be3e93bd0051f3e22e3e8a5436fa58a8b321dcfd824",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.42
+        },
+        {
+          "text": "12",
+          "start": 0.42,
+          "end": 0.8
+        },
+        {
+          "text": "周，",
+          "start": 0.8,
+          "end": 1.08
+        },
+        {
+          "text": "头",
+          "start": 1.26,
+          "end": 1.48
+        },
+        {
+          "text": "臀",
+          "start": 1.48,
+          "end": 1.72
+        },
+        {
+          "text": "长",
+          "start": 1.72,
+          "end": 1.94
+        },
+        {
+          "text": "大",
+          "start": 1.94,
+          "end": 2.2
+        },
+        {
+          "text": "约",
+          "start": 2.2,
+          "end": 2.36
+        },
+        {
+          "text": "五",
+          "start": 2.36,
+          "end": 2.54
+        },
+        {
+          "text": "厘",
+          "start": 2.54,
+          "end": 2.72
+        },
+        {
+          "text": "米。",
+          "start": 2.72,
+          "end": 2.92
+        },
+        {
+          "text": "器",
+          "start": 3.04,
+          "end": 3.28
+        },
+        {
+          "text": "官",
+          "start": 3.28,
+          "end": 3.48
+        },
+        {
+          "text": "还",
+          "start": 3.48,
+          "end": 3.66
+        },
+        {
+          "text": "在",
+          "start": 3.66,
+          "end": 3.78
+        },
+        {
+          "text": "发",
+          "start": 3.78,
+          "end": 3.98
+        },
+        {
+          "text": "育，",
+          "start": 3.98,
+          "end": 4.2
+        },
+        {
+          "text": "产",
+          "start": 4.4,
+          "end": 4.6
+        },
+        {
+          "text": "检",
+          "start": 4.6,
+          "end": 4.82
+        },
+        {
+          "text": "继",
+          "start": 4.82,
+          "end": 5.06
+        },
+        {
+          "text": "续",
+          "start": 5.06,
+          "end": 5.22
+        },
+        {
+          "text": "按",
+          "start": 5.22,
+          "end": 5.34
+        },
+        {
+          "text": "医",
+          "start": 5.34,
+          "end": 5.5
+        },
+        {
+          "text": "生",
+          "start": 5.5,
+          "end": 5.64
+        },
+        {
+          "text": "安",
+          "start": 5.64,
+          "end": 5.82
+        },
+        {
+          "text": "排。",
+          "start": 5.82,
+          "end": 6.04
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-14",
+      "audio_sha256": "c513cb09939693669f50e385e0a572e61b59872cb09536616b17b11a9d9a052e",
+      "words": [
+        {
+          "text": "准",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "text": "爸爸",
+          "start": 0.32,
+          "end": 0.5
+        },
+        {
+          "text": "能",
+          "start": 0.5,
+          "end": 0.74
+        },
+        {
+          "text": "做",
+          "start": 0.74,
+          "end": 0.98
+        },
+        {
+          "text": "的，",
+          "start": 0.98,
+          "end": 1.18
+        },
+        {
+          "text": "分",
+          "start": 1.36,
+          "end": 1.42
+        },
+        {
+          "text": "担",
+          "start": 1.42,
+          "end": 1.62
+        },
+        {
+          "text": "家",
+          "start": 1.62,
+          "end": 1.82
+        },
+        {
+          "text": "务，",
+          "start": 1.82,
+          "end": 2.12
+        },
+        {
+          "text": "准",
+          "start": 2.26,
+          "end": 2.42
+        },
+        {
+          "text": "备",
+          "start": 2.42,
+          "end": 2.52
+        },
+        {
+          "text": "她",
+          "start": 2.52,
+          "end": 2.68
+        },
+        {
+          "text": "吃",
+          "start": 2.68,
+          "end": 2.9
+        },
+        {
+          "text": "得",
+          "start": 2.9,
+          "end": 3.0
+        },
+        {
+          "text": "下",
+          "start": 3.0,
+          "end": 3.14
+        },
+        {
+          "text": "的",
+          "start": 3.14,
+          "end": 3.26
+        },
+        {
+          "text": "小",
+          "start": 3.26,
+          "end": 3.44
+        },
+        {
+          "text": "餐，",
+          "start": 3.44,
+          "end": 3.72
+        },
+        {
+          "text": "陪",
+          "start": 3.88,
+          "end": 4.04
+        },
+        {
+          "text": "她",
+          "start": 4.04,
+          "end": 4.16
+        },
+        {
+          "text": "休",
+          "start": 4.16,
+          "end": 4.38
+        },
+        {
+          "text": "息、",
+          "start": 4.38,
+          "end": 4.68
+        },
+        {
+          "text": "产",
+          "start": 4.82,
+          "end": 4.96
+        },
+        {
+          "text": "检。",
+          "start": 4.96,
+          "end": 5.16
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-15",
+      "audio_sha256": "c502fa2f7f59aac1eee8ebcad2c7942866eaf10539b8e522f1bb0bab306f1b4a",
+      "words": [
+        {
+          "text": "每",
+          "start": 0.0,
+          "end": 0.28
+        },
+        {
+          "text": "个",
+          "start": 0.28,
+          "end": 0.42
+        },
+        {
+          "text": "人",
+          "start": 0.42,
+          "end": 0.52
+        },
+        {
+          "text": "反",
+          "start": 0.52,
+          "end": 0.72
+        },
+        {
+          "text": "应",
+          "start": 0.72,
+          "end": 0.86
+        },
+        {
+          "text": "不同，",
+          "start": 0.86,
+          "end": 1.18
+        },
+        {
+          "text": "出",
+          "start": 1.34,
+          "end": 1.48
+        },
+        {
+          "text": "血，",
+          "start": 1.48,
+          "end": 1.72
+        },
+        {
+          "text": "明",
+          "start": 1.92,
+          "end": 2.0
+        },
+        {
+          "text": "显",
+          "start": 2.0,
+          "end": 2.28
+        },
+        {
+          "text": "腹",
+          "start": 2.28,
+          "end": 2.48
+        },
+        {
+          "text": "痛，",
+          "start": 2.48,
+          "end": 2.7
+        },
+        {
+          "text": "或",
+          "start": 2.94,
+          "end": 3.02
+        },
+        {
+          "text": "吐",
+          "start": 3.02,
+          "end": 3.18
+        },
+        {
+          "text": "到",
+          "start": 3.18,
+          "end": 3.32
+        },
+        {
+          "text": "喝",
+          "start": 3.32,
+          "end": 3.48
+        },
+        {
+          "text": "不",
+          "start": 3.48,
+          "end": 3.6
+        },
+        {
+          "text": "进",
+          "start": 3.6,
+          "end": 3.72
+        },
+        {
+          "text": "水，",
+          "start": 3.72,
+          "end": 3.96
+        },
+        {
+          "text": "要",
+          "start": 4.12,
+          "end": 4.22
+        },
+        {
+          "text": "及",
+          "start": 4.22,
+          "end": 4.42
+        },
+        {
+          "text": "时",
+          "start": 4.42,
+          "end": 4.62
+        },
+        {
+          "text": "就",
+          "start": 4.62,
+          "end": 4.8
+        },
+        {
+          "text": "医。",
+          "start": 4.8,
+          "end": 5.04
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-16",
+      "audio_sha256": "d5c9e27c43ab102726a10e072ec18f98c6b9c00ea9aa623eca97ffc466b06ed7",
+      "words": [
+        {
+          "text": "肚",
+          "start": 0.0,
+          "end": 0.36
+        },
+        {
+          "text": "子",
+          "start": 0.36,
+          "end": 0.5
+        },
+        {
+          "text": "还",
+          "start": 0.5,
+          "end": 0.62
+        },
+        {
+          "text": "没",
+          "start": 0.62,
+          "end": 0.76
+        },
+        {
+          "text": "显",
+          "start": 0.76,
+          "end": 1.02
+        },
+        {
+          "text": "出来，",
+          "start": 1.02,
+          "end": 1.36
+        },
+        {
+          "text": "不",
+          "start": 1.6,
+          "end": 1.74
+        },
+        {
+          "text": "代",
+          "start": 1.74,
+          "end": 1.88
+        },
+        {
+          "text": "表",
+          "start": 1.88,
+          "end": 2.1
+        },
+        {
+          "text": "她",
+          "start": 2.1,
+          "end": 2.24
+        },
+        {
+          "text": "不",
+          "start": 2.24,
+          "end": 2.36
+        },
+        {
+          "text": "辛苦。",
+          "start": 2.36,
+          "end": 2.76
+        },
+        {
+          "text": "收",
+          "start": 2.98,
+          "end": 3.22
+        },
+        {
+          "text": "藏",
+          "start": 3.22,
+          "end": 3.44
+        },
+        {
+          "text": "对",
+          "start": 3.44,
+          "end": 3.58
+        },
+        {
+          "text": "照",
+          "start": 3.58,
+          "end": 3.76
+        },
+        {
+          "text": "孕",
+          "start": 3.76,
+          "end": 3.92
+        },
+        {
+          "text": "周，",
+          "start": 3.92,
+          "end": 4.14
+        },
+        {
+          "text": "转",
+          "start": 4.3,
+          "end": 4.44
+        },
+        {
+          "text": "给",
+          "start": 4.44,
+          "end": 4.6
+        },
+        {
+          "text": "陪",
+          "start": 4.6,
+          "end": 4.78
+        },
+        {
+          "text": "你",
+          "start": 4.78,
+          "end": 4.92
+        },
+        {
+          "text": "迎",
+          "start": 4.92,
+          "end": 5.06
+        },
+        {
+          "text": "接",
+          "start": 5.06,
+          "end": 5.22
+        },
+        {
+          "text": "宝",
+          "start": 5.22,
+          "end": 5.42
+        },
+        {
+          "text": "宝",
+          "start": 5.42,
+          "end": 5.58
+        },
+        {
+          "text": "的人。",
+          "start": 5.58,
+          "end": 5.78
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    }
+  ],
+  "semantic_mapping": [
+    {
+      "shot_id": "shot-01",
+      "original_screen_text": "孕1—12周变化｜宝宝 × 妈妈",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "original_screen_text": "第1周｜孕周从末次月经第一天算",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        4,
+        5
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "original_screen_text": "第2周｜准备排卵；按末次月经起算，周期不同时间可有差异",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "original_screen_text": "第3周前后｜受精 → 分裂 → 移动",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "original_screen_text": "第4周前后｜通常已着床；可能无明显症状",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "shot_id": "shot-06",
+      "original_screen_text": "第5周｜脑、脊髓、心脏正在发育",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "shot_id": "shot-07",
+      "original_screen_text": "第6周｜四肢芽开始出现；孕吐不限早晨",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "shot_id": "shot-08",
+      "original_screen_text": "第7周｜脑部快速发育；手臂继续长",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "shot_id": "shot-09",
+      "original_screen_text": "第8周｜四肢继续发育；气味可能诱发恶心",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "shot_id": "shot-10",
+      "original_screen_text": "第9周｜面部、手脚继续发育",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "shot_id": "shot-11",
+      "original_screen_text": "第10周｜有小动作 ≠ 妈妈能感觉胎动",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        37,
+        38,
+        39
+      ]
+    },
+    {
+      "shot_id": "shot-12",
+      "original_screen_text": "第11周｜手指、脚趾逐渐分开",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        40,
+        41,
+        42
+      ]
+    },
+    {
+      "shot_id": "shot-13",
+      "original_screen_text": "第12周｜头臀长约5厘米；器官继续发育",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        43,
+        44,
+        45,
+        46
+      ]
+    },
+    {
+      "shot_id": "shot-14",
+      "original_screen_text": "伴侣清单｜分担家务 · 小餐 · 陪伴",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        47,
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "shot_id": "shot-15",
+      "original_screen_text": "出血 / 明显腹痛 / 喝不进水 → 及时就医",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        51,
+        52,
+        53,
+        54
+      ]
+    },
+    {
+      "shot_id": "shot-16",
+      "original_screen_text": "看不见的变化，也值得被理解｜关注，继续了解孕期变化",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        55,
+        56,
+        57,
+        58
+      ]
+    }
+  ],
+  "listening": "pending"
+}

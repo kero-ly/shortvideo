@@ -1,4 +1,5 @@
-import json,re,difflib,hashlib
+import json,re,difflib,hashlib,subprocess
+import numpy as np
 from pathlib import Path
 from faster_whisper import WhisperModel
 P=Path(__file__).resolve().parents[1];ROOT=P.parents[1];assert str(ROOT)=='/home/ly/shortvideo'
@@ -7,7 +8,8 @@ clean=lambda s:re.sub(r'[^\u4e00-\u9fff0-9]','',s)
 cues=[];evidence=[];maps=[]
 for shot in t['shots']:
  audio=P/shot['audio'];assert hashlib.sha256(audio.read_bytes()).hexdigest()==shot['sha256']
- segs,info=model.transcribe(str(audio),language='zh',word_timestamps=True,beam_size=5,vad_filter=False,initial_prompt=shot['text'])
+ samples=np.frombuffer(subprocess.check_output(['ffmpeg','-v','error','-i',str(audio),'-ar','16000','-ac','1','-f','f32le','-']),dtype=np.float32)
+ segs,info=model.transcribe(samples,language='zh',word_timestamps=True,beam_size=5,vad_filter=False,initial_prompt=shot['text'])
  words=[{'text':w.word,'start':w.start,'end':w.end} for seg in segs for w in (seg.words or [])]
  assert words,shot['id'];spoken='';owners=[]
  for i,w in enumerate(words):
@@ -18,9 +20,11 @@ for shot in t['shots']:
  # Matched actual words bound each semantic phrase; no proportional timing allocation.
  cursor=0;shotcues=[]
  phrases=[x for x in re.findall(r'[^，。？！：；]+[，。？！：；]?',shot['text']) if clean(x)]
- for phrase in phrases:
+ for pi,phrase in enumerate(phrases):
   n=len(clean(phrase));inds=sorted(set(mapping[k] for k in range(cursor,cursor+n) if k in mapping));cursor+=n
   assert inds,('Unaligned phrase',shot['id'],phrase)
+  if pi==0:inds=sorted(set([0]+inds))
+  if pi==len(phrases)-1:inds=sorted(set(inds+[len(words)-1]))
   start=shot['audio_start']+words[inds[0]]['start'];end=shot['audio_start']+words[inds[-1]]['end']
   shotcues.append({'shot_id':shot['id'],'text':phrase,'start':round(start,3),'end':round(end,3),'source_indices':inds})
  for i,c in enumerate(shotcues):c['end']=round(min(shotcues[i+1]['start'] if i+1<len(shotcues) else (shot['start']+shot['frames'])/24-.04,max(c['end']+.12,c['start']+.3)),3)

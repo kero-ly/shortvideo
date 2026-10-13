@@ -1,0 +1,62 @@
+{
+  "ffprobe.json": {
+    "sha256": "d60494bd59db9aa09211ee53688edd4bf13a47efc0750aec8922462a08741176",
+    "bytes": 3810
+  },
+  "FACT_CHECK.md": {
+    "sha256": "20053853b1f7f91c4897854c4f28aa04b9f1abae27ef4bf89917a17ff624286f",
+    "bytes": 5071
+  },
+  "source-index.json": {
+    "sha256": "9a54753f9d6a564c3b6facdd0d76aa9c6cf1f270060a654c999b83a30101d118",
+    "bytes": 9921
+  },
+  "decode.log": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "manifest.json": {
+    "sha256": "34e427b85263a60da99ca6f366f136a4fa71f88af232f3181db454fe761f7141",
+    "bytes": 1649
+  },
+  "props.json": {
+    "sha256": "4b2e65cb89dc946022416ed59c010654c0e543398ec60b8c908a442ee1fe0121",
+    "bytes": 22813
+  },
+  "visual.mp4": {
+    "sha256": "5c4cea383701433e077b270c5d6c1fd25c7d0884a1563ff635e80f7fc9cc7201",
+    "bytes": 83800338
+  },
+  "final-render.log": {
+    "sha256": "de73c7d0676a0a07eccec1fae81dd61ff76138ebd16fcb61da74a9506a136da0",
+    "bytes": 110432
+  },
+  "怀孕1-12周变化.mp4": {
+    "sha256": "8a0ccee5b4197a770c206d9fba700b51a6e89af0a12edb07a90f35e8d8a15097",
+    "bytes": 68196533
+  },
+  "final-mux.log": {
+    "sha256": "a1d0d3b96e016e164f7283445924caf701c627ab9ef44317f9d210343776eabd",
+    "bytes": 4833
+  },
+  "qa.json": {
+    "sha256": "7bf6b8c45b911a1985678e9cdc9fa280762cb049bf1ee2c241e4f4a15f22335e",
+    "bytes": 676
+  },
+  "loudness.log": {
+    "sha256": "88de7d7d8a70082ed4bcf0c85f8a3661b3578606f9cd307d5b91c00961dc8694",
+    "bytes": 2591
+  },
+  "cover.jpg": {
+    "sha256": "2cc3c613cec83160cd7ea9df0694d8b1178e1c4437c000f85a0e7def6f728056",
+    "bytes": 86940
+  },
+  "PUBLISHING_DRAFT.md": {
+    "sha256": "dac6a15a0f4792c983ea78b44523dc1a15dc317f70966016637c80a8244390ff",
+    "bytes": 833
+  },
+  "captions.srt": {
+    "sha256": "55f0299927ac82a6c374bc85133f02eb04af69d0b301077763ab8bb4462d5288",
+    "bytes": 3374
+  }
+}

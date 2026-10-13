@@ -1,0 +1,27 @@
+{
+  "technical": {
+    "decode": true,
+    "size": [
+      1080,
+      1920
+    ],
+    "fps": 24,
+    "frames": 2151,
+    "duration": 89.625,
+    "audio_rate": 48000,
+    "channels": 2,
+    "voice_tail_seconds": 0.85,
+    "codec": "H.264/yuv420p + AAC"
+  },
+  "native_generation_size": [
+    576,
+    1024
+  ],
+  "caption_alignment": "actual faster-whisper word timestamps; locked text retained",
+  "visual_sampling": "16 shot preview contact reviewed; full playback pending",
+  "full_playback": "pending",
+  "actual_listening": "pending",
+  "voice_public_rights": "not documented in available records",
+  "music": null,
+  "scope": "internal review; no platform publication"
+}
