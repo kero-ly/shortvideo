@@ -1,0 +1,2547 @@
+{
+  "shots": [
+    {
+      "shot_id": "shot-01",
+      "audio_sha256": "401b9e734dd7678e6131e9ee2fbe2c9a849a73899e2210caa2cff2416c072857",
+      "words": [
+        {
+          "text": "怀",
+          "start": 0.0,
+          "end": 0.12
+        },
+        {
+          "text": "孕",
+          "start": 0.12,
+          "end": 0.3
+        },
+        {
+          "text": "第",
+          "start": 0.3,
+          "end": 0.44
+        },
+        {
+          "text": "1",
+          "start": 0.44,
+          "end": 0.58
+        },
+        {
+          "text": "周，",
+          "start": 0.58,
+          "end": 0.78
+        },
+        {
+          "text": "宝",
+          "start": 1.04,
+          "end": 1.18
+        },
+        {
+          "text": "还",
+          "start": 1.18,
+          "end": 1.4
+        },
+        {
+          "text": "没",
+          "start": 1.4,
+          "end": 1.54
+        },
+        {
+          "text": "开始",
+          "start": 1.54,
+          "end": 1.76
+        },
+        {
+          "text": "长，",
+          "start": 1.76,
+          "end": 2.04
+        },
+        {
+          "text": "这",
+          "start": 2.24,
+          "end": 2.36
+        },
+        {
+          "text": "12",
+          "start": 2.36,
+          "end": 2.72
+        },
+        {
+          "text": "周，",
+          "start": 2.72,
+          "end": 3.0
+        },
+        {
+          "text": "你的",
+          "start": 3.12,
+          "end": 3.22
+        },
+        {
+          "text": "身",
+          "start": 3.22,
+          "end": 3.46
+        },
+        {
+          "text": "体",
+          "start": 3.46,
+          "end": 3.64
+        },
+        {
+          "text": "正",
+          "start": 3.64,
+          "end": 3.8
+        },
+        {
+          "text": "悄",
+          "start": 3.8,
+          "end": 3.98
+        },
+        {
+          "text": "悄",
+          "start": 3.98,
+          "end": 4.18
+        },
+        {
+          "text": "改",
+          "start": 4.18,
+          "end": 4.34
+        },
+        {
+          "text": "变。",
+          "start": 4.34,
+          "end": 4.58
+        }
+      ],
+      "recognition_attempts": [
+        {
+          "prompt": "怀孕第1周，宝宝还没开始长？这12周，你的身体正悄悄改变。",
+          "similarity": 0.9795918367346939,
+          "word_count": 21
+        },
+        {
+          "prompt": null,
+          "similarity": 0.48,
+          "word_count": 21
+        }
+      ],
+      "similarity": 0.9795918367346939,
+      "differences": [
+        {
+          "kind": "delete",
+          "locked": "宝",
+          "recognized": ""
+        }
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "audio_sha256": "ae8d12ae2d3f21611497d7ba8857b47f812d6f7f331e73b2ead69827dd9420ab",
+      "words": [
+        {
+          "text": "孕",
+          "start": 0.0,
+          "end": 0.38
+        },
+        {
+          "text": "周",
+          "start": 0.38,
+          "end": 0.62
+        },
+        {
+          "text": "从",
+          "start": 0.62,
+          "end": 0.86
+        },
+        {
+          "text": "你",
+          "start": 0.86,
+          "end": 1.02
+        },
+        {
+          "text": "末",
+          "start": 1.02,
+          "end": 1.2
+        },
+        {
+          "text": "次",
+          "start": 1.2,
+          "end": 1.36
+        },
+        {
+          "text": "月",
+          "start": 1.36,
+          "end": 1.52
+        },
+        {
+          "text": "经",
+          "start": 1.52,
+          "end": 1.7
+        },
+        {
+          "text": "的",
+          "start": 1.7,
+          "end": 1.84
+        },
+        {
+          "text": "第一",
+          "start": 1.84,
+          "end": 2.04
+        },
+        {
+          "text": "天",
+          "start": 2.04,
+          "end": 2.28
+        },
+        {
+          "text": "算",
+          "start": 2.28,
+          "end": 2.48
+        },
+        {
+          "text": "起，",
+          "start": 2.48,
+          "end": 2.8
+        },
+        {
+          "text": "不是",
+          "start": 2.94,
+          "end": 3.1
+        },
+        {
+          "text": "从",
+          "start": 3.1,
+          "end": 3.36
+        },
+        {
+          "text": "受",
+          "start": 3.36,
+          "end": 3.6
+        },
+        {
+          "text": "精",
+          "start": 3.6,
+          "end": 3.8
+        },
+        {
+          "text": "那",
+          "start": 3.8,
+          "end": 3.96
+        },
+        {
+          "text": "天",
+          "start": 3.96,
+          "end": 4.16
+        },
+        {
+          "text": "开始",
+          "start": 4.16,
+          "end": 4.36
+        },
+        {
+          "text": "算。",
+          "start": 4.36,
+          "end": 4.68
+        }
+      ],
+      "recognition_attempts": [
+        {
+          "prompt": "孕周从你末次月经的第一天算起，不是从受精那天开始算。",
+          "similarity": 1.0,
+          "word_count": 21
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-03",
+      "audio_sha256": "353fdaa91e33fd4185eaee50e94a9854ecaa890981dd06de3c66178ef1d7c26a",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.34
+        },
+        {
+          "text": "2",
+          "start": 0.34,
+          "end": 0.52
+        },
+        {
+          "text": "周，",
+          "start": 0.52,
+          "end": 0.74
+        },
+        {
+          "text": "身",
+          "start": 0.86,
+          "end": 1.0
+        },
+        {
+          "text": "体",
+          "start": 1.0,
+          "end": 1.24
+        },
+        {
+          "text": "在",
+          "start": 1.24,
+          "end": 1.38
+        },
+        {
+          "text": "为",
+          "start": 1.38,
+          "end": 1.52
+        },
+        {
+          "text": "排",
+          "start": 1.52,
+          "end": 1.76
+        },
+        {
+          "text": "卵",
+          "start": 1.76,
+          "end": 1.94
+        },
+        {
+          "text": "做",
+          "start": 1.94,
+          "end": 2.1
+        },
+        {
+          "text": "准",
+          "start": 2.1,
+          "end": 2.32
+        },
+        {
+          "text": "备。",
+          "start": 2.32,
+          "end": 2.58
+        },
+        {
+          "text": "每",
+          "start": 2.68,
+          "end": 2.88
+        },
+        {
+          "text": "个",
+          "start": 2.88,
+          "end": 3.0
+        },
+        {
+          "text": "人",
+          "start": 3.0,
+          "end": 3.12
+        },
+        {
+          "text": "的",
+          "start": 3.12,
+          "end": 3.22
+        },
+        {
+          "text": "周",
+          "start": 3.22,
+          "end": 3.4
+        },
+        {
+          "text": "期",
+          "start": 3.4,
+          "end": 3.58
+        },
+        {
+          "text": "不同，",
+          "start": 3.58,
+          "end": 3.84
+        },
+        {
+          "text": "排",
+          "start": 4.08,
+          "end": 4.24
+        },
+        {
+          "text": "卵",
+          "start": 4.24,
+          "end": 4.42
+        },
+        {
+          "text": "时间",
+          "start": 4.42,
+          "end": 4.7
+        },
+        {
+          "text": "也",
+          "start": 4.7,
+          "end": 4.96
+        },
+        {
+          "text": "会",
+          "start": 4.96,
+          "end": 5.12
+        },
+        {
+          "text": "不同。",
+          "start": 5.12,
+          "end": 5.42
+        }
+      ],
+      "recognition_attempts": [
+        {
+          "prompt": "第2周，身体在为排卵做准备。每个人的周期不同，排卵时间也会不同。",
+          "similarity": 1.0,
+          "word_count": 25
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-04",
+      "audio_sha256": "57ae615fd252d1c07c712ba71f4d3035c15ccad2a104cf3a0494324e9341ff63",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.3
+        },
+        {
+          "text": "3",
+          "start": 0.3,
+          "end": 0.5
+        },
+        {
+          "text": "周",
+          "start": 0.5,
+          "end": 0.68
+        },
+        {
+          "text": "前",
+          "start": 0.68,
+          "end": 0.86
+        },
+        {
+          "text": "后，",
+          "start": 0.86,
+          "end": 1.08
+        },
+        {
+          "text": "小",
+          "start": 1.24,
+          "end": 1.32
+        },
+        {
+          "text": "蝌",
+          "start": 1.32,
+          "end": 1.44
+        },
+        {
+          "text": "蚪",
+          "start": 1.44,
+          "end": 1.58
+        },
+        {
+          "text": "可能",
+          "start": 1.58,
+          "end": 1.84
+        },
+        {
+          "text": "与",
+          "start": 1.84,
+          "end": 2.04
+        },
+        {
+          "text": "卵",
+          "start": 2.04,
+          "end": 2.2
+        },
+        {
+          "text": "子",
+          "start": 2.2,
+          "end": 2.4
+        },
+        {
+          "text": "相",
+          "start": 2.4,
+          "end": 2.58
+        },
+        {
+          "text": "遇。",
+          "start": 2.58,
+          "end": 2.86
+        },
+        {
+          "text": "受",
+          "start": 2.96,
+          "end": 3.14
+        },
+        {
+          "text": "精",
+          "start": 3.14,
+          "end": 3.32
+        },
+        {
+          "text": "卵",
+          "start": 3.32,
+          "end": 3.52
+        },
+        {
+          "text": "一",
+          "start": 3.52,
+          "end": 3.66
+        },
+        {
+          "text": "边",
+          "start": 3.66,
+          "end": 3.8
+        },
+        {
+          "text": "分",
+          "start": 3.8,
+          "end": 4.0
+        },
+        {
+          "text": "裂，",
+          "start": 4.0,
+          "end": 4.22
+        },
+        {
+          "text": "一",
+          "start": 4.38,
+          "end": 4.38
+        },
+        {
+          "text": "边",
+          "start": 4.38,
+          "end": 4.52
+        },
+        {
+          "text": "向",
+          "start": 4.52,
+          "end": 4.68
+        },
+        {
+          "text": "子",
+          "start": 4.68,
+          "end": 4.86
+        },
+        {
+          "text": "宫",
+          "start": 4.86,
+          "end": 5.02
+        },
+        {
+          "text": "移",
+          "start": 5.02,
+          "end": 5.22
+        },
+        {
+          "text": "动。",
+          "start": 5.22,
+          "end": 5.34
+        }
+      ],
+      "recognition_attempts": [
+        {
+          "prompt": "第3周前后，小蝌蚪可能与卵子相遇。受精卵一边分裂，一边向子宫移动。",
+          "similarity": 1.0,
+          "word_count": 28
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-05",
+      "audio_sha256": "78409fbd20eface530e1df29265ac863d69bb7fdee9d569ae1c7a50bb57facd2",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.36
+        },
+        {
+          "text": "4",
+          "start": 0.36,
+          "end": 0.56
+        },
+        {
+          "text": "周",
+          "start": 0.56,
+          "end": 0.72
+        },
+        {
+          "text": "前",
+          "start": 0.72,
+          "end": 0.94
+        },
+        {
+          "text": "后，",
+          "start": 0.94,
+          "end": 1.18
+        },
+        {
+          "text": "受",
+          "start": 1.26,
+          "end": 1.4
+        },
+        {
+          "text": "精",
+          "start": 1.4,
+          "end": 1.58
+        },
+        {
+          "text": "卵",
+          "start": 1.58,
+          "end": 1.8
+        },
+        {
+          "text": "通",
+          "start": 1.8,
+          "end": 2.02
+        },
+        {
+          "text": "常",
+          "start": 2.02,
+          "end": 2.24
+        },
+        {
+          "text": "已经",
+          "start": 2.24,
+          "end": 2.48
+        },
+        {
+          "text": "着",
+          "start": 2.48,
+          "end": 2.74
+        },
+        {
+          "text": "床。",
+          "start": 2.74,
+          "end": 3.1
+        },
+        {
+          "text": "你",
+          "start": 3.24,
+          "end": 3.46
+        },
+        {
+          "text": "也",
+          "start": 3.46,
+          "end": 3.6
+        },
+        {
+          "text": "许",
+          "start": 3.6,
+          "end": 3.76
+        },
+        {
+          "text": "还",
+          "start": 3.76,
+          "end": 3.88
+        },
+        {
+          "text": "没",
+          "start": 3.88,
+          "end": 4.04
+        },
+        {
+          "text": "什么",
+          "start": 4.04,
+          "end": 4.22
+        },
+        {
+          "text": "感",
+          "start": 4.22,
+          "end": 4.44
+        },
+        {
+          "text": "觉。",
+          "start": 4.44,
+          "end": 4.68
+        }
+      ],
+      "recognition_attempts": [
+        {
+          "prompt": "第4周前后，受精卵通常已经着床。你也许还没什么感觉。",
+          "similarity": 1.0,
+          "word_count": 21
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-06",
+      "audio_sha256": "32f05a8412e01b338801d37928c2e83dbc9e10ae1fad9c0bce8038137530d4d8",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.36
+        },
+        {
+          "text": "5",
+          "start": 0.36,
+          "end": 0.52
+        },
+        {
+          "text": "周，",
+          "start": 0.52,
+          "end": 0.74
+        },
+        {
+          "text": "宝",
+          "start": 0.9,
+          "end": 1.06
+        },
+        {
+          "text": "宝",
+          "start": 1.06,
+          "end": 1.2
+        },
+        {
+          "text": "的",
+          "start": 1.2,
+          "end": 1.28
+        },
+        {
+          "text": "脑、",
+          "start": 1.28,
+          "end": 1.54
+        },
+        {
+          "text": "脊",
+          "start": 1.84,
+          "end": 1.94
+        },
+        {
+          "text": "髓",
+          "start": 1.94,
+          "end": 2.18
+        },
+        {
+          "text": "和",
+          "start": 2.18,
+          "end": 2.32
+        },
+        {
+          "text": "心",
+          "start": 2.32,
+          "end": 2.56
+        },
+        {
+          "text": "脏",
+          "start": 2.56,
+          "end": 2.76
+        },
+        {
+          "text": "正",
+          "start": 2.76,
+          "end": 2.92
+        },
+        {
+          "text": "在",
+          "start": 2.92,
+          "end": 3.1
+        },
+        {
+          "text": "发",
+          "start": 3.1,
+          "end": 3.28
+        },
+        {
+          "text": "育。",
+          "start": 3.28,
+          "end": 3.54
+        },
+        {
+          "text": "月",
+          "start": 3.72,
+          "end": 3.82
+        },
+        {
+          "text": "经",
+          "start": 3.82,
+          "end": 3.98
+        },
+        {
+          "text": "没",
+          "start": 3.98,
+          "end": 4.18
+        },
+        {
+          "text": "来、",
+          "start": 4.18,
+          "end": 4.42
+        },
+        {
+          "text": "总",
+          "start": 4.58,
+          "end": 4.68
+        },
+        {
+          "text": "想",
+          "start": 4.68,
+          "end": 4.88
+        },
+        {
+          "text": "睡，",
+          "start": 4.88,
+          "end": 5.1
+        },
+        {
+          "text": "可能",
+          "start": 5.3,
+          "end": 5.48
+        },
+        {
+          "text": "让",
+          "start": 5.48,
+          "end": 5.66
+        },
+        {
+          "text": "你",
+          "start": 5.66,
+          "end": 5.8
+        },
+        {
+          "text": "发",
+          "start": 5.8,
+          "end": 5.96
+        },
+        {
+          "text": "现",
+          "start": 5.96,
+          "end": 6.12
+        },
+        {
+          "text": "怀",
+          "start": 6.12,
+          "end": 6.34
+        },
+        {
+          "text": "孕。",
+          "start": 6.34,
+          "end": 6.52
+        }
+      ],
+      "recognition_attempts": [
+        {
+          "prompt": "第5周，宝宝的脑、脊髓和心脏正在发育。月经没来、总想睡，可能让你发现怀孕。",
+          "similarity": 1.0,
+          "word_count": 30
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-07",
+      "audio_sha256": "c3498c908c36b778d1d89cae641ab28b6b13f2c34dffeb95cc5a9d79475737b7",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.24
+        },
+        {
+          "text": "6",
+          "start": 0.24,
+          "end": 0.46
+        },
+        {
+          "text": "周，",
+          "start": 0.46,
+          "end": 0.7
+        },
+        {
+          "text": "宝",
+          "start": 0.82,
+          "end": 1.0
+        },
+        {
+          "text": "宝",
+          "start": 1.0,
+          "end": 1.18
+        },
+        {
+          "text": "的",
+          "start": 1.18,
+          "end": 1.28
+        },
+        {
+          "text": "小",
+          "start": 1.28,
+          "end": 1.46
+        },
+        {
+          "text": "胳",
+          "start": 1.46,
+          "end": 1.66
+        },
+        {
+          "text": "膊，",
+          "start": 1.66,
+          "end": 1.96
+        },
+        {
+          "text": "小",
+          "start": 2.08,
+          "end": 2.24
+        },
+        {
+          "text": "腿",
+          "start": 2.24,
+          "end": 2.52
+        },
+        {
+          "text": "开始",
+          "start": 2.52,
+          "end": 2.74
+        },
+        {
+          "text": "长",
+          "start": 2.74,
+          "end": 2.98
+        },
+        {
+          "text": "出",
+          "start": 2.98,
+          "end": 3.18
+        },
+        {
+          "text": "雏",
+          "start": 3.18,
+          "end": 3.42
+        },
+        {
+          "text": "形。",
+          "start": 3.42,
+          "end": 3.7
+        },
+        {
+          "text": "你",
+          "start": 3.92,
+          "end": 4.0
+        },
+        {
+          "text": "可能",
+          "start": 4.0,
+          "end": 4.18
+        },
+        {
+          "text": "会",
+          "start": 4.18,
+          "end": 4.38
+        },
+        {
+          "text": "反",
+          "start": 4.38,
+          "end": 4.6
+        },
+        {
+          "text": "胃，",
+          "start": 4.6,
+          "end": 4.9
+        },
+        {
+          "text": "想",
+          "start": 5.12,
+          "end": 5.28
+        },
+        {
+          "text": "吐，",
+          "start": 5.28,
+          "end": 5.58
+        },
+        {
+          "text": "不",
+          "start": 5.72,
+          "end": 5.82
+        },
+        {
+          "text": "一定",
+          "start": 5.82,
+          "end": 6.0
+        },
+        {
+          "text": "只",
+          "start": 6.0,
+          "end": 6.16
+        },
+        {
+          "text": "在",
+          "start": 6.16,
+          "end": 6.32
+        },
+        {
+          "text": "早",
+          "start": 6.32,
+          "end": 6.5
+        },
+        {
+          "text": "上。",
+          "start": 6.5,
+          "end": 6.74
+        }
+      ],
+      "recognition_attempts": [
+        {
+          "prompt": "第6周，宝宝的小胳膊、小腿开始长出雏形。你可能会反胃、想吐，不一定只在早上。",
+          "similarity": 1.0,
+          "word_count": 29
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-08",
+      "audio_sha256": "abe4e609a83b3f6d76d100ea32dc05fa4566195e176fabb7b089104263d0f045",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.36
+        },
+        {
+          "text": "7",
+          "start": 0.36,
+          "end": 0.58
+        },
+        {
+          "text": "周，",
+          "start": 0.58,
+          "end": 0.8
+        },
+        {
+          "text": "宝",
+          "start": 0.96,
+          "end": 1.12
+        },
+        {
+          "text": "宝",
+          "start": 1.12,
+          "end": 1.34
+        },
+        {
+          "text": "的",
+          "start": 1.34,
+          "end": 1.38
+        },
+        {
+          "text": "脑",
+          "start": 1.38,
+          "end": 1.58
+        },
+        {
+          "text": "部",
+          "start": 1.58,
+          "end": 1.84
+        },
+        {
+          "text": "和",
+          "start": 1.84,
+          "end": 2.0
+        },
+        {
+          "text": "小",
+          "start": 2.0,
+          "end": 2.24
+        },
+        {
+          "text": "胳",
+          "start": 2.24,
+          "end": 2.38
+        },
+        {
+          "text": "膊",
+          "start": 2.38,
+          "end": 2.58
+        },
+        {
+          "text": "继",
+          "start": 2.58,
+          "end": 2.82
+        },
+        {
+          "text": "续",
+          "start": 2.82,
+          "end": 2.94
+        },
+        {
+          "text": "发",
+          "start": 2.94,
+          "end": 3.1
+        },
+        {
+          "text": "育。",
+          "start": 3.1,
+          "end": 3.4
+        },
+        {
+          "text": "容易",
+          "start": 3.5,
+          "end": 3.76
+        },
+        {
+          "text": "累",
+          "start": 3.76,
+          "end": 4.02
+        },
+        {
+          "text": "的时候，",
+          "start": 4.02,
+          "end": 4.4
+        },
+        {
+          "text": "就",
+          "start": 4.52,
+          "end": 4.66
+        },
+        {
+          "text": "多",
+          "start": 4.66,
+          "end": 4.8
+        },
+        {
+          "text": "休",
+          "start": 4.8,
+          "end": 4.98
+        },
+        {
+          "text": "息",
+          "start": 4.98,
+          "end": 5.18
+        },
+        {
+          "text": "一",
+          "start": 5.18,
+          "end": 5.32
+        },
+        {
+          "text": "会",
+          "start": 5.32,
+          "end": 5.46
+        },
+        {
+          "text": "儿。",
+          "start": 5.46,
+          "end": 5.62
+        }
+      ],
+      "recognition_attempts": [
+        {
+          "prompt": "第7周，宝宝的脑部和小胳膊继续发育。容易累的时候，就多休息一会儿。",
+          "similarity": 1.0,
+          "word_count": 26
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-09",
+      "audio_sha256": "2b8c2f252f03849103973438ece2e010a4f136659a70a28f19f197706a08db0f",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "text": "8",
+          "start": 0.32,
+          "end": 0.52
+        },
+        {
+          "text": "周，",
+          "start": 0.52,
+          "end": 0.72
+        },
+        {
+          "text": "宝",
+          "start": 0.84,
+          "end": 1.0
+        },
+        {
+          "text": "宝",
+          "start": 1.0,
+          "end": 1.16
+        },
+        {
+          "text": "的",
+          "start": 1.16,
+          "end": 1.24
+        },
+        {
+          "text": "手",
+          "start": 1.24,
+          "end": 1.42
+        },
+        {
+          "text": "脚",
+          "start": 1.42,
+          "end": 1.66
+        },
+        {
+          "text": "继",
+          "start": 1.66,
+          "end": 1.92
+        },
+        {
+          "text": "续",
+          "start": 1.92,
+          "end": 2.04
+        },
+        {
+          "text": "发",
+          "start": 2.04,
+          "end": 2.2
+        },
+        {
+          "text": "育。",
+          "start": 2.2,
+          "end": 2.48
+        },
+        {
+          "text": "如果",
+          "start": 2.52,
+          "end": 2.72
+        },
+        {
+          "text": "闻",
+          "start": 2.72,
+          "end": 2.94
+        },
+        {
+          "text": "到",
+          "start": 2.94,
+          "end": 3.06
+        },
+        {
+          "text": "饭",
+          "start": 3.06,
+          "end": 3.26
+        },
+        {
+          "text": "味",
+          "start": 3.26,
+          "end": 3.42
+        },
+        {
+          "text": "就",
+          "start": 3.42,
+          "end": 3.56
+        },
+        {
+          "text": "反",
+          "start": 3.56,
+          "end": 3.78
+        },
+        {
+          "text": "胃，",
+          "start": 3.78,
+          "end": 4.02
+        },
+        {
+          "text": "先",
+          "start": 4.16,
+          "end": 4.28
+        },
+        {
+          "text": "选",
+          "start": 4.28,
+          "end": 4.56
+        },
+        {
+          "text": "自己",
+          "start": 4.56,
+          "end": 4.78
+        },
+        {
+          "text": "吃",
+          "start": 4.78,
+          "end": 5.08
+        },
+        {
+          "text": "得",
+          "start": 5.08,
+          "end": 5.2
+        },
+        {
+          "text": "下",
+          "start": 5.2,
+          "end": 5.34
+        },
+        {
+          "text": "的",
+          "start": 5.34,
+          "end": 5.48
+        },
+        {
+          "text": "食",
+          "start": 5.48,
+          "end": 5.68
+        },
+        {
+          "text": "物。",
+          "start": 5.68,
+          "end": 5.88
+        }
+      ],
+      "recognition_attempts": [
+        {
+          "prompt": "第8周，宝宝的手脚继续发育。如果闻到饭味就反胃，先选自己吃得下的食物。",
+          "similarity": 1.0,
+          "word_count": 29
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-10",
+      "audio_sha256": "4f5d7a59ae07ba6c35742896be80057fa23719a0e30de9a6b2849d6a3033382f",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.36
+        },
+        {
+          "text": "9",
+          "start": 0.36,
+          "end": 0.56
+        },
+        {
+          "text": "周，",
+          "start": 0.56,
+          "end": 0.74
+        },
+        {
+          "text": "宝",
+          "start": 0.92,
+          "end": 0.96
+        },
+        {
+          "text": "宝",
+          "start": 0.96,
+          "end": 1.12
+        },
+        {
+          "text": "的",
+          "start": 1.12,
+          "end": 1.18
+        },
+        {
+          "text": "面",
+          "start": 1.18,
+          "end": 1.34
+        },
+        {
+          "text": "部",
+          "start": 1.34,
+          "end": 1.52
+        },
+        {
+          "text": "轮",
+          "start": 1.52,
+          "end": 1.68
+        },
+        {
+          "text": "廓",
+          "start": 1.68,
+          "end": 1.84
+        },
+        {
+          "text": "更",
+          "start": 1.84,
+          "end": 2.04
+        },
+        {
+          "text": "清楚，",
+          "start": 2.04,
+          "end": 2.48
+        },
+        {
+          "text": "手",
+          "start": 2.68,
+          "end": 2.84
+        },
+        {
+          "text": "脚",
+          "start": 2.84,
+          "end": 3.08
+        },
+        {
+          "text": "继",
+          "start": 3.08,
+          "end": 3.28
+        },
+        {
+          "text": "续",
+          "start": 3.28,
+          "end": 3.4
+        },
+        {
+          "text": "发",
+          "start": 3.4,
+          "end": 3.56
+        },
+        {
+          "text": "育。",
+          "start": 3.56,
+          "end": 3.8
+        },
+        {
+          "text": "孕",
+          "start": 3.92,
+          "end": 4.08
+        },
+        {
+          "text": "吐",
+          "start": 4.08,
+          "end": 4.26
+        },
+        {
+          "text": "和",
+          "start": 4.26,
+          "end": 4.38
+        },
+        {
+          "text": "疲",
+          "start": 4.38,
+          "end": 4.6
+        },
+        {
+          "text": "倦",
+          "start": 4.6,
+          "end": 4.78
+        },
+        {
+          "text": "可能",
+          "start": 4.78,
+          "end": 5.02
+        },
+        {
+          "text": "还",
+          "start": 5.02,
+          "end": 5.2
+        },
+        {
+          "text": "没",
+          "start": 5.2,
+          "end": 5.32
+        },
+        {
+          "text": "缓",
+          "start": 5.32,
+          "end": 5.52
+        },
+        {
+          "text": "解。",
+          "start": 5.52,
+          "end": 5.74
+        }
+      ],
+      "recognition_attempts": [
+        {
+          "prompt": "第9周，宝宝的面部轮廓更清楚，手脚继续发育。孕吐和疲倦可能还没缓解。",
+          "similarity": 1.0,
+          "word_count": 28
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-11",
+      "audio_sha256": "60e7b0be0f3781ffc9fca91e10bcd293fe2a40ab446ef2855311e81d40a4cfce",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.3
+        },
+        {
+          "text": "10",
+          "start": 0.3,
+          "end": 0.54
+        },
+        {
+          "text": "周，",
+          "start": 0.54,
+          "end": 0.72
+        },
+        {
+          "text": "宝",
+          "start": 0.82,
+          "end": 0.94
+        },
+        {
+          "text": "宝",
+          "start": 0.94,
+          "end": 1.08
+        },
+        {
+          "text": "已经",
+          "start": 1.08,
+          "end": 1.26
+        },
+        {
+          "text": "会",
+          "start": 1.26,
+          "end": 1.46
+        },
+        {
+          "text": "做",
+          "start": 1.46,
+          "end": 1.58
+        },
+        {
+          "text": "小",
+          "start": 1.58,
+          "end": 1.78
+        },
+        {
+          "text": "动",
+          "start": 1.78,
+          "end": 1.94
+        },
+        {
+          "text": "作",
+          "start": 1.94,
+          "end": 2.2
+        },
+        {
+          "text": "了。",
+          "start": 2.2,
+          "end": 2.32
+        },
+        {
+          "text": "不",
+          "start": 2.42,
+          "end": 2.52
+        },
+        {
+          "text": "过，",
+          "start": 2.52,
+          "end": 2.66
+        },
+        {
+          "text": "这",
+          "start": 2.72,
+          "end": 2.8
+        },
+        {
+          "text": "时",
+          "start": 2.8,
+          "end": 2.94
+        },
+        {
+          "text": "你",
+          "start": 2.94,
+          "end": 3.06
+        },
+        {
+          "text": "通",
+          "start": 3.06,
+          "end": 3.24
+        },
+        {
+          "text": "常",
+          "start": 3.24,
+          "end": 3.42
+        },
+        {
+          "text": "还",
+          "start": 3.42,
+          "end": 3.52
+        },
+        {
+          "text": "感",
+          "start": 3.52,
+          "end": 3.72
+        },
+        {
+          "text": "觉",
+          "start": 3.72,
+          "end": 3.88
+        },
+        {
+          "text": "不到",
+          "start": 3.88,
+          "end": 4.02
+        },
+        {
+          "text": "胎",
+          "start": 4.02,
+          "end": 4.36
+        },
+        {
+          "text": "动。",
+          "start": 4.36,
+          "end": 4.52
+        }
+      ],
+      "recognition_attempts": [
+        {
+          "prompt": "第10周，宝宝已经会做小动作了。不过，这时你通常还感觉不到胎动。",
+          "similarity": 1.0,
+          "word_count": 25
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-12",
+      "audio_sha256": "8f452281c83176e5c9a437457eb79e3b7597f08bb103ef03c2b668be40b4cb5a",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.32
+        },
+        {
+          "text": "11",
+          "start": 0.32,
+          "end": 0.62
+        },
+        {
+          "text": "周，",
+          "start": 0.62,
+          "end": 0.9
+        },
+        {
+          "text": "宝",
+          "start": 1.0,
+          "end": 1.14
+        },
+        {
+          "text": "宝",
+          "start": 1.14,
+          "end": 1.28
+        },
+        {
+          "text": "的",
+          "start": 1.28,
+          "end": 1.36
+        },
+        {
+          "text": "小",
+          "start": 1.36,
+          "end": 1.54
+        },
+        {
+          "text": "手",
+          "start": 1.54,
+          "end": 1.78
+        },
+        {
+          "text": "指、",
+          "start": 1.78,
+          "end": 2.06
+        },
+        {
+          "text": "脚",
+          "start": 2.28,
+          "end": 2.42
+        },
+        {
+          "text": "趾",
+          "start": 2.42,
+          "end": 2.62
+        },
+        {
+          "text": "逐",
+          "start": 2.62,
+          "end": 2.78
+        },
+        {
+          "text": "渐",
+          "start": 2.78,
+          "end": 2.98
+        },
+        {
+          "text": "分",
+          "start": 2.98,
+          "end": 3.16
+        },
+        {
+          "text": "开，",
+          "start": 3.16,
+          "end": 3.42
+        },
+        {
+          "text": "身",
+          "start": 3.54,
+          "end": 3.64
+        },
+        {
+          "text": "体",
+          "start": 3.64,
+          "end": 3.86
+        },
+        {
+          "text": "还",
+          "start": 3.86,
+          "end": 3.98
+        },
+        {
+          "text": "在",
+          "start": 3.98,
+          "end": 4.1
+        },
+        {
+          "text": "继",
+          "start": 4.1,
+          "end": 4.28
+        },
+        {
+          "text": "续",
+          "start": 4.28,
+          "end": 4.4
+        },
+        {
+          "text": "长",
+          "start": 4.4,
+          "end": 4.54
+        },
+        {
+          "text": "大。",
+          "start": 4.54,
+          "end": 4.74
+        }
+      ],
+      "recognition_attempts": [
+        {
+          "prompt": "第11周，宝宝的小手指、脚趾逐渐分开，身体还在继续长大。",
+          "similarity": 1.0,
+          "word_count": 23
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-13",
+      "audio_sha256": "2a21d018a671123298800286ea95932b6ab71bbc949ca38e0fa2fda6a07b29dd",
+      "words": [
+        {
+          "text": "第",
+          "start": 0.0,
+          "end": 0.44
+        },
+        {
+          "text": "12",
+          "start": 0.44,
+          "end": 0.72
+        },
+        {
+          "text": "周，",
+          "start": 0.72,
+          "end": 0.98
+        },
+        {
+          "text": "宝",
+          "start": 1.1,
+          "end": 1.24
+        },
+        {
+          "text": "宝",
+          "start": 1.24,
+          "end": 1.36
+        },
+        {
+          "text": "从",
+          "start": 1.36,
+          "end": 1.48
+        },
+        {
+          "text": "头",
+          "start": 1.48,
+          "end": 1.7
+        },
+        {
+          "text": "顶",
+          "start": 1.7,
+          "end": 1.9
+        },
+        {
+          "text": "到",
+          "start": 1.9,
+          "end": 2.06
+        },
+        {
+          "text": "小",
+          "start": 2.06,
+          "end": 2.26
+        },
+        {
+          "text": "屁",
+          "start": 2.26,
+          "end": 2.42
+        },
+        {
+          "text": "股",
+          "start": 2.42,
+          "end": 2.58
+        },
+        {
+          "text": "大",
+          "start": 2.58,
+          "end": 2.74
+        },
+        {
+          "text": "约",
+          "start": 2.74,
+          "end": 2.86
+        },
+        {
+          "text": "五",
+          "start": 2.86,
+          "end": 3.06
+        },
+        {
+          "text": "厘",
+          "start": 3.06,
+          "end": 3.2
+        },
+        {
+          "text": "米。",
+          "start": 3.2,
+          "end": 3.44
+        },
+        {
+          "text": "器",
+          "start": 3.6,
+          "end": 3.92
+        },
+        {
+          "text": "官",
+          "start": 3.92,
+          "end": 4.1
+        },
+        {
+          "text": "还",
+          "start": 4.1,
+          "end": 4.26
+        },
+        {
+          "text": "在",
+          "start": 4.26,
+          "end": 4.38
+        },
+        {
+          "text": "发",
+          "start": 4.38,
+          "end": 4.58
+        },
+        {
+          "text": "育，",
+          "start": 4.58,
+          "end": 4.8
+        },
+        {
+          "text": "记",
+          "start": 5.0,
+          "end": 5.1
+        },
+        {
+          "text": "得",
+          "start": 5.1,
+          "end": 5.2
+        },
+        {
+          "text": "按",
+          "start": 5.2,
+          "end": 5.3
+        },
+        {
+          "text": "医",
+          "start": 5.3,
+          "end": 5.44
+        },
+        {
+          "text": "生",
+          "start": 5.44,
+          "end": 5.6
+        },
+        {
+          "text": "安",
+          "start": 5.6,
+          "end": 5.74
+        },
+        {
+          "text": "排",
+          "start": 5.74,
+          "end": 5.88
+        },
+        {
+          "text": "产",
+          "start": 5.88,
+          "end": 6.12
+        },
+        {
+          "text": "检。",
+          "start": 6.12,
+          "end": 6.32
+        }
+      ],
+      "recognition_attempts": [
+        {
+          "prompt": "第12周，宝宝从头顶到小屁股大约五厘米。器官还在发育，记得按医生安排产检。",
+          "similarity": 1.0,
+          "word_count": 32
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-14",
+      "audio_sha256": "5bab00effb1f7669b9b8d19558e96c5cb6289dce8c485fdada49266f76ab101a",
+      "words": [
+        {
+          "text": "陪",
+          "start": 0.0,
+          "end": 0.28
+        },
+        {
+          "text": "伴，",
+          "start": 0.28,
+          "end": 0.5
+        },
+        {
+          "text": "可以",
+          "start": 0.66,
+          "end": 0.72
+        },
+        {
+          "text": "从",
+          "start": 0.72,
+          "end": 0.9
+        },
+        {
+          "text": "小",
+          "start": 0.9,
+          "end": 1.16
+        },
+        {
+          "text": "事",
+          "start": 1.16,
+          "end": 1.38
+        },
+        {
+          "text": "开始，",
+          "start": 1.38,
+          "end": 1.76
+        },
+        {
+          "text": "分",
+          "start": 2.02,
+          "end": 2.08
+        },
+        {
+          "text": "担",
+          "start": 2.08,
+          "end": 2.32
+        },
+        {
+          "text": "家",
+          "start": 2.32,
+          "end": 2.5
+        },
+        {
+          "text": "务，",
+          "start": 2.5,
+          "end": 2.8
+        },
+        {
+          "text": "准",
+          "start": 2.9,
+          "end": 3.06
+        },
+        {
+          "text": "备",
+          "start": 3.06,
+          "end": 3.2
+        },
+        {
+          "text": "她",
+          "start": 3.2,
+          "end": 3.36
+        },
+        {
+          "text": "吃",
+          "start": 3.36,
+          "end": 3.6
+        },
+        {
+          "text": "得",
+          "start": 3.6,
+          "end": 3.7
+        },
+        {
+          "text": "下",
+          "start": 3.7,
+          "end": 3.82
+        },
+        {
+          "text": "的",
+          "start": 3.82,
+          "end": 3.92
+        },
+        {
+          "text": "饭",
+          "start": 3.92,
+          "end": 4.1
+        },
+        {
+          "text": "菜，",
+          "start": 4.1,
+          "end": 4.32
+        },
+        {
+          "text": "陪",
+          "start": 4.46,
+          "end": 4.6
+        },
+        {
+          "text": "她",
+          "start": 4.6,
+          "end": 4.74
+        },
+        {
+          "text": "去",
+          "start": 4.74,
+          "end": 4.88
+        },
+        {
+          "text": "产",
+          "start": 4.88,
+          "end": 5.12
+        },
+        {
+          "text": "检。",
+          "start": 5.12,
+          "end": 5.3
+        }
+      ],
+      "recognition_attempts": [
+        {
+          "prompt": "陪伴，可以从小事开始：分担家务，准备她吃得下的饭菜，陪她去产检。",
+          "similarity": 1.0,
+          "word_count": 25
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-15",
+      "audio_sha256": "40e5603739322020691195ff5a6e644699ef28ec7d59d53d03810a866c18fea0",
+      "words": [
+        {
+          "text": "每",
+          "start": 0.0,
+          "end": 0.3
+        },
+        {
+          "text": "个",
+          "start": 0.3,
+          "end": 0.46
+        },
+        {
+          "text": "人",
+          "start": 0.46,
+          "end": 0.58
+        },
+        {
+          "text": "的",
+          "start": 0.58,
+          "end": 0.66
+        },
+        {
+          "text": "感",
+          "start": 0.66,
+          "end": 0.84
+        },
+        {
+          "text": "受",
+          "start": 0.84,
+          "end": 1.04
+        },
+        {
+          "text": "都",
+          "start": 1.04,
+          "end": 1.2
+        },
+        {
+          "text": "不同，",
+          "start": 1.2,
+          "end": 1.56
+        },
+        {
+          "text": "如果",
+          "start": 1.78,
+          "end": 1.94
+        },
+        {
+          "text": "出",
+          "start": 1.94,
+          "end": 2.2
+        },
+        {
+          "text": "血、",
+          "start": 2.2,
+          "end": 2.44
+        },
+        {
+          "text": "明",
+          "start": 2.54,
+          "end": 2.64
+        },
+        {
+          "text": "显",
+          "start": 2.64,
+          "end": 2.88
+        },
+        {
+          "text": "腹",
+          "start": 2.88,
+          "end": 3.08
+        },
+        {
+          "text": "痛，",
+          "start": 3.08,
+          "end": 3.3
+        },
+        {
+          "text": "或",
+          "start": 3.46,
+          "end": 3.56
+        },
+        {
+          "text": "吐",
+          "start": 3.56,
+          "end": 3.74
+        },
+        {
+          "text": "到",
+          "start": 3.74,
+          "end": 3.88
+        },
+        {
+          "text": "喝",
+          "start": 3.88,
+          "end": 4.04
+        },
+        {
+          "text": "不",
+          "start": 4.04,
+          "end": 4.14
+        },
+        {
+          "text": "进",
+          "start": 4.14,
+          "end": 4.3
+        },
+        {
+          "text": "水，",
+          "start": 4.3,
+          "end": 4.54
+        },
+        {
+          "text": "记",
+          "start": 4.7,
+          "end": 4.8
+        },
+        {
+          "text": "得",
+          "start": 4.8,
+          "end": 4.92
+        },
+        {
+          "text": "及",
+          "start": 4.92,
+          "end": 5.08
+        },
+        {
+          "text": "时",
+          "start": 5.08,
+          "end": 5.24
+        },
+        {
+          "text": "就",
+          "start": 5.24,
+          "end": 5.42
+        },
+        {
+          "text": "医。",
+          "start": 5.42,
+          "end": 5.66
+        }
+      ],
+      "recognition_attempts": [
+        {
+          "prompt": "每个人的感受都不同。如果出血、明显腹痛，或吐到喝不进水，记得及时就医。",
+          "similarity": 1.0,
+          "word_count": 28
+        }
+      ],
+      "similarity": 1.0,
+      "differences": []
+    },
+    {
+      "shot_id": "shot-16",
+      "audio_sha256": "dceead94fa5c22f1f98640b7d89f676add991e726cdba57a25ae4a4b16677eb5",
+      "words": [
+        {
+          "text": "肚",
+          "start": 0.0,
+          "end": 0.34
+        },
+        {
+          "text": "子",
+          "start": 0.34,
+          "end": 0.48
+        },
+        {
+          "text": "还",
+          "start": 0.48,
+          "end": 0.6
+        },
+        {
+          "text": "没",
+          "start": 0.6,
+          "end": 0.72
+        },
+        {
+          "text": "显",
+          "start": 0.72,
+          "end": 0.96
+        },
+        {
+          "text": "出来",
+          "start": 0.96,
+          "end": 1.28
+        },
+        {
+          "text": " 你",
+          "start": 1.28,
+          "end": 1.58
+        },
+        {
+          "text": "也",
+          "start": 1.58,
+          "end": 1.7
+        },
+        {
+          "text": "已经",
+          "start": 1.7,
+          "end": 1.94
+        },
+        {
+          "text": "很",
+          "start": 1.94,
+          "end": 2.12
+        },
+        {
+          "text": "辛苦",
+          "start": 2.12,
+          "end": 2.5
+        },
+        {
+          "text": "了",
+          "start": 2.5,
+          "end": 2.72
+        },
+        {
+          "text": "收",
+          "start": 2.72,
+          "end": 3.04
+        },
+        {
+          "text": "藏",
+          "start": 3.04,
+          "end": 3.28
+        },
+        {
+          "text": "这",
+          "start": 3.28,
+          "end": 3.4
+        },
+        {
+          "text": "份",
+          "start": 3.4,
+          "end": 3.54
+        },
+        {
+          "text": "运",
+          "start": 3.54,
+          "end": 3.72
+        },
+        {
+          "text": "州",
+          "start": 3.72,
+          "end": 3.88
+        },
+        {
+          "text": "记",
+          "start": 3.88,
+          "end": 4.1
+        },
+        {
+          "text": "录",
+          "start": 4.1,
+          "end": 4.32
+        },
+        {
+          "text": " 转",
+          "start": 4.5,
+          "end": 4.62
+        },
+        {
+          "text": "给",
+          "start": 4.62,
+          "end": 4.8
+        },
+        {
+          "text": "那个",
+          "start": 4.8,
+          "end": 4.94
+        },
+        {
+          "text": "愿",
+          "start": 4.94,
+          "end": 5.2
+        },
+        {
+          "text": "意",
+          "start": 5.2,
+          "end": 5.32
+        },
+        {
+          "text": "好好",
+          "start": 5.32,
+          "end": 5.52
+        },
+        {
+          "text": "照",
+          "start": 5.52,
+          "end": 5.78
+        },
+        {
+          "text": "顾",
+          "start": 5.78,
+          "end": 5.96
+        },
+        {
+          "text": "你的",
+          "start": 5.96,
+          "end": 6.12
+        },
+        {
+          "text": "人",
+          "start": 6.12,
+          "end": 6.36
+        }
+      ],
+      "recognition_attempts": [
+        {
+          "prompt": "肚子还没显出来，你也已经很辛苦了。收藏这份孕周记录，转给那个愿意好好照顾你的人。",
+          "similarity": 0.6909090909090909,
+          "word_count": 16
+        },
+        {
+          "prompt": null,
+          "similarity": 0.9444444444444444,
+          "word_count": 30
+        }
+      ],
+      "similarity": 0.9444444444444444,
+      "differences": [
+        {
+          "kind": "replace",
+          "locked": "孕周",
+          "recognized": "运州"
+        }
+      ]
+    }
+  ],
+  "semantic_mapping": [
+    {
+      "shot_id": "shot-01",
+      "original_screen_text": "写给刚怀孕的你",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "shot_id": "shot-02",
+      "original_screen_text": "第1周",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        4,
+        5
+      ]
+    },
+    {
+      "shot_id": "shot-03",
+      "original_screen_text": "第2周",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "shot_id": "shot-04",
+      "original_screen_text": "第3周",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "shot_id": "shot-05",
+      "original_screen_text": "第4周",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "shot_id": "shot-06",
+      "original_screen_text": "第5周",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "shot_id": "shot-07",
+      "original_screen_text": "第6周",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "shot_id": "shot-08",
+      "original_screen_text": "第7周",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "shot_id": "shot-09",
+      "original_screen_text": "第8周",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "shot_id": "shot-10",
+      "original_screen_text": "第9周",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "shot_id": "shot-11",
+      "original_screen_text": "第10周",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "shot_id": "shot-12",
+      "original_screen_text": "第11周",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        41,
+        42,
+        43
+      ]
+    },
+    {
+      "shot_id": "shot-13",
+      "original_screen_text": "第12周",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "shot_id": "shot-14",
+      "original_screen_text": "把爱放进小事里",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        48,
+        49,
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "shot_id": "shot-15",
+      "original_screen_text": "照顾好自己",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        53,
+        54,
+        55,
+        56
+      ]
+    },
+    {
+      "shot_id": "shot-16",
+      "original_screen_text": "给温暖的你",
+      "destination": "week heading plus complete narration cues; no duplicated screen paragraph",
+      "cue_indices": [
+        57,
+        58,
+        59,
+        60
+      ]
+    }
+  ],
+  "listening": "pending"
+}

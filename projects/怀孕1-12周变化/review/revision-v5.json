@@ -1,0 +1,15 @@
+{
+  "revision": 5,
+  "authorized_by": "用户：嗯改吧",
+  "source_delivery": "deliveries/revision-v4-20261014-042115-2698",
+  "affected_shot": "shot-03",
+  "tts_input_override": "第2周 -> 第二周",
+  "screen_text": "第2周",
+  "reason": "user reported di liang zhou instead of di er zhou",
+  "status": "local_delivery_ready",
+  "delivery": "deliveries/revision-v5-20261014-052918-c15a",
+  "technical_qa": "passed",
+  "download_sha256": "passed",
+  "pronunciation_verification": "unbiased ASR recognized 第二周; actual listening pending",
+  "visual_sampling": "16 preview midpoints inspected; full playback pending"
+}

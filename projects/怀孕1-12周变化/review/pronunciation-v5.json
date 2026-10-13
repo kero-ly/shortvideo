@@ -1,0 +1,7 @@
+{
+  "tts_input": "第二周，身体在为排卵做准备。每个人的周期不同，排卵时间也会不同。",
+  "unbiased_asr_prompt": "请以汉字记录所有数字。",
+  "recognized": "第二周 身体在为排卵做准备每个人的周期不同 排卵时间也会不同",
+  "audio_sha256": "353fdaa91e33fd4185eaee50e94a9854ecaa890981dd06de3c66178ef1d7c26a",
+  "actual_listening": "pending"
+}
