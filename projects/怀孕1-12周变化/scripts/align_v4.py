@@ -9,8 +9,14 @@ cues=[];evidence=[];maps=[]
 for shot in t['shots']:
  audio=P/shot['audio'];assert hashlib.sha256(audio.read_bytes()).hexdigest()==shot['sha256']
  samples=np.frombuffer(subprocess.check_output(['ffmpeg','-v','error','-i',str(audio),'-ar','16000','-ac','1','-f','f32le','-']),dtype=np.float32)
- segs,info=model.transcribe(samples,language='zh',word_timestamps=True,beam_size=5,vad_filter=False,initial_prompt=shot['text'])
- words=[{'text':w.word,'start':w.start,'end':w.end} for seg in segs for w in (seg.words or [])]
+ attempts=[];candidates=[]
+ for prompt in [shot['text'],None]:
+  segs,info=model.transcribe(samples,language='zh',word_timestamps=True,beam_size=5,vad_filter=False,initial_prompt=prompt)
+  candidate=[{'text':w.word,'start':float(w.start),'end':float(w.end)} for seg in segs for w in (seg.words or [])]
+  score=difflib.SequenceMatcher(None,clean(shot['text']),clean(''.join(w['text'] for w in candidate)),autojunk=False).ratio()
+  attempts.append({'prompt':prompt,'similarity':score,'word_count':len(candidate)});candidates.append((score,candidate))
+  if score>=.98:break
+ words=max(candidates,key=lambda x:x[0])[1]
  assert words,shot['id'];spoken='';owners=[]
  for i,w in enumerate(words):
   for c in clean(w['text']):spoken+=c;owners.append(i)
@@ -28,7 +34,7 @@ for shot in t['shots']:
   start=shot['audio_start']+words[inds[0]]['start'];end=shot['audio_start']+words[inds[-1]]['end']
   shotcues.append({'shot_id':shot['id'],'text':phrase,'start':round(start,3),'end':round(end,3),'source_indices':inds})
  for i,c in enumerate(shotcues):c['end']=round(min(shotcues[i+1]['start'] if i+1<len(shotcues) else (shot['start']+shot['frames'])/24-.04,max(c['end']+.12,c['start']+.3)),3)
- cues+=shotcues;evidence.append({'shot_id':shot['id'],'audio_sha256':shot['sha256'],'words':words,'similarity':match.ratio(),'differences':[{'kind':tag,'locked':locked[a:b],'recognized':spoken[c:d]} for tag,a,b,c,d in match.get_opcodes() if tag!='equal']})
+ cues+=shotcues;evidence.append({'shot_id':shot['id'],'audio_sha256':shot['sha256'],'words':words,'recognition_attempts':attempts,'similarity':match.ratio(),'differences':[{'kind':tag,'locked':locked[a:b],'recognized':spoken[c:d]} for tag,a,b,c,d in match.get_opcodes() if tag!='equal']})
  maps.append({'shot_id':shot['id'],'original_screen_text':shot['screen_text'],'destination':'week heading plus complete narration cues; no duplicated screen paragraph','cue_indices':list(range(len(cues)-len(shotcues),len(cues)))})
  print(shot['id'],match.ratio(),flush=True)
 (P/'timeline/captions-v4.json').write_text(json.dumps({'engine':'faster-whisper small CPU int8; matched real word boundaries','narration_sha256':t['narration_sha256'],'cues':cues},ensure_ascii=False,indent=2))

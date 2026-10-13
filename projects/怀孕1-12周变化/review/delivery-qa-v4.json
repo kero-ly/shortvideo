@@ -1,0 +1,48 @@
+{
+  "revision": 4,
+  "changes": [
+    "larger centered yellow outlined main title",
+    "maternal-friendly full narration rewrite",
+    "warm final label",
+    "music gain +6.02dB and gentler ducking",
+    "new voice and word timing"
+  ],
+  "technical": {
+    "decode": true,
+    "size": [
+      1080,
+      1920
+    ],
+    "fps": 24,
+    "frames": 2394,
+    "duration": 99.75,
+    "audio": "AAC 48kHz stereo",
+    "final_audio_rms": 0.16118711233139038,
+    "per_shot_nonsilent": true,
+    "integrated_lufs": -16.35,
+    "true_peak_dbtp": -1.44,
+    "black_intervals": 0,
+    "final_audio_correlation_with_approved_mix": 0.9998207414780556
+  },
+  "native_generation_size": [
+    576,
+    1024
+  ],
+  "caption_timing": "new v4 voice, fresh actual word timestamps",
+  "visual_sampling": {
+    "status": "partial_review_completed",
+    "samples": "16 shot midpoints in preview contact sheet; shot14 obstruction corrected and midpoint rechecked",
+    "remaining": "first/end/action keyframes and full playback not inspected"
+  },
+  "full_playback": "pending",
+  "actual_listening": "pending",
+  "voice_public_rights": "configured factory reference, public-use authorization not documented",
+  "music": "original procedural composition, no external recording",
+  "captions": {
+    "complete_text_coverage": true,
+    "all_source_hashes_matched": true,
+    "new_alignment": true,
+    "min_asr_similarity": 0.9444444444444444,
+    "voice_tail_seconds": 0.8832426303854817
+  }
+}

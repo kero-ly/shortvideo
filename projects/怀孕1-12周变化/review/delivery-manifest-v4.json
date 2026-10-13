@@ -1,0 +1,54 @@
+{
+  "ffprobe.json": {
+    "sha256": "d7993bb8df1e43d05cf44556030e28220b687d459d26348797cb1c481c6b408e",
+    "bytes": 3828
+  },
+  "FACT_CHECK.md": {
+    "sha256": "20053853b1f7f91c4897854c4f28aa04b9f1abae27ef4bf89917a17ff624286f",
+    "bytes": 5071
+  },
+  "source-index.json": {
+    "sha256": "9a856bf8910cbef9c5ff40d89446dd0c7b72e44b2903a3c18127a76083ce6ce9",
+    "bytes": 4268
+  },
+  "props.json": {
+    "sha256": "e60551e801f46b5a57af8042c273f900d28266ce40f670a066c7d9a56c84c06c",
+    "bytes": 24058
+  },
+  "visual.mp4": {
+    "sha256": "d43939fca400961c3be05e473eb783fb299928605aa26234b923a2c8bc3c7cb7",
+    "bytes": 89273545
+  },
+  "怀孕1-12周变化-v4.mp4": {
+    "sha256": "6e98e88a54450ef3b40319806a403d3be0556ba1dcc71f72d6b8fb52b2fadd73",
+    "bytes": 72114200
+  },
+  "blackdetect.log": {
+    "sha256": "a0508925a9554f49eac527e2bbf1a272e84515c2c0c0a4176d51f6642a817084",
+    "bytes": 2589
+  },
+  "qa.json": {
+    "sha256": "68b764fb5c4db35fa828bfad77cb911836c11fb15b63f0bcf0a9d90720625762",
+    "bytes": 1471
+  },
+  "audio-source.json": {
+    "sha256": "8f377f7135eb019bb9a23990d00116a4eb24ca0dc99caaf16a7e485d8fa915ac",
+    "bytes": 922
+  },
+  "loudness.log": {
+    "sha256": "4000c9fbab4dcfade1d5f34065493802d808d85072e98e53ed8c1e05a2bb30b6",
+    "bytes": 2705
+  },
+  "cover.jpg": {
+    "sha256": "06fb2f639bfba015c1424aa3fa05c6cac71b6a2c0f9c7d7606ca51ba621186fc",
+    "bytes": 93657
+  },
+  "PUBLISHING_DRAFT.md": {
+    "sha256": "dac6a15a0f4792c983ea78b44523dc1a15dc317f70966016637c80a8244390ff",
+    "bytes": 833
+  },
+  "captions.srt": {
+    "sha256": "d8beee371e100d7a847c9e5381712aa292b92e0f1c5ac77b4bccec30424a781d",
+    "bytes": 3672
+  }
+}

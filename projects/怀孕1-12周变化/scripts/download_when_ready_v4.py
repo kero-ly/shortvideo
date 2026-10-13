@@ -7,7 +7,7 @@ with status.open('w') as log:
  deadline=time.time()+7200
  while time.time()<deadline:
   x=subprocess.run(['ssh','ly@8.92.9.220','cat '+remote+'/review/latest-delivery-v4.txt'],capture_output=True,text=True)
-  if x.returncode==0 and x.stdout.strip():delivery=x.stdout.strip();break
+  if x.returncode==0 and x.stdout.strip() and '041042-d5ba' not in x.stdout:delivery=x.stdout.strip();break
   time.sleep(30)
  else:raise RuntimeError('Timed out waiting for admitted production task')
  subprocess.run(['ssh','ly@8.92.9.220','cd /home/ly/shortvideo && uv run --with numpy python projects/怀孕1-12周变化/scripts/verify_delivery_v4.py'],stdout=log,stderr=log,check=True)

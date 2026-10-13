@@ -1,5 +1,5 @@
 {
-  "status": "waiting_for_existing_gpu_batch",
+  "status": "local_review_delivery_ready",
   "worker": "remote finite chain: TTS -> word alignment -> video composition/render; local finite followthrough: technical QA -> download -> SHA256 verification -> review page",
   "source": "storyboard/revision-v4.json",
   "music_and_title_preview": "review/layout-music-v4.html",
@@ -7,6 +7,10 @@
   "automatic_listening": "not performed; remains pending",
   "local_rendering": false,
   "remote_orchestration": "runs/orchestration-v4-20261014-035058/chain.log",
-  "remote_pid": 2995891,
-  "local_download_pid": 72996
+  "remote_pid": null,
+  "local_download_pid": 72996,
+  "recovery": "shot14 regenerated with unchanged words and joined opening punctuation; ASR alignment verified on all16 shots",
+  "delivery": "deliveries/revision-v4-20261014-042115-2698",
+  "sha256_verified": true,
+  "actual_listening": "pending"
 }

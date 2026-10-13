@@ -617,16 +617,19 @@
       "sha256": "2f2a26b5d7dcf0242e0941ff2a845fb378677e4567eded90a0c46b10b9a69d6a"
     },
     "scripts/PregnancyWeeksV4.jsx": {
-      "sha256": "465c938b700145bf16e98f896cdb7e985cfe7f1d4f232ed65cada5ce2541d430"
+      "sha256": "10829b45bb87129d76ff9e002deceb2ba2d845910033bc2d85ee293179a5490f"
     },
     "scripts/produce_audio_v4.py": {
       "sha256": "f632ccc1d51fb19ef81394b54ff96601c1868cdcfef46df9cb3fead9504e51db"
     },
     "scripts/align_v4.py": {
-      "sha256": "2d1604083a2b816e7d407d5547a00e7a7da107bcf6dadda45da9c64d82b93f57"
+      "sha256": "c9337da495dd2a815120d047f8e049f889c00ded28db6ad7a5218db9d08487fb"
     },
     "scripts/revise_v4.py": {
       "sha256": "7ba8f9237360123bfd8011ad8fe2b56611b215a05b70ee6a0808267bf76605e8"
+    },
+    "scripts/repair_audio_v4.py": {
+      "sha256": "3cf01f1019947566ebe2ec095bc0a220210284fc362c22c654c8afbfba60cead"
     }
   }
 }
