@@ -1,0 +1,9 @@
+{
+  "prompt_id": "1929b2f7-1d08-4c92-abea-7ca9c83534ec",
+  "clip": "runs/h3-buddha-v1-20261014-064518-3b45/clip.mp4",
+  "technical": "completed",
+  "visual": "rejected",
+  "reason": "15-frame contact shows Buddha apparent scale increases well beyond approved≤5% push; lighting darkens substantially. Hand/face acceptable at sample scale, but composition drift fails approved motion plan.",
+  "recovery": "new unique job with same first/last reference anchor and locked camera prompt; same H3 tool/220; preserve copy and audio.",
+  "not_production_approved": true
+}
