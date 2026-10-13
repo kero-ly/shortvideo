@@ -1,0 +1,376 @@
+{
+  "episode_id": "怀孕1-12周变化",
+  "revision": 1,
+  "status": "character_review_pending",
+  "brief": {
+    "topic": "怀孕1—12周变化",
+    "audience": "母婴账号：孕早期女性、备孕家庭及准爸爸",
+    "key_points": [
+      "孕周从末次月经起算，避免把受精周龄当孕周",
+      "每周发育要点和妈妈感受并列",
+      "伴侣行动建议提供转发理由",
+      "症状因人而异，异常就医"
+    ],
+    "goals": [
+      "关注增长",
+      "点赞与情绪共鸣",
+      "收藏与转发价值"
+    ],
+    "metrics_note": "creative objectives, no performance guarantee"
+  },
+  "selection": {
+    "basis": "User explicitly supplied reference images; agent selected closest registered preset with episode-only overrides, pending review",
+    "preset": {
+      "id": "2d-handdrawn-warm-light-muted-daily-explainer",
+      "version": 1,
+      "path": "styles/presets/2d-handdrawn-warm-light-muted-daily-explainer.json",
+      "sha256": "a8c05fc2c1ed804791f70f1510b69e4754f420092bd791b01b249dc245774123"
+    },
+    "components": [
+      {
+        "path": "styles/visual/handdrawn-warm.json",
+        "id": "handdrawn-warm-visual",
+        "version": 1,
+        "sha256": "93f1442692469a10197f92b7133f0e5e2864e683ccf9b06bb1b0a134a54127a3"
+      },
+      {
+        "path": "styles/layouts/handdrawn-warm.json",
+        "id": "handdrawn-warm-layouts",
+        "version": 1,
+        "sha256": "f90c86ca8415a7b3a3da41b875e7ac6c9a1bf301f2e08e83c4d007c03099414a"
+      },
+      {
+        "path": "styles/audio/handdrawn-warm.json",
+        "id": "handdrawn-warm-audio",
+        "version": 1,
+        "sha256": "a6c947ad53aaa61dd7e1a7a870fb029d0ad9576073943b268c38d9dd2f20afbb"
+      },
+      {
+        "path": "formats/scenario-explainer.json",
+        "id": "scenario-explainer",
+        "version": 1,
+        "sha256": "b91595af5ad293ca409b9f914d31a5835b67d2c46d216a879120c59062dea442"
+      }
+    ],
+    "overrides": {
+      "visual_basis": "user-supplied warm hand-drawn adult couple; preserve original identities and clothes",
+      "aspect_ratio": "9:16",
+      "target_delivery_size": [
+        1080,
+        1920
+      ],
+      "tone": "empathetic factual explanation, no fear appeals",
+      "format": "week-by-week dual narrative: fetal development and maternal experience",
+      "duration": "estimated 95–110 seconds; determined by real TTS later",
+      "anatomy": "no model-generated anatomy motion; optional non-anatomical symbolic overlays labeled schematic",
+      "voice": "warm clear adult female; reference and authorization to be selected before TTS",
+      "music": "optional very low instrumental with verified source; otherwise omit",
+      "captions": "one narration caption layer plus short nonduplicative week heading; right/bottom Douyin UI reserve"
+    }
+  },
+  "resolved": {
+    "status": "draft_not_locked",
+    "preset": {
+      "id": "2d-handdrawn-warm-light-muted-daily-explainer",
+      "version": 1,
+      "display_name": "2D 手绘动画 · 暖色明亮低饱和 · 生活情境科普",
+      "alias": "暖色手绘科普",
+      "components": {
+        "visual": {
+          "path": "styles/visual/handdrawn-warm.json",
+          "id": "handdrawn-warm-visual",
+          "version": 1
+        },
+        "layouts": {
+          "path": "styles/layouts/handdrawn-warm.json",
+          "id": "handdrawn-warm-layouts",
+          "version": 1
+        },
+        "audio": {
+          "path": "styles/audio/handdrawn-warm.json",
+          "id": "handdrawn-warm-audio",
+          "version": 1
+        },
+        "format": {
+          "path": "formats/scenario-explainer.json",
+          "id": "scenario-explainer",
+          "version": 1
+        }
+      },
+      "compatible_methods": [
+        "character-scenario"
+      ],
+      "status": "internal_review_example_validated",
+      "example": "projects/early_pregnancy_signs_01/h3_v2",
+      "limitations": [
+        "内部审阅案例；非所有主题自动验证",
+        "工具型号不是风格定义",
+        "案例合成脚本需要按新期内容适配"
+      ],
+      "legacy_snapshot": "styles/2d-handdrawn/warm-light-muted-daily-explainer.json"
+    },
+    "component_configs": {
+      "visual": {
+        "id": "handdrawn-warm-visual",
+        "version": 1,
+        "visual": {
+          "medium": "2D 手绘动画",
+          "rendering": "柔和线稿、轻赛璐璐阴影、轻纸感",
+          "character": "成人比例人物"
+        },
+        "color": {
+          "temperature": "暖色",
+          "brightness": "明亮",
+          "saturation": "低饱和",
+          "palette": [
+            "奶油白",
+            "鼠尾草绿",
+            "浅木色",
+            "克制的珊瑚色点缀"
+          ]
+        },
+        "setting": "生活居家情境"
+      },
+      "layouts": {
+        "id": "handdrawn-warm-layouts",
+        "version": 1,
+        "description": "依据本期分镜规划标题、旁白和信息卡；旧案例值不是通用默认",
+        "frame": "9:16"
+      },
+      "audio": {
+        "id": "handdrawn-warm-audio",
+        "version": 1,
+        "tone": "温柔陪伴",
+        "pace": "舒缓适中",
+        "music": "轻快、低音量、无歌词，可按主题覆盖",
+        "voice": "每期选择并核实使用范围"
+      },
+      "format": {
+        "id": "scenario-explainer",
+        "version": 1,
+        "structure": [
+          "生活疑问",
+          "人物情境",
+          "解释与限制",
+          "行动建议"
+        ],
+        "shot_count": "按内容与真实配音时长确定"
+      }
+    },
+    "episode_overrides": {
+      "visual_basis": "user-supplied warm hand-drawn adult couple; preserve original identities and clothes",
+      "aspect_ratio": "9:16",
+      "target_delivery_size": [
+        1080,
+        1920
+      ],
+      "tone": "empathetic factual explanation, no fear appeals",
+      "format": "week-by-week dual narrative: fetal development and maternal experience",
+      "duration": "estimated 95–110 seconds; determined by real TTS later",
+      "anatomy": "no model-generated anatomy motion; optional non-anatomical symbolic overlays labeled schematic",
+      "voice": "warm clear adult female; reference and authorization to be selected before TTS",
+      "music": "optional very low instrumental with verified source; otherwise omit",
+      "captions": "one narration caption layer plus short nonduplicative week heading; right/bottom Douyin UI reserve"
+    }
+  },
+  "methods": [
+    "character-scenario"
+  ],
+  "tools": [
+    {
+      "capability": "image",
+      "provider": "OpenLux gpt-image-2",
+      "status": "smoke_tested",
+      "episode_status": "master and design sheet returned real PNG images and were visually compared; character approval pending",
+      "evidence": "review/service-retest-v1.json"
+    },
+    {
+      "capability": "video",
+      "provider": "220 H3 ComfyUI",
+      "status": "reachable",
+      "episode_status": "SSH and ComfyUI queue/system_stats read-only checks succeeded; no episode model job submitted",
+      "evidence": "review/tool-evidence-v1.json"
+    },
+    {
+      "capability": "narration",
+      "provider": "IndexTTS2 on 220",
+      "status": "configured",
+      "episode_status": "voice reference not selected; not run"
+    },
+    {
+      "capability": "composition",
+      "provider": "Remotion + FFmpeg on 220",
+      "status": "configured",
+      "episode_status": "new episode renderer adaptation not implemented"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ]
+    },
+    {
+      "id": "shot-02",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ]
+    },
+    {
+      "id": "shot-03",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ]
+    },
+    {
+      "id": "shot-04",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ]
+    },
+    {
+      "id": "shot-05",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ]
+    },
+    {
+      "id": "shot-06",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ]
+    },
+    {
+      "id": "shot-07",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ]
+    },
+    {
+      "id": "shot-08",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ]
+    },
+    {
+      "id": "shot-09",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ]
+    },
+    {
+      "id": "shot-10",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ]
+    },
+    {
+      "id": "shot-11",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ]
+    },
+    {
+      "id": "shot-12",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ]
+    },
+    {
+      "id": "shot-13",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ]
+    },
+    {
+      "id": "shot-14",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ]
+    },
+    {
+      "id": "shot-15",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ]
+    },
+    {
+      "id": "shot-16",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ]
+    }
+  ],
+  "approvals": [
+    {
+      "scope": "reference inspection, editorial design and bounded character exploration",
+      "revision": 1,
+      "evidence": "2026-10-13 user requested designing script and animation based on supplied images for an end-to-end Douyin video; no actual candidate character/storyboard version approved yet"
+    }
+  ]
+}

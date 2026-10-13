@@ -1,0 +1,247 @@
+{
+  "revision": 2,
+  "status": "complete_pending_user_approval",
+  "missing": [],
+  "assets": [
+    {
+      "shot_id": "shot-01",
+      "path": "references/shots/v2/shot-01.png",
+      "sha256": "ae02aa7f09e29a8928e013c11fd7908ebdccb1c281762ab82ec06314ef43133c",
+      "size": [
+        1024,
+        1792
+      ],
+      "input": "怀孕1到12周（无文字版）参考图/landscape-scene-01.png",
+      "input_sha256": "f23ec4d1c7e4a5561708777ca6b06555214328d2eef2f2fc8a59c26b5313f405",
+      "prompt": "prompts/shots/shot-01-image-v2.txt",
+      "motion_prompt": "prompts/shots/shot-01-motion-v2.txt",
+      "generation_evidence": "runs/reference-extension-v2-20261013-155320/shot-01-manifest.json",
+      "review_status": "reviewed_candidate_pending_user_approval"
+    },
+    {
+      "shot_id": "shot-02",
+      "path": "references/shots/v2/shot-02.png",
+      "sha256": "c41f54d8b6aa93e6c830961f7c30cdb0ce723abc73484284ada7552b6fe8a081",
+      "size": [
+        1024,
+        1792
+      ],
+      "input": "怀孕1到12周（无文字版）参考图/landscape-scene-02.png",
+      "input_sha256": "b85452dae3ab814d4aa91c81bee5d9092d27f43e69f3f49041cc0e44933461f6",
+      "prompt": "prompts/shots/shot-02-image-v2.txt",
+      "motion_prompt": "prompts/shots/shot-02-motion-v2.txt",
+      "generation_evidence": "runs/reference-extension-v2-20261013-160947/shot-02-manifest.json",
+      "review_status": "reviewed_candidate_pending_user_approval"
+    },
+    {
+      "shot_id": "shot-03",
+      "path": "references/shots/v2/shot-03.png",
+      "sha256": "e24bd0aac9093e65f39f82118e899f6d1e25ad61b97f37311a06e90f8e4fa127",
+      "size": [
+        1024,
+        1792
+      ],
+      "input": "怀孕1到12周（无文字版）参考图/landscape-scene-03.png",
+      "input_sha256": "e9ca75890003c63548f8d208d7910b01acf7b40d1c9395c1b6b5c30d23bf7cf0",
+      "prompt": "prompts/shots/shot-03-image-v2.txt",
+      "motion_prompt": "prompts/shots/shot-03-motion-v2.txt",
+      "generation_evidence": "runs/reference-extension-v2-20261013-155707/shot-03-manifest.json",
+      "review_status": "reviewed_candidate_pending_user_approval"
+    },
+    {
+      "shot_id": "shot-04",
+      "path": "references/shots/v2/shot-04.png",
+      "sha256": "8dd25cc3041513769840b5fac4df3d7c5677cd261956a9cf8c5bd25f4ac0846c",
+      "size": [
+        1024,
+        1792
+      ],
+      "input": "怀孕1到12周（无文字版）参考图/landscape-scene-04.png",
+      "input_sha256": "2ecb8a61713914342178b26cd53d821797fa790c050d8b4372738cb3de6e0da3",
+      "prompt": "prompts/shots/shot-04-image-v2.txt",
+      "motion_prompt": "prompts/shots/shot-04-motion-v2.txt",
+      "generation_evidence": "runs/reference-extension-v2-20261013-155707/shot-04-manifest.json",
+      "review_status": "reviewed_candidate_pending_user_approval"
+    },
+    {
+      "shot_id": "shot-05",
+      "path": "references/shots/v2/shot-05.png",
+      "sha256": "7ddad91bbd7432c5664cf5e364200896dfaa868b3dcc89d7aea9a1cd07aa8793",
+      "size": [
+        1024,
+        1792
+      ],
+      "input": "怀孕1到12周（无文字版）参考图/landscape-scene-01.png",
+      "input_sha256": "f23ec4d1c7e4a5561708777ca6b06555214328d2eef2f2fc8a59c26b5313f405",
+      "prompt": "prompts/shots/shot-05-image-v2.txt",
+      "motion_prompt": "prompts/shots/shot-05-motion-v2.txt",
+      "generation_evidence": "runs/reference-extension-v2-20261013-155707/shot-05-manifest.json",
+      "review_status": "reviewed_candidate_pending_user_approval"
+    },
+    {
+      "shot_id": "shot-06",
+      "path": "references/shots/v2/shot-06.png",
+      "sha256": "e6b4d822d7240a59203003c0df6c2bf503066c20d3c243ea0d6c70bd5071ba8c",
+      "size": [
+        1024,
+        1792
+      ],
+      "input": "怀孕1到12周（无文字版）参考图/landscape-scene-05.png",
+      "input_sha256": "7c507beb38317c1f66768225afc35fd0ec3cf19ca4fac3f01aff505b4c20e231",
+      "prompt": "prompts/shots/shot-06-image-v2.txt",
+      "motion_prompt": "prompts/shots/shot-06-motion-v2.txt",
+      "generation_evidence": "runs/reference-extension-v2-20261013-155707/shot-06-manifest.json",
+      "review_status": "reviewed_candidate_pending_user_approval"
+    },
+    {
+      "shot_id": "shot-07",
+      "path": "references/shots/v2/shot-07.png",
+      "sha256": "28868852aad61dd79f2ed132b8a07485f9cb6fc116fcda3d31a9e24df2a1d805",
+      "size": [
+        1024,
+        1792
+      ],
+      "input": "怀孕1到12周（无文字版）参考图/landscape-scene-05.png",
+      "input_sha256": "7c507beb38317c1f66768225afc35fd0ec3cf19ca4fac3f01aff505b4c20e231",
+      "prompt": "prompts/shots/shot-07-image-v2.txt",
+      "motion_prompt": "prompts/shots/shot-07-motion-v2.txt",
+      "generation_evidence": "runs/reference-extension-v2-20261013-155707/shot-07-manifest.json",
+      "review_status": "reviewed_candidate_pending_user_approval"
+    },
+    {
+      "shot_id": "shot-08",
+      "path": "references/shots/v2/shot-08.png",
+      "sha256": "84c05681ef227080ec947817936558193111194e6660a44cb7b39aaaa6a4f51a",
+      "size": [
+        1024,
+        1792
+      ],
+      "input": "怀孕1到12周（无文字版）参考图/landscape-scene-03.png",
+      "input_sha256": "e9ca75890003c63548f8d208d7910b01acf7b40d1c9395c1b6b5c30d23bf7cf0",
+      "prompt": "prompts/shots/shot-08-image-v2.txt",
+      "motion_prompt": "prompts/shots/shot-08-motion-v2.txt",
+      "generation_evidence": "runs/reference-extension-v2-20261013-155707/shot-08-manifest.json",
+      "review_status": "reviewed_candidate_pending_user_approval"
+    },
+    {
+      "shot_id": "shot-09",
+      "path": "references/shots/v2/shot-09.png",
+      "sha256": "de4f50a1e0f832baffc693259a0799f3ca0e6752c9cefde8edbb009c6e28c472",
+      "size": [
+        1024,
+        1792
+      ],
+      "input": "怀孕1到12周（无文字版）参考图/landscape-scene-07.png",
+      "input_sha256": "fe45374d6afde1f2e3a5206991d3b35fe2f18dda809c4d4d15cc1bf3ec629533",
+      "prompt": "prompts/shots/shot-09-image-v2.txt",
+      "motion_prompt": "prompts/shots/shot-09-motion-v2.txt",
+      "generation_evidence": "runs/reference-extension-v2-20261013-155707/shot-09-manifest.json",
+      "review_status": "reviewed_candidate_pending_user_approval"
+    },
+    {
+      "shot_id": "shot-10",
+      "path": "references/shots/v2/shot-10.png",
+      "sha256": "18c6e376340c32db6ccc41db89f28f68bca2a6bf95acc05a6e82a7eb87729778",
+      "size": [
+        1024,
+        1792
+      ],
+      "input": "怀孕1到12周（无文字版）参考图/landscape-scene-07.png",
+      "input_sha256": "fe45374d6afde1f2e3a5206991d3b35fe2f18dda809c4d4d15cc1bf3ec629533",
+      "prompt": "prompts/shots/shot-10-image-v2.txt",
+      "motion_prompt": "prompts/shots/shot-10-motion-v2.txt",
+      "generation_evidence": "runs/reference-extension-v2-20261013-155707/shot-10-manifest.json",
+      "review_status": "reviewed_candidate_pending_user_approval"
+    },
+    {
+      "shot_id": "shot-11",
+      "path": "references/shots/v2/shot-11.png",
+      "sha256": "8408f3e16d53a6eef37576b149b0f7cc3f4a0c5e618603f4b7a9ce9d2b8b1096",
+      "size": [
+        1024,
+        1792
+      ],
+      "input": "怀孕1到12周（无文字版）参考图/landscape-scene-08.png",
+      "input_sha256": "43318698b9287b630f2d2ee9769c361c59f34ecea3cfed7180b69c871eacc3fd",
+      "prompt": "prompts/shots/shot-11-image-v2.txt",
+      "motion_prompt": "prompts/shots/shot-11-motion-v2.txt",
+      "generation_evidence": "runs/reference-extension-v2-20261013-155707/shot-11-manifest.json",
+      "review_status": "reviewed_candidate_pending_user_approval"
+    },
+    {
+      "shot_id": "shot-12",
+      "path": "references/shots/v2/shot-12.png",
+      "sha256": "7d8b061fbf716eb39bedd52870343875884f8b4c3ca3423450fe540943abf943",
+      "size": [
+        1024,
+        1792
+      ],
+      "input": "怀孕1到12周（无文字版）参考图/landscape-scene-08.png",
+      "input_sha256": "43318698b9287b630f2d2ee9769c361c59f34ecea3cfed7180b69c871eacc3fd",
+      "prompt": "prompts/shots/shot-12-image-v2.txt",
+      "motion_prompt": "prompts/shots/shot-12-motion-v2.txt",
+      "generation_evidence": "runs/reference-extension-v2-20261013-155707/shot-12-manifest.json",
+      "review_status": "reviewed_candidate_pending_user_approval"
+    },
+    {
+      "shot_id": "shot-13",
+      "path": "references/shots/v2/shot-13.png",
+      "sha256": "539f79f5483b6d6e8973f994ba4a0c33df4b17619a5bea30f1c0ff517372c300",
+      "size": [
+        1024,
+        1792
+      ],
+      "input": "怀孕1到12周（无文字版）参考图/landscape-scene-10.png",
+      "input_sha256": "e16d389c8e1f6be8c138e4e0747dde24614ee5dc7e90105872bb935440575250",
+      "prompt": "prompts/shots/shot-13-image-v2.txt",
+      "motion_prompt": "prompts/shots/shot-13-motion-v2.txt",
+      "generation_evidence": "runs/reference-extension-v2-20261013-155707/shot-13-manifest.json",
+      "review_status": "reviewed_candidate_pending_user_approval"
+    },
+    {
+      "shot_id": "shot-14",
+      "path": "references/shots/v2/shot-14.png",
+      "sha256": "fcbced8788ce22b657c187827192e946f087dff6605da701f80778b96747469f",
+      "size": [
+        1024,
+        1792
+      ],
+      "input": "怀孕1到12周（无文字版）参考图/landscape-scene-07.png",
+      "input_sha256": "fe45374d6afde1f2e3a5206991d3b35fe2f18dda809c4d4d15cc1bf3ec629533",
+      "prompt": "prompts/shots/shot-14-image-v2.txt",
+      "motion_prompt": "prompts/shots/shot-14-motion-v2.txt",
+      "generation_evidence": "runs/reference-extension-v2-20261013-155707/shot-14-manifest.json",
+      "review_status": "reviewed_candidate_pending_user_approval"
+    },
+    {
+      "shot_id": "shot-15",
+      "path": "references/shots/v2/shot-15.png",
+      "sha256": "52f22e65590850c00249431fc16252d1da2e0e736e062d4c33bf0cf17b467772",
+      "size": [
+        1024,
+        1792
+      ],
+      "input": "怀孕1到12周（无文字版）参考图/landscape-scene-10.png",
+      "input_sha256": "e16d389c8e1f6be8c138e4e0747dde24614ee5dc7e90105872bb935440575250",
+      "prompt": "prompts/shots/shot-15-image-v2.txt",
+      "motion_prompt": "prompts/shots/shot-15-motion-v2.txt",
+      "generation_evidence": "runs/reference-extension-v2-20261013-155707/shot-15-manifest.json",
+      "review_status": "reviewed_candidate_pending_user_approval"
+    },
+    {
+      "shot_id": "shot-16",
+      "path": "references/shots/v2/shot-16.png",
+      "sha256": "00d94ef74c86dcbcb2d8cf45fc4099ff82d9e9c6c3876c024b0c4e9a1e3b30f3",
+      "size": [
+        1024,
+        1792
+      ],
+      "input": "怀孕1到12周（无文字版）参考图/landscape-scene-01.png",
+      "input_sha256": "f23ec4d1c7e4a5561708777ca6b06555214328d2eef2f2fc8a59c26b5313f405",
+      "prompt": "prompts/shots/shot-16-image-v2.txt",
+      "motion_prompt": "prompts/shots/shot-16-motion-v2.txt",
+      "generation_evidence": "runs/reference-extension-v2-20261013-160704/shot-16-manifest.json",
+      "review_status": "reviewed_candidate_pending_user_approval"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "image": {
+    "provider": "OpenLux gpt-image-2",
+    "request_id": "20261013151942455110124U065Jc3t",
+    "http_status": 503,
+    "result": "模型服务暂时不可用；无返回图片；未自动重试",
+    "log": "runs/reference-inspection-v1/master-generation.log"
+  },
+  "server": {
+    "host": "220",
+    "scope": "SSH、GPU可用性及ComfyUI只读查询",
+    "queue": {
+      "running": 0,
+      "pending": 0
+    },
+    "comfyui_version": "0.30.0",
+    "status": "reachable",
+    "episode_jobs_submitted": false,
+    "limitations": "不是本期模型smoke test或制作批准；提交前需重新检查GPU/队列。"
+  },
+  "missing": [
+    "单人物母版",
+    "角色设计页",
+    "16张完整竖屏分镜首帧",
+    "角色及图文版本批准",
+    "实际配音、动画、合成、QA、交付视频"
+  ]
+}

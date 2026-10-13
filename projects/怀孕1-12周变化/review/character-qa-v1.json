@@ -1,0 +1,18 @@
+{
+  "scope": "candidate character review only",
+  "master_dimensions": [
+    1024,
+    1536
+  ],
+  "sheet_dimensions": [
+    1536,
+    1024
+  ],
+  "visual_comparison": "inspected against original reference; basic hair/clothing/style retained",
+  "schema": "passed",
+  "hashes": "passed",
+  "local_links": "passed",
+  "browser_images_loaded": 3,
+  "character_approved": false,
+  "video_production_approved": false
+}

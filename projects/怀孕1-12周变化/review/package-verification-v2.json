@@ -1,0 +1,15 @@
+{
+  "schema": "passed",
+  "image_count": 16,
+  "sha256_checks": "passed",
+  "media_ignored": "passed",
+  "local_link_count": 53,
+  "broken_links": 0,
+  "scope": "static storyboard package verification; no video generated",
+  "browser": {
+    "images": 17,
+    "loaded": 17,
+    "includes_contact_sheet": true,
+    "visual_layout": "checked first numbered shot in browser"
+  }
+}

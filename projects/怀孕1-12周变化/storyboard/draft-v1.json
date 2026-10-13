@@ -1,0 +1,344 @@
+{
+  "revision": 1,
+  "status": "draft_not_production_approved",
+  "timing": "editorial_estimate_only",
+  "estimated_total_seconds": 97,
+  "shots": [
+    {
+      "id": "shot-01",
+      "phase": "开场",
+      "estimated_seconds": 7,
+      "narration": "怀孕第1周，通常还没受精？看懂这12周，也看见妈妈的辛苦。",
+      "screen_text": "孕1—12周变化｜宝宝 × 妈妈",
+      "reference_source": "怀孕1到12周（无文字版）参考图/landscape-scene-01.png",
+      "frame_plan": "夫妻在卧室靠近，女主轻扶小腹，腹部不明显隆起",
+      "action": "男主轻扶女主肩，女主转头微笑",
+      "camera": "缓慢推进",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "image_prompt": "Create one 9:16 portrait frame in the supplied warm 2D hand-drawn illustration style. Preserve the adult woman and adult man identities, hairstyles, cream blouse and long navy skirt for her, navy sweater and olive trousers for him. Early pregnancy: no exaggerated belly. Complete consistent room with furniture and props. Scene brief: 夫妻在卧室靠近，女主轻扶小腹，腹部不明显隆起. Action starting pose: 男主轻扶女主肩，女主转头微笑. Keep upper 18 percent calm and uncluttered for a title, the bottom 22 percent calm for captions, and avoid important objects at the right edge. No words, numbers, watermark, speech bubble, fetus or anatomy illustration. Gentle adult proportions, natural hands. One scene only, no collage.",
+      "motion_prompt_draft": "Warm hand-drawn animation, consistent adult couple in a quiet complete room. One subtle natural gesture, 男主轻扶女主肩，女主转头微笑. 缓慢推进. Stable faces, clothing and room layout. Blank calm wall areas. Slow gentle motion. No scene change.",
+      "reference_frame_status": "not_generated_pending_character_review"
+    },
+    {
+      "id": "shot-02",
+      "phase": "第1周",
+      "estimated_seconds": 5,
+      "narration": "孕周从末次月经第一天算，不是从受精那天算。",
+      "screen_text": "第1周｜孕周从末次月经第一天算",
+      "reference_source": "怀孕1到12周（无文字版）参考图/landscape-scene-02.png",
+      "frame_plan": "夫妻坐餐桌前查看空白日历，妻子手指落在一格",
+      "action": "妻子指向日历，丈夫轻点头",
+      "camera": "固定中景，日历重点由后期图形强调",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "image_prompt": "Create one 9:16 portrait frame in the supplied warm 2D hand-drawn illustration style. Preserve the adult woman and adult man identities, hairstyles, cream blouse and long navy skirt for her, navy sweater and olive trousers for him. Early pregnancy: no exaggerated belly. Complete consistent room with furniture and props. Scene brief: 夫妻坐餐桌前查看空白日历，妻子手指落在一格. Action starting pose: 妻子指向日历，丈夫轻点头. Keep upper 18 percent calm and uncluttered for a title, the bottom 22 percent calm for captions, and avoid important objects at the right edge. No words, numbers, watermark, speech bubble, fetus or anatomy illustration. Gentle adult proportions, natural hands. One scene only, no collage.",
+      "motion_prompt_draft": "Warm hand-drawn animation, consistent adult couple in a quiet complete room. One subtle natural gesture, 妻子指向日历，丈夫轻点头. 固定中景，日历重点由后期图形强调. Stable faces, clothing and room layout. Blank calm wall areas. Slow gentle motion. No scene change.",
+      "reference_frame_status": "not_generated_pending_character_review"
+    },
+    {
+      "id": "shot-03",
+      "phase": "第2周",
+      "estimated_seconds": 5,
+      "narration": "第2周，身体为排卵做准备。周期不同，排卵时间也不同。",
+      "screen_text": "第2周｜准备排卵；按末次月经起算，周期不同时间可有差异",
+      "reference_source": "怀孕1到12周（无文字版）参考图/landscape-scene-03.png",
+      "frame_plan": "女主坐客厅沙发饮水，丈夫递上薄毯；移除原图医学气泡",
+      "action": "丈夫把毯子放在她身侧",
+      "camera": "固定中景",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "image_prompt": "Create one 9:16 portrait frame in the supplied warm 2D hand-drawn illustration style. Preserve the adult woman and adult man identities, hairstyles, cream blouse and long navy skirt for her, navy sweater and olive trousers for him. Early pregnancy: no exaggerated belly. Complete consistent room with furniture and props. Scene brief: 女主坐客厅沙发饮水，丈夫递上薄毯；移除原图医学气泡. Action starting pose: 丈夫把毯子放在她身侧. Keep upper 18 percent calm and uncluttered for a title, the bottom 22 percent calm for captions, and avoid important objects at the right edge. No words, numbers, watermark, speech bubble, fetus or anatomy illustration. Gentle adult proportions, natural hands. One scene only, no collage.",
+      "motion_prompt_draft": "Warm hand-drawn animation, consistent adult couple in a quiet complete room. One subtle natural gesture, 丈夫把毯子放在她身侧. 固定中景. Stable faces, clothing and room layout. Blank calm wall areas. Slow gentle motion. No scene change.",
+      "reference_frame_status": "not_generated_pending_character_review"
+    },
+    {
+      "id": "shot-04",
+      "phase": "第3周",
+      "estimated_seconds": 6,
+      "narration": "第3周前后，可能发生受精。细胞分裂，随后向子宫移动。",
+      "screen_text": "第3周前后｜受精 → 分裂 → 移动",
+      "reference_source": "怀孕1到12周（无文字版）参考图/landscape-scene-04.png",
+      "frame_plan": "夫妻牵手站在左下部，右上空白供后期概念路径；不生成解剖图",
+      "action": "两人轻握手，眼神自然交汇",
+      "camera": "缓慢拉近",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "image_prompt": "Create one 9:16 portrait frame in the supplied warm 2D hand-drawn illustration style. Preserve the adult woman and adult man identities, hairstyles, cream blouse and long navy skirt for her, navy sweater and olive trousers for him. Early pregnancy: no exaggerated belly. Complete consistent room with furniture and props. Scene brief: 夫妻牵手站在左下部，右上空白供后期概念路径；不生成解剖图. Action starting pose: 两人轻握手，眼神自然交汇. Keep upper 18 percent calm and uncluttered for a title, the bottom 22 percent calm for captions, and avoid important objects at the right edge. No words, numbers, watermark, speech bubble, fetus or anatomy illustration. Gentle adult proportions, natural hands. One scene only, no collage.",
+      "motion_prompt_draft": "Warm hand-drawn animation, consistent adult couple in a quiet complete room. One subtle natural gesture, 两人轻握手，眼神自然交汇. 缓慢拉近. Stable faces, clothing and room layout. Blank calm wall areas. Slow gentle motion. No scene change.",
+      "reference_frame_status": "not_generated_pending_character_review"
+    },
+    {
+      "id": "shot-05",
+      "phase": "第4周",
+      "estimated_seconds": 5,
+      "narration": "到第4周前后，着床通常已经发生，但你可能还没有明显感觉。",
+      "screen_text": "第4周前后｜通常已着床；可能无明显症状",
+      "reference_source": "怀孕1到12周（无文字版）参考图/landscape-scene-04.png",
+      "frame_plan": "夫妻坐明亮窗边，人物下半区，上方留白供概念点阵",
+      "action": "妻子将手轻放腹前，丈夫微笑",
+      "camera": "轻推近",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "image_prompt": "Create one 9:16 portrait frame in the supplied warm 2D hand-drawn illustration style. Preserve the adult woman and adult man identities, hairstyles, cream blouse and long navy skirt for her, navy sweater and olive trousers for him. Early pregnancy: no exaggerated belly. Complete consistent room with furniture and props. Scene brief: 夫妻坐明亮窗边，人物下半区，上方留白供概念点阵. Action starting pose: 妻子将手轻放腹前，丈夫微笑. Keep upper 18 percent calm and uncluttered for a title, the bottom 22 percent calm for captions, and avoid important objects at the right edge. No words, numbers, watermark, speech bubble, fetus or anatomy illustration. Gentle adult proportions, natural hands. One scene only, no collage.",
+      "motion_prompt_draft": "Warm hand-drawn animation, consistent adult couple in a quiet complete room. One subtle natural gesture, 妻子将手轻放腹前，丈夫微笑. 轻推近. Stable faces, clothing and room layout. Blank calm wall areas. Slow gentle motion. No scene change.",
+      "reference_frame_status": "not_generated_pending_character_review"
+    },
+    {
+      "id": "shot-06",
+      "phase": "第5周",
+      "estimated_seconds": 6,
+      "narration": "第5周，脑、脊髓和心脏正在发育。停经、犯困，也可能让你发现怀孕。",
+      "screen_text": "第5周｜脑、脊髓、心脏正在发育",
+      "reference_source": "怀孕1到12周（无文字版）参考图/landscape-scene-05.png",
+      "frame_plan": "女主坐床边看空白验孕棒，男主坐侧边陪伴；检测标识后期添加且非诊断",
+      "action": "妻子低头看手中物件，丈夫看向她",
+      "camera": "固定中景",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "image_prompt": "Create one 9:16 portrait frame in the supplied warm 2D hand-drawn illustration style. Preserve the adult woman and adult man identities, hairstyles, cream blouse and long navy skirt for her, navy sweater and olive trousers for him. Early pregnancy: no exaggerated belly. Complete consistent room with furniture and props. Scene brief: 女主坐床边看空白验孕棒，男主坐侧边陪伴；检测标识后期添加且非诊断. Action starting pose: 妻子低头看手中物件，丈夫看向她. Keep upper 18 percent calm and uncluttered for a title, the bottom 22 percent calm for captions, and avoid important objects at the right edge. No words, numbers, watermark, speech bubble, fetus or anatomy illustration. Gentle adult proportions, natural hands. One scene only, no collage.",
+      "motion_prompt_draft": "Warm hand-drawn animation, consistent adult couple in a quiet complete room. One subtle natural gesture, 妻子低头看手中物件，丈夫看向她. 固定中景. Stable faces, clothing and room layout. Blank calm wall areas. Slow gentle motion. No scene change.",
+      "reference_frame_status": "not_generated_pending_character_review"
+    },
+    {
+      "id": "shot-07",
+      "phase": "第6周",
+      "estimated_seconds": 6,
+      "narration": "第6周，四肢芽开始出现。恶心可能找上门，而且不只发生在早晨。",
+      "screen_text": "第6周｜四肢芽开始出现；孕吐不限早晨",
+      "reference_source": "怀孕1到12周（无文字版）参考图/landscape-scene-06.png",
+      "frame_plan": "妻子坐床边轻掩口，丈夫拿常温水杯，背景不含胚胎图",
+      "action": "丈夫将水放近，妻子轻呼气",
+      "camera": "轻推近",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "image_prompt": "Create one 9:16 portrait frame in the supplied warm 2D hand-drawn illustration style. Preserve the adult woman and adult man identities, hairstyles, cream blouse and long navy skirt for her, navy sweater and olive trousers for him. Early pregnancy: no exaggerated belly. Complete consistent room with furniture and props. Scene brief: 妻子坐床边轻掩口，丈夫拿常温水杯，背景不含胚胎图. Action starting pose: 丈夫将水放近，妻子轻呼气. Keep upper 18 percent calm and uncluttered for a title, the bottom 22 percent calm for captions, and avoid important objects at the right edge. No words, numbers, watermark, speech bubble, fetus or anatomy illustration. Gentle adult proportions, natural hands. One scene only, no collage.",
+      "motion_prompt_draft": "Warm hand-drawn animation, consistent adult couple in a quiet complete room. One subtle natural gesture, 丈夫将水放近，妻子轻呼气. 轻推近. Stable faces, clothing and room layout. Blank calm wall areas. Slow gentle motion. No scene change.",
+      "reference_frame_status": "not_generated_pending_character_review"
+    },
+    {
+      "id": "shot-08",
+      "phase": "第7周",
+      "estimated_seconds": 5,
+      "narration": "第7周，脑部快速发育，小胳膊继续长。妈妈可能依然很累。",
+      "screen_text": "第7周｜脑部快速发育；手臂继续长",
+      "reference_source": "怀孕1到12周（无文字版）参考图/landscape-scene-06.png",
+      "frame_plan": "妻子靠沙发休息，丈夫拿靠垫放她背后",
+      "action": "丈夫轻调整靠垫，妻子放松肩膀",
+      "camera": "固定中景",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "image_prompt": "Create one 9:16 portrait frame in the supplied warm 2D hand-drawn illustration style. Preserve the adult woman and adult man identities, hairstyles, cream blouse and long navy skirt for her, navy sweater and olive trousers for him. Early pregnancy: no exaggerated belly. Complete consistent room with furniture and props. Scene brief: 妻子靠沙发休息，丈夫拿靠垫放她背后. Action starting pose: 丈夫轻调整靠垫，妻子放松肩膀. Keep upper 18 percent calm and uncluttered for a title, the bottom 22 percent calm for captions, and avoid important objects at the right edge. No words, numbers, watermark, speech bubble, fetus or anatomy illustration. Gentle adult proportions, natural hands. One scene only, no collage.",
+      "motion_prompt_draft": "Warm hand-drawn animation, consistent adult couple in a quiet complete room. One subtle natural gesture, 丈夫轻调整靠垫，妻子放松肩膀. 固定中景. Stable faces, clothing and room layout. Blank calm wall areas. Slow gentle motion. No scene change.",
+      "reference_frame_status": "not_generated_pending_character_review"
+    },
+    {
+      "id": "shot-09",
+      "phase": "第8周",
+      "estimated_seconds": 6,
+      "narration": "第8周，四肢继续发育。闻到饭味就难受，真的不是矫情。",
+      "screen_text": "第8周｜四肢继续发育；气味可能诱发恶心",
+      "reference_source": "怀孕1到12周（无文字版）参考图/landscape-scene-07.png",
+      "frame_plan": "厨房妻子轻掩鼻口，丈夫拿一份清淡小餐，移除浓烈红色菜肴",
+      "action": "丈夫将餐碟缓缓放在桌上",
+      "camera": "固定中景",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "image_prompt": "Create one 9:16 portrait frame in the supplied warm 2D hand-drawn illustration style. Preserve the adult woman and adult man identities, hairstyles, cream blouse and long navy skirt for her, navy sweater and olive trousers for him. Early pregnancy: no exaggerated belly. Complete consistent room with furniture and props. Scene brief: 厨房妻子轻掩鼻口，丈夫拿一份清淡小餐，移除浓烈红色菜肴. Action starting pose: 丈夫将餐碟缓缓放在桌上. Keep upper 18 percent calm and uncluttered for a title, the bottom 22 percent calm for captions, and avoid important objects at the right edge. No words, numbers, watermark, speech bubble, fetus or anatomy illustration. Gentle adult proportions, natural hands. One scene only, no collage.",
+      "motion_prompt_draft": "Warm hand-drawn animation, consistent adult couple in a quiet complete room. One subtle natural gesture, 丈夫将餐碟缓缓放在桌上. 固定中景. Stable faces, clothing and room layout. Blank calm wall areas. Slow gentle motion. No scene change.",
+      "reference_frame_status": "not_generated_pending_character_review"
+    },
+    {
+      "id": "shot-10",
+      "phase": "第9周",
+      "estimated_seconds": 5,
+      "narration": "第9周，面部轮廓更清楚，手脚继续发育。孕吐和疲倦可能还在。",
+      "screen_text": "第9周｜面部、手脚继续发育",
+      "reference_source": "怀孕1到12周（无文字版）参考图/landscape-scene-07.png",
+      "frame_plan": "餐桌妻子面对小份清淡食物，丈夫坐旁陪伴，不劝吃",
+      "action": "妻子缓慢拿起勺子，丈夫安静点头",
+      "camera": "轻推近",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "image_prompt": "Create one 9:16 portrait frame in the supplied warm 2D hand-drawn illustration style. Preserve the adult woman and adult man identities, hairstyles, cream blouse and long navy skirt for her, navy sweater and olive trousers for him. Early pregnancy: no exaggerated belly. Complete consistent room with furniture and props. Scene brief: 餐桌妻子面对小份清淡食物，丈夫坐旁陪伴，不劝吃. Action starting pose: 妻子缓慢拿起勺子，丈夫安静点头. Keep upper 18 percent calm and uncluttered for a title, the bottom 22 percent calm for captions, and avoid important objects at the right edge. No words, numbers, watermark, speech bubble, fetus or anatomy illustration. Gentle adult proportions, natural hands. One scene only, no collage.",
+      "motion_prompt_draft": "Warm hand-drawn animation, consistent adult couple in a quiet complete room. One subtle natural gesture, 妻子缓慢拿起勺子，丈夫安静点头. 轻推近. Stable faces, clothing and room layout. Blank calm wall areas. Slow gentle motion. No scene change.",
+      "reference_frame_status": "not_generated_pending_character_review"
+    },
+    {
+      "id": "shot-11",
+      "phase": "第10周",
+      "estimated_seconds": 6,
+      "narration": "第10周，宝宝已经有小动作，但妈妈通常还感觉不到胎动。",
+      "screen_text": "第10周｜有小动作 ≠ 妈妈能感觉胎动",
+      "reference_source": "怀孕1到12周（无文字版）参考图/landscape-scene-08.png",
+      "frame_plan": "夫妻翻看空白孕期手册，原图胎儿气泡移除，不用真实医学报告",
+      "action": "夫妻缓慢翻一页，相视微笑",
+      "camera": "轻微侧移",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "image_prompt": "Create one 9:16 portrait frame in the supplied warm 2D hand-drawn illustration style. Preserve the adult woman and adult man identities, hairstyles, cream blouse and long navy skirt for her, navy sweater and olive trousers for him. Early pregnancy: no exaggerated belly. Complete consistent room with furniture and props. Scene brief: 夫妻翻看空白孕期手册，原图胎儿气泡移除，不用真实医学报告. Action starting pose: 夫妻缓慢翻一页，相视微笑. Keep upper 18 percent calm and uncluttered for a title, the bottom 22 percent calm for captions, and avoid important objects at the right edge. No words, numbers, watermark, speech bubble, fetus or anatomy illustration. Gentle adult proportions, natural hands. One scene only, no collage.",
+      "motion_prompt_draft": "Warm hand-drawn animation, consistent adult couple in a quiet complete room. One subtle natural gesture, 夫妻缓慢翻一页，相视微笑. 轻微侧移. Stable faces, clothing and room layout. Blank calm wall areas. Slow gentle motion. No scene change.",
+      "reference_frame_status": "not_generated_pending_character_review"
+    },
+    {
+      "id": "shot-12",
+      "phase": "第11周",
+      "estimated_seconds": 5,
+      "narration": "第11周，小手指、脚趾逐渐分开，身体仍在快速成长。",
+      "screen_text": "第11周｜手指、脚趾逐渐分开",
+      "reference_source": "怀孕1到12周（无文字版）参考图/landscape-scene-08.png",
+      "frame_plan": "同一客厅餐桌夫妻看孕期手册，上方留出信息区",
+      "action": "妻子轻指一页，丈夫低头阅读",
+      "camera": "轻推近",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "image_prompt": "Create one 9:16 portrait frame in the supplied warm 2D hand-drawn illustration style. Preserve the adult woman and adult man identities, hairstyles, cream blouse and long navy skirt for her, navy sweater and olive trousers for him. Early pregnancy: no exaggerated belly. Complete consistent room with furniture and props. Scene brief: 同一客厅餐桌夫妻看孕期手册，上方留出信息区. Action starting pose: 妻子轻指一页，丈夫低头阅读. Keep upper 18 percent calm and uncluttered for a title, the bottom 22 percent calm for captions, and avoid important objects at the right edge. No words, numbers, watermark, speech bubble, fetus or anatomy illustration. Gentle adult proportions, natural hands. One scene only, no collage.",
+      "motion_prompt_draft": "Warm hand-drawn animation, consistent adult couple in a quiet complete room. One subtle natural gesture, 妻子轻指一页，丈夫低头阅读. 轻推近. Stable faces, clothing and room layout. Blank calm wall areas. Slow gentle motion. No scene change.",
+      "reference_frame_status": "not_generated_pending_character_review"
+    },
+    {
+      "id": "shot-13",
+      "phase": "第12周",
+      "estimated_seconds": 7,
+      "narration": "第12周，头臀长大约五厘米。器官还在发育，产检继续按医生安排。",
+      "screen_text": "第12周｜头臀长约5厘米；器官继续发育",
+      "reference_source": "怀孕1到12周（无文字版）参考图/landscape-scene-10.png",
+      "frame_plan": "夫妻坐产科候诊区，持空白预约单，人物腹部不夸张",
+      "action": "丈夫轻握妻子手，两人看向诊室方向",
+      "camera": "缓慢推进",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "image_prompt": "Create one 9:16 portrait frame in the supplied warm 2D hand-drawn illustration style. Preserve the adult woman and adult man identities, hairstyles, cream blouse and long navy skirt for her, navy sweater and olive trousers for him. Early pregnancy: no exaggerated belly. Complete consistent room with furniture and props. Scene brief: 夫妻坐产科候诊区，持空白预约单，人物腹部不夸张. Action starting pose: 丈夫轻握妻子手，两人看向诊室方向. Keep upper 18 percent calm and uncluttered for a title, the bottom 22 percent calm for captions, and avoid important objects at the right edge. No words, numbers, watermark, speech bubble, fetus or anatomy illustration. Gentle adult proportions, natural hands. One scene only, no collage.",
+      "motion_prompt_draft": "Warm hand-drawn animation, consistent adult couple in a quiet complete room. One subtle natural gesture, 丈夫轻握妻子手，两人看向诊室方向. 缓慢推进. Stable faces, clothing and room layout. Blank calm wall areas. Slow gentle motion. No scene change.",
+      "reference_frame_status": "not_generated_pending_character_review"
+    },
+    {
+      "id": "shot-14",
+      "phase": "陪伴行动",
+      "estimated_seconds": 8,
+      "narration": "准爸爸能做的：分担家务，准备她吃得下的小餐，陪她休息、产检。",
+      "screen_text": "伴侣清单｜分担家务 · 小餐 · 陪伴",
+      "reference_source": "怀孕1到12周（无文字版）参考图/landscape-scene-07.png",
+      "frame_plan": "暖色厨房丈夫备小餐，女主坐桌旁休息，同原厨房布局",
+      "action": "丈夫把小餐放下，女主轻点头",
+      "camera": "固定中景",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "image_prompt": "Create one 9:16 portrait frame in the supplied warm 2D hand-drawn illustration style. Preserve the adult woman and adult man identities, hairstyles, cream blouse and long navy skirt for her, navy sweater and olive trousers for him. Early pregnancy: no exaggerated belly. Complete consistent room with furniture and props. Scene brief: 暖色厨房丈夫备小餐，女主坐桌旁休息，同原厨房布局. Action starting pose: 丈夫把小餐放下，女主轻点头. Keep upper 18 percent calm and uncluttered for a title, the bottom 22 percent calm for captions, and avoid important objects at the right edge. No words, numbers, watermark, speech bubble, fetus or anatomy illustration. Gentle adult proportions, natural hands. One scene only, no collage.",
+      "motion_prompt_draft": "Warm hand-drawn animation, consistent adult couple in a quiet complete room. One subtle natural gesture, 丈夫把小餐放下，女主轻点头. 固定中景. Stable faces, clothing and room layout. Blank calm wall areas. Slow gentle motion. No scene change.",
+      "reference_frame_status": "not_generated_pending_character_review"
+    },
+    {
+      "id": "shot-15",
+      "phase": "必要提醒",
+      "estimated_seconds": 8,
+      "narration": "每个人反应不同。出血、明显腹痛，或吐到喝不进水，要及时就医。",
+      "screen_text": "出血 / 明显腹痛 / 喝不进水 → 及时就医",
+      "reference_source": "怀孕1到12周（无文字版）参考图/landscape-scene-09.png",
+      "frame_plan": "不用原图卫生巾与三格拼图，改为单幅候诊区夫妻等待；非惊恐画面",
+      "action": "丈夫轻陪伴，妻子平静握水杯",
+      "camera": "固定中景",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "image_prompt": "Create one 9:16 portrait frame in the supplied warm 2D hand-drawn illustration style. Preserve the adult woman and adult man identities, hairstyles, cream blouse and long navy skirt for her, navy sweater and olive trousers for him. Early pregnancy: no exaggerated belly. Complete consistent room with furniture and props. Scene brief: 不用原图卫生巾与三格拼图，改为单幅候诊区夫妻等待；非惊恐画面. Action starting pose: 丈夫轻陪伴，妻子平静握水杯. Keep upper 18 percent calm and uncluttered for a title, the bottom 22 percent calm for captions, and avoid important objects at the right edge. No words, numbers, watermark, speech bubble, fetus or anatomy illustration. Gentle adult proportions, natural hands. One scene only, no collage.",
+      "motion_prompt_draft": "Warm hand-drawn animation, consistent adult couple in a quiet complete room. One subtle natural gesture, 丈夫轻陪伴，妻子平静握水杯. 固定中景. Stable faces, clothing and room layout. Blank calm wall areas. Slow gentle motion. No scene change.",
+      "reference_frame_status": "not_generated_pending_character_review"
+    },
+    {
+      "id": "shot-16",
+      "phase": "结尾",
+      "estimated_seconds": 7,
+      "narration": "肚子还没显出来，不代表她不辛苦。收藏对照孕周，转给陪你迎接宝宝的人。",
+      "screen_text": "看不见的变化，也值得被理解｜关注，继续了解孕期变化",
+      "reference_source": "怀孕1到12周（无文字版）参考图/landscape-scene-01.png",
+      "frame_plan": "夫妻窗边牵手，原卧室暖色柔光，顶部留白，无遮挡人物",
+      "action": "两人牵手自然靠近，轻微微笑",
+      "camera": "缓慢拉远",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "image_prompt": "Create one 9:16 portrait frame in the supplied warm 2D hand-drawn illustration style. Preserve the adult woman and adult man identities, hairstyles, cream blouse and long navy skirt for her, navy sweater and olive trousers for him. Early pregnancy: no exaggerated belly. Complete consistent room with furniture and props. Scene brief: 夫妻窗边牵手，原卧室暖色柔光，顶部留白，无遮挡人物. Action starting pose: 两人牵手自然靠近，轻微微笑. Keep upper 18 percent calm and uncluttered for a title, the bottom 22 percent calm for captions, and avoid important objects at the right edge. No words, numbers, watermark, speech bubble, fetus or anatomy illustration. Gentle adult proportions, natural hands. One scene only, no collage.",
+      "motion_prompt_draft": "Warm hand-drawn animation, consistent adult couple in a quiet complete room. One subtle natural gesture, 两人牵手自然靠近，轻微微笑. 缓慢拉远. Stable faces, clothing and room layout. Blank calm wall areas. Slow gentle motion. No scene change.",
+      "reference_frame_status": "not_generated_pending_character_review"
+    }
+  ]
+}

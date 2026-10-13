@@ -1,0 +1,19 @@
+{
+  "scope": "preproduction draft only",
+  "checks": {
+    "production_plan_schema": "passed",
+    "preset_component_sha256": "passed",
+    "ten_input_media_sha256": "passed",
+    "html_local_links": "passed",
+    "shot_count": 16,
+    "browser_images_loaded": 17,
+    "browser_layout": "desktop screenshot inspected"
+  },
+  "not_checked": [
+    "generated character/shot art: absent",
+    "audio",
+    "motion",
+    "rendered video"
+  ],
+  "result": "draft review page verified; video production blocked by OpenLux HTTP503"
+}

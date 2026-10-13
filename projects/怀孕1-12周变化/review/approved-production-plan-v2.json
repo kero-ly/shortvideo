@@ -1,0 +1,455 @@
+{
+  "episode_id": "怀孕1-12周变化",
+  "revision": 2,
+  "status": "production_approved",
+  "brief": {
+    "topic": "怀孕1—12周变化",
+    "audience": "母婴账号：孕早期女性、备孕家庭及准爸爸",
+    "key_points": [
+      "孕周从末次月经起算，避免把受精周龄当孕周",
+      "每周发育要点和妈妈感受并列",
+      "伴侣行动建议提供转发理由",
+      "症状因人而异，异常就医"
+    ],
+    "goals": [
+      "关注增长",
+      "点赞与情绪共鸣",
+      "收藏与转发价值"
+    ],
+    "metrics_note": "creative objectives, no performance guarantee"
+  },
+  "selection": {
+    "basis": "User explicitly requested using supplied scene images as direct templates and references, bypassing independent master design.",
+    "preset": {
+      "id": "2d-handdrawn-warm-light-muted-daily-explainer",
+      "version": 1,
+      "path": "styles/presets/2d-handdrawn-warm-light-muted-daily-explainer.json",
+      "sha256": "a8c05fc2c1ed804791f70f1510b69e4754f420092bd791b01b249dc245774123"
+    },
+    "components": [
+      {
+        "path": "styles/visual/handdrawn-warm.json",
+        "id": "handdrawn-warm-visual",
+        "version": 1,
+        "sha256": "93f1442692469a10197f92b7133f0e5e2864e683ccf9b06bb1b0a134a54127a3"
+      },
+      {
+        "path": "styles/layouts/handdrawn-warm.json",
+        "id": "handdrawn-warm-layouts",
+        "version": 1,
+        "sha256": "f90c86ca8415a7b3a3da41b875e7ac6c9a1bf301f2e08e83c4d007c03099414a"
+      },
+      {
+        "path": "styles/audio/handdrawn-warm.json",
+        "id": "handdrawn-warm-audio",
+        "version": 1,
+        "sha256": "a6c947ad53aaa61dd7e1a7a870fb029d0ad9576073943b268c38d9dd2f20afbb"
+      },
+      {
+        "path": "formats/scenario-explainer.json",
+        "id": "scenario-explainer",
+        "version": 1,
+        "sha256": "b91595af5ad293ca409b9f914d31a5835b67d2c46d216a879120c59062dea442"
+      }
+    ],
+    "overrides": {
+      "visual_basis": "user-supplied warm hand-drawn adult couple; preserve original identities and clothes",
+      "aspect_ratio": "9:16",
+      "target_delivery_size": [
+        1080,
+        1920
+      ],
+      "tone": "empathetic factual explanation, no fear appeals",
+      "format": "week-by-week dual narrative: fetal development and maternal experience",
+      "duration": "estimated 95–110 seconds; determined by real TTS later",
+      "anatomy": "no model-generated anatomy motion; optional non-anatomical symbolic overlays labeled schematic",
+      "voice": "warm clear adult female; reference and authorization to be selected before TTS",
+      "music": "optional very low instrumental with verified source; otherwise omit",
+      "captions": "one narration caption layer plus short nonduplicative week heading; right/bottom Douyin UI reserve",
+      "identity_basis": "original user supplied scene images directly; no generated character master used"
+    }
+  },
+  "resolved": {
+    "status": "locked_v2",
+    "preset": {
+      "id": "2d-handdrawn-warm-light-muted-daily-explainer",
+      "version": 1,
+      "display_name": "2D 手绘动画 · 暖色明亮低饱和 · 生活情境科普",
+      "alias": "暖色手绘科普",
+      "components": {
+        "visual": {
+          "path": "styles/visual/handdrawn-warm.json",
+          "id": "handdrawn-warm-visual",
+          "version": 1
+        },
+        "layouts": {
+          "path": "styles/layouts/handdrawn-warm.json",
+          "id": "handdrawn-warm-layouts",
+          "version": 1
+        },
+        "audio": {
+          "path": "styles/audio/handdrawn-warm.json",
+          "id": "handdrawn-warm-audio",
+          "version": 1
+        },
+        "format": {
+          "path": "formats/scenario-explainer.json",
+          "id": "scenario-explainer",
+          "version": 1
+        }
+      },
+      "compatible_methods": [
+        "character-scenario"
+      ],
+      "status": "internal_review_example_validated",
+      "example": "projects/early_pregnancy_signs_01/h3_v2",
+      "limitations": [
+        "内部审阅案例；非所有主题自动验证",
+        "工具型号不是风格定义",
+        "案例合成脚本需要按新期内容适配"
+      ],
+      "legacy_snapshot": "styles/2d-handdrawn/warm-light-muted-daily-explainer.json"
+    },
+    "component_configs": {
+      "visual": {
+        "id": "handdrawn-warm-visual",
+        "version": 1,
+        "visual": {
+          "medium": "2D 手绘动画",
+          "rendering": "柔和线稿、轻赛璐璐阴影、轻纸感",
+          "character": "成人比例人物"
+        },
+        "color": {
+          "temperature": "暖色",
+          "brightness": "明亮",
+          "saturation": "低饱和",
+          "palette": [
+            "奶油白",
+            "鼠尾草绿",
+            "浅木色",
+            "克制的珊瑚色点缀"
+          ]
+        },
+        "setting": "生活居家情境"
+      },
+      "layouts": {
+        "id": "handdrawn-warm-layouts",
+        "version": 1,
+        "description": "依据本期分镜规划标题、旁白和信息卡；旧案例值不是通用默认",
+        "frame": "9:16"
+      },
+      "audio": {
+        "id": "handdrawn-warm-audio",
+        "version": 1,
+        "tone": "温柔陪伴",
+        "pace": "舒缓适中",
+        "music": "轻快、低音量、无歌词，可按主题覆盖",
+        "voice": "每期选择并核实使用范围"
+      },
+      "format": {
+        "id": "scenario-explainer",
+        "version": 1,
+        "structure": [
+          "生活疑问",
+          "人物情境",
+          "解释与限制",
+          "行动建议"
+        ],
+        "shot_count": "按内容与真实配音时长确定"
+      }
+    },
+    "episode_overrides": {
+      "visual_basis": "user-supplied warm hand-drawn adult couple; preserve original identities and clothes",
+      "aspect_ratio": "9:16",
+      "target_delivery_size": [
+        1080,
+        1920
+      ],
+      "tone": "empathetic factual explanation, no fear appeals",
+      "format": "week-by-week dual narrative: fetal development and maternal experience",
+      "duration": "estimated 95–110 seconds; determined by real TTS later",
+      "anatomy": "no model-generated anatomy motion; optional non-anatomical symbolic overlays labeled schematic",
+      "voice": "warm clear adult female; reference and authorization to be selected before TTS",
+      "music": "optional very low instrumental with verified source; otherwise omit",
+      "captions": "one narration caption layer plus short nonduplicative week heading; right/bottom Douyin UI reserve",
+      "identity_basis": "original user supplied scene images directly; no generated character master used"
+    }
+  },
+  "methods": [
+    "character-scenario"
+  ],
+  "tools": [
+    {
+      "capability": "image",
+      "provider": "OpenLux gpt-image-2",
+      "status": "smoke_tested",
+      "episode_status": "16 original-scene reference extensions returned actual PNGs; visually reviewed as storyboard candidates, not user-approved production assets",
+      "evidence": "review/reference-frames-v2.json"
+    },
+    {
+      "capability": "video",
+      "provider": "220 H3 ComfyUI",
+      "status": "reachable",
+      "episode_status": "SSH and ComfyUI queue/system_stats read-only checks succeeded; no episode model job submitted",
+      "evidence": "review/server-preflight-v2.json"
+    },
+    {
+      "capability": "narration",
+      "provider": "IndexTTS2 on 220",
+      "status": "configured",
+      "episode_status": "voice reference not selected; not run"
+    },
+    {
+      "capability": "composition",
+      "provider": "Remotion + FFmpeg on 220",
+      "status": "configured",
+      "episode_status": "new episode renderer adaptation not implemented"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "reference_input": "怀孕1到12周（无文字版）参考图/landscape-scene-01.png",
+      "input_sha256": "f23ec4d1c7e4a5561708777ca6b06555214328d2eef2f2fc8a59c26b5313f405",
+      "reference_frame": "references/shots/v2/shot-01.png",
+      "reference_frame_sha256": "ae02aa7f09e29a8928e013c11fd7908ebdccb1c281762ab82ec06314ef43133c"
+    },
+    {
+      "id": "shot-02",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "reference_input": "怀孕1到12周（无文字版）参考图/landscape-scene-02.png",
+      "input_sha256": "b85452dae3ab814d4aa91c81bee5d9092d27f43e69f3f49041cc0e44933461f6",
+      "reference_frame": "references/shots/v2/shot-02.png",
+      "reference_frame_sha256": "c41f54d8b6aa93e6c830961f7c30cdb0ce723abc73484284ada7552b6fe8a081"
+    },
+    {
+      "id": "shot-03",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "reference_input": "怀孕1到12周（无文字版）参考图/landscape-scene-03.png",
+      "input_sha256": "e9ca75890003c63548f8d208d7910b01acf7b40d1c9395c1b6b5c30d23bf7cf0",
+      "reference_frame": "references/shots/v2/shot-03.png",
+      "reference_frame_sha256": "e24bd0aac9093e65f39f82118e899f6d1e25ad61b97f37311a06e90f8e4fa127"
+    },
+    {
+      "id": "shot-04",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "reference_input": "怀孕1到12周（无文字版）参考图/landscape-scene-04.png",
+      "input_sha256": "2ecb8a61713914342178b26cd53d821797fa790c050d8b4372738cb3de6e0da3",
+      "reference_frame": "references/shots/v2/shot-04.png",
+      "reference_frame_sha256": "8dd25cc3041513769840b5fac4df3d7c5677cd261956a9cf8c5bd25f4ac0846c"
+    },
+    {
+      "id": "shot-05",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "reference_input": "怀孕1到12周（无文字版）参考图/landscape-scene-01.png",
+      "input_sha256": "f23ec4d1c7e4a5561708777ca6b06555214328d2eef2f2fc8a59c26b5313f405",
+      "reference_frame": "references/shots/v2/shot-05.png",
+      "reference_frame_sha256": "7ddad91bbd7432c5664cf5e364200896dfaa868b3dcc89d7aea9a1cd07aa8793"
+    },
+    {
+      "id": "shot-06",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "reference_input": "怀孕1到12周（无文字版）参考图/landscape-scene-05.png",
+      "input_sha256": "7c507beb38317c1f66768225afc35fd0ec3cf19ca4fac3f01aff505b4c20e231",
+      "reference_frame": "references/shots/v2/shot-06.png",
+      "reference_frame_sha256": "e6b4d822d7240a59203003c0df6c2bf503066c20d3c243ea0d6c70bd5071ba8c"
+    },
+    {
+      "id": "shot-07",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "reference_input": "怀孕1到12周（无文字版）参考图/landscape-scene-05.png",
+      "input_sha256": "7c507beb38317c1f66768225afc35fd0ec3cf19ca4fac3f01aff505b4c20e231",
+      "reference_frame": "references/shots/v2/shot-07.png",
+      "reference_frame_sha256": "28868852aad61dd79f2ed132b8a07485f9cb6fc116fcda3d31a9e24df2a1d805"
+    },
+    {
+      "id": "shot-08",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "reference_input": "怀孕1到12周（无文字版）参考图/landscape-scene-03.png",
+      "input_sha256": "e9ca75890003c63548f8d208d7910b01acf7b40d1c9395c1b6b5c30d23bf7cf0",
+      "reference_frame": "references/shots/v2/shot-08.png",
+      "reference_frame_sha256": "84c05681ef227080ec947817936558193111194e6660a44cb7b39aaaa6a4f51a"
+    },
+    {
+      "id": "shot-09",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "reference_input": "怀孕1到12周（无文字版）参考图/landscape-scene-07.png",
+      "input_sha256": "fe45374d6afde1f2e3a5206991d3b35fe2f18dda809c4d4d15cc1bf3ec629533",
+      "reference_frame": "references/shots/v2/shot-09.png",
+      "reference_frame_sha256": "de4f50a1e0f832baffc693259a0799f3ca0e6752c9cefde8edbb009c6e28c472"
+    },
+    {
+      "id": "shot-10",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "reference_input": "怀孕1到12周（无文字版）参考图/landscape-scene-07.png",
+      "input_sha256": "fe45374d6afde1f2e3a5206991d3b35fe2f18dda809c4d4d15cc1bf3ec629533",
+      "reference_frame": "references/shots/v2/shot-10.png",
+      "reference_frame_sha256": "18c6e376340c32db6ccc41db89f28f68bca2a6bf95acc05a6e82a7eb87729778"
+    },
+    {
+      "id": "shot-11",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "reference_input": "怀孕1到12周（无文字版）参考图/landscape-scene-08.png",
+      "input_sha256": "43318698b9287b630f2d2ee9769c361c59f34ecea3cfed7180b69c871eacc3fd",
+      "reference_frame": "references/shots/v2/shot-11.png",
+      "reference_frame_sha256": "8408f3e16d53a6eef37576b149b0f7cc3f4a0c5e618603f4b7a9ce9d2b8b1096"
+    },
+    {
+      "id": "shot-12",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "reference_input": "怀孕1到12周（无文字版）参考图/landscape-scene-08.png",
+      "input_sha256": "43318698b9287b630f2d2ee9769c361c59f34ecea3cfed7180b69c871eacc3fd",
+      "reference_frame": "references/shots/v2/shot-12.png",
+      "reference_frame_sha256": "7d8b061fbf716eb39bedd52870343875884f8b4c3ca3423450fe540943abf943"
+    },
+    {
+      "id": "shot-13",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "reference_input": "怀孕1到12周（无文字版）参考图/landscape-scene-10.png",
+      "input_sha256": "e16d389c8e1f6be8c138e4e0747dde24614ee5dc7e90105872bb935440575250",
+      "reference_frame": "references/shots/v2/shot-13.png",
+      "reference_frame_sha256": "539f79f5483b6d6e8973f994ba4a0c33df4b17619a5bea30f1c0ff517372c300"
+    },
+    {
+      "id": "shot-14",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "reference_input": "怀孕1到12周（无文字版）参考图/landscape-scene-07.png",
+      "input_sha256": "fe45374d6afde1f2e3a5206991d3b35fe2f18dda809c4d4d15cc1bf3ec629533",
+      "reference_frame": "references/shots/v2/shot-14.png",
+      "reference_frame_sha256": "fcbced8788ce22b657c187827192e946f087dff6605da701f80778b96747469f"
+    },
+    {
+      "id": "shot-15",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "reference_input": "怀孕1到12周（无文字版）参考图/landscape-scene-10.png",
+      "input_sha256": "e16d389c8e1f6be8c138e4e0747dde24614ee5dc7e90105872bb935440575250",
+      "reference_frame": "references/shots/v2/shot-15.png",
+      "reference_frame_sha256": "52f22e65590850c00249431fc16252d1da2e0e736e062d4c33bf0cf17b467772"
+    },
+    {
+      "id": "shot-16",
+      "method": "character-scenario",
+      "route": [
+        "OpenLux gpt-image-2 edit portrait reference",
+        "220 H3 character motion",
+        "220 Remotion exact Chinese labels and conceptual graphics",
+        "FFmpeg encode/QA"
+      ],
+      "reference_input": "怀孕1到12周（无文字版）参考图/landscape-scene-01.png",
+      "input_sha256": "f23ec4d1c7e4a5561708777ca6b06555214328d2eef2f2fc8a59c26b5313f405",
+      "reference_frame": "references/shots/v2/shot-16.png",
+      "reference_frame_sha256": "00d94ef74c86dcbcb2d8cf45fc4099ff82d9e9c6c3876c024b0c4e9a1e3b30f3"
+    }
+  ],
+  "approvals": [
+    {
+      "scope": "reference inspection, editorial design and bounded character exploration",
+      "revision": 1,
+      "evidence": "2026-10-13 user requested designing script and animation based on supplied images for an end-to-end Douyin video; no actual candidate character/storyboard version approved yet"
+    },
+    {
+      "scope": "direct supplied-reference identity/style basis and all reference-frame extensions; independent mother master step bypassed",
+      "revision": 2,
+      "evidence": "用户：你就用我给你的十几个参考图来作为模板和参考延伸，来做视频吧，先不用自己设计母版了。",
+      "limitations": "Not a claim of approval of the yet-unseen complete image-and-script v2 package."
+    },
+    {
+      "scope": "complete image-and-script v2 and continuation through video production; user originals serve as master reference",
+      "revision": 2,
+      "evidence": "用户：可以，因为这次比较特别，我提前给了你母版，你接着做就可以",
+      "date": "2026-10-13",
+      "package_sha256": "8980b1b84c8e352b30d45489857dcafc810d740dfd200d6e57359c1634c316fb"
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "observed_on": "2026-10-13",
+  "scope": "直接阅读网页正文；非医疗专业审核",
+  "sources": [
+    {
+      "id": "acog",
+      "url": "https://www.acog.org/womens-health/faqs/how-your-fetus-grows-during-pregnancy",
+      "scope": "孕周按末次月经起算；受精、着床及早期器官发育。避免混用受精后周龄和孕周。"
+    },
+    {
+      "id": "nhs-nausea",
+      "url": "https://www.nhs.uk/pregnancy/common-symptoms/vomiting-and-morning-sickness/",
+      "scope": "恶心可发生在任何时间；通常16–20周改善，非12周保证；饮水困难等需就医。"
+    },
+    {
+      "id": "nhs-4",
+      "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-4/",
+      "scope": "第4周发育及常见感受，个体时间有差异。"
+    },
+    {
+      "id": "nhs-5",
+      "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-5/",
+      "scope": "第5周发育及常见感受，个体时间有差异。"
+    },
+    {
+      "id": "nhs-6",
+      "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-6/",
+      "scope": "第6周发育及常见感受，个体时间有差异。"
+    },
+    {
+      "id": "nhs-7",
+      "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-7/",
+      "scope": "第7周发育及常见感受，个体时间有差异。"
+    },
+    {
+      "id": "nhs-8",
+      "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-8/",
+      "scope": "第8周发育及常见感受，个体时间有差异。"
+    },
+    {
+      "id": "nhs-9",
+      "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-9/",
+      "scope": "第9周发育及常见感受，个体时间有差异。"
+    },
+    {
+      "id": "nhs-10",
+      "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-10/",
+      "scope": "第10周发育及常见感受，个体时间有差异。"
+    },
+    {
+      "id": "nhs-11",
+      "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-11/",
+      "scope": "第11周发育及常见感受，个体时间有差异。"
+    },
+    {
+      "id": "nhs-12",
+      "url": "https://www.nhs.uk/best-start-in-life/pregnancy/week-by-week-guide-to-pregnancy/1st-trimester/week-12/",
+      "scope": "第12周发育及常见感受，个体时间有差异。"
+    }
+  ],
+  "shots": [
+    {
+      "id": "shot-01",
+      "narration": "怀孕第1周，通常还没受精？看懂这12周，也看见妈妈的辛苦。",
+      "sources": [
+        "acog",
+        "nhs-4"
+      ]
+    },
+    {
+      "id": "shot-02",
+      "narration": "孕周从末次月经第一天算，不是从受精那天算。",
+      "sources": [
+        "acog",
+        "nhs-4"
+      ]
+    },
+    {
+      "id": "shot-03",
+      "narration": "第2周，身体为排卵做准备。周期不同，排卵时间也不同。",
+      "sources": [
+        "acog",
+        "nhs-4"
+      ]
+    },
+    {
+      "id": "shot-04",
+      "narration": "第3周前后，可能发生受精。细胞分裂，随后向子宫移动。",
+      "sources": [
+        "acog"
+      ]
+    },
+    {
+      "id": "shot-05",
+      "narration": "到第4周前后，着床通常已经发生，但你可能还没有明显感觉。",
+      "sources": [
+        "acog",
+        "nhs-4"
+      ]
+    },
+    {
+      "id": "shot-06",
+      "narration": "第5周，脑、脊髓和心脏正在发育。停经、犯困，也可能让你发现怀孕。",
+      "sources": [
+        "nhs-5"
+      ]
+    },
+    {
+      "id": "shot-07",
+      "narration": "第6周，四肢芽开始出现。恶心可能找上门，而且不只发生在早晨。",
+      "sources": [
+        "nhs-6",
+        "nhs-nausea"
+      ]
+    },
+    {
+      "id": "shot-08",
+      "narration": "第7周，脑部快速发育，小胳膊继续长。妈妈可能依然很累。",
+      "sources": [
+        "nhs-7",
+        "nhs-nausea"
+      ]
+    },
+    {
+      "id": "shot-09",
+      "narration": "第8周，四肢继续发育。闻到饭味就难受，真的不是矫情。",
+      "sources": [
+        "nhs-8",
+        "nhs-nausea"
+      ]
+    },
+    {
+      "id": "shot-10",
+      "narration": "第9周，面部轮廓更清楚，手脚继续发育。孕吐和疲倦可能还在。",
+      "sources": [
+        "nhs-9",
+        "nhs-nausea"
+      ]
+    },
+    {
+      "id": "shot-11",
+      "narration": "第10周，宝宝已经有小动作，但妈妈通常还感觉不到胎动。",
+      "sources": [
+        "nhs-10",
+        "nhs-11"
+      ]
+    },
+    {
+      "id": "shot-12",
+      "narration": "第11周，小手指、脚趾逐渐分开，身体仍在快速成长。",
+      "sources": [
+        "nhs-11"
+      ]
+    },
+    {
+      "id": "shot-13",
+      "narration": "第12周，头臀长大约五厘米。器官还在发育，产检继续按医生安排。",
+      "sources": [
+        "nhs-12",
+        "acog"
+      ]
+    },
+    {
+      "id": "shot-14",
+      "narration": "准爸爸能做的：分担家务，准备她吃得下的小餐，陪她休息、产检。",
+      "sources": [
+        "nhs-nausea"
+      ]
+    },
+    {
+      "id": "shot-15",
+      "narration": "每个人反应不同。出血、明显腹痛，或吐到喝不进水，要及时就医。",
+      "sources": [
+        "nhs-4",
+        "nhs-nausea"
+      ]
+    },
+    {
+      "id": "shot-16",
+      "narration": "肚子还没显出来，不代表她不辛苦。收藏对照孕周，转给陪你迎接宝宝的人。",
+      "sources": [
+        "nhs-4",
+        "nhs-nausea"
+      ]
+    }
+  ],
+  "competitor": {
+    "url": "https://www.douyin.com/video/7662356039295530826",
+    "author": "哆妈育儿记",
+    "duration_seconds": 31,
+    "published": "2026-07-14 20:14",
+    "observed_engagement": {
+      "likes": 128,
+      "comments": 3,
+      "saves": 65,
+      "shares": 43
+    },
+    "observation": "页面和画面截图；未完整播放、未听音频；数据为观察时点，不是爆款证明。",
+    "structure": "黑底白标题，红色孕周标签，三张医学信息卡，分1–4/5–8/9–12周。",
+    "adopt": "孕周索引、收藏价值与共情收尾；不复制素材。",
+    "avoid": "固定胎心可见时间、12周必然更轻松等绝对表述。"
+  }
+}

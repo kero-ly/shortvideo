@@ -1,0 +1,95 @@
+{
+  "version": 2,
+  "reviewed_at": "2026-10-13T16:11:55.318275",
+  "scope": "static reference images only; no animation/audio QA",
+  "status": "candidate_review_complete_pending_user_approval",
+  "items": [
+    {
+      "id": "shot-01",
+      "sha256": "ae02aa7f09e29a8928e013c11fd7908ebdccb1c281762ab82ec06314ef43133c",
+      "notes": "卧室原图延伸，人物服装与主要家具保持；完整站姿，上方留白。"
+    },
+    {
+      "id": "shot-02",
+      "sha256": "c41f54d8b6aa93e6c830961f7c30cdb0ce723abc73484284ada7552b6fe8a081",
+      "notes": "夫妻日历场景；日历准确日期和孕周由后期叠加，不能使用生成标记作为日期依据。"
+    },
+    {
+      "id": "shot-03",
+      "sha256": "e24bd0aac9093e65f39f82118e899f6d1e25ad61b97f37311a06e90f8e4fa127",
+      "notes": "沙发、水杯、薄毯场景保持；医学气泡已移除。"
+    },
+    {
+      "id": "shot-04",
+      "sha256": "8dd25cc3041513769840b5fac4df3d7c5677cd261956a9cf8c5bd25f4ac0846c",
+      "notes": "背侧面牵手构图；不强求转脸，以轻握手和呼吸为主。"
+    },
+    {
+      "id": "shot-05",
+      "sha256": "7ddad91bbd7432c5664cf5e364200896dfaa868b3dcc89d7aea9a1cd07aa8793",
+      "notes": "窗边坐姿、宽松衣服，无夸张孕肚。"
+    },
+    {
+      "id": "shot-06",
+      "sha256": "e6b4d822d7240a59203003c0df6c2bf503066c20d3c243ea0d6c70bd5071ba8c",
+      "notes": "验孕棒有细小灰色标记，不能解读为检测结果；后期不特写诊断条纹。"
+    },
+    {
+      "id": "shot-07",
+      "sha256": "28868852aad61dd79f2ed132b8a07485f9cb6fc116fcda3d31a9e24df2a1d805",
+      "notes": "妻子轻掩口，丈夫持水陪伴；手和杯保持轻动作。"
+    },
+    {
+      "id": "shot-08",
+      "sha256": "84c05681ef227080ec947817936558193111194e6660a44cb7b39aaaa6a4f51a",
+      "notes": "沙发靠垫、水杯完整；人物手部接触靠垫区域需H3逐帧复核。"
+    },
+    {
+      "id": "shot-09",
+      "sha256": "de4f50a1e0f832baffc693259a0799f3ca0e6752c9cefde8edbb009c6e28c472",
+      "notes": "厨房掩口、小餐陪伴；手持餐盘动作只缓慢放下。"
+    },
+    {
+      "id": "shot-10",
+      "sha256": "18c6e376340c32db6ccc41db89f28f68bca2a6bf95acc05a6e82a7eb87729778",
+      "notes": "厨房妻子已持勺，动作改为轻抬勺，不重复拿起。"
+    },
+    {
+      "id": "shot-11",
+      "sha256": "8408f3e16d53a6eef37576b149b0f7cc3f4a0c5e618603f4b7a9ce9d2b8b1096",
+      "notes": "阅读手册，双人服装保持；书页无医学图示，轻翻页需要动画检查。"
+    },
+    {
+      "id": "shot-12",
+      "sha256": "7d8b061fbf716eb39bedd52870343875884f8b4c3ca3423450fe540943abf943",
+      "notes": "同一阅读情境，桌面道具与座位保持；鞋款出现差异，后期取中景避开脚部。"
+    },
+    {
+      "id": "shot-13",
+      "sha256": "539f79f5483b6d6e8973f994ba4a0c33df4b17619a5bea30f1c0ff517372c300",
+      "notes": "候诊夫妻、预约单、牵手；人物较小，上方适合信息排版。"
+    },
+    {
+      "id": "shot-14",
+      "sha256": "fcbced8788ce22b657c187827192e946f087dff6605da701f80778b96747469f",
+      "notes": "厨房双餐盘、小份餐食；丈夫轻放一盘，不增加其他动作。"
+    },
+    {
+      "id": "shot-15",
+      "sha256": "52f22e65590850c00249431fc16252d1da2e0e736e062d4c33bf0cf17b467772",
+      "notes": "同一候诊区，妻子持水；表情平静，无惊恐或血腥示意。"
+    },
+    {
+      "id": "shot-16",
+      "sha256": "00d94ef74c86dcbcb2d8cf45fc4099ff82d9e9c6c3876c024b0c4e9a1e3b30f3",
+      "notes": "窗边牵手收束，保留原图暖色卧室。"
+    }
+  ],
+  "limitations": [
+    "No medical professional review",
+    "Generated faces and props are approximate extensions, not pixel-identical source copies",
+    "H3 motion and actual text-safe layout require subsequent production QA",
+    "Shot12 shoe variation: frame as medium shot",
+    "Shot06 test-stick markings are not diagnostic information"
+  ]
+}

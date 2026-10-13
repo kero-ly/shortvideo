@@ -1,0 +1,20 @@
+{
+  "host": "220",
+  "date": "2026-10-13",
+  "scope": "read-only SSH/ComfyUI/GPU check during preproduction",
+  "queue_running": 0,
+  "queue_pending": 0,
+  "comfyui_version": "0.30.0",
+  "device_count": 1,
+  "gpu_free_mib": {
+    "0": 24032,
+    "1": 24067,
+    "2": 24067,
+    "3": 5051,
+    "4": 18537,
+    "5": 24067,
+    "6": 19011,
+    "7": 6203
+  },
+  "note": "GPU3 busy; never stop shared tasks. Recheck before production submission. No current episode H3/TTS/render job submitted."
+}

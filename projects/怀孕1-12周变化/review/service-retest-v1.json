@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-13",
+  "capability": "image",
+  "provider": "OpenLux gpt-image-2",
+  "status": "smoke_tested",
+  "mode": "edit",
+  "http_status": 200,
+  "elapsed_seconds": 73.4,
+  "requested_size": [
+    1024,
+    1536
+  ],
+  "actual_size": [
+    1024,
+    1536
+  ],
+  "output": "references/characters/mother-master-v1.png",
+  "sha256": "d00afb4a3593a748f37fa8bdc20738663a45820dd608490743435f9c2c04e250",
+  "input": "怀孕1到12周（无文字版）参考图/landscape-scene-01.png",
+  "prompt": "prompts/characters/mother-master-v1.txt",
+  "log": "runs/character-retry-20261013-153546/request-result.log",
+  "visual_review": "实际打开输出及scene01对照：黑长卷发、衣裙配色和手绘风基本保持；补全原图未展示的鞋脚，姿态改为双手自然交叠。身份候选尚未由用户确认。",
+  "scope": "本次图片编辑已返回真实可用PNG；不代表H3、配音、渲染或整期制作获批。",
+  "design_sheet": {
+    "http_status": 200,
+    "elapsed_seconds": 84.5,
+    "actual_size": [
+      1536,
+      1024
+    ],
+    "output": "references/characters/mother-design-sheet-v1.png",
+    "sha256": "b0cad3cf8bc56bbcded6c5ee285f219198d4d7fc40ad6a033ee2ba0455cfdf4e",
+    "input": "references/characters/mother-master-v1.png",
+    "prompt": "prompts/characters/mother-design-sheet-v1.txt",
+    "log": "runs/character-sheet-20261013-153734/request-result.log",
+    "visual_review": "三角度全身及微笑/疲倦/轻微恶心表情齐全；发型衣裙配色基本一致，无明显孕肚。均为候选，未获用户确认。"
+  }
+}
