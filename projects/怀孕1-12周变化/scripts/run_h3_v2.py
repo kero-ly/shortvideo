@@ -10,7 +10,9 @@ for sid in sys.argv[1:]:
  assert hashlib.sha256(image.read_bytes()).hexdigest()==x['reference_frame_sha256']
  job=P/'runs'/('h3-submit-'+sid+'-'+time.strftime('%Y%m%d-%H%M%S')+'-'+uuid.uuid4().hex[:4]);job.mkdir()
  rows=subprocess.check_output(['nvidia-smi','--query-gpu=index,memory.free,utilization.gpu','--format=csv,noheader,nounits'],text=True);(job/'gpu-preflight.txt').write_text(rows)
- queue=json.load(urllib.request.urlopen('http://127.0.0.1:8199/queue',timeout=10));assert not queue['queue_running'] and not queue['queue_pending'],'Shared queue busy; nothing submitted'
+ queue=json.load(urllib.request.urlopen('http://127.0.0.1:8199/queue',timeout=10))
+ while queue['queue_running'] or queue['queue_pending']:
+  print('SHARED_QUEUE_WAIT '+sid,flush=True);time.sleep(30);queue=json.load(urllib.request.urlopen('http://127.0.0.1:8199/queue',timeout=10))
  print('START '+sid+' '+str(job),flush=True)
  cmd=[sys.executable,str(P/'scripts/h3_episode.py'),'--image',str(image),'--prompt-file',str(P/f'prompts/shots/{sid}-motion-v2.txt'),'--shot',sid,'--frames',str(a['production_frames']),'--width','576','--height','1024','--seed',str(20261030+int(sid[-2:]))]
  with (job/'submit.log').open('w') as log:r=subprocess.run(cmd,stdout=log,stderr=subprocess.STDOUT)
