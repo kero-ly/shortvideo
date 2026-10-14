@@ -1,0 +1,17 @@
+{
+  "episode_id": "孕期建档与产检流程",
+  "revision": 1,
+  "status": "blocked_external_service",
+  "service": "OpenLux GPT Image 2 edit",
+  "attempt": {
+    "shot": "shot-01",
+    "job": "reference-v1-20261014-131454",
+    "input": "../怀孕1-12周变化/怀孕1到12周（无文字版）参考图/landscape-scene-02.png",
+    "prompt": "prompts/shots/shot-01-image-v1.txt",
+    "result": "timeout_or_network_error; provider warned request may have been accepted",
+    "automatic_retry": false,
+    "verified_output": null
+  },
+  "remaining_shots": "shot-02 through shot-12 not submitted",
+  "recovery": "After service connectivity is restored, inspect the provider/job state before retrying shot-01; then continue remaining shots serially. Do not fall back to local video or image generation."
+}

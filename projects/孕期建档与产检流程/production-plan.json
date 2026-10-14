@@ -1,7 +1,7 @@
 {
   "episode_id": "孕期建档与产检流程",
   "revision": 1,
-  "status": "preproduction_draft",
+  "status": "reference_generation_blocked_openlux_timeout",
   "brief": {
     "topic": "孕期如何建档、定期产检以及常见流程",
     "audience": "刚确认怀孕的准妈妈与准爸爸",
@@ -35,7 +35,7 @@
     "qa": "video-qa with medical fact review and full listening"
   },
   "gates": {
-    "current": "draft_script_and_storyboard",
+    "current": "draft_script_and_storyboard; shot-01 OpenLux edit timed out without verified PNG",
     "next": "user_approval_of_complete_script_and_visual_route",
     "production_requires": ["official-source fact check", "complete shot reference frames", "approved version", "real TTS timing"]
   },
