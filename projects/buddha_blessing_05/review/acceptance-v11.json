@@ -1,0 +1,13 @@
+{
+  "revision": 11,
+  "user_evidence": "声音可以，你继续",
+  "scope": "user accepted v11 sound; continue delivery with current visuals and captions",
+  "audio_acceptance": "accepted by user",
+  "technical_qa": "qa-video-v11.json",
+  "verification": "verification-v11.json",
+  "delivery_path": "projects/buddha_blessing_05/deliveries/final-v11-20261014-234458",
+  "mp4_sha256": "478172bb40b7da0dec742fed90d8c25ef1789af736ff567b4801c2d180bf5576",
+  "manifest_sha256": "a5650bd38d32e2974b934df5d5fe979c0fe041a7fbfa28e8f26c7e830fabc39b",
+  "unchanged_media": true,
+  "publication": "not published; local delivery only"
+}
