@@ -1,0 +1,15 @@
+{
+  "revision": 11,
+  "evidence": "用户反馈：一顺百顺的“一”开头有异常声音；三句话之间明显静默，缺少连续环绕背景。",
+  "scope": "repair onset and continuous spatial mix; preserve v9 visual/caption style",
+  "changes": {
+    "onset": "restore full phrase-04 from pre-trim v7 source, mild noise reduction; no leading trim",
+    "tail": "100ms post-word tail trim on each phrase; re-align words",
+    "gaps_seconds": [
+      0.35,
+      0.55
+    ],
+    "ambience": "continuous stereo voice reverberation after phrase assembly; continuous music, gentler 600ms duck release"
+  },
+  "actual_listening": "pending user review"
+}

@@ -1,0 +1,17 @@
+{
+  "master": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/revision-v7-20261014/master-v7.png",
+  "master_sha256": "92bb2706f3421c8c97eda297413c7ffbcb0cc3a3851d3844013dfcbed52c5d0f",
+  "clip": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/h3-buddha-v7-20261014-182318-266f/clip.mp4",
+  "clip_sha256": "0efdba95712f5760f023ef251023d6bb3c65169e12ce5cbbc8bf0f5ca39bd6f4",
+  "native_frames": 345,
+  "native_duration": 14.375,
+  "trim": "v7 native345frames retained; no retiming, looping or frozen frames",
+  "audio_revision": "full v7 phrase-02/04 onsets, v8 phrase-01; 100ms post-word tail trim on all; continuous stereo reverb and gentle music ducking",
+  "caption_revision": "192px bold italic blessing captions; pink third sentence; gold Noto Serif CJK SC top title: 心诚即灵，为您祈福",
+  "narration": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/revision-v11-20261014-2354/narration.wav",
+  "narration_sha256": "162af834ca30b5be89488202b2d6789dffcd311083b6488e8dd92380b986d64f",
+  "mix": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/revision-v11-20261014-2354/mix.wav",
+  "mix_sha256": "15943f13808bc789de45fa425a40b4cfd702589d5c1e25897ba147bbc862e93c",
+  "reference_preprocess": "v7 Lanczos aspect-preserving cover with center crop;1024x1792→576x1024; approx0.78% removed at each horizontal edge",
+  "reverb_sha256": "b3c4505527448ed92c0c74a8101d293e702cf3d1c365c941eb0ff4d4a5d1ed23"
+}

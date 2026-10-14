@@ -1,0 +1,9 @@
+{
+  "manifest_entries_verified": 27,
+  "post_word_tail": "all word endpoints at least30ms before trimmed audio boundary",
+  "gap_energy": "nonzero music and stereo voice reverb in both gaps; see QA values",
+  "visual_review": "frame10 inspected: pink 192px captions and top gold title preserved",
+  "actual_listening": "pending user review",
+  "server_checkout": "dirty; no checkout merge",
+  "browser_playback": "played from start, final screenshot 0:14 / 0:14"
+}

@@ -1,0 +1,41 @@
+{
+  "technical": "passed: full decode, 345 frames at24fps, H264/yuv420p, AAC48k stereo, no black intervals",
+  "duration": 14.375,
+  "native_resolution": [
+    576,
+    1024
+  ],
+  "output_resolution": [
+    1080,
+    1920
+  ],
+  "loudness_lufs": -15.86,
+  "true_peak_dbtp": -4.41,
+  "caption_timing": "v11 restored phrase-02/04 full onsets, new ASR alignment, separate 0.35/0.55s phrase gaps; exact v9 typography",
+  "narration_tail_seconds": 0.6838958333333345,
+  "visual_review": "pending",
+  "full_playback": "pending",
+  "actual_listening": "pending user review; objective non-silence is not perceptual acceptance",
+  "voice_usage": "authorized reference-conditioned voice; listening pending",
+  "user_approval": "review/approval-v11.json",
+  "stage": "final",
+  "gap_measurements": [
+    {
+      "start": 3.8711041666666666,
+      "end": 4.221104166666667,
+      "mix_rms_db": -31.486359385492165,
+      "reverb_rms_db": -25.866311335820807
+    },
+    {
+      "start": 7.321104166666666,
+      "end": 7.871104166666667,
+      "mix_rms_db": -31.527499990532956,
+      "reverb_rms_db": -25.969703510177865
+    }
+  ],
+  "restored_yi_asr": {
+    "text": "一",
+    "start": 0.0,
+    "end": 0.5
+  }
+}

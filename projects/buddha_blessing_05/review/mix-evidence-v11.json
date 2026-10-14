@@ -1,0 +1,19 @@
+{
+  "source": "original procedural composition; no external recordings",
+  "generator": "scripts/align_v11.py",
+  "cleanup": "original phrase-04 onset restored; only verified post-word tails shortened",
+  "reverb": {
+    "type": "deterministic diffuse stereo convolution",
+    "seed": 1105,
+    "ir_seconds": 1.1,
+    "predelay_seconds": 0.025,
+    "wet_gain": 0.14
+  },
+  "continuity": "reverb computed after assembling narration; tails span both pauses; music duck release600ms",
+  "instruments": "warm sine drone and sparse additive bells",
+  "key": "C pentatonic",
+  "duration": 14.375,
+  "fade_in": 0.8,
+  "fade_out": 1.2,
+  "mix_filter": "[0:a]volume=1.15,asplit=2[v][side];[1:a]volume=0.95[m];[m][side]sidechaincompress=threshold=0.035:ratio=2:attack=25:release=600[duck];[2:a]volume=1.15[r];[v][duck][r]amix=inputs=3:normalize=0,loudnorm=I=-16:TP=-1.5:LRA=8,aresample=48000[mix]"
+}
