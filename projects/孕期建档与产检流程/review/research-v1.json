@@ -1,0 +1,43 @@
+{
+  "episode_id": "孕期建档与产检流程",
+  "revision": 1,
+  "status": "research_draft",
+  "scope": "中国母婴账号的常见建档与产检流程科普",
+  "audience": "刚确认怀孕的准妈妈、准爸爸",
+  "claims_requiring_local_check": [
+    "建档孕周、挂号方式、是否需要居住证明或转诊材料",
+    "首次产检检查组合及空腹要求",
+    "当地NT、唐筛/无创、系统超声和糖耐量检查预约窗口",
+    "急诊就医入口和医院联系方式"
+  ],
+  "stable_explanatory_points": [
+    "建档和产检是连续流程，不是一次完成",
+    "首次就诊通常会核对孕周、病史和基础健康信息",
+    "检查节点按孕周和个人情况安排，不能用一张固定清单替代医生方案",
+    "异常症状需要及时联系医院，不等下一次常规产检"
+  ],
+  "sources": [
+    {
+      "id": "nhc-pregnancy-health-management",
+      "title": "国家基本公共卫生服务项目孕产妇健康管理服务规范（第三版）",
+      "publisher": "国家卫生健康委",
+      "use": "孕产妇健康管理服务和随访框架",
+      "verification": "待生产前打开官方最新版核对"
+    },
+    {
+      "id": "cma-pre-pregnancy-2018",
+      "title": "孕前和孕期保健指南（2018）",
+      "publisher": "中华医学会妇产科学分会",
+      "use": "孕期保健、筛查节点和风险边界",
+      "verification": "待生产前核对原文及更新版本"
+    },
+    {
+      "id": "local-hospital-notice",
+      "title": "就诊地医院官方建档/产检须知",
+      "publisher": "用户实际就诊地医院",
+      "use": "材料、预约、空腹和窗口期",
+      "verification": "必须由发布账号所在地或目标医院补充，当前未指定"
+    }
+  ],
+  "medical_review": "not_completed"
+}

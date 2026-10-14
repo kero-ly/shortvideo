@@ -1,0 +1,44 @@
+{
+  "episode_id": "孕期建档与产检流程",
+  "revision": 1,
+  "status": "preproduction_draft",
+  "brief": {
+    "topic": "孕期如何建档、定期产检以及常见流程",
+    "audience": "刚确认怀孕的准妈妈与准爸爸",
+    "goals": ["收藏价值", "降低第一次就诊焦虑", "促进转发给陪诊家人"],
+    "medical_boundary": "常见流程示意；医院、地区和个人情况可能不同，以医生和医院官方安排为准"
+  },
+  "selection": {
+    "basis": "User requested a similar style to the accepted pregnancy weeks video",
+    "preset": {
+      "id": "2d-handdrawn-warm-light-muted-daily-explainer",
+      "version": 1,
+      "path": "styles/presets/2d-handdrawn-warm-light-muted-daily-explainer.json",
+      "status": "case_tested_in_previous_episode; new-topic adaptation pending"
+    },
+    "overrides": {
+      "visual_basis": "reuse approved warm adult couple language; new clinic, phone, document and calendar props",
+      "aspect_ratio": "9:16",
+      "target_delivery_size": [1080, 1920],
+      "tone": "empathetic, practical, no fear appeal",
+      "format": "12-shot checklist explainer",
+      "duration": "90-105 seconds after real TTS timing",
+      "captions": "one narration caption layer plus short nonduplicative phase heading",
+      "facts": "local-hospital variation called out on screen and in narration"
+    }
+  },
+  "methods": {
+    "character_scenario": "approved previous warm couple continuity, pending new shot-frame approval",
+    "information_cards": "Remotion or equivalent text layer after fact review",
+    "narration": "science-narration after script approval",
+    "caption_audio": "caption-alignment and procedural-music-mix after actual voice exists",
+    "qa": "video-qa with medical fact review and full listening"
+  },
+  "gates": {
+    "current": "draft_script_and_storyboard",
+    "next": "user_approval_of_complete_script_and_visual_route",
+    "production_requires": ["official-source fact check", "complete shot reference frames", "approved version", "real TTS timing"]
+  },
+  "source": "storyboard/draft-v1.json",
+  "research": "review/research-v1.json"
+}

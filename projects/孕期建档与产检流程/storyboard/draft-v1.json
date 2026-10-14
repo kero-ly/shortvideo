@@ -1,0 +1,140 @@
+{
+  "episode_id": "孕期建档与产检流程",
+  "revision": 1,
+  "status": "preproduction_draft",
+  "title": "孕期建档、产检到底怎么走？",
+  "note": "不同地区和医院要求可能不同，以就诊医院官方安排为准",
+  "style_basis": "reuse approved warm hand-drawn adult couple language from 怀孕1-12周变化; new topic facts and scenes",
+  "shots": [
+    {
+      "id": "shot-01",
+      "phase": "先别慌，流程可以一件件来",
+      "screen_text": "孕期建档、产检怎么走？",
+      "narration": "刚确认怀孕，建档、产检、预约一连串事情，确实容易发懵。别急，我们按顺序捋一遍。",
+      "visual": "夫妻坐在餐桌旁看手机，手机上是医院预约页面的抽象界面；不出现真实医院名称",
+      "action": "妻子轻皱眉，丈夫把笔记本推到两人中间",
+      "camera": "轻推近，标题居中黄字深棕描边",
+      "estimated_seconds": 7
+    },
+    {
+      "id": "shot-02",
+      "phase": "第一步：先确认去哪家建档",
+      "screen_text": "1｜先问清建档医院",
+      "narration": "第一步，先确定准备在哪家医院产检和分娩，再看它的建档时间、预约方式和材料要求。",
+      "visual": "丈夫在手机上收藏医院官方公众号，妻子查看产科门诊信息",
+      "action": "手指点击官方渠道，出现‘以医院公告为准’提示卡",
+      "camera": "手机特写切回夫妻中景",
+      "estimated_seconds": 8
+    },
+    {
+      "id": "shot-03",
+      "phase": "材料先装好",
+      "screen_text": "身份证｜医保卡｜既往检查单",
+      "narration": "常见会用到身份证件、医保信息和已有检查资料。不同医院可能还会要求其他材料，出发前一定再核对一次。",
+      "visual": "透明文件袋里放证件、检查单、孕检记录本；材料文字用后期叠加",
+      "action": "妻子把资料按顺序放入文件袋，丈夫在清单上勾选",
+      "camera": "俯拍资料，再切手部动作",
+      "estimated_seconds": 8
+    },
+    {
+      "id": "shot-04",
+      "phase": "第一次就诊会做什么",
+      "screen_text": "首次就诊：问诊＋基础评估",
+      "narration": "第一次就诊，医生通常会先了解末次月经、既往病史、用药和家族情况，再结合孕周安排基础评估。",
+      "visual": "诊室里医生与夫妻交流，桌面有病史问卷；不展示诊断结论",
+      "action": "妻子回答，丈夫补充记录，医生点头",
+      "camera": "平稳横移，保持上方字幕安全区",
+      "estimated_seconds": 9
+    },
+    {
+      "id": "shot-05",
+      "phase": "可能会安排的基础检查",
+      "screen_text": "血压体重｜尿检｜抽血｜超声（按医生安排）",
+      "narration": "基础检查可能包括血压、体重、尿检、抽血或超声。不是每个人每次都做同样的项目，以医生开出的检查单为准。",
+      "visual": "四张简洁信息卡依次出现，旁边是候诊区夫妻，不放具体数值",
+      "action": "卡片逐张亮起，最后汇合为‘按医生安排’",
+      "camera": "信息卡轻微弹入，不做医疗仪器夸张特写",
+      "estimated_seconds": 10
+    },
+    {
+      "id": "shot-06",
+      "phase": "建档不是做完一张表就结束",
+      "screen_text": "建档＝建立连续产检记录",
+      "narration": "建档的意义，是把你的孕周、检查结果和后续随访连起来。拿到记录后，记得保存好检查单和预约信息。",
+      "visual": "记录本、检查单和日历串成一条时间线；夫妻一起整理文件",
+      "action": "丈夫把下一次预约日期贴到日历，妻子收好记录本",
+      "camera": "从文件袋移到日历，动作连续",
+      "estimated_seconds": 9
+    },
+    {
+      "id": "shot-07",
+      "phase": "按孕周看重点",
+      "screen_text": "早孕｜孕中期｜孕晚期",
+      "narration": "后面的产检，会随着孕周变化。早孕看基础情况，孕中期有筛查和系统超声，孕晚期则更关注妈妈和宝宝的状态。",
+      "visual": "三段式日历信息图连接到夫妻生活场景",
+      "action": "三个阶段依次亮起，画面不写死所有医院都相同",
+      "camera": "横向平移，阶段卡保持同一位置",
+      "estimated_seconds": 9
+    },
+    {
+      "id": "shot-08",
+      "phase": "几个常见时间窗口",
+      "screen_text": "NT约11—13+6周｜系统超声约20—24周｜糖耐量常在24—28周",
+      "narration": "有些检查有常见时间窗口，比如NT、孕中期系统超声和糖耐量筛查。具体日期、项目和预约规则，必须看当地医院安排。",
+      "visual": "日历上的三个时间窗口以‘常见示意’标签出现，旁边保留医生确认图标",
+      "action": "窗口卡出现后加上‘以医院安排为准’底注",
+      "camera": "日历推近再回到夫妻核对预约",
+      "estimated_seconds": 11
+    },
+    {
+      "id": "shot-09",
+      "phase": "每次去之前准备什么",
+      "screen_text": "带上：记录本｜检查单｜问题清单",
+      "narration": "每次去之前，把上次检查单、孕检记录和想问医生的问题放在一起。是否空腹、是否需要憋尿，也要提前问清楚。",
+      "visual": "夫妻共同写下问题清单：用药、饮食、下次预约；不出现个人隐私",
+      "action": "妻子把问题清单夹进文件袋，丈夫设置提醒",
+      "camera": "桌面俯拍，轻轻拉远",
+      "estimated_seconds": 9
+    },
+    {
+      "id": "shot-10",
+      "phase": "别用感觉替代检查",
+      "screen_text": "感觉不同，不等于结果不同",
+      "narration": "孕吐轻一点、肚子还没显出来，都不能单独用来判断宝宝是否健康。按预约复诊，有疑问就直接问医生。",
+      "visual": "妻子在镜前轻抚尚未显怀的腹部，丈夫递上记录本；画面温和不制造焦虑",
+      "action": "两人相视点头，画面出现‘按预约复诊’",
+      "camera": "中近景，避免身体夸张变形",
+      "estimated_seconds": 9
+    },
+    {
+      "id": "shot-11",
+      "phase": "这些情况别等下一次产检",
+      "screen_text": "出血｜明显腹痛｜持续喝不进水 → 及时就医",
+      "narration": "如果出现阴道流血、明显腹痛，或持续吐到喝不进水，不要等下一次常规产检，及时联系医院或就医。",
+      "visual": "简洁红色边界卡与医院入口示意，不渲染痛苦场景",
+      "action": "丈夫拿起手机联系医院，妻子坐稳休息",
+      "camera": "信息卡先出，随后切到求助动作",
+      "estimated_seconds": 9
+    },
+    {
+      "id": "shot-12",
+      "phase": "给正在准备的你",
+      "screen_text": "收藏这张产检路线图",
+      "narration": "建档不是考试，产检也不用一次记住全部。先把医院要求问清楚，再一项项准备。收藏这张路线图，也转给陪你去产检的人。",
+      "visual": "夫妻走进明亮医院走廊，手里拿着文件袋；结尾回到暖色家庭画面",
+      "action": "丈夫替妻子按电梯，妻子轻轻点头，出现温柔收尾",
+      "camera": "缓慢拉远，标题和收藏提示保持上方安全区",
+      "estimated_seconds": 10
+    }
+  ],
+  "layout": {
+    "main_title": "warm yellow #FFE083, brown outline #77552F, centered",
+    "captions": "upper-middle centered, preserve Douyin bottom/right safe area",
+    "medical_cards": "short, high contrast, labeled 示意 when not universal"
+  },
+  "audio": {
+    "voice": "warm clear adult female, gentle but concise",
+    "music": "reuse procedural warm instrumental direction as candidate; remixer must verify ducking and listening",
+    "estimated_duration_seconds": 108
+  }
+}
