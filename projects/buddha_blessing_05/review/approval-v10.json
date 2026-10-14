@@ -1,0 +1,14 @@
+{
+  "revision": 10,
+  "evidence": "用户反馈：见佛送花，福到你家。和家旺，财旺，子孙旺。之间明显不对，家旺的家不自然；子孙旺。和一顺百顺之间间隔太短。",
+  "scope": "audio revision authorized by user; preserve v9 visual and typography",
+  "changes": {
+    "phrase_02": "restore complete v7 onset; mild noise reduction without silence trimming",
+    "inter_phrase_gaps_seconds": [
+      0.35,
+      0.55
+    ],
+    "captions": "realign only; retain exact v9 header and colors"
+  },
+  "actual_listening": "pending user review"
+}

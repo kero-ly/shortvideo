@@ -1,0 +1,13 @@
+{
+  "media_sync": "all manifest entries verified locally",
+  "file_count": 27,
+  "gaps_seconds": [
+    0.35,
+    0.55
+  ],
+  "jia_word_seconds": 0.36,
+  "actual_listening": "pending user review; no auditory verification available",
+  "git_server_checkout": "dirty unrelated and historical files; no checkout merge performed",
+  "visual_review": "contact sheet inspected: large captions, pink final sentence, gold title preserved",
+  "browser_playback": "v10 page opened, played from start; screenshot shows 0:14 / 0:14 completed"
+}

@@ -1,0 +1,52 @@
+{
+  "engine": "IndexTTS2",
+  "reference_audio": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/reference-source-20261014-073415/reference.wav",
+  "emotion_alpha": 0.45,
+  "device": "cuda:0",
+  "load_seconds": 16.924,
+  "segments": [
+    {
+      "id": "phrase-01",
+      "text": "见佛送花，福到你家。",
+      "slot_duration_seconds": 4.5,
+      "raw_duration_seconds": 3.8211041666666667,
+      "tempo": 1.0,
+      "inference_seconds": 5.705,
+      "output": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/revision-v10-20261014-2130/audio/phrase-01.wav",
+      "source_sha256": "2cb8930cc1a849dd090b1da08dfb9c09b6537d9cd47aed90344fb3b984a4d49a",
+      "source_path": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/revision-v8-20261014-audio/audio/phrase-01.wav",
+      "processing": "unchanged v8 accepted phrase"
+    },
+    {
+      "id": "phrase-02",
+      "text": "家旺，财旺，子孙旺。",
+      "slot_duration_seconds": 4.5,
+      "raw_duration_seconds": 3.2,
+      "tempo": 1.0,
+      "inference_seconds": 3.583,
+      "output": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/revision-v10-20261014-2130/audio/phrase-02.wav",
+      "source_sha256": "bbc423006fe9b9c861c0d8217e1d8e3d894015dc92fbcf9244f12ee59be1d82c",
+      "source_path": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/revision-v7-20261014/audio/phrase-02.wav",
+      "processing": "mild noise reduction without onset trim"
+    },
+    {
+      "id": "phrase-04",
+      "text": "一顺百顺，阖家幸福，平安顺遂。",
+      "slot_duration_seconds": 4.5,
+      "raw_duration_seconds": 5.614895833333334,
+      "tempo": 1.0,
+      "inference_seconds": 5.873,
+      "output": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/revision-v10-20261014-2130/audio/phrase-04.wav",
+      "source_sha256": "083790fcfe1a1393bd830b827de951459735e749e633af0400ef447259653910",
+      "source_path": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/revision-v8-20261014-audio/audio/phrase-04.wav",
+      "processing": "unchanged v8 accepted phrase"
+    }
+  ],
+  "revision": "v10-onset-repair",
+  "cleanup": "phrase-02 restored from v7 with mild noise reduction, no silenceremove; phrase-01/04 unchanged v8",
+  "gap_target_seconds": 0.2,
+  "inter_phrase_gaps_seconds": [
+    0.35,
+    0.55
+  ]
+}

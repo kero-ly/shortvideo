@@ -1,0 +1,22 @@
+{
+  "technical": "passed: full decode, 345 frames at24fps, H264/yuv420p, AAC48k stereo, no black intervals",
+  "duration": 14.375,
+  "native_resolution": [
+    576,
+    1024
+  ],
+  "output_resolution": [
+    1080,
+    1920
+  ],
+  "loudness_lufs": -15.68,
+  "true_peak_dbtp": -4.05,
+  "caption_timing": "v10 restored phrase-02 full onset, new ASR alignment, separate 0.35/0.55s phrase gaps; exact v9 typography",
+  "narration_tail_seconds": 0.6890000000000001,
+  "visual_review": "pending",
+  "full_playback": "pending",
+  "actual_listening": "pending",
+  "voice_usage": "authorized reference-conditioned voice; restored full 家 onset; listening pending",
+  "user_approval": "review/approval-v10.json",
+  "stage": "final"
+}
