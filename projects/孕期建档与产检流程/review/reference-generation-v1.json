@@ -1,7 +1,7 @@
 {
   "episode_id": "孕期建档与产检流程",
   "revision": 1,
-  "status": "blocked_external_service",
+  "status": "blocked_external_service_http_429",
   "service": "OpenLux GPT Image 2 edit",
   "attempt": {
     "shot": "shot-01",
@@ -12,6 +12,13 @@
     "automatic_retry": false,
     "verified_output": null
   },
+  "second_attempt": {
+    "shot": "shot-01",
+    "job": "reference-v1-20261014-150009",
+    "result": "HTTP 429: Current group upstream load is saturated",
+    "provider_request_id": "20261014150012288583021L6WwiG1D",
+    "verified_output": null
+  },
   "remaining_shots": "shot-02 through shot-12 not submitted",
-  "recovery": "After service connectivity is restored, inspect the provider/job state before retrying shot-01; then continue remaining shots serially. Do not fall back to local video or image generation."
+  "recovery": "Pause paid requests while upstream is saturated. The first timeout has unknown provider-side completion and no retrievable task ID; the second attempt returned explicit 429. When service is available, retry shot-01 with a unique job/output path, verify PNG/dimensions/hash and visual quality, then continue remaining shots. Do not fall back to local video or image generation."
 }

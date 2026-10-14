@@ -1,7 +1,7 @@
 {
   "episode_id": "孕期建档与产检流程",
   "revision": 1,
-  "status": "reference_generation_blocked_openlux_timeout",
+  "status": "reference_generation_blocked_openlux_http_429",
   "brief": {
     "topic": "孕期如何建档、定期产检以及常见流程",
     "audience": "刚确认怀孕的准妈妈与准爸爸",
@@ -22,7 +22,7 @@
       "target_delivery_size": [1080, 1920],
       "tone": "empathetic, practical, no fear appeal",
       "format": "12-shot checklist explainer",
-      "duration": "90-105 seconds after real TTS timing",
+      "duration": "about 108 seconds estimated from 12 shots; final duration follows real TTS timing",
       "captions": "one narration caption layer plus short nonduplicative phase heading",
       "facts": "local-hospital variation called out on screen and in narration"
     }
@@ -35,7 +35,7 @@
     "qa": "video-qa with medical fact review and full listening"
   },
   "gates": {
-    "current": "draft_script_and_storyboard; shot-01 OpenLux edit timed out without verified PNG",
+    "current": "draft_script_and_storyboard; shot-01 OpenLux edit timed out without verified PNG, then a new attempt returned HTTP 429",
     "next": "user_approval_of_complete_script_and_visual_route",
     "production_requires": ["official-source fact check", "complete shot reference frames", "approved version", "real TTS timing"]
   },

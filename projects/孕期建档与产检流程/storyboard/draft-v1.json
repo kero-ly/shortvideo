@@ -1,7 +1,7 @@
 {
   "episode_id": "孕期建档与产检流程",
   "revision": 1,
-  "status": "reference_generation_blocked_openlux_timeout",
+  "status": "reference_generation_blocked_openlux_http_429",
   "title": "孕期建档、产检到底怎么走？",
   "note": "不同地区和医院要求可能不同，以就诊医院官方安排为准",
   "style_basis": "reuse approved warm hand-drawn adult couple language from 怀孕1-12周变化; new topic facts and scenes",

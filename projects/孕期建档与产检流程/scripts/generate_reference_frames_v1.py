@@ -25,6 +25,8 @@ def generate(shot):
     prompt_path = P / "prompts" / "shots" / f"{sid}-image-v1.txt"
     raw = run / f"{sid}-raw.png"
     target = out_dir / f"{sid}.png"
+    if target.exists():
+        raise FileExistsError(f"existing accepted frame must not be overwritten: {target}")
     result = subprocess.run([
         sys.executable,
         "/Users/ly/.codex/skills/openlux-gpt-image/scripts/openlux_image.py",
@@ -45,7 +47,7 @@ def generate(shot):
         if data[:8] != b"\x89PNG\r\n\x1a\n":
             raise ValueError("provider output is not a PNG")
         width, height = struct.unpack(">II", data[16:24])
-        target.write_bytes(raw.read_bytes())
+        target.write_bytes(data)
         size = [width, height]
         rec.update(status="generated_pending_visual_review", output=str(target.relative_to(P)),
                    sha256=hashlib.sha256(target.read_bytes()).hexdigest(), actual_size=size,
