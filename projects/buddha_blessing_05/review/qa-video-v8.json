@@ -1,0 +1,22 @@
+{
+  "technical": "passed: full decode, 345 frames at24fps, H264/yuv420p, AAC48k stereo, no black intervals",
+  "duration": 14.375,
+  "native_resolution": [
+    576,
+    1024
+  ],
+  "output_resolution": [
+    1080,
+    1920
+  ],
+  "loudness_lufs": -15.73,
+  "true_peak_dbtp": -4.13,
+  "caption_timing": "actual phrase WAV after noise reduction and silence trim + faster-whisper word timestamps; 0.20s target inter-phrase gap",
+  "narration_tail_seconds": 1.3220208333333332,
+  "visual_review": "browser screenshot checked: Buddha remains large and centered, dynamic cloud/light background visible, third caption rendered pink with white first two captions",
+  "full_playback": "browser playback reached 0:14 / 0:14 without load or decode error",
+  "actual_listening": "pending",
+  "voice_usage": "approved reference-conditioned IndexTTS2 voice; v8 cleaned phrase audio; listening pending user",
+  "user_approval": "review/approval-v8.json",
+  "stage": "final"
+}

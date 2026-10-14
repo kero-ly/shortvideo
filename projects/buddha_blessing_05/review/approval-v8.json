@@ -1,0 +1,12 @@
+{
+  "revision": 8,
+  "evidence": "用户要求第三句字幕改粉色，并消除三句话之间明显停顿和噪音",
+  "copy": "见佛送花，福到你家。家旺，财旺，子孙旺。一顺百顺，阖家幸福，平安顺遂。",
+  "changes": {
+    "third_sentence_color": "#FF8FA3",
+    "audio_cleanup": "highpass/lowpass/afftdn plus leading/trailing silence trim",
+    "inter_phrase_gap_target_seconds": 0.2,
+    "tail_silence_seconds": 1.322
+  },
+  "scope": "reuse approved v7 visual clip; regenerate audio alignment, captions, mix, composition and QA"
+}

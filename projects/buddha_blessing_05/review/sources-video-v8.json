@@ -1,0 +1,15 @@
+{
+  "master": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/revision-v7-20261014/master-v7.png",
+  "master_sha256": "92bb2706f3421c8c97eda297413c7ffbcb0cc3a3851d3844013dfcbed52c5d0f",
+  "clip": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/h3-buddha-v7-20261014-182318-266f/clip.mp4",
+  "clip_sha256": "0efdba95712f5760f023ef251023d6bb3c65169e12ce5cbbc8bf0f5ca39bd6f4",
+  "native_frames": 345,
+  "native_duration": 14.375,
+  "trim": "v7 native345frames retained; no retiming, looping or frozen frames",
+  "audio_revision": "v8 cleaned approved phrase WAVs with ffmpeg denoise and silence trim; target inter-phrase gap 0.20s",
+  "narration": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/revision-v8-20261014-audio/narration.wav",
+  "narration_sha256": "92c92377f1b8c53ceccecd1953aaca7bb1a4d2ecbd9267bdeb18eba88c1e09f8",
+  "mix": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/revision-v8-20261014-audio/mix.wav",
+  "mix_sha256": "10a7ffa1beb4828ee90086119755f201468e221cd54083b946baaa806a960c9f",
+  "reference_preprocess": "v7 Lanczos aspect-preserving cover with center crop;1024x1792→576x1024; approx0.78% removed at each horizontal edge"
+}
