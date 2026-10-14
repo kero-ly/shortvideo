@@ -1,0 +1,14 @@
+{
+  "revision": 9,
+  "evidence": "用户要求恢复之前的大字幕，并在画面中间最上方加入神圣风格的‘心诚即灵，为您祈福’金光小字",
+  "changes": {
+    "blessing_font_size": 192,
+    "blessing_font": "Noto Sans CJK SC bold italic",
+    "third_sentence_color": "#FF8FA3",
+    "top_title": "心诚即灵，为您祈福",
+    "top_title_font": "Noto Serif CJK SC",
+    "top_title_color": "#F6D889",
+    "audio": "reuse v8 cleaned mix and word alignment unchanged"
+  },
+  "scope": "caption-only revision; reuse approved v7 visual clip and v8 audio"
+}

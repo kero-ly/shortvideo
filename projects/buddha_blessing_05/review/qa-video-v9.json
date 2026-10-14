@@ -1,0 +1,22 @@
+{
+  "technical": "passed: full decode, 345 frames at24fps, H264/yuv420p, AAC48k stereo, no black intervals",
+  "duration": 14.375,
+  "native_resolution": [
+    576,
+    1024
+  ],
+  "output_resolution": [
+    1080,
+    1920
+  ],
+  "loudness_lufs": -15.73,
+  "true_peak_dbtp": -4.13,
+  "caption_timing": "v8 cleaned narration and unchanged word timestamps; v9 caption-only layout revision with 192px blessing text and sacred top title",
+  "narration_tail_seconds": 1.3220208333333332,
+  "visual_review": "browser screenshot checked: 192px blessing caption is legible on phone scale, pink third sentence remains visible, and gold top title stays centered above the Buddha without clipping",
+  "full_playback": "browser playback reached 0:14 / 0:14 without load or decode error",
+  "actual_listening": "pending",
+  "voice_usage": "approved reference-conditioned IndexTTS2 voice; v9 caption-only revision; listening pending user",
+  "user_approval": "review/approval-v9.json",
+  "stage": "final"
+}
