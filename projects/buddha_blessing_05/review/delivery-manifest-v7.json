@@ -1,0 +1,151 @@
+{
+  "episode_id": "buddha_blessing_05",
+  "stage": "final",
+  "files": [
+    {
+      "path": "alignment.json",
+      "bytes": 9987,
+      "sha256": "0f107f5a74ffe5dd6df780250a3f8a0a26ca0c549ecdecdb29390dff9d2099be"
+    },
+    {
+      "path": "black-check.log",
+      "bytes": 1748,
+      "sha256": "98cc38dbe3a587fae40e76f9e9f07e0f8be001ff0bbf96d35cdf86e2a0f4fd23"
+    },
+    {
+      "path": "buddha-blessing-v7.mp4",
+      "bytes": 12475854,
+      "sha256": "23c087864e8b81bbc699db295a2a2e5e1f41a9a03f98a31894a569bbeb48e5fa"
+    },
+    {
+      "path": "captions.ass",
+      "bytes": 1015,
+      "sha256": "424a6dd94080510fedb1222eb548adaf6b3b3a276581e18c6d8b9b47528afb19"
+    },
+    {
+      "path": "captions.srt",
+      "bytes": 318,
+      "sha256": "93785d7cfbffad0acba40e99cb7c952c6206a2ea45266309f03e8f279ab52123"
+    },
+    {
+      "path": "contact-sheet.jpg",
+      "bytes": 173055,
+      "sha256": "154daab059aa77274a4605023418ec3472f64a28f86959e691aa4b1576fe5a04"
+    },
+    {
+      "path": "contact.log",
+      "bytes": 4162,
+      "sha256": "e0f6e13da50f807949948855ab6f1e7977e8cf1f4f261524609a5cc99b11a8a0"
+    },
+    {
+      "path": "cover.jpg",
+      "bytes": 136374,
+      "sha256": "82711f6a19f36a879a145fd173821356da7e8a3d4a0dc87b9e9dea31264332bf"
+    },
+    {
+      "path": "cover.log",
+      "bytes": 4168,
+      "sha256": "2e80b1df5486aa384fb5af8993ac02d1a5520db1f1aad7f0de4772dae1bfebac"
+    },
+    {
+      "path": "ffprobe.json",
+      "bytes": 3502,
+      "sha256": "3d14136dd388d0e61fba962671cef3cf7eeef287f984486b54dbff25290322d9"
+    },
+    {
+      "path": "frame-0.log",
+      "bytes": 3977,
+      "sha256": "e0f4b1a2253d29f087e27e56b030e00c13366da90ff454397b3f7f0d5e049ed7"
+    },
+    {
+      "path": "frame-0.png",
+      "bytes": 3410831,
+      "sha256": "3bde2dfd0e150277315e1b5a75cbf0d24a0c10819d438f8d76b4345e8925113f"
+    },
+    {
+      "path": "frame-10.log",
+      "bytes": 3979,
+      "sha256": "6da791307711350d28744e10bcad930864a315ca011dc2c20305928f3dc57ba4"
+    },
+    {
+      "path": "frame-10.png",
+      "bytes": 3900820,
+      "sha256": "b839ca6d22cb2582d337e05db581023cbf332a69f8b91b117b406a161bc73cb0"
+    },
+    {
+      "path": "frame-14.log",
+      "bytes": 3979,
+      "sha256": "afc7b407acb03279397d037f511a816fafa9bdd3a2d49b107416be2f6911a952"
+    },
+    {
+      "path": "frame-14.png",
+      "bytes": 3892734,
+      "sha256": "22b429debb3902f29a704a5ea6395ca6a05541402f9bbee33cd132a86eeeded4"
+    },
+    {
+      "path": "frame-3.log",
+      "bytes": 3977,
+      "sha256": "3e876e690105bc96a9434e58f411eb0b5e67e2de6537d2b3338bbd8634ddc251"
+    },
+    {
+      "path": "frame-3.png",
+      "bytes": 3910089,
+      "sha256": "9c5a41bb30aa06c3cc0f0fd54060db9c1c3c676ce3651f3b42f8496c13dcc412"
+    },
+    {
+      "path": "frame-7.log",
+      "bytes": 3977,
+      "sha256": "6030afd76309853a68d534fe6fcd1db002ae40029518e0d3f6c48ba43b281696"
+    },
+    {
+      "path": "frame-7.png",
+      "bytes": 3976534,
+      "sha256": "672f6311cacedcdc80e29d319bfe150191ca3feb3f730fdc8819ed2b2393a03e"
+    },
+    {
+      "path": "full-decode.log",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "loudness.log",
+      "bytes": 1919,
+      "sha256": "05e6ab43c19b5c86fe78076763519a231535a5cbc1f32c0722879599777481bb"
+    },
+    {
+      "path": "music-source.json",
+      "bytes": 515,
+      "sha256": "51dd7419aafae46c937d38edc16735ef75260e7f20cf6cf66b3fe4c15734c83d"
+    },
+    {
+      "path": "qa.json",
+      "bytes": 1256,
+      "sha256": "28e651dfb3b5988a9dfbeddbc428e330dcece8e842c7d744b0e5ec6ba610dbb3"
+    },
+    {
+      "path": "render.log",
+      "bytes": 8793,
+      "sha256": "b9f2069d87240a895fcff05c5f29d2f2faa4d84c6a0a52343b3dc7f69c182838"
+    },
+    {
+      "path": "revision.json",
+      "bytes": 196,
+      "sha256": "c47bc7b51c86927e841516b6261c9a2ebe615013366b9ee20ca61948a1ac7c59"
+    },
+    {
+      "path": "sources.json",
+      "bytes": 1103,
+      "sha256": "298a38fbb3f8ac8c6eb379cea9c7c0c421d5c7c65fd2ae5f7b8a1532f9b1217c"
+    },
+    {
+      "path": "tts-manifest.json",
+      "bytes": 1230,
+      "sha256": "19bb0f14cb0e323c207357304321a2683e8be08f081db1c0665907f10fdcd936"
+    },
+    {
+      "path": "voice-reference.json",
+      "bytes": 268,
+      "sha256": "c93760ce3c3e02218338353ef69f13348088e1a0cc109f384b804c80376f4f5d"
+    }
+  ]
+}

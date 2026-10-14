@@ -1,0 +1,13 @@
+{
+  "revision": 7,
+  "evidence": "用户要求佛祖稍大、云与金光运动强烈、字幕1.5倍，并给出完整替换祝词",
+  "copy": "见佛送花，福到你家。家旺，财旺，子孙旺。一顺百顺，阖家幸福，平安顺遂。",
+  "changes": {
+    "subject_scale": 1.08,
+    "font_size": 192,
+    "outline": 14,
+    "motion": "stronger cloud rolling and ray sweeping"
+  },
+  "audio": "reuse unchanged v6 phrases1,2,4, remove phrase3; realign",
+  "scope": "execute revision through render and QA"
+}

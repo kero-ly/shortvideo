@@ -1,7 +1,7 @@
 {
   "episode_id": "buddha_blessing_05",
-  "revision": 6,
-  "status": "rendered_delivered_user_listening_pending",
+  "revision": 7,
+  "status": "delivered_user_review_pending",
   "brief": {
     "topic": "佛祖保佑风格15秒祈福视频",
     "audience": "短视频祈福祝愿观众",
@@ -117,11 +117,11 @@
       ],
       "caption": {
         "font_family": "Noto Sans CJK SC",
-        "font_size": 128,
+        "font_size": 192,
         "font_weight": 900,
         "color": "#FFFFFF",
         "stroke_color": "#111111",
-        "stroke_width": 11.5,
+        "stroke_width": 14,
         "accent_color": "#EF8A9B",
         "anchor_y_ratio": 0.83,
         "left": 90,
@@ -183,7 +183,7 @@
       1080,
       1920
     ],
-    "duration_seconds": 18.625,
+    "duration_seconds": 14.375,
     "reference_native_dimensions": [
       948,
       1659
@@ -289,14 +289,19 @@
       "revision": 6,
       "scope": "v6 production",
       "evidence": "review/approval-v6.json; 用户：继续做视频吧"
+    },
+    {
+      "revision": 7,
+      "scope": "explicit revision production",
+      "evidence": "review/approval-v7.json"
     }
   ],
   "execution": {
-    "video_prompt": "storyboard/h3-prompt-v5.txt",
+    "video_prompt": "storyboard/h3-prompt-v7.txt",
     "graph": "scripts/h3-static-end-v2.json",
     "first_last_anchor": "same approved master",
-    "actual_motion": "Two independent9.4167s H3 clips with cloud-contour/ray changes;447frames retained",
-    "narration_timing": "runs/voice-reference-trim-v6-20261014-081249/alignment.json",
+    "actual_motion": "single345frame generation; rolling side clouds and golden rays visible in1fps samples",
+    "narration_timing": "runs/revision-v7-20261014/alignment.json",
     "shared_runtime": "read-only H3 install; own service18311 GPU7",
     "server_git_head": "8ae317e",
     "source_commits": [
@@ -304,22 +309,20 @@
       "9320170",
       "451571c"
     ],
-    "sync": "Video downloaded and original delivery hashes verified; final text metadata server sync blocked by SSH timeout",
-    "voice_revision": "runs/voice-reference-trim-v6-20261014-081249",
+    "sync": "220 connection recovered, historical v6 metadata synced",
+    "voice_revision": "runs/revision-v7-20261014",
     "caption_revision": "runs/captions-large-v3-20261014-072552",
     "voice_reference_source": "https://www.douyin.com/video/7659629544207344256",
     "voice_reference_run": "runs/reference-source-20261014-073415",
-    "video_job": "runs/joined-v6-20261014-083018"
+    "video_job": "runs/h3-buddha-v7-20261014-182318-266f"
   },
   "delivery": {
-    "path": "projects/buddha_blessing_05/deliveries/final-v6-20261014-083107",
-    "qa": "review/qa-video-v6.json",
-    "scope": "v6 approved image/copy/font production",
+    "path": "projects/buddha_blessing_05/deliveries/final-v7-20261014-182907",
+    "qa": "review/qa-video-v7.json",
+    "scope": "v7 user requested revisions",
     "limitations": [
-      "Listening pending user review",
-      "Native576x1024 upscaled1080x1920",
-      "Two short clips joined at9.4167s",
-      "Final metadata sync and own18311 service cleanup pending SSH recovery"
+      "native576x1024 upscaled1080x1920",
+      "listening and motion intensity user review pending"
     ]
   },
   "approved_package": {
@@ -407,5 +410,6 @@
       "220 H3 stable statue/moving clouds",
       "220 ffmpeg/libass white bold italic captions"
     ]
-  }
+  },
+  "current_copy": "见佛送花，福到你家。家旺，财旺，子孙旺。一顺百顺，阖家幸福，平安顺遂。"
 }

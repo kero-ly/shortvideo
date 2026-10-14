@@ -1,0 +1,27 @@
+{
+  "technical": "passed: full decode, 345 frames at24fps, H264/yuv420p, AAC48k stereo, no black intervals",
+  "duration": 14.375,
+  "native_resolution": [
+    576,
+    1024
+  ],
+  "output_resolution": [
+    1080,
+    1920
+  ],
+  "loudness_lufs": -15.77,
+  "true_peak_dbtp": -4.76,
+  "caption_timing": "actual phrase WAV + faster-whisper word timestamps; locked copy kept; no character interpolation",
+  "narration_tail_seconds": 0.6199999999999992,
+  "visual_review": "1fps full-clip samples plus final contact sheet checked: Buddha always visible, larger framing, cloud contours and rays change, seven192px white italic outlined captions fit without face/hand occlusion.",
+  "full_playback": "Browser start and end checked; not continuous human frame-by-frame review",
+  "actual_listening": "pending user; retained phrase WAV hashes unchanged fromv6, all retained copy recognized correctly",
+  "voice_usage": "Reuse approved v6 reference-voice phrases1,2,4 with unchanged WAV hashes; removed phrase3 and realigned",
+  "user_approval": "review/approval-v7.json",
+  "stage": "final",
+  "limitations": [
+    "Native576x1024 upscaled1080x1920",
+    "AI motion includes modest statue/halo drift",
+    "Motion intensity remains a subjective user review"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "master": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/revision-v7-20261014/master-v7.png",
+  "master_sha256": "92bb2706f3421c8c97eda297413c7ffbcb0cc3a3851d3844013dfcbed52c5d0f",
+  "clip": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/h3-buddha-v7-20261014-182318-266f/clip.mp4",
+  "clip_sha256": "0efdba95712f5760f023ef251023d6bb3c65169e12ce5cbbc8bf0f5ca39bd6f4",
+  "native_frames": 345,
+  "native_duration": 14.375,
+  "trim": "native345frames retained; no retiming, looping or frozen frames",
+  "narration": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/revision-v7-20261014/narration.wav",
+  "narration_sha256": "2e5971bc6852d1d20b75c21fbd8db64993cde5d3074a14323087682992166f27",
+  "mix": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/revision-v7-20261014/mix.wav",
+  "mix_sha256": "14d0ad39a29327ec9eed64fa1f222cc679723664785c0713d5602a3d6a50e5a5",
+  "reference_preprocess": "v5 master enlarged1.08 (1106x1936), cropped1024x1792 x41 y45; H3 aspect cover576x1024",
+  "audio_reuse": "Exact v6 phrase01,02,04 WAV retained; phrase03 removed; seven cues realigned"
+}
