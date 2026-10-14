@@ -1,0 +1,45 @@
+{
+  "source_episode": "buddha_blessing_05",
+  "source_revision": 11,
+  "user_request": "把本次配音、字体、画面优化沉淀，后续按需选择组合并逐步优化",
+  "acceptance": "acceptance-v11.json",
+  "components": [
+    {
+      "path": "styles/audio/sacred-spacious-blessing.json",
+      "sha256": "1dd2d70ac07d575e1a6753410ac59bccbd8a4e574222f117a45ecb134a54a60e"
+    },
+    {
+      "path": "styles/layouts/blessing-large-italic.json",
+      "sha256": "7f7d6fa6608a3b390106660d638e19f0f5fe74c9058983debd2b9ead8b3b4825"
+    },
+    {
+      "path": "styles/visual/golden-cloud-blessing-v2.json",
+      "sha256": "8ca525a180757bb7da6058886d1f93be210fcd65d1ccf4422c8a307b592a616e"
+    },
+    {
+      "path": "styles/presets/golden-cloud-buddha-blessing-v2.json",
+      "sha256": "6202022c27d3a6902adfa6970b25eaf5cccbbe021fd1d6871be7f6b1b0403247"
+    }
+  ],
+  "validation": {
+    "baseline": "旧registry只能定位v1小号字幕与早期配音，未能检索v11独立声音/字幕",
+    "read_only_scenario": "新一期山水祝福只借用环绕配音和大斜体字幕，不选佛像视觉或系列默认",
+    "result": "独立只读验证可找到audio/layout、对应实现、认可和授权边界；未生产新媒体",
+    "checks": [
+      "JSON及registry ID/version和组件引用通过",
+      "skill格式与引用链接通过",
+      "原始v11 MP4 SHA256保持不变"
+    ],
+    "corrections": [
+      "ASS BBGGRR颜色&H008FA3FF&实际为#FFA38F，按已接受实样保存共享配置",
+      "v11未强制使用早期-3半音EQ",
+      "案例脚本仍需适配GPU/路径/时长/header/来源元数据"
+    ]
+  },
+  "boundaries": [
+    "本案例接受不扩大跨期声音授权",
+    "新主题需代表样例和实际听审",
+    "没有传播效果数据",
+    "没有自动dispatcher、素材库或个人全局skill安装"
+  ]
+}

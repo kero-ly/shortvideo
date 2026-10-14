@@ -1,0 +1,53 @@
+{
+  "id": "blessing-large-italic-layout",
+  "version": 2,
+  "canvas": [
+    1080,
+    1920
+  ],
+  "caption": {
+    "font_family": "Noto Sans CJK SC",
+    "font_size": 192,
+    "font_weight": 900,
+    "italic": true,
+    "color": "#FFFFFF",
+    "accent_color": "#FFA38F",
+    "stroke_color": "#111111",
+    "stroke_width": 14,
+    "anchor_y_ratio": 0.83,
+    "left": 70,
+    "right": 70,
+    "max_lines": 1,
+    "max_characters": 4,
+    "spacing": 2,
+    "shadow": 1,
+    "ass_margin_v": 326
+  },
+  "title": {
+    "text": "心诚即灵，为您祈福",
+    "font_family": "Noto Serif CJK SC",
+    "font_size": 64,
+    "font_weight": 900,
+    "color": "#F6D889",
+    "anchor_y_ratio": 0.078,
+    "italic": false,
+    "spacing": 4,
+    "stroke_color": "#5A3B14",
+    "stroke_width": 4,
+    "shadow": 2,
+    "ass_margin_v": 150,
+    "fade_ms": [
+      550,
+      550
+    ],
+    "blur": 0.6
+  },
+  "timing": "以实际分段音频和词级对齐确定；长文案先拆段，不以缩小字体规避安全区",
+  "status": "case_tested_user_accepted_v11",
+  "evidence": "projects/buddha_blessing_05/review/acceptance-v11.json",
+  "limitations": [
+    "无矩形边框/底板；实际v11保留14px字形描边，与无描边要求不同，复用以最终接受的实样为准",
+    "192为1080×1920的ASS字号，非网页CSS字号；新长句拆成约3–4汉字一屏并检查实际字形宽度",
+    "粗体/斜体由libass及字体匹配实现，需检查新主机字体回退日志"
+  ]
+}

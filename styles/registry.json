@@ -1,5 +1,5 @@
 {
-  "version": 4,
+  "version": 5,
   "default_preset": null,
   "presets": [
     {
@@ -51,15 +51,15 @@
     },
     {
       "id": "golden-cloud-buddha-blessing",
-      "version": 1,
-      "path": "styles/presets/golden-cloud-buddha-blessing.json",
+      "version": 2,
+      "path": "styles/presets/golden-cloud-buddha-blessing-v2.json",
       "aliases": [
         "佛祖保佑",
         "金色云海祈福",
         "佛光祈福"
       ],
       "method": "devotional-landscape",
-      "status": "case_tested_internal_review",
+      "status": "case_tested_user_accepted_v11",
       "tags": [
         "佛像",
         "祈福",
@@ -83,11 +83,11 @@
     },
     "devotional-landscape": {
       "path": "skills/devotional-landscape/SKILL.md",
-      "status": "implemented_case_based_internal_review",
+      "status": "implemented_case_based_user_accepted_v11",
       "production_ready": false,
-      "limitations": "15秒H3+IndexTTS2+libass已实测；云层变化明显，听审和参考声线公开授权待确认；不是通用自动dispatcher",
-      "version": 2,
-      "evidence": "projects/buddha_blessing_05/review/qa-video-v1.json"
+      "limitations": "本案例14.375秒H3、IndexTTS2和libass成片获用户认可；新主题需适配验证，非自动dispatcher或通用生产批准",
+      "version": 3,
+      "evidence": "projects/buddha_blessing_05/review/acceptance-v11.json"
     }
   },
   "selectable_components": [
@@ -102,6 +102,32 @@
       ],
       "skill": "skills/science-narration/SKILL.md",
       "status": "case_tested_listening_pending"
+    },
+    {
+      "id": "sacred-spacious-blessing-audio",
+      "version": 2,
+      "kind": "audio",
+      "path": "styles/audio/sacred-spacious-blessing.json",
+      "aliases": [
+        "庄严祈福配音",
+        "佛光环绕声",
+        "神圣祝愿声线"
+      ],
+      "skill": "skills/devotional-landscape/SKILL.md",
+      "status": "case_tested_user_accepted_v11"
+    },
+    {
+      "id": "blessing-large-italic-layout",
+      "version": 2,
+      "kind": "layout",
+      "path": "styles/layouts/blessing-large-italic.json",
+      "aliases": [
+        "祈福大斜体字幕",
+        "白色大字粉色重点",
+        "金色祈福题字"
+      ],
+      "skill": "skills/devotional-landscape/SKILL.md",
+      "status": "case_tested_user_accepted_v11"
     },
     {
       "id": "procedural-science-mix",
@@ -126,6 +152,18 @@
       ],
       "skill": "skills/2d-mechanism-explainer/SKILL.md",
       "status": "case_tested_user_acceptance_pending"
+    },
+    {
+      "id": "golden-cloud-blessing-visual",
+      "version": 2,
+      "kind": "visual",
+      "path": "styles/visual/golden-cloud-blessing-v2.json",
+      "aliases": [
+        "金色云海大佛",
+        "主体突出动态云光"
+      ],
+      "skill": "skills/devotional-landscape/SKILL.md",
+      "status": "case_tested_user_accepted_v11"
     }
   ],
   "selection": "explicit_user > approved_episode > explicitly_selected_series > content_recommendation",

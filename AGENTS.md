@@ -33,6 +33,6 @@ For 2D organ cutaways, personified organs, blood/particle flow and controlled lo
 
 Documentation entrypoints are canonical AGENTS.md and README.md (standard casing); do not create duplicate Agent.md or ReadME.md on case-insensitive filesystems. Update both relevant guidance and references when architecture changes.
 
-祈福佛像、巨型神像与云海景观请求读取 skills/devotional-landscape/SKILL.md，检索“佛祖保佑 / 金色云海祈福”。当前已有单期内部审阅实测，非通用生产就绪；按本期实际授权与工具实测推进，不把截图推定为原声证据。
+祈福佛像、巨型神像与云海景观请求读取 skills/devotional-landscape/SKILL.md，检索“佛祖保佑 / 金色云海祈福”。当前已有v11单期整片用户接受；独立声音/字幕/画面选项在registry.selectable_components，复用读该skill的references/production-route.md；非通用生产就绪；按本期实际授权与工具实测推进，不把截图推定为原声证据。
 
 For supplied-reference animation and narration/caption revisions, follow skills/caption-alignment/references/pregnancy-revision-lessons.md when applicable. Keep TTS pronunciation overrides separate from display text, preserve unaffected clip/audio hashes, and distinguish independent ASR from actual listening. Case parameters remain optional, not series defaults.

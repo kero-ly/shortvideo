@@ -1,0 +1,43 @@
+{
+  "id": "golden-cloud-buddha-blessing",
+  "version": 2,
+  "display_name": "电影感佛像 · 金色云海 · 平安祈福",
+  "aliases": [
+    "佛祖保佑",
+    "金色云海祈福",
+    "佛光祈福"
+  ],
+  "components": {
+    "visual": {
+      "id": "golden-cloud-blessing-visual",
+      "version": 2,
+      "path": "styles/visual/golden-cloud-blessing-v2.json"
+    },
+    "layouts": {
+      "id": "blessing-large-italic-layout",
+      "version": 2,
+      "path": "styles/layouts/blessing-large-italic.json"
+    },
+    "audio": {
+      "id": "sacred-spacious-blessing-audio",
+      "version": 2,
+      "path": "styles/audio/sacred-spacious-blessing.json"
+    },
+    "format": {
+      "id": "short-blessing",
+      "version": 1,
+      "path": "formats/short-blessing.json"
+    }
+  },
+  "compatible_methods": [
+    "devotional-landscape"
+  ],
+  "status": "case_tested_user_accepted_v11",
+  "limitations": [
+    "按各期实际图文版本和授权证据推进，共享预设不携带单期批准",
+    "H3单镜15秒只在本案例以静态首尾帧和特定提示词完成；新主题先做代表镜头验证",
+    "配音为用户授权参考条件下的合成，不代表原平台视频原声；新项目须重新确认授权与听审",
+    "组件可独立选择；组合时以本期生产计划锁定实际版本、参数和工具状态"
+  ],
+  "example": "projects/buddha_blessing_05/review/delivery-v11.html"
+}

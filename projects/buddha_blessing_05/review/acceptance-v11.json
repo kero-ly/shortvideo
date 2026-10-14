@@ -1,8 +1,9 @@
 {
   "revision": 11,
-  "user_evidence": "声音可以，你继续",
-  "scope": "user accepted v11 sound; continue delivery with current visuals and captions",
+  "user_evidence": ["声音可以，你继续", "我觉得现在v11这个版本不错，我先当成最终版"],
+  "scope": "user accepted v11 as the episode final, including current visuals, captions and sound",
   "audio_acceptance": "accepted by user",
+  "final_delivery_acceptance": "accepted by user",
   "technical_qa": "qa-video-v11.json",
   "verification": "verification-v11.json",
   "delivery_path": "projects/buddha_blessing_05/deliveries/final-v11-20261014-234458",

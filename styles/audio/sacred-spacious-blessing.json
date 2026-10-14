@@ -1,0 +1,22 @@
+{
+  "id": "sacred-spacious-blessing-audio",
+  "version": 2,
+  "narration": {
+    "engine": "IndexTTS2",
+    "delivery": "低沉、庄严、温和，语速自然；以用户明确授权的参考音进行条件合成",
+    "voice_reference": "每期显式配置、记录来源与SHA256；不得声称等同平台原声或特定真人",
+    "cleanup": "保留低能量起音；只在波形和试听确认后的词尾剪短，重对齐字幕"
+  },
+  "spatial_mix": {
+    "voice_reverb": "完整旁白总线上的连续扩散式立体声卷积混响，避免逐句独立处理造成停顿断层",
+    "music": "原创或有授权的暖和持续音与稀疏钟声，C五声音阶可作起点",
+    "ducking": "旁白侧链压低配乐；600ms释放可作本案例起点，需按新旁白试听调节"
+  },
+  "timing": {
+    "inter_phrase_gaps_seconds": [0.35, 0.55],
+    "tail_silence_seconds": 0.6
+  },
+  "status": "case_tested_user_accepted_v11",
+  "evidence": "projects/buddha_blessing_05/review/acceptance-v11.json",
+  "limitations": ["参数来自14.375秒三句祝愿案例，不是跨主题固定值", "响度和ASR通过不能替代本期完整听审"]
+}
