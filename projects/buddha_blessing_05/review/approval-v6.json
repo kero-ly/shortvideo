@@ -1,0 +1,11 @@
+{
+  "revision": 6,
+  "evidence": "用户：继续做视频吧",
+  "scope": "v6祝词、v5大佛参考图、增强云流与背后金光、参考图白色粗黑描边斜体、已认可v4参考声线；生成配音/H3/合成/QA/交付",
+  "files": {
+    "storyboard/v6.json": "22432ba75e11211219524ffb8c861731553af3fc5c81f071b6ece7ee7d0facf2",
+    "review/storyboard-v6.html": "28f62c9b4628ba0f89f5dfe2de4419ac6469b43a05b4cce4b6fc85f0f3f75080",
+    "storyboard/h3-prompt-v5.txt": "f0aa875a1719eb8c93bab4588de24c9ac15ceadfdb0c9cc84dffbc9e9e25180e",
+    "runs/image-v5-20261014-0800/master-v5.png": "3acf751d6d0a2e8cfd29d2ed26ad2b149790cfa20e69a4d3ec5e51ee4965c4f5"
+  }
+}

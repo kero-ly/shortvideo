@@ -1,0 +1,15 @@
+{
+  "master": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/image-v5-20261014-0800/master-v5.png",
+  "master_sha256": "3acf751d6d0a2e8cfd29d2ed26ad2b149790cfa20e69a4d3ec5e51ee4965c4f5",
+  "clip": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/joined-v6-20261014-083018/clip.mp4",
+  "clip_sha256": "93edcc263d4b0f58325439d0dbe06f762f0ee80944e112c38bb352297d4a9647",
+  "native_frames": 447,
+  "native_duration": 18.625,
+  "trim": "Two independently generated226-frame clips joined at9.4167s; first447 of452 retained. No loops, freeze, time stretching or interpolation.",
+  "narration": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/voice-reference-trim-v6-20261014-081249/narration.wav",
+  "narration_sha256": "25195943f715044397cfef43e56afa04460e60280eadfaaf076a10b0d78d1566",
+  "mix": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/voice-reference-trim-v6-20261014-081249/mix.wav",
+  "mix_sha256": "0e7732399a9346eb62e127a4bc37216e981439726a979638c09a29779879bec1",
+  "reference_preprocess": "Lanczos aspect-preserving cover with center crop;1024x1792→576x1024; approx0.78% removed at each horizontal edge",
+  "lineage": "clip-lineage.json"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "two independently generated226-frame clips; hard cut at9.4167s between same-reference anchors; retain first447/452 frames, no loop, freeze, speed or frame interpolation",
+  "sources": [
+    {
+      "path": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/h3-buddha-v6-recovery-20261014-082239-203c/clip.mp4",
+      "sha256": "f70a9a4dce2ae4403b6c92bb1dd85b48a9e9e62c57324df53ee9f981ab2bb71c"
+    },
+    {
+      "path": "/home/ly/shortvideo/projects/buddha_blessing_05/runs/h3-buddha-v6-recovery-b-20261014-082728-5e0c/clip.mp4",
+      "sha256": "1880a7573974362b503d6fdcf19ec8f1cf1c4ca26f96da7aa40d448ee2683c25"
+    }
+  ],
+  "output_sha256": "93edcc263d4b0f58325439d0dbe06f762f0ee80944e112c38bb352297d4a9647"
+}

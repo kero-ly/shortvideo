@@ -1,0 +1,27 @@
+{
+  "technical": "passed: full decode, 447 frames at24fps, H264/yuv420p, AAC48k stereo, no black intervals",
+  "duration": 18.625,
+  "native_resolution": [
+    576,
+    1024
+  ],
+  "output_resolution": [
+    1080,
+    1920
+  ],
+  "loudness_lufs": -15.69,
+  "true_peak_dbtp": -4.63,
+  "caption_timing": "actual phrase WAV + faster-whisper word timestamps; locked copy kept; no character interpolation",
+  "narration_tail_seconds": 0.620000000000001,
+  "visual_review": "All second-spaced samples in both short clips and final contact sheet inspected; Buddha continuously present, hands/face stable in samples; cloud contours evolve and rays vary; no caption crop. Seam sampled at10fps over8.9–10s: close framing, no obvious jump in samples.",
+  "full_playback": "Browser started at0; playback and final state checked; continuous human motion review not performed",
+  "actual_listening": "pending user review; full locked copy recognized correctly by ASR, no audio perception tool",
+  "voice_usage": "User accepted authorized reference-conditioned IndexTTS2 timbre; new blessing copy; listening pending",
+  "user_approval": "review/approval-v6.json",
+  "stage": "final",
+  "limitations": [
+    "Two distinct short clips joined; cloud direction shifts near seam may remain visible",
+    "Reference-conditioned voice includes source music influence",
+    "Native576x1024 upscaled1080x1920"
+  ]
+}

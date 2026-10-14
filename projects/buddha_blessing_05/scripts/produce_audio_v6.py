@@ -1,0 +1,20 @@
+import argparse, hashlib, json, os, subprocess, sys, time
+from pathlib import Path
+ROOT=Path(__file__).resolve().parents[3]; E=Path(__file__).resolve().parents[1]
+sys.path.insert(0,str(ROOT)); from pipeline.gpu_lock import acquire
+p=argparse.ArgumentParser();p.add_argument('--reference',type=Path);p.add_argument('--version',default='v1');args=p.parse_args()
+job=E/'runs'/('tts-'+args.version+'-'+time.strftime('%Y%m%d-%H%M%S')); job.mkdir(parents=True,exist_ok=False)
+texts=['见佛送花，福到你家。','家旺，财旺，子孙旺。','愿你衣食无忧，家宅兴旺。','一顺百顺，阖家幸福，平安顺遂。']
+plan=[dict(id=f'phrase-{i+1:02}',text=t,duration_ms=4500) for i,t in enumerate(texts)]
+(job/'tts-plan.json').write_text(json.dumps(plan,ensure_ascii=False,indent=2))
+n=json.loads((ROOT/'configs/resources.json').read_text())['narration']; cache=Path(n['runtime'])/'hf_cache'
+reference=(args.reference or Path(n['reference'])).resolve()
+(job/'voice-reference.json').write_text(json.dumps(dict(path=str(reference),sha256=hashlib.sha256(reference.read_bytes()).hexdigest(),status='reference-conditioned synthesis; timbre listening pending'),indent=2))
+def snap(repo): return next((cache/('models--'+repo)/'snapshots').iterdir())
+env=os.environ.copy();env.update(CUDA_VISIBLE_DEVICES='7',PYTHONDONTWRITEBYTECODE='1',HF_HUB_OFFLINE='1',TRANSFORMERS_OFFLINE='1',XDG_CACHE_HOME=str(ROOT/'.cache'),HF_HOME=str(ROOT/'.cache/huggingface'),TORCH_HOME=str(ROOT/'.cache/torch'),NUMBA_CACHE_DIR=str(ROOT/'.cache/numba'),MPLCONFIGDIR=str(ROOT/'.cache/matplotlib'))
+lock=acquire(ROOT/'.runtime/gpu-job.lock')
+free=int(subprocess.check_output(['nvidia-smi','--id=7','--query-gpu=memory.free','--format=csv,noheader,nounits']).strip());assert free>=12000,free
+cmd=[n['python'],str(ROOT/'capabilities/narration/indextts2.py'),'--runtime-dir',n['runtime'],'--model-dir',n['models'],'--plan',str(job/'tts-plan.json'),'--reference-audio',str(reference),'--output-dir',str(job/'audio'),'--manifest',str(job/'tts-manifest.json'),'--w2v-bert-dir',str(snap('facebook--w2v-bert-2.0')),'--maskgct-codec',str(snap('amphion--MaskGCT')/'semantic_codec/model.safetensors'),'--campplus-checkpoint',str(snap('funasr--campplus')/'campplus_cn_common.bin'),'--bigvgan-dir',str(snap('nvidia--bigvgan_v2_22khz_80band_256x')),'--emotion-alpha','0.45']
+print('TTS_JOB '+str(job),flush=True)
+subprocess.run(cmd,cwd=job,env=env,check=True)
+print('TTS_COMPLETE '+str(job),flush=True)

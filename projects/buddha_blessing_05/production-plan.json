@@ -1,7 +1,7 @@
 {
   "episode_id": "buddha_blessing_05",
-  "revision": 4,
-  "status": "reference_voice_revision_rendered_listening_pending",
+  "revision": 6,
+  "status": "rendered_delivered_user_listening_pending",
   "brief": {
     "topic": "佛祖保佑风格15秒祈福视频",
     "audience": "短视频祈福祝愿观众",
@@ -56,10 +56,25 @@
         ]
       },
       "layout": {
-        "font_size": 110,
-        "stroke_width": 10,
-        "scope": "episode_only",
-        "basis": "user: 字体大一点，太小了。"
+        "font_family": "Noto Sans CJK SC Black / Arial Black fallback",
+        "font_weight": 950,
+        "font_size": 128,
+        "italic": true,
+        "color": "#FFFFFF",
+        "outline": {
+          "color": "#050505",
+          "width_px": 23,
+          "join": "round",
+          "preview_width_px": 7,
+          "basis": "1080px output; preview324px, CSS stroke total width"
+        },
+        "shadow": "none",
+        "background": "none",
+        "border": "none",
+        "position": "y0.76–0.88 below hands",
+        "max_characters_per_cue": 6,
+        "emphasis": "bold white oblique type; no plaque, border, gold color or box",
+        "reference_style": "用户参考图：白色厚重斜体字，粗黑外描边"
       }
     }
   },
@@ -102,17 +117,18 @@
       ],
       "caption": {
         "font_family": "Noto Sans CJK SC",
-        "font_size": 110,
+        "font_size": 128,
         "font_weight": 900,
         "color": "#FFFFFF",
         "stroke_color": "#111111",
-        "stroke_width": 10,
+        "stroke_width": 11.5,
         "accent_color": "#EF8A9B",
         "anchor_y_ratio": 0.83,
         "left": 90,
         "right": 150,
         "max_lines": 1,
-        "max_characters": 11
+        "max_characters": 11,
+        "italic": true
       },
       "title": null,
       "timing": "实际分段音频或对齐结果驱动，不按字数均分",
@@ -167,7 +183,7 @@
       1080,
       1920
     ],
-    "duration_seconds": 15,
+    "duration_seconds": 18.625,
     "reference_native_dimensions": [
       948,
       1659
@@ -268,14 +284,19 @@
       "scope": "放大字体、匹配抖音参考如来角色声线；沿用既有画面文案",
       "revision": 4,
       "evidence": "用户：字体大一点，太小了。我需要的是如来佛祖那样的配音，像抖音app那个视频用的如来佛祖配音怎么来的。授权延续先前我有授权。"
+    },
+    {
+      "revision": 6,
+      "scope": "v6 production",
+      "evidence": "review/approval-v6.json; 用户：继续做视频吧"
     }
   ],
   "execution": {
-    "video_prompt": "storyboard/h3-prompt-v2.txt",
+    "video_prompt": "storyboard/h3-prompt-v5.txt",
     "graph": "scripts/h3-static-end-v2.json",
     "first_last_anchor": "same approved master",
-    "actual_motion": "locked camera; visible cloud/light variation",
-    "narration_timing": "projects/buddha_blessing_05/deliveries/final-v4-20261014-073918/alignment.json",
+    "actual_motion": "Two independent9.4167s H3 clips with cloud-contour/ray changes;447frames retained",
+    "narration_timing": "runs/voice-reference-trim-v6-20261014-081249/alignment.json",
     "shared_runtime": "read-only H3 install; own service18311 GPU7",
     "server_git_head": "8ae317e",
     "source_commits": [
@@ -283,20 +304,108 @@
       "9320170",
       "451571c"
     ],
-    "sync": "selective new episode files; shared dirty server registry/docs not overwritten",
-    "voice_revision": "runs/voice-reference-trim-v4-20261014-073753",
+    "sync": "Video downloaded and original delivery hashes verified; final text metadata server sync blocked by SSH timeout",
+    "voice_revision": "runs/voice-reference-trim-v6-20261014-081249",
     "caption_revision": "runs/captions-large-v3-20261014-072552",
     "voice_reference_source": "https://www.douyin.com/video/7659629544207344256",
-    "voice_reference_run": "runs/reference-source-20261014-073415"
+    "voice_reference_run": "runs/reference-source-20261014-073415",
+    "video_job": "runs/joined-v6-20261014-083018"
   },
   "delivery": {
-    "path": "projects/buddha_blessing_05/deliveries/final-v4-20261014-073918",
-    "qa": "review/qa-video-v4.json",
-    "scope": "large_captions_and_actual_reference_voice",
+    "path": "projects/buddha_blessing_05/deliveries/final-v6-20261014-083107",
+    "qa": "review/qa-video-v6.json",
+    "scope": "v6 approved image/copy/font production",
     "limitations": [
-      "原视频配音供应商未知",
-      "实际听审与如来音色匹配待用户确认",
-      "原生模型画面576×1024，输出1080×1920"
+      "Listening pending user review",
+      "Native576x1024 upscaled1080x1920",
+      "Two short clips joined at9.4167s",
+      "Final metadata sync and own18311 service cleanup pending SSH recovery"
+    ]
+  },
+  "approved_package": {
+    "revision": 6,
+    "status": "proposed_preproduction_review",
+    "estimated_duration_seconds": [
+      17,
+      19
+    ],
+    "locked_copy": "见佛送花，福到你家。家旺，财旺，子孙旺。愿你衣食无忧，家宅兴旺。一顺百顺，阖家幸福，平安顺遂。",
+    "reference": "runs/image-v5-20261014-0800/master-v5.png",
+    "segments": [
+      {
+        "id": "01",
+        "estimated": "0–3秒",
+        "narration": "见佛送花，福到你家。",
+        "screen_text": [
+          "见佛送花",
+          "福到你家"
+        ],
+        "emphasis": "白色粗斜字，短句逐条出现",
+        "action": "开场云层已经明显向右翻涌，金色光束从佛祖背后展开；佛像固定。"
+      },
+      {
+        "id": "02",
+        "estimated": "3–7秒",
+        "narration": "家旺，财旺，子孙旺。",
+        "screen_text": [
+          "家旺 财旺",
+          "子孙旺"
+        ],
+        "emphasis": "白色粗斜字，短句逐条出现",
+        "action": "两侧云层分层流动，后方光束温和扫过；字幕不挡合十双手。"
+      },
+      {
+        "id": "03",
+        "estimated": "7–12秒",
+        "narration": "愿你衣食无忧，家宅兴旺。",
+        "screen_text": [
+          "愿你衣食无忧",
+          "家宅兴旺"
+        ],
+        "emphasis": "白色粗斜字，短句逐条出现",
+        "action": "云边亮起，露出深蓝天空；保持佛像稳定，不用明暗骤变代替运动。"
+      },
+      {
+        "id": "04",
+        "estimated": "12–18秒",
+        "narration": "一顺百顺，阖家幸福，平安顺遂。",
+        "screen_text": [
+          "一顺百顺",
+          "阖家幸福",
+          "平安顺遂"
+        ],
+        "emphasis": "白色粗斜字，短句逐条出现",
+        "action": "云流持续到结尾，光束收敛为柔和佛光；完整尾音后留≥0.6秒。"
+      }
+    ],
+    "layout": {
+      "font_family": "Noto Sans CJK SC Black / Arial Black fallback",
+      "font_weight": 950,
+      "font_size": 128,
+      "italic": true,
+      "color": "#FFFFFF",
+      "outline": {
+        "color": "#050505",
+        "width_px": 23,
+        "join": "round",
+        "preview_width_px": 7,
+        "basis": "1080px output; preview324px, CSS stroke total width"
+      },
+      "shadow": "none",
+      "background": "none",
+      "border": "none",
+      "position": "y0.76–0.88 below hands",
+      "max_characters_per_cue": 6,
+      "emphasis": "bold white oblique type; no plaque, border, gold color or box",
+      "reference_style": "用户参考图：白色厚重斜体字，粗黑外描边"
+    },
+    "voice": "User accepted v4 actual Douyin-reference-conditioned IndexTTS2, same reference hash; new copy must be regenerated and aligned",
+    "video": "220 H3; 17–19s is candidate beyond tested15s, actual feasibility requires smoke sample; no loop/freeze/retiming fallback",
+    "tools": [
+      "OpenLux GPT Image2 edit on220",
+      "220 IndexTTS2 actual reference voice",
+      "220 H3 stable statue/moving clouds",
+      "220 ffmpeg/libass white bold italic captions"
     ]
   }
 }
