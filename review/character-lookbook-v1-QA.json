@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "images": 32,
+  "projects": 8,
+  "local_sha256": "passed",
+  "server_220_sha256": {
+    "count": 32,
+    "mismatches": []
+  },
+  "javascript_syntax": "passed node --check",
+  "browser_visual_review": "pending: browser URL security policy blocked local page; no alternate opening attempted",
+  "scope": "Read-only lookbook, original per-episode images retained; no full historic archive completeness claim"
+}
